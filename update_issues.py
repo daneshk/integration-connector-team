@@ -80,30 +80,88 @@ def generate_markdown_table(issues_by_label: Dict[str, List[Dict]]) -> str:
         if not issues:
             markdown += "_No open issues found._\n\n"
             continue
-            
-        markdown += "| # | Title | State | Labels | Assignee |\n"
-        markdown += "|---|-------|-------|--------|----------|\n"
         
-        for issue in sorted(issues, key=lambda x: x['number'], reverse=True):
-            number = issue['number']
-            title = issue['title'].replace('|', '\\|')  # Escape pipe characters
-            state = issue['state']
+        # Special handling for Area/Library - categorize by module
+        if label == "Area/Library":
+            # Group issues by module
+            issues_by_module = {}
+            for issue in issues:
+                # Find module label
+                module_label = None
+                for lbl in issue.get('labels', []):
+                    if lbl['name'].startswith('module/'):
+                        module_label = lbl['name']
+                        break
+                
+                # Use "Other" for issues without module label
+                if not module_label:
+                    module_label = "Other"
+                
+                if module_label not in issues_by_module:
+                    issues_by_module[module_label] = []
+                issues_by_module[module_label].append(issue)
             
-            # Get all label names except the current area label
-            labels = [l['name'] for l in issue.get('labels', []) if l['name'] != label]
-            labels_str = ', '.join(labels[:3]) if labels else '-'  # Limit to 3 labels for readability
-            if len(labels) > 3:
-                labels_str += '...'
+            # Sort modules alphabetically, but keep "Other" at the end
+            sorted_modules = sorted([m for m in issues_by_module.keys() if m != "Other"])
+            if "Other" in issues_by_module:
+                sorted_modules.append("Other")
             
-            # Get assignee
-            assignee = issue.get('assignee', {}).get('login', '-') if issue.get('assignee') else '-'
+            # Display each module as a subsection
+            for module in sorted_modules:
+                module_issues = issues_by_module[module]
+                markdown += f"### {module} ({len(module_issues)} issues)\n\n"
+                
+                markdown += "| # | Title | State | Labels | Assignee |\n"
+                markdown += "|---|-------|-------|--------|----------|\n"
+                
+                for issue in sorted(module_issues, key=lambda x: x['number'], reverse=True):
+                    number = issue['number']
+                    title = issue['title'].replace('|', '\\|')  # Escape pipe characters
+                    state = issue['state']
+                    
+                    # Get all label names except the current area label and module label
+                    labels = [l['name'] for l in issue.get('labels', []) 
+                             if l['name'] != label and not l['name'].startswith('module/')]
+                    labels_str = ', '.join(labels[:3]) if labels else '-'  # Limit to 3 labels for readability
+                    if len(labels) > 3:
+                        labels_str += '...'
+                    
+                    # Get assignee
+                    assignee = issue.get('assignee', {}).get('login', '-') if issue.get('assignee') else '-'
+                    
+                    # Create issue link
+                    issue_link = f"[#{number}](https://github.com/{REPO_OWNER}/{REPO_NAME}/issues/{number})"
+                    
+                    markdown += f"| {issue_link} | {title} | {state} | {labels_str} | {assignee} |\n"
+                
+                markdown += "\n"
             
-            # Create issue link
-            issue_link = f"[#{number}](https://github.com/{REPO_OWNER}/{REPO_NAME}/issues/{number})"
+            markdown += f"[View all {label} issues →](https://github.com/{REPO_OWNER}/{REPO_NAME}/issues?q=is%3Aissue+is%3Aopen+label%3A{label.replace('/', '%2F')})\n\n"
+        else:
+            # For other labels, keep the original format
+            markdown += "| # | Title | State | Labels | Assignee |\n"
+            markdown += "|---|-------|-------|--------|----------|\n"
             
-            markdown += f"| {issue_link} | {title} | {state} | {labels_str} | {assignee} |\n"
-        
-        markdown += "\n"
+            for issue in sorted(issues, key=lambda x: x['number'], reverse=True):
+                number = issue['number']
+                title = issue['title'].replace('|', '\\|')  # Escape pipe characters
+                state = issue['state']
+                
+                # Get all label names except the current area label
+                labels = [l['name'] for l in issue.get('labels', []) if l['name'] != label]
+                labels_str = ', '.join(labels[:3]) if labels else '-'  # Limit to 3 labels for readability
+                if len(labels) > 3:
+                    labels_str += '...'
+                
+                # Get assignee
+                assignee = issue.get('assignee', {}).get('login', '-') if issue.get('assignee') else '-'
+                
+                # Create issue link
+                issue_link = f"[#{number}](https://github.com/{REPO_OWNER}/{REPO_NAME}/issues/{number})"
+                
+                markdown += f"| {issue_link} | {title} | {state} | {labels_str} | {assignee} |\n"
+            
+            markdown += f"\n[View all {label} issues →](https://github.com/{REPO_OWNER}/{REPO_NAME}/issues?q=is%3Aissue+is%3Aopen+label%3A{label.replace('/', '%2F')})\n\n"
     
     # Add instructions
     markdown += "---\n\n"
