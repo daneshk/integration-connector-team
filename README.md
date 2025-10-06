@@ -1,21 +1,21 @@
 # integration-connector-team
 This is a management repository which maintains the status of the issues. This includes standard libraries, connectors and integration toolings.
 
-**Last Updated:** 2025-10-06 12:53:40 UTC
+**Last Updated:** 2025-10-06 12:57:56 UTC
 
-**Total Open Issues:** 0
+**Total Open Issues:** 378
 
-## Area/Library (0 issues)
+## Area/Library (139 issues)
 
-_No open issues found._
+[View all Area/Library issues →](https://github.com/ballerina-platform/ballerina-library/issues?q=is%3Aissue+is%3Aopen+label%3AArea%2FLibrary)
 
-## Area/Connector (0 issues)
+## Area/Connector (161 issues)
 
-_No open issues found._
+[View all Area/Connector issues →](https://github.com/ballerina-platform/ballerina-library/issues?q=is%3Aissue+is%3Aopen+label%3AArea%2FConnector)
 
-## Area/Tooling (0 issues)
+## Area/Tooling (78 issues)
 
-_No open issues found._
+[View all Area/Tooling issues →](https://github.com/ballerina-platform/ballerina-library/issues?q=is%3Aissue+is%3Aopen+label%3AArea%2FTooling)
 
 ---
 
