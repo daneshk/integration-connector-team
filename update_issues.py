@@ -111,6 +111,20 @@ def generate_markdown_table(issues_by_label: Dict[str, List[Dict]]) -> str:
                 module_issues = issues_by_module[module]
                 markdown += f"### {module} ({len(module_issues)} issues)\n\n"
                 
+                # Add module-specific filter link
+                if module != "Other":
+                    module_filter_url = f"https://github.com/{REPO_OWNER}/{REPO_NAME}/issues?q=is%3Aissue+is%3Aopen+label%3A{label.replace('/', '%2F')}+label%3A{module.replace('/', '%2F')}"
+                    markdown += f"[View {module} issues →]({module_filter_url})\n\n"
+                else:
+                    # For "Other", create a filter that excludes all module labels
+                    # Get all module labels from issues_by_module
+                    all_modules = [m for m in issues_by_module.keys() if m != "Other"]
+                    if all_modules:
+                        # Build exclusion query
+                        exclusions = '+'.join([f"-label%3A{m.replace('/', '%2F')}" for m in all_modules])
+                        other_filter_url = f"https://github.com/{REPO_OWNER}/{REPO_NAME}/issues?q=is%3Aissue+is%3Aopen+label%3A{label.replace('/', '%2F')}+{exclusions}"
+                        markdown += f"[View Other issues →]({other_filter_url})\n\n"
+                
                 markdown += "| # | Title | State | Labels | Assignee |\n"
                 markdown += "|---|-------|-------|--------|----------|\n"
                 
