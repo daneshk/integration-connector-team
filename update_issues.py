@@ -135,6 +135,16 @@ def generate_markdown_table(issues_by_label: Dict[str, List[Dict]]) -> str:
                     markdown += f"| {issue_link} | {title} | {state} | {labels_str} | {assignee} |\n"
                 
                 markdown += "\n"
+                
+                # Add filter link for this module
+                if module != "Other":
+                    # Create filter URL for both Area/Library and the specific module label
+                    module_filter = f"[View all {module} issues →](https://github.com/{REPO_OWNER}/{REPO_NAME}/issues?q=is%3Aissue+is%3Aopen+label%3A{label.replace('/', '%2F')}+label%3A{module.replace('/', '%2F')})\n\n"
+                else:
+                    # For "Other", show issues with Area/Library but without any module/ label
+                    # This is tricky in GitHub search, so we'll just link to Area/Library
+                    module_filter = f"[View all {module} issues →](https://github.com/{REPO_OWNER}/{REPO_NAME}/issues?q=is%3Aissue+is%3Aopen+label%3A{label.replace('/', '%2F')})\n\n"
+                markdown += module_filter
             
             markdown += f"[View all {label} issues →](https://github.com/{REPO_OWNER}/{REPO_NAME}/issues?q=is%3Aissue+is%3Aopen+label%3A{label.replace('/', '%2F')})\n\n"
         else:
