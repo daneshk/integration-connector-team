@@ -11,6 +11,17 @@ def generate_module_page(area, module, issues, output_dir):
     content = f"# {area} - {module}\n\n"
     content += f"Total Issues: {len(issues)}\n\n"
 
+    # Count by type
+    type_counts = {}
+    for issue in issues:
+        issue_type = issue.get('type', 'Unknown')
+        type_counts[issue_type] = type_counts.get(issue_type, 0) + 1
+
+    content += "## Issue Types\n\n"
+    for issue_type in sorted(type_counts.keys()):
+        content += f"- **{issue_type}:** {type_counts[issue_type]}\n"
+    content += "\n"
+
     # Group by priority
     by_priority = {}
     for issue in issues:
@@ -27,7 +38,8 @@ def generate_module_page(area, module, issues, output_dir):
         if by_priority[priority]:
             content += f"## Priority: {priority}\n\n"
             for issue in by_priority[priority]:
-                content += f"### [#{issue['number']}]({issue['url']}) {issue['title']}\n"
+                issue_type = issue.get('type', 'Unknown')
+                content += f"### [{issue_type}] [#{issue['number']}]({issue['url']}) {issue['title']}\n"
                 content += f"**Labels:** {', '.join([f'`{l}`' for l in issue['labels']])}\n\n"
 
     with open(filepath, 'w') as f:
@@ -43,6 +55,11 @@ def generate_readme(organized, module_files):
     readme += "[ballerina-library](https://github.com/ballerina-platform/ballerina-library) repository.\n\n"
     last_updated = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     readme += f"**Last Updated:** {last_updated}\n\n"
+
+    # Calculate total issues across all areas
+    total_issues = sum(len([issue for issues in organized[area].values() for issue in issues]) for area in organized)
+    readme += f"## Overall Summary\n\n"
+    readme += f"**Total Issues Across All Areas:** {total_issues}\n\n"
 
     for area in sorted(organized.keys()):
         readme += f"## {area}\n\n"
@@ -85,6 +102,19 @@ def generate_readme(organized, module_files):
         readme += f"- **Medium Priority:** {medium}\n"
         readme += f"- **Low Priority:** {low}\n"
         readme += f"- **No Priority:** {none}\n"
+        readme += f"- **Total:** {len(all_issues)}\n\n"
+
+    readme += "## Issue Distribution by Type\n\n"
+    for area in sorted(organized.keys()):
+        all_issues = [issue for issues in organized[area].values() for issue in issues]
+        type_counts = {}
+        for issue in all_issues:
+            issue_type = issue.get('type', 'Unknown')
+            type_counts[issue_type] = type_counts.get(issue_type, 0) + 1
+
+        readme += f"### {area}\n"
+        for issue_type in sorted(type_counts.keys()):
+            readme += f"- **{issue_type}:** {type_counts[issue_type]}\n"
         readme += f"- **Total:** {len(all_issues)}\n\n"
 
     return readme

@@ -2,14 +2,20 @@
 
 Total Issues: 3
 
+## Issue Types
+
+- **Bug:** 1
+- **NewFeature:** 1
+- **Task:** 1
+
 ## Priority: None
 
-### [#7436](https://github.com/ballerina-platform/ballerina-library/issues/7436) The `testInvokeUnavailableService` is failing intermittently
+### [Bug] [#7436](https://github.com/ballerina-platform/ballerina-library/issues/7436) The `testInvokeUnavailableService` is failing intermittently
 **Labels:** `Type/Bug`, `module/grpc`, `Area/Library`
 
-### [#6699](https://github.com/ballerina-platform/ballerina-library/issues/6699) [gRPC] Support caller object in the service to receive client message instead of stream
+### [NewFeature] [#6699](https://github.com/ballerina-platform/ballerina-library/issues/6699) [gRPC] Support caller object in the service to receive client message instead of stream
 **Labels:** `Type/NewFeature`, `module/grpc`, `Area/Library`
 
-### [#5832](https://github.com/ballerina-platform/ballerina-library/issues/5832) Support multiple cert key pair in a keystore
+### [Task] [#5832](https://github.com/ballerina-platform/ballerina-library/issues/5832) Support multiple cert key pair in a keystore
 **Labels:** `Type/Task`, `module/grpc`, `Area/Library`
 

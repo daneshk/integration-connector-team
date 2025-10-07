@@ -26,6 +26,13 @@ def get_priority(labels):
             return label['name'].split('/')[-1]
     return 'None'
 
+def get_issue_type(labels):
+    """Extract issue type from labels"""
+    for label in labels:
+        if label['name'].startswith('Type/'):
+            return label['name'].split('/')[-1]
+    return 'Unknown'
+
 def get_module_labels(labels):
     """Extract module labels"""
     modules = []
@@ -43,7 +50,7 @@ def main():
     print("Fetching issues...")
 
     # Fetch issues for each area
-    areas = ['Area/Library', 'Area/Connectors', 'Area/Tooling']
+    areas = ['Area/Library', 'Area/Connector', 'Area/Tooling']
     all_issues = {}
 
     for area in areas:
@@ -58,6 +65,7 @@ def main():
         organized[area] = defaultdict(list)
         for issue in issues:
             priority = get_priority(issue['labels'])
+            issue_type = get_issue_type(issue['labels'])
             modules = get_module_labels(issue['labels'])
 
             for module in modules:
@@ -65,6 +73,7 @@ def main():
                     'number': issue['number'],
                     'title': issue['title'],
                     'priority': priority,
+                    'type': issue_type,
                     'url': issue['url'],
                     'labels': [l['name'] for l in issue['labels']]
                 })

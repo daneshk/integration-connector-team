@@ -1,155 +1,155 @@
 # Area/Tooling - module/openapi-tools
 
-Total Issues: 49
+Total Issues: 47
+
+## Issue Types
+
+- **Bug:** 15
+- **Improvement:** 19
+- **Task:** 13
 
 ## Priority: High
 
-### [#7508](https://github.com/ballerina-platform/ballerina-library/issues/7508) Invalid Ballerina.toml generation `openapi add` in Windows
+### [Bug] [#7508](https://github.com/ballerina-platform/ballerina-library/issues/7508) Invalid Ballerina.toml generation `openapi add` in Windows
 **Labels:** `Priority/High`, `Type/Bug`, `Area/Tooling`, `module/openapi-tools`
 
-### [#7313](https://github.com/ballerina-platform/ballerina-library/issues/7313) When trying to generate the client using OpenAPI tool getting `There are duplicate parameter values` error
+### [Bug] [#7313](https://github.com/ballerina-platform/ballerina-library/issues/7313) When trying to generate the client using OpenAPI tool getting `There are duplicate parameter values` error
 **Labels:** `Priority/High`, `Type/Bug`, `Status/Blocked`, `Area/Tooling`, `module/openapi-tools`
 
 ## Priority: None
 
-### [#8315](https://github.com/ballerina-platform/ballerina-library/issues/8315) Support OpenAPI 3.1.0 client generations
+### [Improvement] [#8315](https://github.com/ballerina-platform/ballerina-library/issues/8315) Support OpenAPI 3.1.0 client generations
 **Labels:** `Type/Improvement`, `Area/Tooling`, `module/openapi-tools`
 
-### [#8244](https://github.com/ballerina-platform/ballerina-library/issues/8244) Restructure OpenAPI tool repository to a multi-repository
+### [Task] [#8244](https://github.com/ballerina-platform/ballerina-library/issues/8244) Restructure OpenAPI tool repository to a multi-repository
 **Labels:** `Type/Task`, `Area/Tooling`, `module/openapi-tools`
 
-### [#8217](https://github.com/ballerina-platform/ballerina-library/issues/8217) Unaligned type name with spaces
+### [Bug] [#8217](https://github.com/ballerina-platform/ballerina-library/issues/8217) Unaligned type name with spaces
 **Labels:** `Type/Bug`, `Area/Tooling`, `module/openapi-tools`
 
-### [#8205](https://github.com/ballerina-platform/ballerina-library/issues/8205) OpenAPI generation incorrectly resolves additional properties, object when included in oneOf type
+### [Bug] [#8205](https://github.com/ballerina-platform/ballerina-library/issues/8205) OpenAPI generation incorrectly resolves additional properties, object when included in oneOf type
 **Labels:** `Type/Bug`, `Area/Tooling`, `module/openapi-tools`
 
-### [#8144](https://github.com/ballerina-platform/ballerina-library/issues/8144) OpenAPI Flatten command incorrectly maps fields with period
-**Labels:** `Type/Bug`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
-
-### [#8132](https://github.com/ballerina-platform/ballerina-library/issues/8132) Support OpenAPI CLI command options as tool options in Ballerina.toml
+### [Improvement] [#8132](https://github.com/ballerina-platform/ballerina-library/issues/8132) Support OpenAPI CLI command options as tool options in Ballerina.toml
 **Labels:** `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-### [#8044](https://github.com/ballerina-platform/ballerina-library/issues/8044) `bal openapi` generate client sometimes crashes with a `StackOverflowError`
+### [Bug] [#8044](https://github.com/ballerina-platform/ballerina-library/issues/8044) `bal openapi` generate client sometimes crashes with a `StackOverflowError`
 **Labels:** `Type/Bug`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-### [#8025](https://github.com/ballerina-platform/ballerina-library/issues/8025) OpenAI Client Generation Fails with 'redeclared symbol' Errors from Embedded Records
+### [Bug] [#8025](https://github.com/ballerina-platform/ballerina-library/issues/8025) OpenAI Client Generation Fails with 'redeclared symbol' Errors from Embedded Records
 **Labels:** `Type/Bug`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-### [#8011](https://github.com/ballerina-platform/ballerina-library/issues/8011) OpenAPI client generation fails due to invalid JSON schema
+### [Bug] [#8011](https://github.com/ballerina-platform/ballerina-library/issues/8011) OpenAPI client generation fails due to invalid JSON schema
 **Labels:** `Type/Bug`, `Area/Tooling`, `module/openapi-tools`
 
-### [#8004](https://github.com/ballerina-platform/ballerina-library/issues/8004) Issue in generating open API with a default array is defined
+### [Bug] [#8004](https://github.com/ballerina-platform/ballerina-library/issues/8004) Issue in generating open API with a default array is defined
 **Labels:** `Type/Bug`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
 
-### [#7642](https://github.com/ballerina-platform/ballerina-library/issues/7642) [Bug]: OpenAPI tool does not properly handle inheritance when API spec contains object with discriminators.
+### [Bug] [#7642](https://github.com/ballerina-platform/ballerina-library/issues/7642) [Bug]: OpenAPI tool does not properly handle inheritance when API spec contains object with discriminators.
 **Labels:** `Type/Bug`, `Area/Tooling`, `module/openapi-tools`
 
-### [#7565](https://github.com/ballerina-platform/ballerina-library/issues/7565) [Ballerina OpenAPI] Default to `--single-file` mode when outside a Ballerina project
+### [Improvement] [#7565](https://github.com/ballerina-platform/ballerina-library/issues/7565) [Ballerina OpenAPI] Default to `--single-file` mode when outside a Ballerina project
 **Labels:** `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-### [#7537](https://github.com/ballerina-platform/ballerina-library/issues/7537) [Ballerina OpenAPI] Add warnings for the `--use-sanitized-oas` command option to use `bal openapi align` moving forward
+### [Task] [#7537](https://github.com/ballerina-platform/ballerina-library/issues/7537) [Ballerina OpenAPI] Add warnings for the `--use-sanitized-oas` command option to use `bal openapi align` moving forward
 **Labels:** `Type/Task`, `Area/Tooling`, `module/openapi-tools`
 
-### [#7531](https://github.com/ballerina-platform/ballerina-library/issues/7531) Refactor the OpenAPI package `README.md`
+### [Task] [#7531](https://github.com/ballerina-platform/ballerina-library/issues/7531) Refactor the OpenAPI package `README.md`
 **Labels:** `Type/Task`, `Area/Docs`, `Area/Tooling`, `module/openapi-tools`
 
-### [#7485](https://github.com/ballerina-platform/ballerina-library/issues/7485) Create a Video Series on Ballerina OpenAPI Tool
+### [Task] [#7485](https://github.com/ballerina-platform/ballerina-library/issues/7485) Create a Video Series on Ballerina OpenAPI Tool
 **Labels:** `Type/Task`, `Area/Docs`, `Area/Tooling`, `module/openapi-tools`
 
-### [#7452](https://github.com/ballerina-platform/ballerina-library/issues/7452) Inconsistent openAPI spec generation for the optional status code in return
+### [Bug] [#7452](https://github.com/ballerina-platform/ballerina-library/issues/7452) Inconsistent openAPI spec generation for the optional status code in return
 **Labels:** `Type/Bug`, `Area/Tooling`, `Reason/Regression`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
 
-### [#7424](https://github.com/ballerina-platform/ballerina-library/issues/7424) Missing `nillable` value in generated record field when object property has `oneOf` with `$ref` and `nullable` fields
-**Labels:** `Type/Bug`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
-
-### [#7347](https://github.com/ballerina-platform/ballerina-library/issues/7347) Generate API doc for service type , service contract type
+### [Improvement] [#7347](https://github.com/ballerina-platform/ballerina-library/issues/7347) Generate API doc for service type , service contract type
 **Labels:** `Type/Improvement`, `Area/Tooling`, `module/openapi-tools`, `Area/Service`
 
-### [#7342](https://github.com/ballerina-platform/ballerina-library/issues/7342) Map OAS description from Ballerina to OAS generation 
+### [Improvement] [#7342](https://github.com/ballerina-platform/ballerina-library/issues/7342) Map OAS description from Ballerina to OAS generation 
 **Labels:** `Type/Improvement`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-### [#7337](https://github.com/ballerina-platform/ballerina-library/issues/7337) Make consistence with the ballerina resource API documentation Mapping for OAS to Service generation and Service to OAS generation
+### [Bug] [#7337](https://github.com/ballerina-platform/ballerina-library/issues/7337) Make consistence with the ballerina resource API documentation Mapping for OAS to Service generation and Service to OAS generation
 **Labels:** `Type/Bug`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-### [#7336](https://github.com/ballerina-platform/ballerina-library/issues/7336) OpenAPI related annotations should not be allowed in the services which are implemented via the service contract type
+### [Improvement] [#7336](https://github.com/ballerina-platform/ballerina-library/issues/7336) OpenAPI related annotations should not be allowed in the services which are implemented via the service contract type
 **Labels:** `Type/Improvement`, `module/http`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
 
-### [#7335](https://github.com/ballerina-platform/ballerina-library/issues/7335) The service contract type API documenation should be mapped to the generated OpenAPI specification
+### [Bug] [#7335](https://github.com/ballerina-platform/ballerina-library/issues/7335) The service contract type API documenation should be mapped to the generated OpenAPI specification
 **Labels:** `Type/Bug`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
 
-### [#7321](https://github.com/ballerina-platform/ballerina-library/issues/7321) Add CORS related configurations mapping in the generated OpenAPI specification
+### [Improvement] [#7321](https://github.com/ballerina-platform/ballerina-library/issues/7321) Add CORS related configurations mapping in the generated OpenAPI specification
 **Labels:** `Type/Improvement`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
 
-### [#7314](https://github.com/ballerina-platform/ballerina-library/issues/7314) Getting NPE when generating a client from an OpenAPI spec with the JSON path reference
+### [Improvement] [#7314](https://github.com/ballerina-platform/ballerina-library/issues/7314) Getting NPE when generating a client from an OpenAPI spec with the JSON path reference
 **Labels:** `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-### [#7295](https://github.com/ballerina-platform/ballerina-library/issues/7295) Provide nil return support for the client generation when the success response has no content type in multiple response instead of giving http:Response
+### [Improvement] [#7295](https://github.com/ballerina-platform/ballerina-library/issues/7295) Provide nil return support for the client generation when the success response has no content type in multiple response instead of giving http:Response
 **Labels:** `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-### [#7278](https://github.com/ballerina-platform/ballerina-library/issues/7278) Parameterize the generated file names
+### [Improvement] [#7278](https://github.com/ballerina-platform/ballerina-library/issues/7278) Parameterize the generated file names
 **Labels:** `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-### [#6980](https://github.com/ballerina-platform/ballerina-library/issues/6980) OpenAPI generated does not have all types
-**Labels:** `Type/Bug`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `Area/OpenapiToBallerina`, `module/openapi-tools`
+### [Improvement] [#6980](https://github.com/ballerina-platform/ballerina-library/issues/6980) OpenAPI generated does not have all types
+**Labels:** `Type/Improvement`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-### [#6888](https://github.com/ballerina-platform/ballerina-library/issues/6888) Update OpenAPI spec generation spec with new changes
+### [Task] [#6888](https://github.com/ballerina-platform/ballerina-library/issues/6888) Update OpenAPI spec generation spec with new changes
 **Labels:** `Type/Task`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
 
-### [#6785](https://github.com/ballerina-platform/ballerina-library/issues/6785) Support server sent events in the openapi
+### [Task] [#6785](https://github.com/ballerina-platform/ballerina-library/issues/6785) Support server sent events in the openapi
 **Labels:** `Type/Task`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-### [#6709](https://github.com/ballerina-platform/ballerina-library/issues/6709) Add full support for OpenAPI specification version - `3.1.0`
+### [Improvement] [#6709](https://github.com/ballerina-platform/ballerina-library/issues/6709) Add full support for OpenAPI specification version - `3.1.0`
 **Labels:** `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-### [#6661](https://github.com/ballerina-platform/ballerina-library/issues/6661) Add the OpenAPI example validation against the resource return type
+### [Improvement] [#6661](https://github.com/ballerina-platform/ballerina-library/issues/6661) Add the OpenAPI example validation against the resource return type
 **Labels:** `Type/Improvement`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
 
-### [#6643](https://github.com/ballerina-platform/ballerina-library/issues/6643) Generate constraint annotation for fields with nullable enable in OAS 3.1.0 version
+### [Bug] [#6643](https://github.com/ballerina-platform/ballerina-library/issues/6643) Generate constraint annotation for fields with nullable enable in OAS 3.1.0 version
 **Labels:** `Type/Bug`, `Area/Tooling`, `Reason/EngineeringMistake`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-### [#6612](https://github.com/ballerina-platform/ballerina-library/issues/6612) Add a changelog file into OpenAPI repository 
+### [Task] [#6612](https://github.com/ballerina-platform/ballerina-library/issues/6612) Add a changelog file into OpenAPI repository 
 **Labels:** `Type/Task`, `Area/Tooling`, `module/openapi-tools`
 
-### [#6591](https://github.com/ballerina-platform/ballerina-library/issues/6591) Openapi tool source code not getting regenerated after removing the generated code.
+### [Improvement] [#6591](https://github.com/ballerina-platform/ballerina-library/issues/6591) Openapi tool source code not getting regenerated after removing the generated code.
 **Labels:** `Type/Improvement`, `Area/Tooling`, `module/openapi-tools`
 
-### [#6566](https://github.com/ballerina-platform/ballerina-library/issues/6566) Introduce `--connector` flag for the OpenAPI CLI
+### [Task] [#6566](https://github.com/ballerina-platform/ballerina-library/issues/6566) Introduce `--connector` flag for the OpenAPI CLI
 **Labels:** `Type/Task`, `Area/Tooling`, `module/openapi-tools`
 
-### [#6729](https://github.com/ballerina-platform/ballerina-library/issues/6729) `openapi:ServiceInfo` annotation is not working properly for nil values
+### [Bug] [#6729](https://github.com/ballerina-platform/ballerina-library/issues/6729) `openapi:ServiceInfo` annotation is not working properly for nil values
 **Labels:** `Type/Bug`, `Area/Tooling`, `module/openapi-tools`
 
-### [#6345](https://github.com/ballerina-platform/ballerina-library/issues/6345) Revisit the OpenAPI command line options
+### [Task] [#6345](https://github.com/ballerina-platform/ballerina-library/issues/6345) Revisit the OpenAPI command line options
 **Labels:** `Type/Task`, `Area/Tooling`, `module/openapi-tools`
 
-### [#6336](https://github.com/ballerina-platform/ballerina-library/issues/6336) Doc comments are missing for header and payload params
+### [Improvement] [#6336](https://github.com/ballerina-platform/ballerina-library/issues/6336) Doc comments are missing for header and payload params
 **Labels:** `Type/Improvement`, `Area/Tooling`, `module/openapi-tools`
 
-### [#6335](https://github.com/ballerina-platform/ballerina-library/issues/6335) Doc comments are not generated correctly for service returns
+### [Bug] [#6335](https://github.com/ballerina-platform/ballerina-library/issues/6335) Doc comments are not generated correctly for service returns
 **Labels:** `Type/Bug`, `Area/Tooling`, `Reason/Regression`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-### [#6150](https://github.com/ballerina-platform/ballerina-library/issues/6150) Improve openAPI CLI command exit codes 
+### [Improvement] [#6150](https://github.com/ballerina-platform/ballerina-library/issues/6150) Improve openAPI CLI command exit codes 
 **Labels:** `Type/Improvement`, `Type/Task`, `Area/Tooling`, `module/openapi-tools`
 
-### [#6076](https://github.com/ballerina-platform/ballerina-library/issues/6076) Openapi tool should have a way for the user to provide custom http:Clients
+### [Improvement] [#6076](https://github.com/ballerina-platform/ballerina-library/issues/6076) Openapi tool should have a way for the user to provide custom http:Clients
 **Labels:** `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-### [#6054](https://github.com/ballerina-platform/ballerina-library/issues/6054) [OpenAPI tool] Update HATEOAS and StatusCodeError support in the spec
+### [Task] [#6054](https://github.com/ballerina-platform/ballerina-library/issues/6054) [OpenAPI tool] Update HATEOAS and StatusCodeError support in the spec
 **Labels:** `Type/Task`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
 
-### [#6043](https://github.com/ballerina-platform/ballerina-library/issues/6043) [OpenAPI tools] Add license header for OpenAPI test files
+### [Task] [#6043](https://github.com/ballerina-platform/ballerina-library/issues/6043) [OpenAPI tools] Add license header for OpenAPI test files
 **Labels:** `Type/Task`, `Area/Tooling`, `module/openapi-tools`
 
-### [#6033](https://github.com/ballerina-platform/ballerina-library/issues/6033) Need to provide support for inline constraint generation for path parameters
+### [Improvement] [#6033](https://github.com/ballerina-platform/ballerina-library/issues/6033) Need to provide support for inline constraint generation for path parameters
 **Labels:** `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`, `Area/Service`
 
-### [#5978](https://github.com/ballerina-platform/ballerina-library/issues/5978) [Ballerina to OAS] Refactor HATEOAS Support
+### [Task] [#5978](https://github.com/ballerina-platform/ballerina-library/issues/5978) [Ballerina to OAS] Refactor HATEOAS Support
 **Labels:** `Type/Task`, `Area/Tooling`, `module/openapi-tools`
 
-### [#5914](https://github.com/ballerina-platform/ballerina-library/issues/5914) Disable the flatten option from OpenAPI parser for client , service code generation
+### [Task] [#5914](https://github.com/ballerina-platform/ballerina-library/issues/5914) Disable the flatten option from OpenAPI parser for client , service code generation
 **Labels:** `Type/Task`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-### [#5888](https://github.com/ballerina-platform/ballerina-library/issues/5888) Provide trailing slash support for client generation
+### [Improvement] [#5888](https://github.com/ballerina-platform/ballerina-library/issues/5888) Provide trailing slash support for client generation
 **Labels:** `Type/Improvement`, `Area/Tooling`, `Area/Client`, `module/openapi-tools`
 
