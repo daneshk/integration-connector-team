@@ -107,8 +107,8 @@ def generate_readme(organized, module_files):
                 readme += f"### {category} ({category_total} issues)\n\n"
 
                 # Create table
-                readme += "| Module | Issues | Priority High | Priority Medium | Priority Low | No Priority |\n"
-                readme += "|--------|--------|---------------|-----------------|--------------|-------------|\n"
+                readme += "| Module | Issues | Priority Highest | Priority High | Priority Medium | Priority Low | No Priority |\n"
+                readme += "|--------|--------|------------------|---------------|-----------------|--------------|-------------|\n"
 
                 for module in sorted(modules.keys()):
                     issues = modules[module]
@@ -119,7 +119,7 @@ def generate_readme(organized, module_files):
                     none = len([i for i in issues if i['priority'] == 'None'])
 
                     module_file = module_files[area][category][module]
-                    readme += f"| [{module}]({module_file}) | {len(issues)} | {high} | {medium} | {low} | {none} |\n"
+                    readme += f"| [{module}]({module_file}) | {len(issues)} | {highest} | {high} | {medium} | {low} | {none} |\n"
 
                 readme += "\n"
         else:
@@ -128,8 +128,8 @@ def generate_readme(organized, module_files):
             readme += f"**Total Issues:** {total_issues}\n\n"
 
             # Create table
-            readme += "| Module | Issues | Priority High | Priority Medium | Priority Low | No Priority |\n"
-            readme += "|--------|--------|---------------|-----------------|--------------|-------------|\n"
+            readme += "| Module | Issues | Priority Highest | Priority High | Priority Medium | Priority Low | No Priority |\n"
+            readme += "|--------|--------|------------------|---------------|-----------------|--------------|-------------|\n"
 
             for module in sorted(modules.keys()):
                 issues = modules[module]
@@ -140,8 +140,7 @@ def generate_readme(organized, module_files):
                 none = len([i for i in issues if i['priority'] == 'None'])
 
                 module_file = module_files[area][module]
-                total_priority = highest + high + medium
-                readme += f"| [{module}]({module_file}) | {len(issues)} | {high} | {medium} | {low} | {none} |\n"
+                readme += f"| [{module}]({module_file}) | {len(issues)} | {highest} | {high} | {medium} | {low} | {none} |\n"
 
             readme += "\n"
 
