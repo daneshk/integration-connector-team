@@ -5,7 +5,8 @@ from pathlib import Path
 
 def generate_module_page(area, module, issues, output_dir):
     """Generate a markdown page for a module"""
-    filename = f"{area.replace('/', '_')}_{module.replace('/', '_')}.md"
+    # Sanitize filename by replacing spaces and slashes with underscores
+    filename = f"{area.replace('/', '_').replace(' ', '_')}_{module.replace('/', '_').replace(' ', '_')}.md"
     filepath = output_dir / filename
 
     content = f"# {area} - {module}\n\n"
