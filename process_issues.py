@@ -41,6 +41,13 @@ def get_module_labels(labels):
             modules.append(label['name'])
     return modules if modules else ['No Module']
 
+def is_generated_connector(labels):
+    """Check if connector is generated (has connectors/openapi label)"""
+    for label in labels:
+        if label['name'] == 'connectors/openapi':
+            return True
+    return False
+
 def priority_sort_key(priority):
     """Sort key for priority"""
     priority_order = {'High': 0, 'Medium': 1, 'Low': 2, 'None': 3}
@@ -61,26 +68,57 @@ def main():
 
     # Organize by area and module
     organized = {}
+    connector_categories = {'Handwritten Connectors': defaultdict(list), 'Generated Connectors': defaultdict(list)}
+
     for area, issues in all_issues.items():
-        organized[area] = defaultdict(list)
-        for issue in issues:
-            priority = get_priority(issue['labels'])
-            issue_type = get_issue_type(issue['labels'])
-            modules = get_module_labels(issue['labels'])
+        if area == 'Area/Connector':
+            # Special handling for connectors - categorize into handwritten vs generated
+            for issue in issues:
+                priority = get_priority(issue['labels'])
+                issue_type = get_issue_type(issue['labels'])
+                modules = get_module_labels(issue['labels'])
+                is_generated = is_generated_connector(issue['labels'])
 
-            for module in modules:
-                organized[area][module].append({
-                    'number': issue['number'],
-                    'title': issue['title'],
-                    'priority': priority,
-                    'type': issue_type,
-                    'url': issue['url'],
-                    'labels': [l['name'] for l in issue['labels']]
-                })
+                category = 'Generated Connectors' if is_generated else 'Handwritten Connectors'
 
-        # Sort each module's issues by priority
-        for module in organized[area]:
-            organized[area][module].sort(key=lambda x: priority_sort_key(x['priority']))
+                for module in modules:
+                    connector_categories[category][module].append({
+                        'number': issue['number'],
+                        'title': issue['title'],
+                        'priority': priority,
+                        'type': issue_type,
+                        'url': issue['url'],
+                        'labels': [l['name'] for l in issue['labels']]
+                    })
+
+            # Sort each module's issues by priority, then by type
+            for category in connector_categories:
+                for module in connector_categories[category]:
+                    connector_categories[category][module].sort(
+                        key=lambda x: (priority_sort_key(x['priority']), x['type'])
+                    )
+
+            organized[area] = connector_categories
+        else:
+            organized[area] = defaultdict(list)
+            for issue in issues:
+                priority = get_priority(issue['labels'])
+                issue_type = get_issue_type(issue['labels'])
+                modules = get_module_labels(issue['labels'])
+
+                for module in modules:
+                    organized[area][module].append({
+                        'number': issue['number'],
+                        'title': issue['title'],
+                        'priority': priority,
+                        'type': issue_type,
+                        'url': issue['url'],
+                        'labels': [l['name'] for l in issue['labels']]
+                    })
+
+            # Sort each module's issues by priority, then by type
+            for module in organized[area]:
+                organized[area][module].sort(key=lambda x: (priority_sort_key(x['priority']), x['type']))
 
     # Save organized data
     with open('organized_issues.json', 'w') as f:
@@ -88,11 +126,19 @@ def main():
 
     print("\nIssue Summary:")
     for area in organized:
-        print(f"\n{area}:")
-        total = sum(len(issues) for issues in organized[area].values())
-        print(f"  Total: {total} issues")
-        for module in sorted(organized[area].keys()):
-            print(f"    {module}: {len(organized[area][module])} issues")
+        if area == 'Area/Connector':
+            print(f"\n{area}:")
+            for category in ['Handwritten Connectors', 'Generated Connectors']:
+                total = sum(len(issues) for issues in organized[area][category].values())
+                print(f"  {category}: {total} issues")
+                for module in sorted(organized[area][category].keys()):
+                    print(f"    {module}: {len(organized[area][category][module])} issues")
+        else:
+            print(f"\n{area}:")
+            total = sum(len(issues) for issues in organized[area].values())
+            print(f"  Total: {total} issues")
+            for module in sorted(organized[area].keys()):
+                print(f"    {module}: {len(organized[area][module])} issues")
 
     print("\nData saved to organized_issues.json")
 
