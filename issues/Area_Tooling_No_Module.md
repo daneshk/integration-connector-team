@@ -1,10 +1,10 @@
 # Area/Tooling - No Module
 
-Total Issues: 1
+Total Issues: 2
 
 ## Issue Types
 
-- **Improvement:** 1
+- **Improvement:** 2
 
 ## Priority: None
 

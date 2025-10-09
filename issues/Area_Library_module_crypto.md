@@ -1,12 +1,20 @@
 # Area/Library - module/crypto
 
-Total Issues: 6
+Total Issues: 10
 
 ## Issue Types
 
-- **Improvement:** 3
-- **NewFeature:** 1
-- **Task:** 2
+- **Improvement:** 4
+- **NewFeature:** 3
+- **Task:** 3
+
+## Priority: High
+
+### Task
+
+**[#4212](https://github.com/ballerina-platform/ballerina-library/issues/4212)** Make Crypto module FIPS compliant
+
+Labels: `Points/5`, `Priority/High`, `Type/Task`, `module/crypto`, `Area/Library`
 
 ## Priority: None
 
@@ -24,6 +32,10 @@ Labels: `Type/Improvement`, `module/crypto`, `Area/Library`, `Area/StaticCode`
 
 Labels: `Type/Improvement`, `good first issue`, `module/crypto`, `Area/Library`
 
+**[#2949](https://github.com/ballerina-platform/ballerina-library/issues/2949)** Crypto module is not compatible with the Python Fernet module
+
+Labels: `Type/Improvement`, `module/crypto`, `Area/Library`
+
 ### Task
 
 **[#6774](https://github.com/ballerina-platform/ballerina-library/issues/6774)** Password in Crypto module are configurable as `string` values
@@ -39,4 +51,12 @@ Labels: `Type/Task`, `module/crypto`, `Area/Library`
 **[#8182](https://github.com/ballerina-platform/ballerina-library/issues/8182)** Support NIST-Approved Post-Quantum Algorithms
 
 Labels: `Type/NewFeature`, `module/crypto`, `Area/Security`, `Area/Library`
+
+**[#1905](https://github.com/ballerina-platform/ballerina-library/issues/1905)** Support Libsodium encryption in Ballerina
+
+Labels: `Type/NewFeature`, `module/crypto`, `Area/Security`, `Area/Library`
+
+**[#872](https://github.com/ballerina-platform/ballerina-library/issues/872)** Add Crypto Functions for Key Pair Generation
+
+Labels: `Type/NewFeature`, `good first issue`, `module/crypto`, `Area/Security`, `Credits/45`, `Area/Library`
 

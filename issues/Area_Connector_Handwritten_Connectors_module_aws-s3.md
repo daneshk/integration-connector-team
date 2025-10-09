@@ -1,11 +1,11 @@
 # Area/Connector/Handwritten Connectors - module/aws-s3
 
-Total Issues: 5
+Total Issues: 6
 
 ## Issue Types
 
 - **Bug:** 2
-- **Improvement:** 2
+- **Improvement:** 3
 - **NewFeature:** 1
 
 ## Priority: None

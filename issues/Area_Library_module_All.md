@@ -1,12 +1,12 @@
 # Area/Library - module/All
 
-Total Issues: 7
+Total Issues: 10
 
 ## Issue Types
 
 - **Bug:** 1
-- **Improvement:** 1
-- **Task:** 5
+- **Improvement:** 2
+- **Task:** 7
 
 ## Priority: High
 
@@ -23,6 +23,10 @@ Labels: `Priority/High`, `Type/Bug`, `module/All`, `Area/Library`
 **[#6794](https://github.com/ballerina-platform/ballerina-library/issues/6794)** Add Link to Ballerina Central from Repositories in ballerina & ballerinax packages
 
 Labels: `Type/Improvement`, `module/All`, `Area/Connector`, `Area/Library`
+
+**[#3867](https://github.com/ballerina-platform/ballerina-library/issues/3867)** Improve the trivy security scan location for std libs
+
+Labels: `Type/Improvement`, `module/All`, `Area/Library`
 
 ### Task
 
@@ -43,6 +47,14 @@ Labels: `Type/Task`, `module/All`, `Area/Connector`, `Area/Library`
 Labels: `Type/Task`, `Area/Build`, `module/All`, `Area/Library`
 
 **[#6120](https://github.com/ballerina-platform/ballerina-library/issues/6120)** Migrate library modules to use parallel test feature 
+
+Labels: `Type/Task`, `module/All`, `Area/Library`
+
+**[#4553](https://github.com/ballerina-platform/ballerina-library/issues/4553)** Enable GraalVM check for patch branches
+
+Labels: `Type/Task`, `module/All`, `Area/Library`
+
+**[#2213](https://github.com/ballerina-platform/ballerina-library/issues/2213)** Update readme with build instructions for windows
 
 Labels: `Type/Task`, `module/All`, `Area/Library`
 

@@ -1,11 +1,10 @@
 # Area/Connector/Handwritten Connectors - module/twitter
 
-Total Issues: 2
+Total Issues: 1
 
 ## Issue Types
 
 - **Improvement:** 1
-- **Task:** 1
 
 ## Priority: None
 

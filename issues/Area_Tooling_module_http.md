@@ -1,11 +1,10 @@
 # Area/Tooling - module/http
 
-Total Issues: 4
+Total Issues: 2
 
 ## Issue Types
 
 - **Improvement:** 2
-- **NewFeature:** 2
 
 ## Priority: None
 
@@ -17,15 +16,5 @@ Labels: `Type/Improvement`, `module/http`, `Area/Tooling`, `Area/BallerinaToOpen
 
 **[#2379](https://github.com/ballerina-platform/ballerina-library/issues/2379)** Improve HTTP tooling to support writing the the below
 
-Labels: `Type/Improvement`, `module/http`, `Team/PCM`, `Area/Tooling`
-
-### NewFeature
-
-**[#2509](https://github.com/ballerina-platform/ballerina-library/issues/2509)** Proposal: VSCode command to download OpenAPI specification
-
-Labels: `Type/NewFeature`, `Type/Proposal`, `module/http`, `Team/PCM`, `Area/Tooling`, `Status/Draft`
-
-**[#2508](https://github.com/ballerina-platform/ballerina-library/issues/2508)** Proposal: Ballerina VSCode try-out plugin for REST APIs
-
-Labels: `Type/NewFeature`, `Type/Proposal`, `module/http`, `Team/PCM`, `Area/Tooling`, `Status/Draft`
+Labels: `Type/Improvement`, `module/http`, `Area/Tooling`, `Area/Library`
 

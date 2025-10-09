@@ -1,10 +1,11 @@
 # Area/Connector/Generated Connectors - module/twitter
 
-Total Issues: 1
+Total Issues: 2
 
 ## Issue Types
 
 - **Bug:** 1
+- **Task:** 1
 
 ## Priority: None
 

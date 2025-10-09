@@ -1,12 +1,13 @@
 # Area/Tooling - module/openapi-tools
 
-Total Issues: 52
+Total Issues: 74
 
 ## Issue Types
 
 - **Bug:** 15
-- **Improvement:** 24
-- **Task:** 13
+- **Improvement:** 36
+- **NewFeature:** 2
+- **Task:** 21
 
 ## Priority: High
 
@@ -19,6 +20,24 @@ Labels: `Priority/High`, `Type/Bug`, `Area/Tooling`, `module/openapi-tools`
 **[#7313](https://github.com/ballerina-platform/ballerina-library/issues/7313)** When trying to generate the client using OpenAPI tool getting `There are duplicate parameter values` error
 
 Labels: `Priority/High`, `Type/Bug`, `Status/Blocked`, `Area/Tooling`, `module/openapi-tools`
+
+### Improvement
+
+**[#5118](https://github.com/ballerina-platform/ballerina-library/issues/5118)** Improve the error message given when client and service generation failed
+
+Labels: `Priority/High`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
+
+## Priority: Low
+
+### Improvement
+
+**[#4871](https://github.com/ballerina-platform/ballerina-library/issues/4871)** Unable to generate code for path reference
+
+Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
+
+**[#5173](https://github.com/ballerina-platform/ballerina-library/issues/5173)** Handle deprecate operation in service generation
+
+Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Reason/Other`, `Area/OpenapiToBallerina`, `module/openapi-tools`, `Area/Service`
 
 ## Priority: None
 
@@ -38,11 +57,11 @@ Labels: `Type/Bug`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-t
 
 **[#8025](https://github.com/ballerina-platform/ballerina-library/issues/8025)** OpenAI Client Generation Fails with 'redeclared symbol' Errors from Embedded Records
 
-Labels: `Type/Bug`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
+Labels: `Type/Bug`, `Area/Tooling`, `Reason/Complex`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
 **[#8011](https://github.com/ballerina-platform/ballerina-library/issues/8011)** OpenAPI client generation fails due to invalid JSON schema
 
-Labels: `Type/Bug`, `Area/Tooling`, `module/openapi-tools`
+Labels: `Type/Bug`, `Area/Tooling`, `Reason/EngineeringMistake`, `module/openapi-tools`
 
 **[#8004](https://github.com/ballerina-platform/ballerina-library/issues/8004)** Issue in generating open API with a default array is defined
 
@@ -174,6 +193,30 @@ Labels: `Type/Improvement`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/o
 
 Labels: `Type/Improvement`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
 
+**[#4876](https://github.com/ballerina-platform/ballerina-library/issues/4876)** Record and array types headers are ignored when sending the client request
+
+Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
+
+**[#5146](https://github.com/ballerina-platform/ballerina-library/issues/5146)** Support `type: string, format: base64` sccenario in File Upload
+
+Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
+
+**[#5150](https://github.com/ballerina-platform/ballerina-library/issues/5150)** `time:Date` is not properly captured in OpenAPI schema
+
+Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
+
+**[#5154](https://github.com/ballerina-platform/ballerina-library/issues/5154)** Supporting ballerina service `scopes` in the ballerina to openapi spec generation
+
+Labels: `Type/Improvement`, `Area/Tooling`, `Reason/Other`, `Area/BallerinaToOpenapi`, `module/openapi-tools`, `IceBox`
+
+**[#5163](https://github.com/ballerina-platform/ballerina-library/issues/5163)** Possibility of generating OpenAPI spec for `http:Request`, `http:Response` and `default` accessor
+
+Labels: `Points/2`, `Type/Improvement`, `Area/Tooling`, `Reason/Complex`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
+
+**[#4873](https://github.com/ballerina-platform/ballerina-library/issues/4873)** Select most suitable MIME type response when there multiple MIME types
+
+Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
+
 ### Task
 
 **[#8244](https://github.com/ballerina-platform/ballerina-library/issues/8244)** Restructure OpenAPI tool repository to a multi-repository
@@ -227,4 +270,42 @@ Labels: `Type/Task`, `Area/Tooling`, `module/openapi-tools`
 **[#5914](https://github.com/ballerina-platform/ballerina-library/issues/5914)** Disable the flatten option from OpenAPI parser for client , service code generation
 
 Labels: `Type/Task`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
+
+**[#5114](https://github.com/ballerina-platform/ballerina-library/issues/5114)** Refactor OpenAPI Repository Folder Structure
+
+Labels: `Type/Task`, `Area/Tooling`, `module/openapi-tools`
+
+**[#5122](https://github.com/ballerina-platform/ballerina-library/issues/5122)** Handle 3.1 OpenAPI schema with multiple types
+
+Labels: `Type/Task`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`, `Area/Service`
+
+**[#5125](https://github.com/ballerina-platform/ballerina-library/issues/5125)** Write spec for OpenAPI schema to Ballerina types generation
+
+Labels: `Type/Task`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
+
+**[#5127](https://github.com/ballerina-platform/ballerina-library/issues/5127)** OpenAPI to Ballerina Service spec writing
+
+Labels: `Type/Task`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`, `Area/Service`
+
+**[#5128](https://github.com/ballerina-platform/ballerina-library/issues/5128)** OpenAPI to Ballerina Client spec writing
+
+Labels: `Type/Task`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
+
+**[#5138](https://github.com/ballerina-platform/ballerina-library/issues/5138)** Adding new test cases to verify if the tool works fine for both OpenAPI 3.1.x and OpenAPI 3.0.x versions 
+
+Labels: `Type/Task`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
+
+**[#5148](https://github.com/ballerina-platform/ballerina-library/issues/5148)** Remove deprecated status code `NetworkAuthorizationRequired` support
+
+Labels: `Type/Task`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
+
+### NewFeature
+
+**[#5117](https://github.com/ballerina-platform/ballerina-library/issues/5117)** Add support to selectively generate openAPI contract for a subset of resources in the service implementation
+
+Labels: `Type/NewFeature`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
+
+**[#5175](https://github.com/ballerina-platform/ballerina-library/issues/5175)** Take the project context into account when generating code
+
+Labels: `Type/NewFeature`, `Version/SLAlpha3`, `Area/Tooling`, `module/openapi-tools`
 

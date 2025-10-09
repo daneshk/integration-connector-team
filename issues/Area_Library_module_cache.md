@@ -1,10 +1,11 @@
 # Area/Library - module/cache
 
-Total Issues: 1
+Total Issues: 3
 
 ## Issue Types
 
-- **Improvement:** 1
+- **Improvement:** 2
+- **Task:** 1
 
 ## Priority: None
 
@@ -13,4 +14,14 @@ Total Issues: 1
 **[#5901](https://github.com/ballerina-platform/ballerina-library/issues/5901)** [Docs]: Invalid API Parameter in Cache Module's API Docs
 
 Labels: `Type/Improvement`, `module/cache`, `Area/Library`
+
+**[#174](https://github.com/ballerina-platform/ballerina-library/issues/174)** Restrict cache value to the user-specified value type
+
+Labels: `Type/Improvement`, `good first issue`, `module/cache`, `Area/Library`
+
+### Task
+
+**[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
+
+Labels: `Type/Task`, `module/io`, `module/cache`, `module/auth`, `module/http`, `module/jwt`, `module/oauth2`, `module/graphql`, `Area/Library`
 

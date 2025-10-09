@@ -1,12 +1,12 @@
 # Area/Library - module/log
 
-Total Issues: 7
+Total Issues: 13
 
 ## Issue Types
 
-- **Bug:** 3
-- **Improvement:** 2
-- **NewFeature:** 1
+- **Bug:** 4
+- **Improvement:** 4
+- **NewFeature:** 4
 - **Task:** 1
 
 ## Priority: None
@@ -25,15 +25,27 @@ Labels: `Type/Bug`, `good first issue`, `module/log`, `Hacktoberfest`, `Area/Lib
 
 Labels: `Type/Bug`, `good first issue`, `module/log`, `Credits/30`, `Area/Library`
 
+**[#4547](https://github.com/ballerina-platform/ballerina-library/issues/4547)** Use `Environment.getCurrentModule()` instead of `Thread.currentThread().getStackTrace()` to get the module name
+
+Labels: `Type/Bug`, `good first issue`, `module/log`, `Credits/20`, `Area/Library`
+
 ### Improvement
-
-**[#8211](https://github.com/ballerina-platform/ballerina-library/issues/8211)** Add sensitive data masking support
-
-Labels: `Type/Improvement`, `module/log`, `Area/Library`
 
 **[#6213](https://github.com/ballerina-platform/ballerina-library/issues/6213)** Add native support for modifying the log level programmatically at runtime
 
 Labels: `Type/Improvement`, `Type/Proposal`, `module/log`, `Area/Library`
+
+**[#4055](https://github.com/ballerina-platform/ballerina-library/issues/4055)** Add support for `Mapped Diagnostic Context` when logging
+
+Labels: `Type/Improvement`, `module/log`, `Area/Library`
+
+**[#474](https://github.com/ballerina-platform/ballerina-library/issues/474)** Ability to customize logging
+
+Labels: `Type/Improvement`, `module/log`, `IceBox`, `Area/Library`
+
+**[#425](https://github.com/ballerina-platform/ballerina-library/issues/425)** Log API Refactor
+
+Labels: `Type/Improvement`, `module/log`, `IceBox`, `Area/Library`
 
 ### Task
 
@@ -44,6 +56,18 @@ Labels: `Type/Task`, `module/log`, `Area/Library`
 ### NewFeature
 
 **[#5057](https://github.com/ballerina-platform/ballerina-library/issues/5057)** Adding log file rotation support to the log module
+
+Labels: `Type/NewFeature`, `module/log`, `Area/Library`
+
+**[#4633](https://github.com/ballerina-platform/ballerina-library/issues/4633)** Add support to change the log level programmatically at runtime
+
+Labels: `Type/NewFeature`, `good first issue`, `module/log`, `Hacktoberfest`, `Credits/20`, `Area/Library`
+
+**[#4621](https://github.com/ballerina-platform/ballerina-library/issues/4621)** Customizable Log Format in Ballerina Log Module
+
+Labels: `Type/NewFeature`, `module/log`, `Area/Library`
+
+**[#3035](https://github.com/ballerina-platform/ballerina-library/issues/3035)** Need a way to define unique ids and automatically attach them to a group of logs
 
 Labels: `Type/NewFeature`, `module/log`, `Area/Library`
 

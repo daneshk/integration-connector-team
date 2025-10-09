@@ -1,14 +1,13 @@
 # Area/Connector/Handwritten Connectors - No Module
 
-Total Issues: 44
+Total Issues: 32
 
 ## Issue Types
 
 - **Bug:** 2
-- **Docs:** 1
-- **Improvement:** 4
-- **NewFeature:** 26
-- **Task:** 11
+- **Improvement:** 2
+- **NewFeature:** 19
+- **Task:** 9
 
 ## Priority: Highest
 
@@ -26,12 +25,6 @@ Labels: `Priority/Highest`, `Type/Improvement`, `Area/Connector`
 
 Labels: `Priority/High`, `Type/Bug`, `Area/Connector`
 
-### Improvement
-
-**[#4962](https://github.com/ballerina-platform/ballerina-library/issues/4962)** [Improvement]: Introduce a connector for Toast
-
-Labels: `Priority/High`, `Type/Improvement`, `Area/Connector`
-
 ## Priority: None
 
 ### Bug
@@ -45,10 +38,6 @@ Labels: `Type/Bug`, `Area/Connector`
 **[#6135](https://github.com/ballerina-platform/ballerina-library/issues/6135)** Add support to run connector examples on the same Ballerina version used by the Ballerina gradle plugin 
 
 Labels: `Type/Improvement`, `Area/Build`, `Area/Connector`
-
-**[#5000](https://github.com/ballerina-platform/ballerina-library/issues/5000)** [Improvement]: OAuth 2.0 Support in ballerinax/trigger.salesforce
-
-Labels: `Type/Improvement`, `Area/Connector`
 
 ### Task
 
@@ -80,23 +69,19 @@ Labels: `Type/Task`, `Area/Connector`
 
 Labels: `Type/Task`, `Area/Connector`
 
-**[#4971](https://github.com/ballerina-platform/ballerina-library/issues/4971)** [Epic]: Write/Generate new set of connectors requested by SA team
-
-Labels: `Type/Task`, `Area/Connector`
-
 **[#4976](https://github.com/ballerina-platform/ballerina-library/issues/4976)** [Task]: Fix hierarchical package naming deviations in Ballerinax packages
 
 Labels: `Type/Task`, `Area/Connector`
 
-**[#5009](https://github.com/ballerina-platform/ballerina-library/issues/5009)** [Task]: Client generation for WSDL to Ballerina Tool 
-
-Labels: `Type/Task`, `Area/Connector`
-
-**[#5012](https://github.com/ballerina-platform/ballerina-library/issues/5012)** [Task]: Record generation for WSDL to Ballerina Tool
+**[#4986](https://github.com/ballerina-platform/ballerina-library/issues/4986)** Fix broken links in ballerinax package docs
 
 Labels: `Type/Task`, `Area/Connector`
 
 ### NewFeature
+
+**[#8327](https://github.com/ballerina-platform/ballerina-library/issues/8327)** Introduce a Ballerina connector for Chroma DB REST API
+
+Labels: `Type/NewFeature`, `Type/Task`, `good first issue`, `Area/Connector`, `Credits/60`
 
 **[#7768](https://github.com/ballerina-platform/ballerina-library/issues/7768)** Introduce a Ballerina connector for Google Chat REST API
 
@@ -122,10 +107,6 @@ Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `Credits/80`
 
 Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `Credits/60`
 
-**[#7045](https://github.com/ballerina-platform/ballerina-library/issues/7045)** Introduce a Ballerina connector for Mailchimp REST API
-
-Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `Credits/60`
-
 **[#7044](https://github.com/ballerina-platform/ballerina-library/issues/7044)** Introduce a Ballerina connector for Intercom REST API
 
 Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `Credits/60`
@@ -138,19 +119,7 @@ Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `Credits/60`
 
 Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `Credits/60`
 
-**[#7040](https://github.com/ballerina-platform/ballerina-library/issues/7040)** Introduce a Ballerina connector for Trello REST API
-
-Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `Credits/60`
-
 **[#7039](https://github.com/ballerina-platform/ballerina-library/issues/7039)** Introduce a Ballerina connector for Spotify REST API
-
-Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `Credits/60`
-
-**[#7038](https://github.com/ballerina-platform/ballerina-library/issues/7038)** Introduce a Ballerina connector for Zoom REST API
-
-Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `Credits/60`
-
-**[#7037](https://github.com/ballerina-platform/ballerina-library/issues/7037)** Introduce a Ballerina connector for PayPal Subscriptions REST API
 
 Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `Credits/60`
 
@@ -166,10 +135,6 @@ Labels: `Type/NewFeature`, `Area/Connector`
 
 Labels: `Type/NewFeature`, `Area/Connector`
 
-**[#4987](https://github.com/ballerina-platform/ballerina-library/issues/4987)** [Feature]: Introduce EDI Document parser support
-
-Labels: `Type/NewFeature`, `Area/Connector`
-
 **[#4990](https://github.com/ballerina-platform/ballerina-library/issues/4990)** [Improvement]: Creating a new connector for Google Forms
 
 Labels: `Type/NewFeature`, `Area/Connector`
@@ -182,21 +147,7 @@ Labels: `Type/NewFeature`, `Area/Connector`
 
 Labels: `Type/NewFeature`, `Area/Connector`
 
-**[#5018](https://github.com/ballerina-platform/ballerina-library/issues/5018)** [Feature][Data-Explorer]: Add Data-Explorer ls-extension to the Ballerina Distribution 
-
-Labels: `Type/NewFeature`, `Area/Connector`
-
 **[#5019](https://github.com/ballerina-platform/ballerina-library/issues/5019)** [Feature][Data-Explorer]: Handle pagination of query results  
 
 Labels: `Type/NewFeature`, `Area/Connector`
-
-**[#5027](https://github.com/ballerina-platform/ballerina-library/issues/5027)** [Feature]: Connector for Walmart Marketplace API 
-
-Labels: `Type/NewFeature`, `Area/Connector`
-
-### Docs
-
-**[#4969](https://github.com/ballerina-platform/ballerina-library/issues/4969)** [Docs]: Revamp the documentations of OpenAPI connectors 
-
-Labels: `Type/Docs`, `Type/Task`, `Area/Connector`
 

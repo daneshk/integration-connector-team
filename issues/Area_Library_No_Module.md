@@ -1,12 +1,14 @@
 # Area/Library - No Module
 
-Total Issues: 15
+Total Issues: 25
 
 ## Issue Types
 
-- **Improvement:** 3
-- **NewFeature:** 6
-- **Task:** 5
+- **Bug:** 1
+- **Docs:** 1
+- **Improvement:** 4
+- **NewFeature:** 11
+- **Task:** 7
 - **Unknown:** 1
 
 ## Priority: Low
@@ -19,6 +21,12 @@ Labels: `Priority/Low`, `Type/Improvement`, `Area/GradlePlugin`, `Area/Library`
 
 ## Priority: None
 
+### Bug
+
+**[#4335](https://github.com/ballerina-platform/ballerina-library/issues/4335)** Encoded `+` does not get decoded at the backend
+
+Labels: `Type/Bug`, `Area/Library`
+
 ### Improvement
 
 **[#7524](https://github.com/ballerina-platform/ballerina-library/issues/7524)** Provide the option for passing env variables to the Publish to Ballerina Central workflow
@@ -28,6 +36,10 @@ Labels: `Type/Improvement`, `Area/Build`, `Area/Library`
 **[#7338](https://github.com/ballerina-platform/ballerina-library/issues/7338)** Improve Ballerina Gradle plugin to support passing additional arguments to the Ballerina CLI
 
 Labels: `Type/Improvement`, `Area/GradlePlugin`, `Area/Library`
+
+**[#549](https://github.com/ballerina-platform/ballerina-library/issues/549)** Implement the `__detach()` method for std lib listeners
+
+Labels: `Type/Improvement`, `Area/Library`
 
 ### Task
 
@@ -51,7 +63,19 @@ Labels: `Type/Task`, `Area/Library`
 
 Labels: `Type/Task`, `Area/Library`
 
+**[#529](https://github.com/ballerina-platform/ballerina-library/issues/529)** Protocol Connector Modules' support for LLVM
+
+Labels: `Type/Task`, `Area/Library`
+
+**[#530](https://github.com/ballerina-platform/ballerina-library/issues/530)** Revisit all the resiliency features of each protocol connector 
+
+Labels: `Type/Task`, `Area/Library`
+
 ### NewFeature
+
+**[#8324](https://github.com/ballerina-platform/ballerina-library/issues/8324)** Protocol Converters Beyond Currently Supported Ones
+
+Labels: `Type/NewFeature`, `Area/Library`
 
 **[#7917](https://github.com/ballerina-platform/ballerina-library/issues/7917)** Create a ballerina module for working with PDFs
 
@@ -76,6 +100,28 @@ Labels: `Type/NewFeature`, `Area/Library`
 **[#6502](https://github.com/ballerina-platform/ballerina-library/issues/6502)** Support for comprehensive email templating 
 
 Labels: `Type/NewFeature`, `Area/Library`
+
+**[#4069](https://github.com/ballerina-platform/ballerina-library/issues/4069)** Ballerina should have the functionality for data compression
+
+Labels: `Type/NewFeature`, `Area/Library`
+
+**[#2707](https://github.com/ballerina-platform/ballerina-library/issues/2707)** Html Template support for ballerina 
+
+Labels: `Type/NewFeature`, `Area/Library`
+
+**[#2665](https://github.com/ballerina-platform/ballerina-library/issues/2665)** Support ZIP file operations in Ballerina
+
+Labels: `Type/NewFeature`, `Area/Library`
+
+**[#65](https://github.com/ballerina-platform/ballerina-library/issues/65)** Kerberos inbound authentication support
+
+Labels: `Type/NewFeature`, `Team/PCM`, `Area/Security`, `Area/Library`
+
+### Docs
+
+**[#4754](https://github.com/ballerina-platform/ballerina-library/issues/4754)** GraalVM articles for July/August
+
+Labels: `Type/Docs`, `Type/Task`, `Area/GraalVM`, `Area/Library`
 
 ### Unknown
 
