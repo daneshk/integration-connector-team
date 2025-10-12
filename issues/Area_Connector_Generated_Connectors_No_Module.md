@@ -1,13 +1,13 @@
 # Area/Connector/Generated Connectors - No Module
 
-Total Issues: 11
+Total Issues: 19
 
 ## Issue Types
 
 - **Bug:** 2
 - **Docs:** 2
 - **Improvement:** 4
-- **NewFeature:** 3
+- **NewFeature:** 11
 
 ## Priority: High
 

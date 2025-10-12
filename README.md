@@ -2,21 +2,21 @@
 
 This repository contains an organized breakdown of open issues from the [ballerina-library](https://github.com/ballerina-platform/ballerina-library) repository.
 
-**Last Updated:** 2025-10-12 11:21:44
+**Last Updated:** 2025-10-12 20:27:49
 
 ## Overall Summary
 
-**Total Issues Across All Areas:** 879
+**Total Issues Across All Areas:** 877
 
 ## Area/Connector
 
-**Total Issues:** 192
+**Total Issues:** 190
 
-### Handwritten Connectors (175 issues)
+### Handwritten Connectors (165 issues)
 
 | Module | Issues | Priority Highest | Priority High | Priority Medium | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
-| [No Module](issues/Area_Connector_Handwritten_Connectors_No_Module.md) | 21 | 0 | 0 | 0 | 2 | 17 |
+| [No Module](issues/Area_Connector_Handwritten_Connectors_No_Module.md) | 11 | 0 | 0 | 0 | 2 | 1 |
 | [module/All](issues/Area_Connector_Handwritten_Connectors_module_All.md) | 12 | 2 | 1 | 0 | 2 | 6 |
 | [module/aws-s3](issues/Area_Connector_Handwritten_Connectors_module_aws-s3.md) | 6 | 0 | 0 | 0 | 0 | 5 |
 | [module/aws-sqs](issues/Area_Connector_Handwritten_Connectors_module_aws-sqs.md) | 1 | 0 | 0 | 0 | 0 | 1 |
@@ -60,11 +60,11 @@ This repository contains an organized breakdown of open issues from the [balleri
 | [module/twitter](issues/Area_Connector_Handwritten_Connectors_module_twitter.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [module/zoom.meetings](issues/Area_Connector_Handwritten_Connectors_module_zoom.meetings.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 
-### Generated Connectors (17 issues)
+### Generated Connectors (25 issues)
 
 | Module | Issues | Priority Highest | Priority High | Priority Medium | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
-| [No Module](issues/Area_Connector_Generated_Connectors_No_Module.md) | 11 | 0 | 1 | 0 | 0 | 8 |
+| [No Module](issues/Area_Connector_Generated_Connectors_No_Module.md) | 19 | 0 | 1 | 0 | 0 | 8 |
 | [module/dropbox](issues/Area_Connector_Generated_Connectors_module_dropbox.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [module/microsoft-excel](issues/Area_Connector_Generated_Connectors_module_microsoft-excel.md) | 1 | 0 | 1 | 0 | 0 | 0 |
 | [module/servicenow](issues/Area_Connector_Generated_Connectors_module_servicenow.md) | 1 | 0 | 0 | 0 | 0 | 1 |
@@ -132,8 +132,8 @@ This repository contains an organized breakdown of open issues from the [balleri
 - **High Priority:** 6
 - **Medium Priority:** 0
 - **Low Priority:** 5
-- **No Priority:** 172
-- **Total:** 192
+- **No Priority:** 156
+- **Total:** 190
 
 ### Area/Library
 - **Highest Priority:** 6
@@ -156,10 +156,10 @@ This repository contains an organized breakdown of open issues from the [balleri
 - **Bug:** 29
 - **Docs:** 7
 - **Improvement:** 56
-- **NewFeature:** 44
+- **NewFeature:** 42
 - **Proposal:** 1
 - **Task:** 55
-- **Total:** 192
+- **Total:** 190
 
 ### Area/Library
 - **Bug:** 73
