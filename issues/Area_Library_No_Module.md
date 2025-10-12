@@ -11,6 +11,14 @@ Total Issues: 24
 - **Task:** 6
 - **Unknown:** 1
 
+## Priority: Normal
+
+### Task
+
+**[#8276](https://github.com/ballerina-platform/ballerina-library/issues/8276)** [Medium Priority] Review Library/Connector API docs in BI editor
+
+Labels: `Type/Task`, `Area/Connector`, `Priority/Normal`, `Area/Library`
+
 ## Priority: Low
 
 ### Improvement

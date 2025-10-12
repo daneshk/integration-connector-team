@@ -6,3 +6,11 @@ Total Issues: 1
 
 - **Improvement:** 1
 
+## Priority: Normal
+
+### Improvement
+
+**[#7496](https://github.com/ballerina-platform/ballerina-library/issues/7496)** Support IAM role based login to AWS connectors
+
+Labels: `Type/Improvement`, `Area/Connector`, `module/aws-s3`, `Priority/Normal`, `module/aws.secretmanager`
+

@@ -17,6 +17,60 @@ Total Issues: 21
 
 Labels: `Priority/High`, `Type/NewFeature`, `Area/Connector`, `connectors/openapi`
 
+## Priority: Normal
+
+### Improvement
+
+**[#5024](https://github.com/ballerina-platform/ballerina-library/issues/5024)** [Improvement]: Republish commercetools.customer and commercetools.cartsordershoppinglists connectors
+
+Labels: `Type/Improvement`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`
+
+### NewFeature
+
+**[#8327](https://github.com/ballerina-platform/ballerina-library/issues/8327)** Introduce a Ballerina connector for Chroma DB REST API
+
+Labels: `Type/NewFeature`, `Type/Task`, `good first issue`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`, `Credits/60`
+
+**[#7768](https://github.com/ballerina-platform/ballerina-library/issues/7768)** Introduce a Ballerina connector for Google Chat REST API
+
+Labels: `Type/NewFeature`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`
+
+**[#7301](https://github.com/ballerina-platform/ballerina-library/issues/7301)** Introduce a Ballerina connector for Apple Music REST API
+
+Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`, `Credits/80`
+
+**[#7058](https://github.com/ballerina-platform/ballerina-library/issues/7058)** Introduce a Ballerina connector for Google Docs REST API
+
+Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`, `Credits/80`
+
+**[#7056](https://github.com/ballerina-platform/ballerina-library/issues/7056)** Introduce a Ballerina connector for LinkedIn REST API
+
+Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`, `Credits/80`
+
+**[#7044](https://github.com/ballerina-platform/ballerina-library/issues/7044)** Introduce a Ballerina connector for Intercom REST API
+
+Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`, `Credits/60`
+
+**[#7043](https://github.com/ballerina-platform/ballerina-library/issues/7043)** Introduce a Ballerina connector for Tableau REST API
+
+Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`, `Credits/60`
+
+**[#7041](https://github.com/ballerina-platform/ballerina-library/issues/7041)** Introduce a Ballerina connector for SendGrid REST API
+
+Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`, `Credits/60`
+
+**[#7039](https://github.com/ballerina-platform/ballerina-library/issues/7039)** Introduce a Ballerina connector for Spotify REST API
+
+Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`, `Credits/60`
+
+**[#7036](https://github.com/ballerina-platform/ballerina-library/issues/7036)** Introduce a Ballerina connector for Bitbucket REST API
+
+Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`, `Credits/60`
+
+**[#5033](https://github.com/ballerina-platform/ballerina-library/issues/5033)** [Feature]: Connector for Trading Economics API
+
+Labels: `Type/NewFeature`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`
+
 ## Priority: None
 
 ### Bug

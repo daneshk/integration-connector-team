@@ -22,6 +22,24 @@ Labels: `Priority/High`, `Type/Task`, `Area/Tooling`, `module/graphql-tool`
 
 Labels: `Priority/High`, `Type/Task`, `Area/Tooling`, `module/graphql-tool`
 
+## Priority: Normal
+
+### Improvement
+
+**[#6445](https://github.com/ballerina-platform/ballerina-library/issues/6445)** '*' symbols are not supported when configuring schema and query file paths in Graphql config (graphql.config.yaml) file
+
+Labels: `Type/Improvement`, `Area/Tooling`, `Priority/Normal`, `module/graphql-tool`
+
+**[#6451](https://github.com/ballerina-platform/ballerina-library/issues/6451)** [Improvement] User experience of the GraphQL client generation tool
+
+Labels: `Type/Improvement`, `Area/Tooling`, `Priority/Normal`, `module/graphql-tool`
+
+### Task
+
+**[#6442](https://github.com/ballerina-platform/ballerina-library/issues/6442)** Integrate code quality gateway to the codebase
+
+Labels: `Type/Task`, `Area/Tooling`, `Priority/Normal`, `module/graphql-tool`
+
 ## Priority: Low
 
 ### Improvement

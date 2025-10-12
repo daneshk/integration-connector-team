@@ -32,7 +32,7 @@ def generate_module_page(area, module, issues, output_dir):
         by_priority[priority].append(issue)
 
     # Generate content for each priority (in order)
-    priority_order = ['Highest', 'High', 'Medium', 'Low', 'None']
+    priority_order = ['Highest', 'High', 'Normal', 'Medium', 'Low', 'None']
     type_order = ['Bug', 'Improvement', 'Task', 'NewFeature', 'Docs', 'Proposal', 'Unknown']
 
     for priority in priority_order:
@@ -107,19 +107,20 @@ def generate_readme(organized, module_files):
                 readme += f"### {category} ({category_total} issues)\n\n"
 
                 # Create table
-                readme += "| Module | Issues | Priority Highest | Priority High | Priority Medium | Priority Low | No Priority |\n"
-                readme += "|--------|--------|------------------|---------------|-----------------|--------------|-------------|\n"
+                readme += "| Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Medium | Priority Low | No Priority |\n"
+                readme += "|--------|--------|------------------|---------------|-----------------|-----------------|--------------|-------------|\n"
 
                 for module in sorted(modules.keys()):
                     issues = modules[module]
                     highest = len([i for i in issues if i['priority'] == 'Highest'])
                     high = len([i for i in issues if i['priority'] == 'High'])
+                    normal = len([i for i in issues if i['priority'] == 'Normal'])
                     medium = len([i for i in issues if i['priority'] == 'Medium'])
                     low = len([i for i in issues if i['priority'] == 'Low'])
                     none = len([i for i in issues if i['priority'] == 'None'])
 
                     module_file = module_files[area][category][module]
-                    readme += f"| [{module}]({module_file}) | {len(issues)} | {highest} | {high} | {medium} | {low} | {none} |\n"
+                    readme += f"| [{module}]({module_file}) | {len(issues)} | {highest} | {high} | {normal} | {medium} | {low} | {none} |\n"
 
                 readme += "\n"
         else:
@@ -128,19 +129,20 @@ def generate_readme(organized, module_files):
             readme += f"**Total Issues:** {total_issues}\n\n"
 
             # Create table
-            readme += "| Module | Issues | Priority Highest | Priority High | Priority Medium | Priority Low | No Priority |\n"
-            readme += "|--------|--------|------------------|---------------|-----------------|--------------|-------------|\n"
+            readme += "| Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Medium | Priority Low | No Priority |\n"
+            readme += "|--------|--------|------------------|---------------|-----------------|-----------------|--------------|-------------|\n"
 
             for module in sorted(modules.keys()):
                 issues = modules[module]
                 highest = len([i for i in issues if i['priority'] == 'Highest'])
                 high = len([i for i in issues if i['priority'] == 'High'])
+                normal = len([i for i in issues if i['priority'] == 'Normal'])
                 medium = len([i for i in issues if i['priority'] == 'Medium'])
                 low = len([i for i in issues if i['priority'] == 'Low'])
                 none = len([i for i in issues if i['priority'] == 'None'])
 
                 module_file = module_files[area][module]
-                readme += f"| [{module}]({module_file}) | {len(issues)} | {highest} | {high} | {medium} | {low} | {none} |\n"
+                readme += f"| [{module}]({module_file}) | {len(issues)} | {highest} | {high} | {normal} | {medium} | {low} | {none} |\n"
 
             readme += "\n"
 
@@ -157,6 +159,7 @@ def generate_readme(organized, module_files):
 
         highest = len([i for i in all_issues if i['priority'] == 'Highest'])
         high = len([i for i in all_issues if i['priority'] == 'High'])
+        normal = len([i for i in all_issues if i['priority'] == 'Normal'])
         medium = len([i for i in all_issues if i['priority'] == 'Medium'])
         low = len([i for i in all_issues if i['priority'] == 'Low'])
         none = len([i for i in all_issues if i['priority'] == 'None'])
@@ -164,10 +167,16 @@ def generate_readme(organized, module_files):
         readme += f"### {area}\n"
         if highest > 0:
             readme += f"- **Highest Priority:** {highest}\n"
-        readme += f"- **High Priority:** {high}\n"
-        readme += f"- **Medium Priority:** {medium}\n"
-        readme += f"- **Low Priority:** {low}\n"
-        readme += f"- **No Priority:** {none}\n"
+        if high > 0:
+            readme += f"- **High Priority:** {high}\n"
+        if normal > 0:
+            readme += f"- **Normal Priority:** {normal}\n"
+        if medium > 0:
+            readme += f"- **Medium Priority:** {medium}\n"
+        if low > 0:
+            readme += f"- **Low Priority:** {low}\n"
+        if none > 0:
+            readme += f"- **No Priority:** {none}\n"
         readme += f"- **Total:** {len(all_issues)}\n\n"
 
     readme += "## Issue Distribution by Type\n\n"

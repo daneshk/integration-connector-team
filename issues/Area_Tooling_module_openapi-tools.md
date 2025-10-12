@@ -27,6 +27,28 @@ Labels: `Priority/High`, `Type/Bug`, `Status/Blocked`, `Area/Tooling`, `module/o
 
 Labels: `Priority/High`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
+## Priority: Normal
+
+### Improvement
+
+**[#5166](https://github.com/ballerina-platform/ballerina-library/issues/5166)** Check `required` flag in request body generation 
+
+Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`, `Priority/Normal`
+
+**[#5168](https://github.com/ballerina-platform/ballerina-library/issues/5168)** Improve the error logs
+
+Labels: `Type/Improvement`, `Area/Tooling`, `module/openapi-tools`, `Priority/Normal`
+
+**[#5172](https://github.com/ballerina-platform/ballerina-library/issues/5172)** The properties in schemas marked as readOnly are not generated in the client
+
+Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`, `Priority/Normal`
+
+### Task
+
+**[#5133](https://github.com/ballerina-platform/ballerina-library/issues/5133)** Evaluate and revamp the error messages in the tool 
+
+Labels: `Type/Task`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `Area/OpenapiToBallerina`, `module/openapi-tools`, `Priority/Normal`
+
 ## Priority: Low
 
 ### Improvement

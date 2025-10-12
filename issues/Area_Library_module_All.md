@@ -30,6 +30,14 @@ Labels: `Priority/High`, `Type/Bug`, `module/All`, `Area/Library`
 
 Labels: `Priority/High`, `Type/Task`, `module/All`, `Area/Connector`, `Area/Library`
 
+## Priority: Normal
+
+### Improvement
+
+**[#6794](https://github.com/ballerina-platform/ballerina-library/issues/6794)** Add Link to Ballerina Central from Repositories in ballerina & ballerinax packages
+
+Labels: `Type/Improvement`, `module/All`, `Area/Connector`, `Priority/Normal`, `Area/Library`
+
 ## Priority: Low
 
 ### Task
