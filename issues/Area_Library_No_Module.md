@@ -1,6 +1,6 @@
 # Area/Library - No Module
 
-Total Issues: 25
+Total Issues: 24
 
 ## Issue Types
 
@@ -8,7 +8,7 @@ Total Issues: 25
 - **Docs:** 1
 - **Improvement:** 4
 - **NewFeature:** 11
-- **Task:** 7
+- **Task:** 6
 - **Unknown:** 1
 
 ## Priority: Low
@@ -18,12 +18,6 @@ Total Issues: 25
 **[#7287](https://github.com/ballerina-platform/ballerina-library/issues/7287)** Use publish command instead of passing publishToCentral flag
 
 Labels: `Priority/Low`, `Type/Improvement`, `Area/GradlePlugin`, `Area/Library`
-
-### Task
-
-**[#8277](https://github.com/ballerina-platform/ballerina-library/issues/8277)** [Low Priority] Review Library/Connector API docs in BI editor
-
-Labels: `Priority/Low`, `Type/Task`, `Area/Connector`, `Area/Library`
 
 ## Priority: None
 
