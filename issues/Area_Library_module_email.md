@@ -1,12 +1,12 @@
 # Area/Library - module/email
 
-Total Issues: 20
+Total Issues: 19
 
 ## Issue Types
 
 - **Bug:** 2
 - **Improvement:** 6
-- **NewFeature:** 2
+- **NewFeature:** 1
 - **Task:** 10
 
 ## Priority: High
@@ -16,12 +16,6 @@ Total Issues: 20
 **[#2084](https://github.com/ballerina-platform/ballerina-library/issues/2084)** Negative Test Report
 
 Labels: `Points/4`, `Priority/High`, `Type/Task`, `module/email`, `Area/Library`
-
-### NewFeature
-
-**[#8338](https://github.com/ballerina-platform/ballerina-library/issues/8338)** Add missing support for no auth SMTP servers
-
-Labels: `Priority/High`, `Type/NewFeature`, `module/email`, `Area/Library`
 
 ## Priority: None
 

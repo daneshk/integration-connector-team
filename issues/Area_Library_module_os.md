@@ -15,7 +15,7 @@ Total Issues: 9
 
 **[#6344](https://github.com/ballerina-platform/ballerina-library/issues/6344)** Incorrect documentation for `os:exec` functioanlity
 
-Labels: `Priority/High`, `Type/Bug`, `good first issue`, `module/os`, `Hacktoberfest`, `Area/Library`
+Labels: `Priority/High`, `Type/Bug`, `good first issue`, `module/os`, `Hacktoberfest`, `Credits/20`, `Area/Library`
 
 ## Priority: None
 

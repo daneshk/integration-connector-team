@@ -19,6 +19,12 @@ Total Issues: 25
 
 Labels: `Priority/Low`, `Type/Improvement`, `Area/GradlePlugin`, `Area/Library`
 
+### Task
+
+**[#8277](https://github.com/ballerina-platform/ballerina-library/issues/8277)** [Low Priority] Review Library/Connector API docs in BI editor
+
+Labels: `Priority/Low`, `Type/Task`, `Area/Connector`, `Area/Library`
+
 ## Priority: None
 
 ### Bug
@@ -42,14 +48,6 @@ Labels: `Type/Improvement`, `Area/GradlePlugin`, `Area/Library`
 Labels: `Type/Improvement`, `Area/Library`
 
 ### Task
-
-**[#8277](https://github.com/ballerina-platform/ballerina-library/issues/8277)** [Low Priority] Review Library/Connector API docs in BI editor
-
-Labels: `Type/Task`, `Area/Connector`, `Area/Library`
-
-**[#8276](https://github.com/ballerina-platform/ballerina-library/issues/8276)** [Medium Priority] Review Library/Connector API docs in BI editor
-
-Labels: `Type/Task`, `Area/Connector`, `Area/Library`
 
 **[#7647](https://github.com/ballerina-platform/ballerina-library/issues/7647)** Update the setup-ballerina version in workflows
 

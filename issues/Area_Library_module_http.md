@@ -1,6 +1,6 @@
 # Area/Library - module/http
 
-Total Issues: 199
+Total Issues: 200
 
 ## Issue Types
 
@@ -8,7 +8,7 @@ Total Issues: 199
 - **Docs:** 2
 - **Improvement:** 111
 - **NewFeature:** 13
-- **Task:** 45
+- **Task:** 46
 
 ## Priority: Highest
 
@@ -617,6 +617,10 @@ Labels: `Type/Improvement`, `module/http`, `Area/Library`
 Labels: `Type/Improvement`, `module/http`, `Area/Library`
 
 ### Task
+
+**[#8342](https://github.com/ballerina-platform/ballerina-library/issues/8342)** Review static code rule implementations
+
+Labels: `Type/Task`, `module/http`, `Area/Library`, `Area/StaticCode`
 
 **[#8339](https://github.com/ballerina-platform/ballerina-library/issues/8339)** Investigate possible thread blocked issues in SSE services
 

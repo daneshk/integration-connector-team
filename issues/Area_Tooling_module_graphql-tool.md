@@ -1,10 +1,11 @@
 # Area/Tooling - module/graphql-tool
 
-Total Issues: 27
+Total Issues: 28
 
 ## Issue Types
 
 - **Bug:** 3
+- **Docs:** 1
 - **Improvement:** 15
 - **NewFeature:** 2
 - **Task:** 7
@@ -122,4 +123,10 @@ Labels: `Type/NewFeature`, `Type/Proposal`, `Area/Tooling`, `module/graphql-tool
 **[#6450](https://github.com/ballerina-platform/ballerina-library/issues/6450)** Template tag `graphql-client` for the `bal new` command to generate prototypes necessary for the GraphQL client generation tool
 
 Labels: `Type/NewFeature`, `Area/Tooling`, `module/graphql-tool`
+
+### Docs
+
+**[#6384](https://github.com/ballerina-platform/ballerina-library/issues/6384)** Improve the Documentation
+
+Labels: `Type/Docs`, `Type/Improvement`, `Area/Tooling`, `module/graphql-tool`
 

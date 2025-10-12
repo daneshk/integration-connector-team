@@ -1,87 +1,29 @@
 # Area/Connector/Handwritten Connectors - No Module
 
-Total Issues: 32
+Total Issues: 21
 
 ## Issue Types
 
-- **Bug:** 2
-- **Improvement:** 2
 - **NewFeature:** 19
-- **Task:** 9
+- **Task:** 2
 
-## Priority: Highest
-
-### Improvement
-
-**[#4965](https://github.com/ballerina-platform/ballerina-library/issues/4965)** [Improvement]: Improve Redis connector to support latest Redis version
-
-Labels: `Priority/Highest`, `Type/Improvement`, `Area/Connector`
-
-## Priority: High
-
-### Bug
-
-**[#6676](https://github.com/ballerina-platform/ballerina-library/issues/6676)** Connector build is not working on windows
-
-Labels: `Priority/High`, `Type/Bug`, `Area/Connector`
-
-## Priority: None
-
-### Bug
-
-**[#4967](https://github.com/ballerina-platform/ballerina-library/issues/4967)** [Bug]: Incorrect examples are shown for older versions of the modules
-
-Labels: `Type/Bug`, `Area/Connector`
-
-### Improvement
-
-**[#6135](https://github.com/ballerina-platform/ballerina-library/issues/6135)** Add support to run connector examples on the same Ballerina version used by the Ballerina gradle plugin 
-
-Labels: `Type/Improvement`, `Area/Build`, `Area/Connector`
+## Priority: Low
 
 ### Task
 
-**[#8312](https://github.com/ballerina-platform/ballerina-library/issues/8312)** Prioritize Library and Connector current issues
-
-Labels: `Type/Task`, `Area/Connector`
-
 **[#8277](https://github.com/ballerina-platform/ballerina-library/issues/8277)** [Low Priority] Review Library/Connector API docs in BI editor
 
-Labels: `Type/Task`, `Area/Connector`, `Area/Library`
-
-**[#8276](https://github.com/ballerina-platform/ballerina-library/issues/8276)** [Medium Priority] Review Library/Connector API docs in BI editor
-
-Labels: `Type/Task`, `Area/Connector`, `Area/Library`
-
-**[#7816](https://github.com/ballerina-platform/ballerina-library/issues/7816)** Ballerina Connectors - Analysis
-
-Labels: `Type/Task`, `Area/Connector`
-
-**[#6957](https://github.com/ballerina-platform/ballerina-library/issues/6957)** Introduce support to manually run the daily-build workflow for connectors with a custom Ballerina distribution pack
-
-Labels: `Type/Task`, `Area/Build`, `Area/Connector`
-
-**[#6208](https://github.com/ballerina-platform/ballerina-library/issues/6208)** Fix peoplehr connector test case failure
-
-Labels: `Type/Task`, `Area/Connector`
-
-**[#4966](https://github.com/ballerina-platform/ballerina-library/issues/4966)** [Task]: Remove Ballerina dev google group mentions in package overview.
-
-Labels: `Type/Task`, `Area/Connector`
-
-**[#4976](https://github.com/ballerina-platform/ballerina-library/issues/4976)** [Task]: Fix hierarchical package naming deviations in Ballerinax packages
-
-Labels: `Type/Task`, `Area/Connector`
-
-**[#4986](https://github.com/ballerina-platform/ballerina-library/issues/4986)** Fix broken links in ballerinax package docs
-
-Labels: `Type/Task`, `Area/Connector`
+Labels: `Priority/Low`, `Type/Task`, `Area/Connector`, `Area/Library`
 
 ### NewFeature
 
 **[#8327](https://github.com/ballerina-platform/ballerina-library/issues/8327)** Introduce a Ballerina connector for Chroma DB REST API
 
-Labels: `Type/NewFeature`, `Type/Task`, `good first issue`, `Area/Connector`, `Credits/60`
+Labels: `Priority/Low`, `Type/NewFeature`, `Type/Task`, `good first issue`, `Area/Connector`, `Credits/60`
+
+## Priority: None
+
+### NewFeature
 
 **[#7768](https://github.com/ballerina-platform/ballerina-library/issues/7768)** Introduce a Ballerina connector for Google Chat REST API
 

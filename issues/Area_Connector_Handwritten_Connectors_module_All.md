@@ -1,11 +1,44 @@
 # Area/Connector/Handwritten Connectors - module/All
 
-Total Issues: 5
+Total Issues: 12
 
 ## Issue Types
 
-- **Improvement:** 1
-- **Task:** 4
+- **Bug:** 2
+- **Improvement:** 2
+- **Task:** 8
+
+## Priority: Highest
+
+### Task
+
+**[#8312](https://github.com/ballerina-platform/ballerina-library/issues/8312)** Prioritize Library and Connector current issues
+
+Labels: `Priority/Highest`, `Type/Task`, `module/All`, `Area/Connector`, `Area/Library`
+
+**[#7816](https://github.com/ballerina-platform/ballerina-library/issues/7816)** Finalize the Ballerina Connectors release progress with breaking changes
+
+Labels: `Priority/Highest`, `Type/Task`, `module/All`, `Area/Connector`
+
+## Priority: High
+
+### Bug
+
+**[#6676](https://github.com/ballerina-platform/ballerina-library/issues/6676)** Connector build is not working on windows
+
+Labels: `Priority/High`, `Type/Bug`, `module/All`, `Area/Connector`
+
+## Priority: Low
+
+### Task
+
+**[#6957](https://github.com/ballerina-platform/ballerina-library/issues/6957)** Introduce support to manually run the daily-build workflow for connectors with a custom Ballerina distribution pack
+
+Labels: `Priority/Low`, `Type/Task`, `module/All`, `Area/Connector`
+
+**[#4966](https://github.com/ballerina-platform/ballerina-library/issues/4966)** [Task]: Remove Ballerina dev google group mentions in package overview.
+
+Labels: `Priority/Low`, `Type/Task`, `module/All`, `Area/Connector`
 
 ## Priority: None
 
@@ -14,6 +47,10 @@ Total Issues: 5
 **[#6794](https://github.com/ballerina-platform/ballerina-library/issues/6794)** Add Link to Ballerina Central from Repositories in ballerina & ballerinax packages
 
 Labels: `Type/Improvement`, `module/All`, `Area/Connector`, `Area/Library`
+
+**[#6135](https://github.com/ballerina-platform/ballerina-library/issues/6135)** Add support to run connector examples on the same Ballerina version used by the Ballerina gradle plugin 
+
+Labels: `Type/Improvement`, `Area/Build`, `module/All`, `Area/Connector`
 
 ### Task
 

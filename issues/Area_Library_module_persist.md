@@ -19,7 +19,7 @@ Labels: `Points/2`, `Type/Bug`, `module/persist`, `Area/Library`
 
 **[#6682](https://github.com/ballerina-platform/ballerina-library/issues/6682)** Formatting issues in Persist Module.md
 
-Labels: `Type/Bug`, `Area/Docs`, `module/persist`, `Area/Library`
+Labels: `Type/Bug`, `Area/Docs`, `module/persist`, `Hacktoberfest`, `Credits/20`, `Area/Library`
 
 **[#6128](https://github.com/ballerina-platform/ballerina-library/issues/6128)** [Bug]: bal persist generate gives an error when trying to generate the files again
 
