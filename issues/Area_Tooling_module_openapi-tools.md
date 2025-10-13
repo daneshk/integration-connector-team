@@ -1,13 +1,13 @@
 # Area/Tooling - module/openapi-tools
 
-Total Issues: 74
+Total Issues: 75
 
 ## Issue Types
 
 - **Bug:** 15
 - **Improvement:** 36
 - **NewFeature:** 2
-- **Task:** 21
+- **Task:** 22
 
 ## Priority: High
 
@@ -26,6 +26,12 @@ Labels: `Priority/High`, `Type/Bug`, `Status/Blocked`, `Area/Tooling`, `module/o
 **[#5118](https://github.com/ballerina-platform/ballerina-library/issues/5118)** Improve the error message given when client and service generation failed
 
 Labels: `Priority/High`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
+
+### Task
+
+**[#8196](https://github.com/ballerina-platform/ballerina-library/issues/8196)** AI-Powered Automation for Ballerina Connector Generation
+
+Labels: `Priority/High`, `Type/Task`, `Area/Tooling`, `module/openapi-tools`
 
 ## Priority: Normal
 

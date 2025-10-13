@@ -6,15 +6,15 @@ Total Issues: 2
 
 - **Task:** 2
 
-## Priority: None
+## Priority: High
 
 ### Task
 
 **[#6254](https://github.com/ballerina-platform/ballerina-library/issues/6254)** Complete documentation for Ballerina Zuora connector
 
-Labels: `Type/Task`, `Area/Connector`, `connectors/openapi`, `module/zuora`
+Labels: `Priority/High`, `Type/Task`, `Area/Connector`, `connectors/openapi`, `module/zuora`
 
 **[#6253](https://github.com/ballerina-platform/ballerina-library/issues/6253)** Add test cases for Ballerina Zuora connector 
 
-Labels: `Type/Task`, `Area/Connector`, `connectors/openapi`, `module/zuora`
+Labels: `Priority/High`, `Type/Task`, `Area/Connector`, `connectors/openapi`, `module/zuora`
 

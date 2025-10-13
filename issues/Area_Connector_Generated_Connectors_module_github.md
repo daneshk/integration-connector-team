@@ -1,0 +1,23 @@
+# Area/Connector/Generated Connectors - module/github
+
+Total Issues: 2
+
+## Issue Types
+
+- **Bug:** 1
+- **Task:** 1
+
+## Priority: High
+
+### Bug
+
+**[#8018](https://github.com/ballerina-platform/ballerina-library/issues/8018)** [Bug]: Github PullRequestReviewComment type issue
+
+Labels: `Priority/High`, `Type/Bug`, `Area/Connector`, `connectors/openapi`, `module/github`
+
+### Task
+
+**[#7777](https://github.com/ballerina-platform/ballerina-library/issues/7777)** Fix GitHub connector test failures due to deprecated projects(classic)
+
+Labels: `Priority/High`, `Type/Task`, `Area/Connector`, `connectors/openapi`, `module/github`
+

@@ -6,11 +6,11 @@ Total Issues: 1
 
 - **Task:** 1
 
-## Priority: None
+## Priority: High
 
 ### Task
 
 **[#7429](https://github.com/ballerina-platform/ballerina-library/issues/7429)** Check the dropbox connector test failure
 
-Labels: `Type/Task`, `Area/Connector`, `connectors/openapi`, `module/dropbox`
+Labels: `Priority/High`, `Type/Task`, `Area/Connector`, `connectors/openapi`, `module/dropbox`
 

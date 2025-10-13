@@ -6,11 +6,11 @@ Total Issues: 1
 
 - **Improvement:** 1
 
-## Priority: None
+## Priority: Normal
 
 ### Improvement
 
 **[#5004](https://github.com/ballerina-platform/ballerina-library/issues/5004)** [Improvement]: Revamp ServiceNow connector to support data binding
 
-Labels: `Type/Improvement`, `Area/Connector`, `connectors/openapi`, `module/servicenow`
+Labels: `Type/Improvement`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`, `module/servicenow`
 

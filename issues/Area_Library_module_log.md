@@ -1,11 +1,11 @@
 # Area/Library - module/log
 
-Total Issues: 13
+Total Issues: 14
 
 ## Issue Types
 
 - **Bug:** 4
-- **Improvement:** 4
+- **Improvement:** 5
 - **NewFeature:** 4
 - **Task:** 1
 
@@ -36,6 +36,10 @@ Labels: `Type/Bug`, `good first issue`, `module/log`, `Credits/20`, `Area/Librar
 Labels: `Type/Improvement`, `Type/Proposal`, `module/log`, `Area/Library`
 
 **[#4055](https://github.com/ballerina-platform/ballerina-library/issues/4055)** Add support for `Mapped Diagnostic Context` when logging
+
+Labels: `Type/Improvement`, `module/log`, `Area/Library`
+
+**[#2858](https://github.com/ballerina-platform/ballerina-library/issues/2858)** Improve log module performance through compiler plugin (Print the module name using compiler plugin)
 
 Labels: `Type/Improvement`, `module/log`, `Area/Library`
 

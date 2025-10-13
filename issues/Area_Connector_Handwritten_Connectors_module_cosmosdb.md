@@ -7,13 +7,13 @@ Total Issues: 2
 - **Docs:** 1
 - **Improvement:** 1
 
-## Priority: High
+## Priority: Normal
 
 ### Improvement
 
 **[#4989](https://github.com/ballerina-platform/ballerina-library/issues/4989)** [Improvement]: Patch document feature for cosmosDB
 
-Labels: `Priority/High`, `Type/Improvement`, `Area/Connector`, `module/cosmosdb`
+Labels: `Type/Improvement`, `Area/Connector`, `module/cosmosdb`, `Priority/Normal`
 
 ## Priority: Low
 

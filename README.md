@@ -2,17 +2,17 @@
 
 This repository contains an organized breakdown of open issues from the [ballerina-library](https://github.com/ballerina-platform/ballerina-library) repository.
 
-**Last Updated:** 2025-10-13 10:28:53
+**Last Updated:** 2025-10-13 16:34:28
 
 ## Overall Summary
 
-**Total Issues Across All Areas:** 870
+**Total Issues Across All Areas:** 853
 
 ## Area/Connector
 
-**Total Issues:** 183
+**Total Issues:** 164
 
-### Handwritten Connectors (153 issues)
+### Handwritten Connectors (110 issues)
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
@@ -24,55 +24,53 @@ This repository contains an organized breakdown of open issues from the [balleri
 | [module/azure-storageservice](issues/Area_Connector_Handwritten_Connectors_module_azure-storageservice.md) | 1 | 0 | 1 | 0 | 0 | 0 |
 | [module/business-central](issues/Area_Connector_Handwritten_Connectors_module_business-central.md) | 1 | 0 | 0 | 0 | 1 | 0 |
 | [module/cdata](issues/Area_Connector_Handwritten_Connectors_module_cdata.md) | 1 | 0 | 1 | 0 | 0 | 0 |
-| [module/cosmosdb](issues/Area_Connector_Handwritten_Connectors_module_cosmosdb.md) | 2 | 0 | 1 | 0 | 1 | 0 |
-| [module/github](issues/Area_Connector_Handwritten_Connectors_module_github.md) | 3 | 0 | 2 | 0 | 0 | 1 |
-| [module/googleapis.drive](issues/Area_Connector_Handwritten_Connectors_module_googleapis.drive.md) | 2 | 0 | 2 | 0 | 0 | 0 |
-| [module/googleapis.gmail](issues/Area_Connector_Handwritten_Connectors_module_googleapis.gmail.md) | 3 | 0 | 0 | 0 | 0 | 3 |
-| [module/googleapis.sheets](issues/Area_Connector_Handwritten_Connectors_module_googleapis.sheets.md) | 6 | 0 | 0 | 0 | 0 | 6 |
-| [module/java.jdbc](issues/Area_Connector_Handwritten_Connectors_module_java.jdbc.md) | 6 | 0 | 0 | 0 | 0 | 6 |
-| [module/ldap](issues/Area_Connector_Handwritten_Connectors_module_ldap.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/microsoft](issues/Area_Connector_Handwritten_Connectors_module_microsoft.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/microsoft-excel](issues/Area_Connector_Handwritten_Connectors_module_microsoft-excel.md) | 2 | 0 | 0 | 0 | 0 | 2 |
-| [module/microsoft-onedrive](issues/Area_Connector_Handwritten_Connectors_module_microsoft-onedrive.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/microsoft.dynamics365](issues/Area_Connector_Handwritten_Connectors_module_microsoft.dynamics365.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/mongodb](issues/Area_Connector_Handwritten_Connectors_module_mongodb.md) | 4 | 0 | 0 | 0 | 0 | 4 |
-| [module/mssql](issues/Area_Connector_Handwritten_Connectors_module_mssql.md) | 7 | 0 | 0 | 0 | 0 | 7 |
-| [module/mysql](issues/Area_Connector_Handwritten_Connectors_module_mysql.md) | 12 | 0 | 0 | 0 | 0 | 12 |
+| [module/cosmosdb](issues/Area_Connector_Handwritten_Connectors_module_cosmosdb.md) | 2 | 0 | 0 | 1 | 1 | 0 |
+| [module/github](issues/Area_Connector_Handwritten_Connectors_module_github.md) | 1 | 0 | 1 | 0 | 0 | 0 |
+| [module/java.jdbc](issues/Area_Connector_Handwritten_Connectors_module_java.jdbc.md) | 4 | 0 | 0 | 0 | 4 | 0 |
+| [module/ldap](issues/Area_Connector_Handwritten_Connectors_module_ldap.md) | 1 | 0 | 0 | 1 | 0 | 0 |
+| [module/mongodb](issues/Area_Connector_Handwritten_Connectors_module_mongodb.md) | 4 | 0 | 4 | 0 | 0 | 0 |
+| [module/mssql](issues/Area_Connector_Handwritten_Connectors_module_mssql.md) | 6 | 0 | 3 | 0 | 3 | 0 |
+| [module/mysql](issues/Area_Connector_Handwritten_Connectors_module_mysql.md) | 11 | 1 | 6 | 1 | 3 | 0 |
 | [module/netsuite](issues/Area_Connector_Handwritten_Connectors_module_netsuite.md) | 1 | 0 | 0 | 1 | 0 | 0 |
-| [module/openapi-tools](issues/Area_Connector_Handwritten_Connectors_module_openapi-tools.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/oracledb](issues/Area_Connector_Handwritten_Connectors_module_oracledb.md) | 12 | 0 | 0 | 0 | 0 | 12 |
-| [module/persist](issues/Area_Connector_Handwritten_Connectors_module_persist.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/postgresql](issues/Area_Connector_Handwritten_Connectors_module_postgresql.md) | 9 | 0 | 0 | 0 | 0 | 9 |
-| [module/redis](issues/Area_Connector_Handwritten_Connectors_module_redis.md) | 7 | 0 | 0 | 0 | 0 | 7 |
-| [module/s4hana](issues/Area_Connector_Handwritten_Connectors_module_s4hana.md) | 5 | 0 | 0 | 0 | 0 | 5 |
+| [module/oracledb](issues/Area_Connector_Handwritten_Connectors_module_oracledb.md) | 8 | 0 | 1 | 0 | 7 | 0 |
+| [module/persist](issues/Area_Connector_Handwritten_Connectors_module_persist.md) | 1 | 0 | 1 | 0 | 0 | 0 |
+| [module/postgresql](issues/Area_Connector_Handwritten_Connectors_module_postgresql.md) | 7 | 0 | 4 | 0 | 3 | 0 |
+| [module/redis](issues/Area_Connector_Handwritten_Connectors_module_redis.md) | 6 | 0 | 0 | 3 | 3 | 0 |
+| [module/s4hana](issues/Area_Connector_Handwritten_Connectors_module_s4hana.md) | 4 | 0 | 4 | 0 | 0 | 0 |
 | [module/salesforce](issues/Area_Connector_Handwritten_Connectors_module_salesforce.md) | 12 | 0 | 0 | 0 | 0 | 12 |
-| [module/sap](issues/Area_Connector_Handwritten_Connectors_module_sap.md) | 12 | 0 | 0 | 0 | 0 | 12 |
-| [module/sap.concur](issues/Area_Connector_Handwritten_Connectors_module_sap.concur.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/sap.jco](issues/Area_Connector_Handwritten_Connectors_module_sap.jco.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/sap.sf](issues/Area_Connector_Handwritten_Connectors_module_sap.sf.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/slack](issues/Area_Connector_Handwritten_Connectors_module_slack.md) | 2 | 0 | 0 | 0 | 0 | 2 |
-| [module/sql](issues/Area_Connector_Handwritten_Connectors_module_sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/twilio](issues/Area_Connector_Handwritten_Connectors_module_twilio.md) | 2 | 0 | 0 | 0 | 0 | 2 |
-| [module/twitter](issues/Area_Connector_Handwritten_Connectors_module_twitter.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/zoom.meetings](issues/Area_Connector_Handwritten_Connectors_module_zoom.meetings.md) | 1 | 0 | 0 | 0 | 0 | 1 |
+| [module/sap](issues/Area_Connector_Handwritten_Connectors_module_sap.md) | 7 | 0 | 6 | 0 | 0 | 1 |
+| [module/sap.jco](issues/Area_Connector_Handwritten_Connectors_module_sap.jco.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [module/zoom.meetings](issues/Area_Connector_Handwritten_Connectors_module_zoom.meetings.md) | 1 | 0 | 1 | 0 | 0 | 0 |
 
-### Generated Connectors (30 issues)
+### Generated Connectors (54 issues)
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
 | [No Module](issues/Area_Connector_Generated_Connectors_No_Module.md) | 21 | 0 | 1 | 12 | 0 | 8 |
+| [module/All](issues/Area_Connector_Generated_Connectors_module_All.md) | 1 | 0 | 1 | 0 | 0 | 0 |
 | [module/candid](issues/Area_Connector_Generated_Connectors_module_candid.md) | 1 | 0 | 1 | 0 | 0 | 0 |
-| [module/cosmosdb](issues/Area_Connector_Generated_Connectors_module_cosmosdb.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/discord](issues/Area_Connector_Generated_Connectors_module_discord.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/dropbox](issues/Area_Connector_Generated_Connectors_module_dropbox.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/microsoft-excel](issues/Area_Connector_Generated_Connectors_module_microsoft-excel.md) | 1 | 0 | 1 | 0 | 0 | 0 |
-| [module/servicenow](issues/Area_Connector_Generated_Connectors_module_servicenow.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/twitter](issues/Area_Connector_Generated_Connectors_module_twitter.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/zuora](issues/Area_Connector_Generated_Connectors_module_zuora.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [module/cosmosdb](issues/Area_Connector_Generated_Connectors_module_cosmosdb.md) | 1 | 0 | 1 | 0 | 0 | 0 |
+| [module/discord](issues/Area_Connector_Generated_Connectors_module_discord.md) | 1 | 0 | 0 | 1 | 0 | 0 |
+| [module/dropbox](issues/Area_Connector_Generated_Connectors_module_dropbox.md) | 1 | 0 | 1 | 0 | 0 | 0 |
+| [module/github](issues/Area_Connector_Generated_Connectors_module_github.md) | 2 | 0 | 2 | 0 | 0 | 0 |
+| [module/googleapis.drive](issues/Area_Connector_Generated_Connectors_module_googleapis.drive.md) | 2 | 0 | 2 | 0 | 0 | 0 |
+| [module/googleapis.gmail](issues/Area_Connector_Generated_Connectors_module_googleapis.gmail.md) | 3 | 0 | 0 | 0 | 3 | 0 |
+| [module/googleapis.sheets](issues/Area_Connector_Generated_Connectors_module_googleapis.sheets.md) | 4 | 0 | 0 | 4 | 0 | 0 |
+| [module/microsoft-excel](issues/Area_Connector_Generated_Connectors_module_microsoft-excel.md) | 3 | 0 | 1 | 0 | 2 | 0 |
+| [module/microsoft-onedrive](issues/Area_Connector_Generated_Connectors_module_microsoft-onedrive.md) | 1 | 0 | 0 | 0 | 1 | 0 |
+| [module/microsoft.dynamics365](issues/Area_Connector_Generated_Connectors_module_microsoft.dynamics365.md) | 1 | 0 | 0 | 0 | 1 | 0 |
+| [module/sap](issues/Area_Connector_Generated_Connectors_module_sap.md) | 3 | 0 | 3 | 0 | 0 | 0 |
+| [module/sap.concur](issues/Area_Connector_Generated_Connectors_module_sap.concur.md) | 1 | 0 | 1 | 0 | 0 | 0 |
+| [module/sap.sf](issues/Area_Connector_Generated_Connectors_module_sap.sf.md) | 1 | 0 | 1 | 0 | 0 | 0 |
+| [module/servicenow](issues/Area_Connector_Generated_Connectors_module_servicenow.md) | 1 | 0 | 0 | 1 | 0 | 0 |
+| [module/slack](issues/Area_Connector_Generated_Connectors_module_slack.md) | 1 | 0 | 1 | 0 | 0 | 0 |
+| [module/twilio](issues/Area_Connector_Generated_Connectors_module_twilio.md) | 2 | 0 | 1 | 1 | 0 | 0 |
+| [module/twitter](issues/Area_Connector_Generated_Connectors_module_twitter.md) | 1 | 0 | 1 | 0 | 0 | 0 |
+| [module/zuora](issues/Area_Connector_Generated_Connectors_module_zuora.md) | 2 | 0 | 2 | 0 | 0 | 0 |
 
 ## Area/Library
 
-**Total Issues:** 557
+**Total Issues:** 558
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
@@ -89,7 +87,7 @@ This repository contains an organized breakdown of open issues from the [balleri
 | [module/http](issues/Area_Library_module_http.md) | 200 | 4 | 16 | 0 | 3 | 177 |
 | [module/io](issues/Area_Library_module_io.md) | 13 | 0 | 1 | 0 | 0 | 12 |
 | [module/jwt](issues/Area_Library_module_jwt.md) | 7 | 0 | 0 | 0 | 0 | 7 |
-| [module/log](issues/Area_Library_module_log.md) | 13 | 0 | 0 | 0 | 0 | 13 |
+| [module/log](issues/Area_Library_module_log.md) | 14 | 0 | 0 | 0 | 0 | 14 |
 | [module/mime](issues/Area_Library_module_mime.md) | 5 | 0 | 0 | 0 | 0 | 5 |
 | [module/oauth2](issues/Area_Library_module_oauth2.md) | 15 | 0 | 0 | 0 | 0 | 15 |
 | [module/os](issues/Area_Library_module_os.md) | 8 | 0 | 0 | 0 | 0 | 8 |
@@ -109,7 +107,7 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ## Area/Tooling
 
-**Total Issues:** 130
+**Total Issues:** 131
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
@@ -118,7 +116,7 @@ This repository contains an organized breakdown of open issues from the [balleri
 | [module/graphql-tool](issues/Area_Tooling_module_graphql-tool.md) | 28 | 0 | 2 | 3 | 1 | 22 |
 | [module/grpc](issues/Area_Tooling_module_grpc.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [module/http](issues/Area_Tooling_module_http.md) | 2 | 0 | 0 | 0 | 0 | 2 |
-| [module/openapi-tools](issues/Area_Tooling_module_openapi-tools.md) | 74 | 0 | 3 | 4 | 2 | 65 |
+| [module/openapi-tools](issues/Area_Tooling_module_openapi-tools.md) | 75 | 0 | 4 | 4 | 2 | 65 |
 | [module/persist-tools](issues/Area_Tooling_module_persist-tools.md) | 9 | 0 | 0 | 0 | 0 | 9 |
 | [module/protoc-tool](issues/Area_Tooling_module_protoc-tool.md) | 7 | 0 | 0 | 0 | 1 | 6 |
 | [module/wsdl-tools](issues/Area_Tooling_module_wsdl-tools.md) | 1 | 0 | 0 | 0 | 0 | 1 |
@@ -127,53 +125,53 @@ This repository contains an organized breakdown of open issues from the [balleri
 ## Issue Distribution by Priority
 
 ### Area/Connector
-- **Highest Priority:** 2
-- **High Priority:** 15
-- **Normal Priority:** 28
-- **Low Priority:** 9
-- **No Priority:** 129
-- **Total:** 183
+- **Highest Priority:** 3
+- **High Priority:** 58
+- **Normal Priority:** 41
+- **Low Priority:** 39
+- **No Priority:** 23
+- **Total:** 164
 
 ### Area/Library
 - **Highest Priority:** 6
 - **High Priority:** 29
 - **Normal Priority:** 2
 - **Low Priority:** 11
-- **No Priority:** 509
-- **Total:** 557
+- **No Priority:** 510
+- **Total:** 558
 
 ### Area/Tooling
-- **High Priority:** 5
+- **High Priority:** 6
 - **Normal Priority:** 8
 - **Low Priority:** 4
 - **No Priority:** 113
-- **Total:** 130
+- **Total:** 131
 
 ## Issue Distribution by Type
 
 ### Area/Connector
-- **Bug:** 28
-- **Docs:** 7
-- **Improvement:** 51
-- **NewFeature:** 42
-- **Proposal:** 1
-- **Task:** 54
-- **Total:** 183
+- **Bug:** 27
+- **Docs:** 6
+- **Improvement:** 41
+- **NewFeature:** 39
+- **Proposal:** 2
+- **Task:** 49
+- **Total:** 164
 
 ### Area/Library
 - **Bug:** 73
 - **Docs:** 4
-- **Improvement:** 258
+- **Improvement:** 259
 - **NewFeature:** 69
 - **Task:** 152
 - **Unknown:** 1
-- **Total:** 557
+- **Total:** 558
 
 ### Area/Tooling
 - **Bug:** 26
 - **Docs:** 1
 - **Improvement:** 60
 - **NewFeature:** 7
-- **Task:** 36
-- **Total:** 130
+- **Task:** 37
+- **Total:** 131
 

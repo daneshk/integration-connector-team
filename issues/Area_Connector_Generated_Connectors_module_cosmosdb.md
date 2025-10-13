@@ -6,11 +6,11 @@ Total Issues: 1
 
 - **Improvement:** 1
 
-## Priority: None
+## Priority: High
 
 ### Improvement
 
 **[#5046](https://github.com/ballerina-platform/ballerina-library/issues/5046)** [Improvement]: Improving Azure CosmosDB connector to support Managed Identities
 
-Labels: `Type/Improvement`, `Area/Connector`, `connectors/openapi`, `module/cosmosdb`
+Labels: `Priority/High`, `Type/Improvement`, `Area/Connector`, `connectors/openapi`, `module/cosmosdb`
 
