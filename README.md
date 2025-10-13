@@ -2,7 +2,7 @@
 
 This repository contains an organized breakdown of open issues from the [ballerina-library](https://github.com/ballerina-platform/ballerina-library) repository.
 
-**Last Updated:** 2025-10-13 17:12:24
+**Last Updated:** 2025-10-13 17:14:24
 
 ## Overall Summary
 
@@ -10,51 +10,49 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ## Area/Connector
 
-**Total Issues:** 164
+**Total Issues:** 163
 
-### Handwritten Connectors (110 issues)
+### Handwritten Connectors (107 issues)
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
 | [module/All](issues/Area_Connector_Handwritten_Connectors_module_All.md) | 13 | 🔴 **2** | 🟠 **3** | 🟡 **3** | 🔵 **5** | 0 |
+| [module/salesforce](issues/Area_Connector_Handwritten_Connectors_module_salesforce.md) | 12 | 🔴 **1** | 🟠 **6** | 🟡 **3** | 🔵 **2** | 0 |
 | [module/mysql](issues/Area_Connector_Handwritten_Connectors_module_mysql.md) | 11 | 🔴 **1** | 🟠 **6** | 🟡 **1** | 🔵 **3** | 0 |
-| [module/sap](issues/Area_Connector_Handwritten_Connectors_module_sap.md) | 7 | 0 | 🟠 **6** | 0 | 0 | ⚪ **1** |
+| [module/sap](issues/Area_Connector_Handwritten_Connectors_module_sap.md) | 7 | 0 | 🟠 **6** | 0 | 🔵 **1** | 0 |
 | [module/postgresql](issues/Area_Connector_Handwritten_Connectors_module_postgresql.md) | 7 | 0 | 🟠 **4** | 0 | 🔵 **3** | 0 |
 | [module/mongodb](issues/Area_Connector_Handwritten_Connectors_module_mongodb.md) | 4 | 0 | 🟠 **4** | 0 | 0 | 0 |
 | [module/s4hana](issues/Area_Connector_Handwritten_Connectors_module_s4hana.md) | 4 | 0 | 🟠 **4** | 0 | 0 | 0 |
 | [module/mssql](issues/Area_Connector_Handwritten_Connectors_module_mssql.md) | 6 | 0 | 🟠 **3** | 0 | 🔵 **3** | 0 |
 | [module/aws-s3](issues/Area_Connector_Handwritten_Connectors_module_aws-s3.md) | 5 | 0 | 🟠 **2** | 🟡 **3** | 0 | 0 |
 | [module/oracledb](issues/Area_Connector_Handwritten_Connectors_module_oracledb.md) | 8 | 0 | 🟠 **1** | 0 | 🔵 **7** | 0 |
-| [module/zoom.meetings](issues/Area_Connector_Handwritten_Connectors_module_zoom.meetings.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
-| [module/persist](issues/Area_Connector_Handwritten_Connectors_module_persist.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
-| [module/github](issues/Area_Connector_Handwritten_Connectors_module_github.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
+| [module/persist.redis](issues/Area_Connector_Handwritten_Connectors_module_persist.redis.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
 | [module/azure-storageservice](issues/Area_Connector_Handwritten_Connectors_module_azure-storageservice.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
 | [module/cdata](issues/Area_Connector_Handwritten_Connectors_module_cdata.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
 | [No Module](issues/Area_Connector_Handwritten_Connectors_No_Module.md) | 9 | 0 | 0 | 🟡 **8** | 🔵 **1** | 0 |
 | [module/redis](issues/Area_Connector_Handwritten_Connectors_module_redis.md) | 6 | 0 | 0 | 🟡 **3** | 🔵 **3** | 0 |
 | [module/cosmosdb](issues/Area_Connector_Handwritten_Connectors_module_cosmosdb.md) | 2 | 0 | 0 | 🟡 **1** | 🔵 **1** | 0 |
 | [module/aws.secretmanager](issues/Area_Connector_Handwritten_Connectors_module_aws.secretmanager.md) | 1 | 0 | 0 | 🟡 **1** | 0 | 0 |
-| [module/ldap](issues/Area_Connector_Handwritten_Connectors_module_ldap.md) | 1 | 0 | 0 | 🟡 **1** | 0 | 0 |
 | [module/netsuite](issues/Area_Connector_Handwritten_Connectors_module_netsuite.md) | 1 | 0 | 0 | 🟡 **1** | 0 | 0 |
 | [module/java.jdbc](issues/Area_Connector_Handwritten_Connectors_module_java.jdbc.md) | 4 | 0 | 0 | 0 | 🔵 **4** | 0 |
+| [module/sap.jco](issues/Area_Connector_Handwritten_Connectors_module_sap.jco.md) | 2 | 0 | 0 | 0 | 🔵 **2** | 0 |
 | [module/aws.marketplace.mpm](issues/Area_Connector_Handwritten_Connectors_module_aws.marketplace.mpm.md) | 1 | 0 | 0 | 0 | 🔵 **1** | 0 |
 | [module/business-central](issues/Area_Connector_Handwritten_Connectors_module_business-central.md) | 1 | 0 | 0 | 0 | 🔵 **1** | 0 |
-| [module/salesforce](issues/Area_Connector_Handwritten_Connectors_module_salesforce.md) | 12 | 0 | 0 | 0 | 0 | ⚪ **12** |
-| [module/sap.jco](issues/Area_Connector_Handwritten_Connectors_module_sap.jco.md) | 2 | 0 | 0 | 0 | 0 | ⚪ **2** |
 
-### Generated Connectors (54 issues)
+### Generated Connectors (56 issues)
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
 | [module/sap](issues/Area_Connector_Generated_Connectors_module_sap.md) | 3 | 0 | 🟠 **3** | 0 | 0 | 0 |
+| [module/github](issues/Area_Connector_Generated_Connectors_module_github.md) | 3 | 0 | 🟠 **3** | 0 | 0 | 0 |
 | [No Module](issues/Area_Connector_Generated_Connectors_No_Module.md) | 21 | 0 | 🟠 **1** | 🟡 **12** | 0 | ⚪ **8** |
-| [module/github](issues/Area_Connector_Generated_Connectors_module_github.md) | 2 | 0 | 🟠 **2** | 0 | 0 | 0 |
 | [module/googleapis.drive](issues/Area_Connector_Generated_Connectors_module_googleapis.drive.md) | 2 | 0 | 🟠 **2** | 0 | 0 | 0 |
 | [module/zuora](issues/Area_Connector_Generated_Connectors_module_zuora.md) | 2 | 0 | 🟠 **2** | 0 | 0 | 0 |
 | [module/twilio](issues/Area_Connector_Generated_Connectors_module_twilio.md) | 2 | 0 | 🟠 **1** | 🟡 **1** | 0 | 0 |
 | [module/microsoft-excel](issues/Area_Connector_Generated_Connectors_module_microsoft-excel.md) | 3 | 0 | 🟠 **1** | 0 | 🔵 **2** | 0 |
 | [module/sap.concur](issues/Area_Connector_Generated_Connectors_module_sap.concur.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
 | [module/sap.sf](issues/Area_Connector_Generated_Connectors_module_sap.sf.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
+| [module/zoom.meetings](issues/Area_Connector_Generated_Connectors_module_zoom.meetings.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
 | [module/slack](issues/Area_Connector_Generated_Connectors_module_slack.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
 | [module/dropbox](issues/Area_Connector_Generated_Connectors_module_dropbox.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
 | [module/All](issues/Area_Connector_Generated_Connectors_module_All.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
@@ -70,7 +68,7 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ## Area/Library
 
-**Total Issues:** 558
+**Total Issues:** 559
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
@@ -86,6 +84,7 @@ This repository contains an organized breakdown of open issues from the [balleri
 | [module/tcp](issues/Area_Library_module_tcp.md) | 12 | 0 | 🟠 **1** | 0 | 0 | ⚪ **11** |
 | [module/websocket](issues/Area_Library_module_websocket.md) | 4 | 0 | 🟠 **1** | 0 | 0 | ⚪ **3** |
 | [No Module](issues/Area_Library_No_Module.md) | 25 | 0 | 0 | 🟡 **1** | 🔵 **1** | ⚪ **23** |
+| [module/ldap](issues/Area_Library_module_ldap.md) | 1 | 0 | 0 | 🟡 **1** | 0 | 0 |
 | [module/graphql](issues/Area_Library_module_graphql.md) | 77 | 0 | 0 | 0 | 🔵 **1** | ⚪ **76** |
 | [module/oauth2](issues/Area_Library_module_oauth2.md) | 15 | 0 | 0 | 0 | 0 | ⚪ **15** |
 | [module/log](issues/Area_Library_module_log.md) | 14 | 0 | 0 | 0 | 0 | ⚪ **14** |
@@ -125,20 +124,20 @@ This repository contains an organized breakdown of open issues from the [balleri
 ## Issue Distribution by Priority
 
 ### Area/Connector
-- **Highest Priority:** 3
-- **High Priority:** 58
-- **Normal Priority:** 41
-- **Low Priority:** 39
-- **No Priority:** 23
-- **Total:** 164
+- **Highest Priority:** 4
+- **High Priority:** 64
+- **Normal Priority:** 43
+- **Low Priority:** 44
+- **No Priority:** 8
+- **Total:** 163
 
 ### Area/Library
 - **Highest Priority:** 6
 - **High Priority:** 29
-- **Normal Priority:** 2
+- **Normal Priority:** 3
 - **Low Priority:** 11
 - **No Priority:** 510
-- **Total:** 558
+- **Total:** 559
 
 ### Area/Tooling
 - **High Priority:** 6
@@ -150,22 +149,22 @@ This repository contains an organized breakdown of open issues from the [balleri
 ## Issue Distribution by Type
 
 ### Area/Connector
-- **Bug:** 27
+- **Bug:** 26
 - **Docs:** 6
 - **Improvement:** 41
 - **NewFeature:** 39
 - **Proposal:** 2
 - **Task:** 49
-- **Total:** 164
+- **Total:** 163
 
 ### Area/Library
-- **Bug:** 73
+- **Bug:** 74
 - **Docs:** 4
 - **Improvement:** 259
 - **NewFeature:** 69
 - **Task:** 152
 - **Unknown:** 1
-- **Total:** 558
+- **Total:** 559
 
 ### Area/Tooling
 - **Bug:** 26

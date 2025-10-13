@@ -1,11 +1,11 @@
 # Area/Connector/Generated Connectors - module/github
 
-Total Issues: 2
+Total Issues: 3
 
 ## Issue Types
 
 - **Bug:** 1
-- **Task:** 1
+- **Task:** 2
 
 ## Priority: High
 
@@ -18,6 +18,10 @@ Labels: `Priority/High`, `Type/Bug`, `Area/Connector`, `connectors/openapi`, `mo
 ### Task
 
 **[#7777](https://github.com/ballerina-platform/ballerina-library/issues/7777)** Fix GitHub connector test failures due to deprecated projects(classic)
+
+Labels: `Priority/High`, `Type/Task`, `Area/Connector`, `connectors/openapi`, `module/github`
+
+**[#6917](https://github.com/ballerina-platform/ballerina-library/issues/6917)** Enable Project Creation and Deletion in Tests for GitHub Connector
 
 Labels: `Priority/High`, `Type/Task`, `Area/Connector`, `connectors/openapi`, `module/github`
 

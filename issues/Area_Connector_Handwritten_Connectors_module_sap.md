@@ -38,11 +38,11 @@ Labels: `Priority/High`, `Type/NewFeature`, `Area/Connector`, `module/sap`, `mod
 
 Labels: `Priority/High`, `Type/NewFeature`, `Area/Connector`, `module/sap`, `module/s4hana`
 
-## Priority: None
+## Priority: Low
 
 ### Proposal
 
 **[#7528](https://github.com/ballerina-platform/ballerina-library/issues/7528)** Proposal for Enhancements to the Ballerina SAP ECC Connector
 
-Labels: `Type/Proposal`, `Status/Active`, `Area/Connector`, `module/sap`, `module/sap.jco`
+Labels: `Priority/Low`, `Type/Proposal`, `Status/Active`, `Area/Connector`, `module/sap`, `module/sap.jco`
 
