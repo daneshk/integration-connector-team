@@ -64,6 +64,37 @@ def generate_module_page(area, module, issues, output_dir):
 
     return filename
 
+def get_priority_score(issues):
+    """Calculate priority score for sorting (higher score = higher priority)"""
+    score = 0
+    for issue in issues:
+        priority = issue['priority']
+        if priority == 'Highest':
+            score += 1000
+        elif priority == 'High':
+            score += 100
+        elif priority == 'Normal':
+            score += 10
+        elif priority == 'Low':
+            score += 1
+    return score
+
+def format_priority_cell(count, priority_type):
+    """Format a priority cell with color coding if count > 0"""
+    if count == 0:
+        return "0"
+
+    colors = {
+        'Highest': '#ff0000',  # Red
+        'High': '#ff6600',     # Orange
+        'Normal': '#ffcc00',   # Yellow
+        'Low': '#99ccff',      # Light Blue
+        'None': '#cccccc'      # Gray
+    }
+
+    color = colors.get(priority_type, '#ffffff')
+    return f'<span style="background-color: {color}; padding: 2px 6px; border-radius: 3px; font-weight: bold;">{count}</span>'
+
 def generate_readme(organized, module_files):
     """Generate README with summary and links"""
     from datetime import datetime
@@ -110,7 +141,10 @@ def generate_readme(organized, module_files):
                 readme += "| Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |\n"
                 readme += "|--------|--------|------------------|---------------|-----------------|--------------|-------------|\n"
 
-                for module in sorted(modules.keys()):
+                # Sort modules by priority score (highest first)
+                sorted_modules = sorted(modules.keys(), key=lambda m: get_priority_score(modules[m]), reverse=True)
+
+                for module in sorted_modules:
                     issues = modules[module]
                     highest = len([i for i in issues if i['priority'] == 'Highest'])
                     high = len([i for i in issues if i['priority'] == 'High'])
@@ -119,7 +153,12 @@ def generate_readme(organized, module_files):
                     none = len([i for i in issues if i['priority'] == 'None'])
 
                     module_file = module_files[area][category][module]
-                    readme += f"| [{module}]({module_file}) | {len(issues)} | {highest} | {high} | {normal} | {low} | {none} |\n"
+                    readme += f"| [{module}]({module_file}) | {len(issues)} | "
+                    readme += f"{format_priority_cell(highest, 'Highest')} | "
+                    readme += f"{format_priority_cell(high, 'High')} | "
+                    readme += f"{format_priority_cell(normal, 'Normal')} | "
+                    readme += f"{format_priority_cell(low, 'Low')} | "
+                    readme += f"{format_priority_cell(none, 'None')} |\n"
 
                 readme += "\n"
         else:
@@ -131,7 +170,10 @@ def generate_readme(organized, module_files):
             readme += "| Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |\n"
             readme += "|--------|--------|------------------|---------------|-----------------|--------------|-------------|\n"
 
-            for module in sorted(modules.keys()):
+            # Sort modules by priority score (highest first)
+            sorted_modules = sorted(modules.keys(), key=lambda m: get_priority_score(modules[m]), reverse=True)
+
+            for module in sorted_modules:
                 issues = modules[module]
                 highest = len([i for i in issues if i['priority'] == 'Highest'])
                 high = len([i for i in issues if i['priority'] == 'High'])
@@ -140,7 +182,12 @@ def generate_readme(organized, module_files):
                 none = len([i for i in issues if i['priority'] == 'None'])
 
                 module_file = module_files[area][module]
-                readme += f"| [{module}]({module_file}) | {len(issues)} | {highest} | {high} | {normal} | {low} | {none} |\n"
+                readme += f"| [{module}]({module_file}) | {len(issues)} | "
+                readme += f"{format_priority_cell(highest, 'Highest')} | "
+                readme += f"{format_priority_cell(high, 'High')} | "
+                readme += f"{format_priority_cell(normal, 'Normal')} | "
+                readme += f"{format_priority_cell(low, 'Low')} | "
+                readme += f"{format_priority_cell(none, 'None')} |\n"
 
             readme += "\n"
 
