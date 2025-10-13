@@ -1,14 +1,16 @@
 # Area/Library - module/websubhub
 
-Total Issues: 1
+**Total Issues:** 1
 
-## Issue Types
+## 📊 Issue Types
 
-- **NewFeature:** 1
+- 🚀 **NewFeature:** 1
 
-## Priority: None
+---
 
-### NewFeature
+## ⚪ Priority: None
+
+### 🚀 NewFeature
 
 **[#4587](https://github.com/ballerina-platform/ballerina-library/issues/4587)** Implement completion providers in compiler plugins
 

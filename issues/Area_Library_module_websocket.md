@@ -1,36 +1,38 @@
 # Area/Library - module/websocket
 
-Total Issues: 4
+**Total Issues:** 4
 
-## Issue Types
+## 📊 Issue Types
 
-- **Improvement:** 2
-- **NewFeature:** 1
-- **Task:** 1
+- ✨ **Improvement:** 2
+- 🚀 **NewFeature:** 1
+- 📋 **Task:** 1
 
-## Priority: High
+---
 
-### Improvement
+## 🟠 Priority: High
+
+### ✨ Improvement
 
 **[#1646](https://github.com/ballerina-platform/ballerina-library/issues/1646)** Remove deprecated runtime APIs `getParamNames()` & `getParamDefaultability()` for resource methods
 
 Labels: `Priority/High`, `Type/Improvement`, `module/http`, `module/websocket`, `Area/Library`
 
-## Priority: None
+## ⚪ Priority: None
 
-### Improvement
+### ✨ Improvement
 
 **[#2404](https://github.com/ballerina-platform/ballerina-library/issues/2404)** Introduce API key authentication support for clients
 
 Labels: `Type/Improvement`, `module/http`, `module/grpc`, `module/websocket`, `Team/PCM`, `Area/Security`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#2886](https://github.com/ballerina-platform/ballerina-library/issues/2886)** Issue when sending a curl request to the WebSocket service
 
 Labels: `Type/Task`, `module/http`, `module/websocket`, `Area/Library`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#4587](https://github.com/ballerina-platform/ballerina-library/issues/4587)** Implement completion providers in compiler plugins
 

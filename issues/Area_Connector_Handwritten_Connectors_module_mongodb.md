@@ -1,22 +1,24 @@
 # Area/Connector/Handwritten Connectors - module/mongodb
 
-Total Issues: 4
+**Total Issues:** 4
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 1
-- **Docs:** 1
-- **Improvement:** 2
+- 🐛 **Bug:** 1
+- 📚 **Docs:** 1
+- ✨ **Improvement:** 2
 
-## Priority: High
+---
 
-### Bug
+## 🟠 Priority: High
+
+### 🐛 Bug
 
 **[#7060](https://github.com/ballerina-platform/ballerina-library/issues/7060)** Conversion error when accessing array of primitives in MongoDB using Ballerina
 
 Labels: `Priority/High`, `Type/Bug`, `module/mongodb`, `Area/Connector`
 
-### Improvement
+### ✨ Improvement
 
 **[#7258](https://github.com/ballerina-platform/ballerina-library/issues/7258)** MongoDB Connector: Outdated or Incompatible Examples with MongoDB Atlas
 
@@ -26,7 +28,7 @@ Labels: `Priority/High`, `Type/Improvement`, `Area/Docs`, `module/mongodb`, `Are
 
 Labels: `Priority/High`, `Type/Improvement`, `module/mongodb`, `Area/Connector`
 
-### Docs
+### 📚 Docs
 
 **[#4998](https://github.com/ballerina-platform/ballerina-library/issues/4998)** [Docs]: No docs on how to construct a query string for _id field
 

@@ -1,14 +1,16 @@
 # Area/Library - module/protobuf
 
-Total Issues: 1
+**Total Issues:** 1
 
-## Issue Types
+## 📊 Issue Types
 
-- **Improvement:** 1
+- ✨ **Improvement:** 1
 
-## Priority: None
+---
 
-### Improvement
+## ⚪ Priority: None
+
+### ✨ Improvement
 
 **[#395](https://github.com/ballerina-platform/ballerina-library/issues/395)** Improve protobuf channel 
 

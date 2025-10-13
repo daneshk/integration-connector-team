@@ -1,35 +1,37 @@
 # Area/Library - No Module
 
-Total Issues: 25
+**Total Issues:** 25
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 2
-- **Docs:** 1
-- **Improvement:** 4
-- **NewFeature:** 11
-- **Task:** 6
-- **Unknown:** 1
+- 🐛 **Bug:** 2
+- 📚 **Docs:** 1
+- ✨ **Improvement:** 4
+- 🚀 **NewFeature:** 11
+- 📋 **Task:** 6
+- ❓ **Unknown:** 1
 
-## Priority: Normal
+---
 
-### Task
+## 🟡 Priority: Normal
+
+### 📋 Task
 
 **[#8276](https://github.com/ballerina-platform/ballerina-library/issues/8276)** [Medium Priority] Review Library/Connector API docs in BI editor
 
 Labels: `Type/Task`, `Area/Connector`, `Priority/Normal`, `Area/Library`
 
-## Priority: Low
+## 🔵 Priority: Low
 
-### Improvement
+### ✨ Improvement
 
 **[#7287](https://github.com/ballerina-platform/ballerina-library/issues/7287)** Use publish command instead of passing publishToCentral flag
 
 Labels: `Priority/Low`, `Type/Improvement`, `Area/GradlePlugin`, `Area/Library`
 
-## Priority: None
+## ⚪ Priority: None
 
-### Bug
+### 🐛 Bug
 
 **[#8347](https://github.com/ballerina-platform/ballerina-library/issues/8347)** Return modified modules list in build_standard_library.py (Fixed)
 
@@ -39,7 +41,7 @@ Labels: `Type/Bug`, `Area/Library`
 
 Labels: `Type/Bug`, `Area/Library`
 
-### Improvement
+### ✨ Improvement
 
 **[#7524](https://github.com/ballerina-platform/ballerina-library/issues/7524)** Provide the option for passing env variables to the Publish to Ballerina Central workflow
 
@@ -53,7 +55,7 @@ Labels: `Type/Improvement`, `Area/GradlePlugin`, `Area/Library`
 
 Labels: `Type/Improvement`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#7647](https://github.com/ballerina-platform/ballerina-library/issues/7647)** Update the setup-ballerina version in workflows
 
@@ -75,7 +77,7 @@ Labels: `Type/Task`, `Area/Library`
 
 Labels: `Type/Task`, `Area/Library`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#8324](https://github.com/ballerina-platform/ballerina-library/issues/8324)** Protocol Converters Beyond Currently Supported Ones
 
@@ -121,13 +123,13 @@ Labels: `Type/NewFeature`, `Area/Library`
 
 Labels: `Type/NewFeature`, `Team/PCM`, `Area/Security`, `Area/Library`
 
-### Docs
+### 📚 Docs
 
 **[#4754](https://github.com/ballerina-platform/ballerina-library/issues/4754)** GraalVM articles for July/August
 
 Labels: `Type/Docs`, `Type/Task`, `Area/GraalVM`, `Area/Library`
 
-### Unknown
+### ❓ Unknown
 
 **[#7628](https://github.com/ballerina-platform/ballerina-library/issues/7628)** Ballerina gradle pulugin falling when ballerinaStdLibs not added a configuration
 

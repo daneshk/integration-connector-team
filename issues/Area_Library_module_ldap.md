@@ -1,14 +1,16 @@
 # Area/Library - module/ldap
 
-Total Issues: 1
+**Total Issues:** 1
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 1
+- 🐛 **Bug:** 1
 
-## Priority: Normal
+---
 
-### Bug
+## 🟡 Priority: Normal
+
+### 🐛 Bug
 
 **[#5906](https://github.com/ballerina-platform/ballerina-library/issues/5906)** [Bug]: LDAPUserStore with ActiveDirectory if connection idle timeout
 

@@ -1,14 +1,16 @@
 # Area/Connector/Generated Connectors - module/dropbox
 
-Total Issues: 1
+**Total Issues:** 1
 
-## Issue Types
+## 📊 Issue Types
 
-- **Task:** 1
+- 📋 **Task:** 1
 
-## Priority: High
+---
 
-### Task
+## 🟠 Priority: High
+
+### 📋 Task
 
 **[#7429](https://github.com/ballerina-platform/ballerina-library/issues/7429)** Check the dropbox connector test failure
 

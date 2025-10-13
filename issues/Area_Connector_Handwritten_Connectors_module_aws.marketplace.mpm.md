@@ -1,14 +1,16 @@
 # Area/Connector/Handwritten Connectors - module/aws.marketplace.mpm
 
-Total Issues: 1
+**Total Issues:** 1
 
-## Issue Types
+## 📊 Issue Types
 
-- **Improvement:** 1
+- ✨ **Improvement:** 1
 
-## Priority: Low
+---
 
-### Improvement
+## 🔵 Priority: Low
+
+### ✨ Improvement
 
 **[#6900](https://github.com/ballerina-platform/ballerina-library/issues/6900)** Add support for `MeterUsage` and `RegisterUsage` operations in the AWS MPM connector
 

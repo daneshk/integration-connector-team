@@ -1,21 +1,23 @@
 # Area/Connector/Handwritten Connectors - module/redis
 
-Total Issues: 6
+**Total Issues:** 6
 
-## Issue Types
+## 📊 Issue Types
 
-- **Improvement:** 1
-- **NewFeature:** 5
+- ✨ **Improvement:** 1
+- 🚀 **NewFeature:** 5
 
-## Priority: Normal
+---
 
-### Improvement
+## 🟡 Priority: Normal
+
+### ✨ Improvement
 
 **[#6161](https://github.com/ballerina-platform/ballerina-library/issues/6161)** [Redis Connector] Add support for advanced connection pooling configs
 
 Labels: `Type/Improvement`, `Area/Connector`, `module/redis`, `Priority/Normal`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#6205](https://github.com/ballerina-platform/ballerina-library/issues/6205)** Add Null value support for Redis DB in Redis connector
 
@@ -25,9 +27,9 @@ Labels: `Type/NewFeature`, `Area/Connector`, `module/redis`, `Priority/Normal`
 
 Labels: `Type/NewFeature`, `Area/Connector`, `module/redis`, `Priority/Normal`
 
-## Priority: Low
+## 🔵 Priority: Low
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#5037](https://github.com/ballerina-platform/ballerina-library/issues/5037)** [Feature]: Implement Redis Sentinel support 
 

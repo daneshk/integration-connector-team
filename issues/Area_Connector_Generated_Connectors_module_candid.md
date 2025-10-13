@@ -1,14 +1,16 @@
 # Area/Connector/Generated Connectors - module/candid
 
-Total Issues: 1
+**Total Issues:** 1
 
-## Issue Types
+## 📊 Issue Types
 
-- **Task:** 1
+- 📋 **Task:** 1
 
-## Priority: High
+---
 
-### Task
+## 🟠 Priority: High
+
+### 📋 Task
 
 **[#6342](https://github.com/ballerina-platform/ballerina-library/issues/6342)** Re-Enable temporarily disabled example builds on Candid Module
 

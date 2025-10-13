@@ -1,25 +1,27 @@
 # Area/Library - module/io
 
-Total Issues: 13
+**Total Issues:** 13
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 2
-- **Improvement:** 9
-- **NewFeature:** 1
-- **Task:** 1
+- 🐛 **Bug:** 2
+- ✨ **Improvement:** 9
+- 🚀 **NewFeature:** 1
+- 📋 **Task:** 1
 
-## Priority: High
+---
 
-### Improvement
+## 🟠 Priority: High
+
+### ✨ Improvement
 
 **[#408](https://github.com/ballerina-platform/ballerina-library/issues/408)** Generate/Consume 'table' values from CSV Reader/Writer
 
 Labels: `Priority/High`, `Type/Improvement`, `module/io`, `IceBox`, `Area/Library`
 
-## Priority: None
+## ⚪ Priority: None
 
-### Bug
+### 🐛 Bug
 
 **[#7241](https://github.com/ballerina-platform/ballerina-library/issues/7241)** IO file write as stream does not support streams with generic error as a completion type
 
@@ -29,7 +31,7 @@ Labels: `Type/Bug`, `module/io`, `Area/Library`
 
 Labels: `Type/Bug`, `module/io`, `Area/Library`
 
-### Improvement
+### ✨ Improvement
 
 **[#6761](https://github.com/ballerina-platform/ballerina-library/issues/6761)** Add locale support for ballerina `io` module
 
@@ -63,13 +65,13 @@ Labels: `Type/Improvement`, `module/io`, `IceBox`, `Area/Library`
 
 Labels: `Type/Improvement`, `module/io`, `IceBox`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
 
 Labels: `Type/Task`, `module/io`, `module/cache`, `module/auth`, `module/http`, `module/jwt`, `module/oauth2`, `module/graphql`, `Area/Library`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#1744](https://github.com/ballerina-platform/ballerina-library/issues/1744)** Support console read/write operations
 

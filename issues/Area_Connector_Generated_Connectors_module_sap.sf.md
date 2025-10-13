@@ -1,14 +1,16 @@
 # Area/Connector/Generated Connectors - module/sap.sf
 
-Total Issues: 1
+**Total Issues:** 1
 
-## Issue Types
+## 📊 Issue Types
 
-- **Task:** 1
+- 📋 **Task:** 1
 
-## Priority: High
+---
 
-### Task
+## 🟠 Priority: High
+
+### 📋 Task
 
 **[#8147](https://github.com/ballerina-platform/ballerina-library/issues/8147)** Implement Ballerina Connector: SAP SuccessFactors/Employee Central
 

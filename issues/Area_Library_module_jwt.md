@@ -1,15 +1,17 @@
 # Area/Library - module/jwt
 
-Total Issues: 7
+**Total Issues:** 7
 
-## Issue Types
+## 📊 Issue Types
 
-- **Improvement:** 4
-- **Task:** 3
+- ✨ **Improvement:** 4
+- 📋 **Task:** 3
 
-## Priority: None
+---
 
-### Improvement
+## ⚪ Priority: None
+
+### ✨ Improvement
 
 **[#8185](https://github.com/ballerina-platform/ballerina-library/issues/8185)** Ballerina JWT library does not support PS 256 and ES 256 algorithms
 
@@ -27,7 +29,7 @@ Labels: `Type/Improvement`, `good first issue`, `module/jwt`, `module/oauth2`, `
 
 Labels: `Type/Improvement`, `good first issue`, `module/jwt`, `Area/Security`, `Credits/45`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
 

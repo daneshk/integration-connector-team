@@ -1,17 +1,19 @@
 # Area/Library - module/persist
 
-Total Issues: 22
+**Total Issues:** 22
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 6
-- **Improvement:** 6
-- **NewFeature:** 4
-- **Task:** 6
+- 🐛 **Bug:** 6
+- ✨ **Improvement:** 6
+- 🚀 **NewFeature:** 4
+- 📋 **Task:** 6
 
-## Priority: None
+---
 
-### Bug
+## ⚪ Priority: None
+
+### 🐛 Bug
 
 **[#7920](https://github.com/ballerina-platform/ballerina-library/issues/7920)** Query Expressions with Persist Clients do not push down 'where' conditions to the database, leading to inefficient in-memory filtering
 
@@ -37,7 +39,7 @@ Labels: `Type/Bug`, `module/persist`, `Area/Library`
 
 Labels: `Type/Bug`, `module/sql`, `module/persist`, `Area/Library`
 
-### Improvement
+### ✨ Improvement
 
 **[#5736](https://github.com/ballerina-platform/ballerina-library/issues/5736)** Allow passing config parameters to the generated persist client and set default values to configurable variables
 
@@ -63,7 +65,7 @@ Labels: `Type/Improvement`, `Type/Question`, `module/persist`, `Area/Library`
 
 Labels: `Type/Improvement`, `module/persist`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#4777](https://github.com/ballerina-platform/ballerina-library/issues/4777)** Create Ballerina version of PetClinic
 
@@ -89,7 +91,7 @@ Labels: `Type/Task`, `module/persist`, `Area/Library`
 
 Labels: `Type/Task`, `module/persist`, `Area/Library`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#5846](https://github.com/ballerina-platform/ballerina-library/issues/5846)** Support `offset` when executing queries in persist module
 

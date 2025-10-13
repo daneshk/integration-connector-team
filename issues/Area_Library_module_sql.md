@@ -1,25 +1,27 @@
 # Area/Library - module/sql
 
-Total Issues: 24
+**Total Issues:** 24
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 7
-- **Docs:** 1
-- **Improvement:** 13
-- **Task:** 3
+- 🐛 **Bug:** 7
+- 📚 **Docs:** 1
+- ✨ **Improvement:** 13
+- 📋 **Task:** 3
 
-## Priority: Highest
+---
 
-### Improvement
+## 🔴 Priority: Highest
+
+### ✨ Improvement
 
 **[#3842](https://github.com/ballerina-platform/ballerina-library/issues/3842)** Add support to enable logs to detect connection leaks in DB connectors
 
 Labels: `Priority/Highest`, `Type/Improvement`, `module/sql`, `Area/Library`
 
-## Priority: High
+## 🟠 Priority: High
 
-### Bug
+### 🐛 Bug
 
 **[#4427](https://github.com/ballerina-platform/ballerina-library/issues/4427)** Remove `io.ballerina.runtime.internal` imports in standard libraries
 
@@ -29,9 +31,9 @@ Labels: `Priority/High`, `Type/Bug`, `module/sql`, `Area/Library`
 
 Labels: `Points/1.5`, `Priority/High`, `Type/Bug`, `module/sql`, `Verson/SwanLakeDump`, `Area/Library`
 
-## Priority: None
+## ⚪ Priority: None
 
-### Bug
+### 🐛 Bug
 
 **[#7800](https://github.com/ballerina-platform/ballerina-library/issues/7800)** java.jdbc hangs in native image after a few requests
 
@@ -53,7 +55,7 @@ Labels: `Type/Bug`, `module/sql`, `Area/Library`
 
 Labels: `Type/Bug`, `module/sql`, `module/persist`, `Area/Library`
 
-### Improvement
+### ✨ Improvement
 
 **[#7763](https://github.com/ballerina-platform/ballerina-library/issues/7763)** Expose SQL connection pool metrics for observability and tuning
 
@@ -103,7 +105,7 @@ Labels: `Type/Improvement`, `module/sql`, `IceBox`, `Area/Library`
 
 Labels: `Type/Improvement`, `module/sql`, `IceBox`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#6139](https://github.com/ballerina-platform/ballerina-library/issues/6139)** Add example to demonstrate how to use `arrayFlattenQuery` to construct IN clause
 
@@ -117,7 +119,7 @@ Labels: `Type/Task`, `module/sql`, `Area/Library`
 
 Labels: `Type/Task`, `module/sql`, `Area/Library`
 
-### Docs
+### 📚 Docs
 
 **[#3807](https://github.com/ballerina-platform/ballerina-library/issues/3807)** Improve docs regarding client and stream lifecycle
 

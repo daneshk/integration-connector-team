@@ -1,17 +1,19 @@
 # Area/Tooling - module/persist-tools
 
-Total Issues: 9
+**Total Issues:** 9
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 3
-- **Improvement:** 1
-- **NewFeature:** 1
-- **Task:** 4
+- 🐛 **Bug:** 3
+- ✨ **Improvement:** 1
+- 🚀 **NewFeature:** 1
+- 📋 **Task:** 4
 
-## Priority: None
+---
 
-### Bug
+## ⚪ Priority: None
+
+### 🐛 Bug
 
 **[#8323](https://github.com/ballerina-platform/ballerina-library/issues/8323)** Text Column Type Conversion Issue in Ballerina Persist Tool
 
@@ -25,13 +27,13 @@ Labels: `Type/Bug`, `Area/Tooling`, `module/persist-tools`
 
 Labels: `Type/Bug`, `Area/Tooling`, `module/persist-tools`
 
-### Improvement
+### ✨ Improvement
 
 **[#4834](https://github.com/ballerina-platform/ballerina-library/issues/4834)** Command completion for `bal persist`
 
 Labels: `Type/Improvement`, `Area/Tooling`, `module/persist-tools`
 
-### Task
+### 📋 Task
 
 **[#8242](https://github.com/ballerina-platform/ballerina-library/issues/8242)** Enable the Disabled Tests in Persist Tools
 
@@ -49,7 +51,7 @@ Labels: `Type/Task`, `good first issue`, `Area/Tooling`, `Hacktoberfest`, `modul
 
 Labels: `Type/Task`, `Area/Tooling`, `module/persist-tools`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#6494](https://github.com/ballerina-platform/ballerina-library/issues/6494)** Support multiple data stores with different data models in one ballerina package
 

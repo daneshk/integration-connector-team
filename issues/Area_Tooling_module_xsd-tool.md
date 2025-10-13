@@ -1,14 +1,16 @@
 # Area/Tooling - module/xsd-tool
 
-Total Issues: 2
+**Total Issues:** 2
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 2
+- 🐛 **Bug:** 2
 
-## Priority: None
+---
 
-### Bug
+## ⚪ Priority: None
+
+### 🐛 Bug
 
 **[#7772](https://github.com/ballerina-platform/ballerina-library/issues/7772)** Import statement absent in the ballerina file created using the xsd tool
 

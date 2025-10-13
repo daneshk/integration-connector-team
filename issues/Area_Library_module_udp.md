@@ -1,16 +1,18 @@
 # Area/Library - module/udp
 
-Total Issues: 9
+**Total Issues:** 9
 
-## Issue Types
+## 📊 Issue Types
 
-- **Improvement:** 3
-- **NewFeature:** 1
-- **Task:** 5
+- ✨ **Improvement:** 3
+- 🚀 **NewFeature:** 1
+- 📋 **Task:** 5
 
-## Priority: None
+---
 
-### Improvement
+## ⚪ Priority: None
+
+### ✨ Improvement
 
 **[#2482](https://github.com/ballerina-platform/ballerina-library/issues/2482)** Add example number 1 code to the build
 
@@ -24,7 +26,7 @@ Labels: `Points/6`, `Type/Improvement`, `module/udp`, `Area/CompilerPlugin`, `Ar
 
 Labels: `Type/Improvement`, `module/tcp`, `module/udp`, `Area/CompilerPlugin`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#2672](https://github.com/ballerina-platform/ballerina-library/issues/2672)** Add udp examples to the build
 
@@ -46,7 +48,7 @@ Labels: `Points/2.5`, `Type/Task`, `module/udp`, `Area/Library`
 
 Labels: `Points/0.5`, `Type/Task`, `module/udp`, `Area/Library`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#709](https://github.com/ballerina-platform/ballerina-library/issues/709)** Introduce DTLS for UDP Security
 

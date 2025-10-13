@@ -1,24 +1,26 @@
 # Area/Library - module/tcp
 
-Total Issues: 12
+**Total Issues:** 12
 
-## Issue Types
+## 📊 Issue Types
 
-- **Improvement:** 4
-- **NewFeature:** 4
-- **Task:** 4
+- ✨ **Improvement:** 4
+- 🚀 **NewFeature:** 4
+- 📋 **Task:** 4
 
-## Priority: High
+---
 
-### NewFeature
+## 🟠 Priority: High
+
+### 🚀 NewFeature
 
 **[#2150](https://github.com/ballerina-platform/ballerina-library/issues/2150)** TCP listener to conveniently contact the message using custom logic
 
 Labels: `Priority/High`, `Type/NewFeature`, `module/tcp`, `Area/Library`
 
-## Priority: None
+## ⚪ Priority: None
 
-### Improvement
+### ✨ Improvement
 
 **[#6164](https://github.com/ballerina-platform/ballerina-library/issues/6164)** No method for read a specific number of bytes from a TCP server
 
@@ -36,7 +38,7 @@ Labels: `Type/Improvement`, `module/tcp`, `Area/Library`
 
 Labels: `Type/Improvement`, `module/tcp`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#2097](https://github.com/ballerina-platform/ballerina-library/issues/2097)** Add example number 5
 
@@ -54,7 +56,7 @@ Labels: `Type/Task`, `module/tcp`, `Area/Library`
 
 Labels: `Type/Task`, `good first issue`, `module/tcp`, `Area/CompilerPlugin`, `Credits/45`, `Area/Library`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#702](https://github.com/ballerina-platform/ballerina-library/issues/702)** Introduce `Asynchronous Client` to the Socket Module
 

@@ -1,18 +1,20 @@
 # Area/Tooling - module/graphql-tool
 
-Total Issues: 28
+**Total Issues:** 28
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 3
-- **Docs:** 1
-- **Improvement:** 15
-- **NewFeature:** 2
-- **Task:** 7
+- 🐛 **Bug:** 3
+- 📚 **Docs:** 1
+- ✨ **Improvement:** 15
+- 🚀 **NewFeature:** 2
+- 📋 **Task:** 7
 
-## Priority: High
+---
 
-### Task
+## 🟠 Priority: High
+
+### 📋 Task
 
 **[#6434](https://github.com/ballerina-platform/ballerina-library/issues/6434)** Update `FunctionBodyGenerator` for `NodeFactory.createOnFailClauseNode` change
 
@@ -22,9 +24,9 @@ Labels: `Priority/High`, `Type/Task`, `Area/Tooling`, `module/graphql-tool`
 
 Labels: `Priority/High`, `Type/Task`, `Area/Tooling`, `module/graphql-tool`
 
-## Priority: Normal
+## 🟡 Priority: Normal
 
-### Improvement
+### ✨ Improvement
 
 **[#6445](https://github.com/ballerina-platform/ballerina-library/issues/6445)** '*' symbols are not supported when configuring schema and query file paths in Graphql config (graphql.config.yaml) file
 
@@ -34,23 +36,23 @@ Labels: `Type/Improvement`, `Area/Tooling`, `Priority/Normal`, `module/graphql-t
 
 Labels: `Type/Improvement`, `Area/Tooling`, `Priority/Normal`, `module/graphql-tool`
 
-### Task
+### 📋 Task
 
 **[#6442](https://github.com/ballerina-platform/ballerina-library/issues/6442)** Integrate code quality gateway to the codebase
 
 Labels: `Type/Task`, `Area/Tooling`, `Priority/Normal`, `module/graphql-tool`
 
-## Priority: Low
+## 🔵 Priority: Low
 
-### Improvement
+### ✨ Improvement
 
 **[#6449](https://github.com/ballerina-platform/ballerina-library/issues/6449)** [Improvement] Implement a compile time validator for the GraphQL client generation tool
 
 Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `module/graphql-tool`
 
-## Priority: None
+## ⚪ Priority: None
 
-### Bug
+### 🐛 Bug
 
 **[#8229](https://github.com/ballerina-platform/ballerina-library/issues/8229)** NullPointerException in Ballerina GraphQL client code generation during formatting (CLASS_DEFINITION
 
@@ -64,7 +66,7 @@ Labels: `Type/Bug`, `Area/Tooling`, `module/graphql-tool`
 
 Labels: `Type/Bug`, `Area/Tooling`, `module/graphql-tool`
 
-### Improvement
+### ✨ Improvement
 
 **[#6316](https://github.com/ballerina-platform/ballerina-library/issues/6316)** No command completion for the `graphql` command
 
@@ -114,7 +116,7 @@ Labels: `Type/Improvement`, `Area/Tooling`, `module/graphql-tool`
 
 Labels: `Type/Improvement`, `Area/Tooling`, `module/graphql-tool`
 
-### Task
+### 📋 Task
 
 **[#8058](https://github.com/ballerina-platform/ballerina-library/issues/8058)** Move GraphQL Tool Tests to Separate Directory
 
@@ -132,7 +134,7 @@ Labels: `Points/0.5`, `Type/Task`, `Area/Tooling`, `module/graphql-tool`
 
 Labels: `Type/Task`, `Area/Tooling`, `module/graphql-tool`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#6545](https://github.com/ballerina-platform/ballerina-library/issues/6545)** Proposal: Expose a Database as a GraphQL API
 
@@ -142,7 +144,7 @@ Labels: `Type/NewFeature`, `Type/Proposal`, `Area/Tooling`, `module/graphql-tool
 
 Labels: `Type/NewFeature`, `Area/Tooling`, `module/graphql-tool`
 
-### Docs
+### 📚 Docs
 
 **[#6384](https://github.com/ballerina-platform/ballerina-library/issues/6384)** Improve the Documentation
 

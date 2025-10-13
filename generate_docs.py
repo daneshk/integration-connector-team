@@ -10,7 +10,7 @@ def generate_module_page(area, module, issues, output_dir):
     filepath = output_dir / filename
 
     content = f"# {area} - {module}\n\n"
-    content += f"Total Issues: {len(issues)}\n\n"
+    content += f"**Total Issues:** {len(issues)}\n\n"
 
     # Count by type
     type_counts = {}
@@ -18,10 +18,22 @@ def generate_module_page(area, module, issues, output_dir):
         issue_type = issue.get('type', 'Unknown')
         type_counts[issue_type] = type_counts.get(issue_type, 0) + 1
 
-    content += "## Issue Types\n\n"
+    # Type emoji indicators
+    type_emojis = {
+        'Bug': '🐛',
+        'Improvement': '✨',
+        'Task': '📋',
+        'NewFeature': '🚀',
+        'Docs': '📚',
+        'Proposal': '💡',
+        'Unknown': '❓'
+    }
+
+    content += "## 📊 Issue Types\n\n"
     for issue_type in sorted(type_counts.keys()):
-        content += f"- **{issue_type}:** {type_counts[issue_type]}\n"
-    content += "\n"
+        emoji = type_emojis.get(issue_type, '▪️')
+        content += f"- {emoji} **{issue_type}:** {type_counts[issue_type]}\n"
+    content += "\n---\n\n"
 
     # Group by priority
     by_priority = {}
@@ -35,11 +47,21 @@ def generate_module_page(area, module, issues, output_dir):
     priority_order = ['Highest', 'High', 'Normal', 'Low', 'None']
     type_order = ['Bug', 'Improvement', 'Task', 'NewFeature', 'Docs', 'Proposal', 'Unknown']
 
+    # Priority emoji indicators
+    priority_emojis = {
+        'Highest': '🔴',
+        'High': '🟠',
+        'Normal': '🟡',
+        'Low': '🔵',
+        'None': '⚪'
+    }
+
     for priority in priority_order:
         if priority not in by_priority:
             continue
         if by_priority[priority]:
-            content += f"## Priority: {priority}\n\n"
+            priority_emoji = priority_emojis.get(priority, '')
+            content += f"## {priority_emoji} Priority: {priority}\n\n"
 
             # Group by type within this priority
             by_type = {}
@@ -54,7 +76,8 @@ def generate_module_page(area, module, issues, output_dir):
                 if issue_type not in by_type:
                     continue
 
-                content += f"### {issue_type}\n\n"
+                type_emoji = type_emojis.get(issue_type, '▪️')
+                content += f"### {type_emoji} {issue_type}\n\n"
                 for issue in by_type[issue_type]:
                     content += f"**[#{issue['number']}]({issue['url']})** {issue['title']}\n\n"
                     content += f"Labels: {', '.join([f'`{l}`' for l in issue['labels']])}\n\n"

@@ -1,22 +1,24 @@
 # Area/Library - module/mime
 
-Total Issues: 5
+**Total Issues:** 5
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 1
-- **Improvement:** 3
-- **Task:** 1
+- 🐛 **Bug:** 1
+- ✨ **Improvement:** 3
+- 📋 **Task:** 1
 
-## Priority: None
+---
 
-### Bug
+## ⚪ Priority: None
+
+### 🐛 Bug
 
 **[#3971](https://github.com/ballerina-platform/ballerina-library/issues/3971)** NoSuchMethodError thrown from the mime module for `io.ballerina.runtime.api.types.ObjectType`
 
 Labels: `Type/Bug`, `module/mime`, `Area/Library`
 
-### Improvement
+### ✨ Improvement
 
 **[#7440](https://github.com/ballerina-platform/ballerina-library/issues/7440)** Remove EventStreamWriter implementation from mime
 
@@ -30,7 +32,7 @@ Labels: `Points/1`, `Type/Improvement`, `good first issue`, `module/mime`, `modu
 
 Labels: `Type/Improvement`, `module/mime`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#548](https://github.com/ballerina-platform/ballerina-library/issues/548)** Add a test for XML serialization with for a complex XML
 

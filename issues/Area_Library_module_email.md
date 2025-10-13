@@ -1,25 +1,27 @@
 # Area/Library - module/email
 
-Total Issues: 19
+**Total Issues:** 19
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 2
-- **Improvement:** 6
-- **NewFeature:** 1
-- **Task:** 10
+- 🐛 **Bug:** 2
+- ✨ **Improvement:** 6
+- 🚀 **NewFeature:** 1
+- 📋 **Task:** 10
 
-## Priority: High
+---
 
-### Task
+## 🟠 Priority: High
+
+### 📋 Task
 
 **[#2084](https://github.com/ballerina-platform/ballerina-library/issues/2084)** Negative Test Report
 
 Labels: `Points/4`, `Priority/High`, `Type/Task`, `module/email`, `Area/Library`
 
-## Priority: None
+## ⚪ Priority: None
 
-### Bug
+### 🐛 Bug
 
 **[#4004](https://github.com/ballerina-platform/ballerina-library/issues/4004)** Icon is missing for email client in central
 
@@ -29,7 +31,7 @@ Labels: `Type/Bug`, `module/email`, `Area/Library`
 
 Labels: `Type/Bug`, `Type/Improvement`, `module/email`, `Area/Library`
 
-### Improvement
+### ✨ Improvement
 
 **[#6470](https://github.com/ballerina-platform/ballerina-library/issues/6470)** [Improvement]:  Non-descriptive error message when SMTP connection fails
 
@@ -55,7 +57,7 @@ Labels: `Points/8`, `Type/Improvement`, `module/email`, `Version/SLAlpha3`, `Are
 
 Labels: `Points/2.5`, `Type/Improvement`, `module/email`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#3099](https://github.com/ballerina-platform/ballerina-library/issues/3099)** Incorporate `constraint` package to Email module
 
@@ -93,7 +95,7 @@ Labels: `Points/0.5`, `Type/Task`, `module/email`, `Area/Library`
 
 Labels: `Points/3`, `Type/Task`, `module/email`, `Area/Library`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#1186](https://github.com/ballerina-platform/ballerina-library/issues/1186)** Add ability to list folders in mailing box
 

@@ -1,14 +1,16 @@
 # Area/Connector/Generated Connectors - module/sap
 
-Total Issues: 3
+**Total Issues:** 3
 
-## Issue Types
+## 📊 Issue Types
 
-- **Task:** 3
+- 📋 **Task:** 3
 
-## Priority: High
+---
 
-### Task
+## 🟠 Priority: High
+
+### 📋 Task
 
 **[#8148](https://github.com/ballerina-platform/ballerina-library/issues/8148)** Implement Ballerina Connector: SAP Concur/Shared APIs
 

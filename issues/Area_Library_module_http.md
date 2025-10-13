@@ -1,18 +1,20 @@
 # Area/Library - module/http
 
-Total Issues: 200
+**Total Issues:** 200
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 28
-- **Docs:** 2
-- **Improvement:** 111
-- **NewFeature:** 13
-- **Task:** 46
+- 🐛 **Bug:** 28
+- 📚 **Docs:** 2
+- ✨ **Improvement:** 111
+- 🚀 **NewFeature:** 13
+- 📋 **Task:** 46
 
-## Priority: Highest
+---
 
-### Bug
+## 🔴 Priority: Highest
+
+### 🐛 Bug
 
 **[#6663](https://github.com/ballerina-platform/ballerina-library/issues/6663)** h2-h2 load test with h1 client hanging after sometime
 
@@ -26,21 +28,21 @@ Labels: `Priority/Highest`, `Type/Bug`, `module/http`, `Area/http2`, `Area/Libra
 
 Labels: `Priority/Highest`, `Points/5`, `Type/Bug`, `module/http`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#3886](https://github.com/ballerina-platform/ballerina-library/issues/3886)** Enable windows test in pull request workflow which hang after 4.1.86 Netty update
 
 Labels: `Priority/Highest`, `Type/Task`, `module/http`, `Area/Library`
 
-## Priority: High
+## 🟠 Priority: High
 
-### Bug
+### 🐛 Bug
 
 **[#4671](https://github.com/ballerina-platform/ballerina-library/issues/4671)** [Bug] Reading a byte stream from a backend hangs in the passthrough
 
 Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
 
-### Improvement
+### ✨ Improvement
 
 **[#4160](https://github.com/ballerina-platform/ballerina-library/issues/4160)** [HTTP] Incorrect Error handling in the native code
 
@@ -90,7 +92,7 @@ Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Library`
 
 Labels: `Priority/High`, `Type/Improvement`, `Type/Task`, `module/http`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#4213](https://github.com/ballerina-platform/ballerina-library/issues/4213)** Make HTTP module FIPS compliant
 
@@ -100,35 +102,35 @@ Labels: `Points/5`, `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
 
 Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#897](https://github.com/ballerina-platform/ballerina-library/issues/897)** Add 417,406 validation to @http:Payload annotation
 
 Labels: `Priority/High`, `Type/NewFeature`, `module/http`, `Area/Library`
 
-## Priority: Low
+## 🔵 Priority: Low
 
-### Bug
+### 🐛 Bug
 
 **[#6623](https://github.com/ballerina-platform/ballerina-library/issues/6623)** PathParamTypes are compiled regardless of the way it is denoted
 
 Labels: `Priority/Low`, `Type/Bug`, `module/http`, `Area/Library`
 
-### Improvement
+### ✨ Improvement
 
 **[#1535](https://github.com/ballerina-platform/ballerina-library/issues/1535)** Make Listener Representation-Oriented
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#485](https://github.com/ballerina-platform/ballerina-library/issues/485)** HTTP/2 performs poorly for 50 bytes payloads compared to HTTP/1.1
 
 Labels: `Priority/Low`, `Type/Task`, `module/http`, `Area/http2`, `Area/Library`
 
-## Priority: None
+## ⚪ Priority: None
 
-### Bug
+### 🐛 Bug
 
 **[#7893](https://github.com/ballerina-platform/ballerina-library/issues/7893)** HTTP compile error when referring a listener in different file in a service
 
@@ -222,7 +224,7 @@ Labels: `Type/Bug`, `module/http`, `Reason/EngineeringMistake`, `Area/Library`
 
 Labels: `Type/Bug`, `module/http`, `Area/Library`
 
-### Improvement
+### ✨ Improvement
 
 **[#7919](https://github.com/ballerina-platform/ballerina-library/issues/7919)** HTTP response binding does not support union types with `stream<http:SseEvent, error?>` and anydata
 
@@ -616,7 +618,7 @@ Labels: `Type/Improvement`, `module/http`, `Area/Library`
 
 Labels: `Type/Improvement`, `module/http`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#8342](https://github.com/ballerina-platform/ballerina-library/issues/8342)** Review static code rule implementations
 
@@ -786,7 +788,7 @@ Labels: `Type/Task`, `module/http`, `Area/Library`
 
 Labels: `Type/Task`, `module/http`, `Area/Library`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#7460](https://github.com/ballerina-platform/ballerina-library/issues/7460)** Allow configuring TCP Keep-Alive related properties in the Ballerina HTTP Client
 
@@ -836,7 +838,7 @@ Labels: `Type/NewFeature`, `module/http`, `Area/Library`
 
 Labels: `Type/NewFeature`, `module/http`, `Area/Library`
 
-### Docs
+### 📚 Docs
 
 **[#2521](https://github.com/ballerina-platform/ballerina-library/issues/2521)** Lack of Documentation for enabling/configuring `Trace logs` and `Access logs` in the API Docs
 

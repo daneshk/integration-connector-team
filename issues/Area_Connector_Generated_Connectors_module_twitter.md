@@ -1,14 +1,16 @@
 # Area/Connector/Generated Connectors - module/twitter
 
-Total Issues: 1
+**Total Issues:** 1
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 1
+- 🐛 **Bug:** 1
 
-## Priority: High
+---
 
-### Bug
+## 🟠 Priority: High
+
+### 🐛 Bug
 
 **[#6472](https://github.com/ballerina-platform/ballerina-library/issues/6472)** Add Connector option of VSCode sequence diagram provides invalid names for the twitter module
 

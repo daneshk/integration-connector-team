@@ -1,46 +1,48 @@
 # Area/Library - module/All
 
-Total Issues: 12
+**Total Issues:** 12
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 1
-- **Improvement:** 2
-- **Task:** 9
+- 🐛 **Bug:** 1
+- ✨ **Improvement:** 2
+- 📋 **Task:** 9
 
-## Priority: Highest
+---
 
-### Task
+## 🔴 Priority: Highest
+
+### 📋 Task
 
 **[#8312](https://github.com/ballerina-platform/ballerina-library/issues/8312)** Prioritize Library and Connector current issues
 
 Labels: `Priority/Highest`, `Type/Task`, `module/All`, `Area/Connector`, `Area/Library`
 
-## Priority: High
+## 🟠 Priority: High
 
-### Bug
+### 🐛 Bug
 
 **[#6106](https://github.com/ballerina-platform/ballerina-library/issues/6106)** Migrating gradle plugin from v2.0.1 to v2.2.2 requires additional configuration
 
 Labels: `Priority/High`, `Type/Bug`, `module/All`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#8275](https://github.com/ballerina-platform/ballerina-library/issues/8275)** [High Priority] Review Library/Connector API docs in BI editor
 
 Labels: `Priority/High`, `Type/Task`, `module/All`, `Area/Connector`, `Area/Library`
 
-## Priority: Normal
+## 🟡 Priority: Normal
 
-### Improvement
+### ✨ Improvement
 
 **[#6794](https://github.com/ballerina-platform/ballerina-library/issues/6794)** Add Link to Ballerina Central from Repositories in ballerina & ballerinax packages
 
 Labels: `Type/Improvement`, `module/All`, `Area/Connector`, `Priority/Normal`, `Area/Library`
 
-## Priority: Low
+## 🔵 Priority: Low
 
-### Task
+### 📋 Task
 
 **[#8277](https://github.com/ballerina-platform/ballerina-library/issues/8277)** [Low Priority] Review Library/Connector API docs in BI editor
 
@@ -54,15 +56,15 @@ Labels: `Priority/Low`, `Type/Task`, `module/All`, `Area/Connector`, `Area/Libra
 
 Labels: `Priority/Low`, `Type/Task`, `module/All`, `Area/Connector`, `Area/Library`
 
-## Priority: None
+## ⚪ Priority: None
 
-### Improvement
+### ✨ Improvement
 
 **[#3867](https://github.com/ballerina-platform/ballerina-library/issues/3867)** Improve the trivy security scan location for std libs
 
 Labels: `Type/Improvement`, `module/All`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#7247](https://github.com/ballerina-platform/ballerina-library/issues/7247)** Restore downgraded trivy action version in centralized workflows
 

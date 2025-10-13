@@ -1,22 +1,24 @@
 # Area/Library - module/constraint
 
-Total Issues: 5
+**Total Issues:** 5
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 1
-- **Improvement:** 3
-- **Task:** 1
+- 🐛 **Bug:** 1
+- ✨ **Improvement:** 3
+- 📋 **Task:** 1
 
-## Priority: None
+---
 
-### Bug
+## ⚪ Priority: None
+
+### 🐛 Bug
 
 **[#7663](https://github.com/ballerina-platform/ballerina-library/issues/7663)** Defined field constraints cannot be used with the constraint annotation
 
 Labels: `Type/Bug`, `Area/CompilerPlugin`, `module/constraint`, `Area/Library`
 
-### Improvement
+### ✨ Improvement
 
 **[#7520](https://github.com/ballerina-platform/ballerina-library/issues/7520)** Constraint Validation Does Not Raise Errors for Union Types in Ballerina
 
@@ -30,7 +32,7 @@ Labels: `Type/Improvement`, `module/constraint`, `Area/Library`
 
 Labels: `Type/Improvement`, `module/constraint`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#4000](https://github.com/ballerina-platform/ballerina-library/issues/4000)** Add constraint integration tests in the distribution repo
 

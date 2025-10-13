@@ -1,17 +1,19 @@
 # Area/Library - module/oauth2
 
-Total Issues: 15
+**Total Issues:** 15
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 2
-- **Improvement:** 6
-- **NewFeature:** 2
-- **Task:** 5
+- 🐛 **Bug:** 2
+- ✨ **Improvement:** 6
+- 🚀 **NewFeature:** 2
+- 📋 **Task:** 5
 
-## Priority: None
+---
 
-### Bug
+## ⚪ Priority: None
+
+### 🐛 Bug
 
 **[#8247](https://github.com/ballerina-platform/ballerina-library/issues/8247)** http client with password grant type to salesforce endpoint is failing with 400
 
@@ -21,7 +23,7 @@ Labels: `Type/Bug`, `module/oauth2`, `Area/Library`
 
 Labels: `Type/Bug`, `module/oauth2`, `Area/Library`
 
-### Improvement
+### ✨ Improvement
 
 **[#7237](https://github.com/ballerina-platform/ballerina-library/issues/7237)** Refactor the OAuth2 module codebase
 
@@ -47,7 +49,7 @@ Labels: `Type/Improvement`, `good first issue`, `module/jwt`, `module/oauth2`, `
 
 Labels: `Type/Improvement`, `module/oauth2`, `Area/Security`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#6968](https://github.com/ballerina-platform/ballerina-library/issues/6968)** Create a new WSO2 IS container to use in OAuth2 tests
 
@@ -69,7 +71,7 @@ Labels: `Type/Task`, `module/oauth2`, `Area/Security`, `Area/Library`
 
 Labels: `Type/Task`, `module/oauth2`, `Area/Security`, `Area/Library`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#6081](https://github.com/ballerina-platform/ballerina-library/issues/6081)** Add support for OAuth2 SAML Bearer Assertion in ballerina/oauth2
 

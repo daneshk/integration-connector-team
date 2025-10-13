@@ -1,14 +1,16 @@
 # Area/Connector/Handwritten Connectors - module/business-central
 
-Total Issues: 1
+**Total Issues:** 1
 
-## Issue Types
+## 📊 Issue Types
 
-- **Task:** 1
+- 📋 **Task:** 1
 
-## Priority: Low
+---
 
-### Task
+## 🔵 Priority: Low
+
+### 📋 Task
 
 **[#6191](https://github.com/ballerina-platform/ballerina-library/issues/6191)** Implement MS Dynamics365 Business Central connector
 

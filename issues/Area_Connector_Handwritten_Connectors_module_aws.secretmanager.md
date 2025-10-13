@@ -1,14 +1,16 @@
 # Area/Connector/Handwritten Connectors - module/aws.secretmanager
 
-Total Issues: 1
+**Total Issues:** 1
 
-## Issue Types
+## 📊 Issue Types
 
-- **Improvement:** 1
+- ✨ **Improvement:** 1
 
-## Priority: Normal
+---
 
-### Improvement
+## 🟡 Priority: Normal
+
+### ✨ Improvement
 
 **[#7496](https://github.com/ballerina-platform/ballerina-library/issues/7496)** Support IAM role based login to AWS connectors
 

@@ -1,21 +1,23 @@
 # Area/Connector/Handwritten Connectors - module/s4hana
 
-Total Issues: 4
+**Total Issues:** 4
 
-## Issue Types
+## 📊 Issue Types
 
-- **NewFeature:** 3
-- **Task:** 1
+- 🚀 **NewFeature:** 3
+- 📋 **Task:** 1
 
-## Priority: High
+---
 
-### Task
+## 🟠 Priority: High
+
+### 📋 Task
 
 **[#6147](https://github.com/ballerina-platform/ballerina-library/issues/6147)** Modernizing sales order processing to meet evolving market demands 
 
 Labels: `Priority/High`, `Type/Task`, `Area/Connector`, `module/sap`, `module/s4hana`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#6733](https://github.com/ballerina-platform/ballerina-library/issues/6733)** Implement S/4HANA PP connectors
 

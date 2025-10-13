@@ -1,17 +1,19 @@
 # Area/Library - module/log
 
-Total Issues: 14
+**Total Issues:** 14
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 4
-- **Improvement:** 5
-- **NewFeature:** 4
-- **Task:** 1
+- 🐛 **Bug:** 4
+- ✨ **Improvement:** 5
+- 🚀 **NewFeature:** 4
+- 📋 **Task:** 1
 
-## Priority: None
+---
 
-### Bug
+## ⚪ Priority: None
+
+### 🐛 Bug
 
 **[#8233](https://github.com/ballerina-platform/ballerina-library/issues/8233)** When logging having a key called `message` cases a runtime error
 
@@ -29,7 +31,7 @@ Labels: `Type/Bug`, `good first issue`, `module/log`, `Credits/30`, `Area/Librar
 
 Labels: `Type/Bug`, `good first issue`, `module/log`, `Credits/20`, `Area/Library`
 
-### Improvement
+### ✨ Improvement
 
 **[#6213](https://github.com/ballerina-platform/ballerina-library/issues/6213)** Add native support for modifying the log level programmatically at runtime
 
@@ -51,13 +53,13 @@ Labels: `Type/Improvement`, `module/log`, `IceBox`, `Area/Library`
 
 Labels: `Type/Improvement`, `module/log`, `IceBox`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#7640](https://github.com/ballerina-platform/ballerina-library/issues/7640)** Extend log module rule to capture log function been used as expressions
 
 Labels: `Type/Task`, `module/log`, `Area/Library`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#5057](https://github.com/ballerina-platform/ballerina-library/issues/5057)** Adding log file rotation support to the log module
 

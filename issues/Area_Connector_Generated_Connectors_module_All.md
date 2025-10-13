@@ -1,14 +1,16 @@
 # Area/Connector/Generated Connectors - module/All
 
-Total Issues: 1
+**Total Issues:** 1
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 1
+- 🐛 **Bug:** 1
 
-## Priority: High
+---
 
-### Bug
+## 🟠 Priority: High
+
+### 🐛 Bug
 
 **[#6647](https://github.com/ballerina-platform/ballerina-library/issues/6647)** Cannot resolve the Ballerina Gradle plugin dependency when building a ballerina library package on Windows
 

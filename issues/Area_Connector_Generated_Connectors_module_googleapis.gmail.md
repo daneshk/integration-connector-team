@@ -1,14 +1,16 @@
 # Area/Connector/Generated Connectors - module/googleapis.gmail
 
-Total Issues: 3
+**Total Issues:** 3
 
-## Issue Types
+## 📊 Issue Types
 
-- **Improvement:** 3
+- ✨ **Improvement:** 3
 
-## Priority: Low
+---
 
-### Improvement
+## 🔵 Priority: Low
+
+### ✨ Improvement
 
 **[#6825](https://github.com/ballerina-platform/ballerina-library/issues/6825)** Unnecessary list of hexadecimal values are shown in the field description
 

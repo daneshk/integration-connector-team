@@ -1,21 +1,23 @@
 # Area/Connector/Handwritten Connectors - module/sap.jco
 
-Total Issues: 2
+**Total Issues:** 2
 
-## Issue Types
+## 📊 Issue Types
 
-- **Improvement:** 1
-- **Proposal:** 1
+- ✨ **Improvement:** 1
+- 💡 **Proposal:** 1
 
-## Priority: Low
+---
 
-### Improvement
+## 🔵 Priority: Low
+
+### ✨ Improvement
 
 **[#6973](https://github.com/ballerina-platform/ballerina-library/issues/6973)** Improvements on SAP JCo Connector
 
 Labels: `Priority/Low`, `Type/Improvement`, `Area/Connector`, `module/sap.jco`
 
-### Proposal
+### 💡 Proposal
 
 **[#7528](https://github.com/ballerina-platform/ballerina-library/issues/7528)** Proposal for Enhancements to the Ballerina SAP ECC Connector
 

@@ -1,14 +1,16 @@
 # Area/Connector/Generated Connectors - module/zuora
 
-Total Issues: 2
+**Total Issues:** 2
 
-## Issue Types
+## 📊 Issue Types
 
-- **Task:** 2
+- 📋 **Task:** 2
 
-## Priority: High
+---
 
-### Task
+## 🟠 Priority: High
+
+### 📋 Task
 
 **[#6254](https://github.com/ballerina-platform/ballerina-library/issues/6254)** Complete documentation for Ballerina Zuora connector
 

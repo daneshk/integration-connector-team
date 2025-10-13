@@ -1,17 +1,19 @@
 # Area/Tooling - module/openapi-tools
 
-Total Issues: 75
+**Total Issues:** 75
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 15
-- **Improvement:** 36
-- **NewFeature:** 2
-- **Task:** 22
+- 🐛 **Bug:** 15
+- ✨ **Improvement:** 36
+- 🚀 **NewFeature:** 2
+- 📋 **Task:** 22
 
-## Priority: High
+---
 
-### Bug
+## 🟠 Priority: High
+
+### 🐛 Bug
 
 **[#7508](https://github.com/ballerina-platform/ballerina-library/issues/7508)** Invalid Ballerina.toml generation `openapi add` in Windows
 
@@ -21,21 +23,21 @@ Labels: `Priority/High`, `Type/Bug`, `Area/Tooling`, `module/openapi-tools`
 
 Labels: `Priority/High`, `Type/Bug`, `Status/Blocked`, `Area/Tooling`, `module/openapi-tools`
 
-### Improvement
+### ✨ Improvement
 
 **[#5118](https://github.com/ballerina-platform/ballerina-library/issues/5118)** Improve the error message given when client and service generation failed
 
 Labels: `Priority/High`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-### Task
+### 📋 Task
 
 **[#8196](https://github.com/ballerina-platform/ballerina-library/issues/8196)** AI-Powered Automation for Ballerina Connector Generation
 
 Labels: `Priority/High`, `Type/Task`, `Area/Tooling`, `module/openapi-tools`
 
-## Priority: Normal
+## 🟡 Priority: Normal
 
-### Improvement
+### ✨ Improvement
 
 **[#5166](https://github.com/ballerina-platform/ballerina-library/issues/5166)** Check `required` flag in request body generation 
 
@@ -49,15 +51,15 @@ Labels: `Type/Improvement`, `Area/Tooling`, `module/openapi-tools`, `Priority/No
 
 Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`, `Priority/Normal`
 
-### Task
+### 📋 Task
 
 **[#5133](https://github.com/ballerina-platform/ballerina-library/issues/5133)** Evaluate and revamp the error messages in the tool 
 
 Labels: `Type/Task`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `Area/OpenapiToBallerina`, `module/openapi-tools`, `Priority/Normal`
 
-## Priority: Low
+## 🔵 Priority: Low
 
-### Improvement
+### ✨ Improvement
 
 **[#4871](https://github.com/ballerina-platform/ballerina-library/issues/4871)** Unable to generate code for path reference
 
@@ -67,9 +69,9 @@ Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBalle
 
 Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Reason/Other`, `Area/OpenapiToBallerina`, `module/openapi-tools`, `Area/Service`
 
-## Priority: None
+## ⚪ Priority: None
 
-### Bug
+### 🐛 Bug
 
 **[#8217](https://github.com/ballerina-platform/ballerina-library/issues/8217)** Unaligned type name with spaces
 
@@ -123,7 +125,7 @@ Labels: `Type/Bug`, `Area/Tooling`, `module/openapi-tools`
 
 Labels: `Type/Bug`, `Area/Tooling`, `Reason/Regression`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-### Improvement
+### ✨ Improvement
 
 **[#8315](https://github.com/ballerina-platform/ballerina-library/issues/8315)** Support OpenAPI 3.1.0 client generations
 
@@ -245,7 +247,7 @@ Labels: `Points/2`, `Type/Improvement`, `Area/Tooling`, `Reason/Complex`, `Area/
 
 Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
 
-### Task
+### 📋 Task
 
 **[#8244](https://github.com/ballerina-platform/ballerina-library/issues/8244)** Restructure OpenAPI tool repository to a multi-repository
 
@@ -327,7 +329,7 @@ Labels: `Type/Task`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-
 
 Labels: `Type/Task`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#5117](https://github.com/ballerina-platform/ballerina-library/issues/5117)** Add support to selectively generate openAPI contract for a subset of resources in the service implementation
 

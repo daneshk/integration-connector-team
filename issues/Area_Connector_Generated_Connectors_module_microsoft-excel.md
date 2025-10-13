@@ -1,23 +1,25 @@
 # Area/Connector/Generated Connectors - module/microsoft-excel
 
-Total Issues: 3
+**Total Issues:** 3
 
-## Issue Types
+## 📊 Issue Types
 
-- **Improvement:** 1
-- **Task:** 2
+- ✨ **Improvement:** 1
+- 📋 **Task:** 2
 
-## Priority: High
+---
 
-### Improvement
+## 🟠 Priority: High
+
+### ✨ Improvement
 
 **[#5029](https://github.com/ballerina-platform/ballerina-library/issues/5029)** [Improvement]: Suppor for ranges in Excel connector
 
 Labels: `Priority/High`, `Type/Improvement`, `Area/Connector`, `module/microsoft-excel`, `connectors/openapi`
 
-## Priority: Low
+## 🔵 Priority: Low
 
-### Task
+### 📋 Task
 
 **[#5860](https://github.com/ballerina-platform/ballerina-library/issues/5860)** Update Ballerina gradle plugin and centralized workflows
 

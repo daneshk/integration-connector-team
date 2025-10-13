@@ -1,39 +1,41 @@
 # Area/Library - module/grpc
 
-Total Issues: 44
+**Total Issues:** 44
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 5
-- **Improvement:** 14
-- **NewFeature:** 5
-- **Task:** 20
+- 🐛 **Bug:** 5
+- ✨ **Improvement:** 14
+- 🚀 **NewFeature:** 5
+- 📋 **Task:** 20
 
-## Priority: High
+---
 
-### Improvement
+## 🟠 Priority: High
+
+### ✨ Improvement
 
 **[#1916](https://github.com/ballerina-platform/ballerina-library/issues/1916)** module-ballerina-grpc: generate an `service object` type for each protobuf service
 
 Labels: `Priority/High`, `Type/Improvement`, `module/grpc`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#1109](https://github.com/ballerina-platform/ballerina-library/issues/1109)** Support for xDS protocol
 
 Labels: `Priority/High`, `Type/Task`, `module/grpc`, `Area/Library`
 
-## Priority: Low
+## 🔵 Priority: Low
 
-### Task
+### 📋 Task
 
 **[#2677](https://github.com/ballerina-platform/ballerina-library/issues/2677)** Need to find the optimum concurrent connections count bidi streaming
 
 Labels: `Priority/Low`, `Type/Task`, `module/grpc`, `Area/Library`
 
-## Priority: None
+## ⚪ Priority: None
 
-### Bug
+### 🐛 Bug
 
 **[#7436](https://github.com/ballerina-platform/ballerina-library/issues/7436)** The `testInvokeUnavailableService` is failing intermittently
 
@@ -55,7 +57,7 @@ Labels: `Type/Bug`, `Type/Task`, `module/grpc`, `Area/Library`
 
 Labels: `Points/3`, `Type/Bug`, `module/grpc`, `Area/Library`
 
-### Improvement
+### ✨ Improvement
 
 **[#3051](https://github.com/ballerina-platform/ballerina-library/issues/3051)** Error message is not descriptive enough when the client side and server side protos mismatch
 
@@ -109,7 +111,7 @@ Labels: `Type/Improvement`, `module/grpc`, `IceBox`, `Area/Library`
 
 Labels: `Type/Improvement`, `module/grpc`, `IceBox`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#5832](https://github.com/ballerina-platform/ballerina-library/issues/5832)** Support multiple cert key pair in a keystore
 
@@ -183,7 +185,7 @@ Labels: `Type/Task`, `module/grpc`, `Area/Library`
 
 Labels: `Type/Task`, `module/grpc`, `Area/Library`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#6699](https://github.com/ballerina-platform/ballerina-library/issues/6699)** [gRPC] Support caller object in the service to receive client message instead of stream
 

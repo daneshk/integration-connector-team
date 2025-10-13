@@ -1,14 +1,16 @@
 # Area/Connector/Handwritten Connectors - module/cdata
 
-Total Issues: 1
+**Total Issues:** 1
 
-## Issue Types
+## 📊 Issue Types
 
-- **Task:** 1
+- 📋 **Task:** 1
 
-## Priority: High
+---
 
-### Task
+## 🟠 Priority: High
+
+### 📋 Task
 
 **[#4955](https://github.com/ballerina-platform/ballerina-library/issues/4955)** [Task]:  Implement a test suite for cdata connector 
 

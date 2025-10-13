@@ -1,14 +1,16 @@
 # Area/Connector/Handwritten Connectors - module/netsuite
 
-Total Issues: 1
+**Total Issues:** 1
 
-## Issue Types
+## 📊 Issue Types
 
-- **Improvement:** 1
+- ✨ **Improvement:** 1
 
-## Priority: Normal
+---
 
-### Improvement
+## 🟡 Priority: Normal
+
+### ✨ Improvement
 
 **[#5026](https://github.com/ballerina-platform/ballerina-library/issues/5026)** [Feature]: RESTlet Support in Netsuite Connector 
 

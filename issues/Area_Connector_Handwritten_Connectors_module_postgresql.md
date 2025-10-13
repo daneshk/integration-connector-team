@@ -1,16 +1,18 @@
 # Area/Connector/Handwritten Connectors - module/postgresql
 
-Total Issues: 7
+**Total Issues:** 7
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 3
-- **Improvement:** 1
-- **Task:** 3
+- 🐛 **Bug:** 3
+- ✨ **Improvement:** 1
+- 📋 **Task:** 3
 
-## Priority: High
+---
 
-### Bug
+## 🟠 Priority: High
+
+### 🐛 Bug
 
 **[#6819](https://github.com/ballerina-platform/ballerina-library/issues/6819)** Concurrent database calls timeout (with postgres)
 
@@ -24,15 +26,15 @@ Labels: `Priority/High`, `Type/Bug`, `module/postgresql`, `Area/Connector`
 
 Labels: `Priority/High`, `Type/Bug`, `module/postgresql`, `Area/Connector`
 
-### Improvement
+### ✨ Improvement
 
 **[#4141](https://github.com/ballerina-platform/ballerina-library/issues/4141)** Proposal: Introduce a new API to execute batch queries into multiple batches
 
 Labels: `Priority/High`, `Type/Improvement`, `Type/Proposal`, `module/mysql`, `module/mssql`, `module/oracledb`, `module/postgresql`, `Status/Active`, `Area/Connector`
 
-## Priority: Low
+## 🔵 Priority: Low
 
-### Task
+### 📋 Task
 
 **[#4604](https://github.com/ballerina-platform/ballerina-library/issues/4604)** Add test cases for enum retrieval support in SQL connectors
 

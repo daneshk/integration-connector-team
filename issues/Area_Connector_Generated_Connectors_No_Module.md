@@ -1,31 +1,33 @@
 # Area/Connector/Generated Connectors - No Module
 
-Total Issues: 21
+**Total Issues:** 21
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 2
-- **Docs:** 2
-- **Improvement:** 4
-- **NewFeature:** 13
+- 🐛 **Bug:** 2
+- 📚 **Docs:** 2
+- ✨ **Improvement:** 4
+- 🚀 **NewFeature:** 13
 
-## Priority: High
+---
 
-### NewFeature
+## 🟠 Priority: High
+
+### 🚀 NewFeature
 
 **[#4962](https://github.com/ballerina-platform/ballerina-library/issues/4962)** [Improvement]: Introduce a connector for Toast
 
 Labels: `Priority/High`, `Type/NewFeature`, `Area/Connector`, `connectors/openapi`
 
-## Priority: Normal
+## 🟡 Priority: Normal
 
-### Improvement
+### ✨ Improvement
 
 **[#5024](https://github.com/ballerina-platform/ballerina-library/issues/5024)** [Improvement]: Republish commercetools.customer and commercetools.cartsordershoppinglists connectors
 
 Labels: `Type/Improvement`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#8327](https://github.com/ballerina-platform/ballerina-library/issues/8327)** Introduce a Ballerina connector for Chroma DB REST API
 
@@ -71,9 +73,9 @@ Labels: `Type/NewFeature`, `good first issue`, `Area/Connector`, `connectors/ope
 
 Labels: `Type/NewFeature`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`
 
-## Priority: None
+## ⚪ Priority: None
 
-### Bug
+### 🐛 Bug
 
 **[#7970](https://github.com/ballerina-platform/ballerina-library/issues/7970)** Getting payload binding error in openai.chat connector
 
@@ -83,7 +85,7 @@ Labels: `Type/Bug`, `Area/Connector`, `connectors/openapi`
 
 Labels: `Type/Bug`, `Area/Connector`, `connectors/openapi`
 
-### Improvement
+### ✨ Improvement
 
 **[#4961](https://github.com/ballerina-platform/ballerina-library/issues/4961)** [Improvement]: Migrate Shopify Admin API to latest 
 
@@ -97,13 +99,13 @@ Labels: `Type/Improvement`, `Area/Connector`, `connectors/openapi`
 
 Labels: `Type/Improvement`, `Area/Connector`, `connectors/openapi`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#5027](https://github.com/ballerina-platform/ballerina-library/issues/5027)** [Feature]: Connector for Walmart Marketplace API 
 
 Labels: `Type/NewFeature`, `Area/Connector`, `connectors/openapi`
 
-### Docs
+### 📚 Docs
 
 **[#4969](https://github.com/ballerina-platform/ballerina-library/issues/4969)** [Docs]: Revamp the documentations of OpenAPI connectors 
 

@@ -1,24 +1,26 @@
 # Area/Tooling - module/protoc-tool
 
-Total Issues: 7
+**Total Issues:** 7
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 2
-- **Improvement:** 3
-- **Task:** 2
+- 🐛 **Bug:** 2
+- ✨ **Improvement:** 3
+- 📋 **Task:** 2
 
-## Priority: Low
+---
 
-### Improvement
+## 🔵 Priority: Low
+
+### ✨ Improvement
 
 **[#2442](https://github.com/ballerina-platform/ballerina-library/issues/2442)** Remove unused else block in client streaming receive function
 
 Labels: `Priority/Low`, `Type/Improvement`, `good first issue`, `Area/Tooling`, `module/protoc-tool`, `Hacktoberfest`, `Credits/30`
 
-## Priority: None
+## ⚪ Priority: None
 
-### Bug
+### 🐛 Bug
 
 **[#6837](https://github.com/ballerina-platform/ballerina-library/issues/6837)** GRPC client sample code generation is failing when protobuf schema contains cyclic dependent messages
 
@@ -28,7 +30,7 @@ Labels: `Type/Bug`, `module/grpc`, `Area/Tooling`, `module/protoc-tool`
 
 Labels: `Type/Bug`, `Area/Tooling`, `module/protoc-tool`
 
-### Improvement
+### ✨ Improvement
 
 **[#4656](https://github.com/ballerina-platform/ballerina-library/issues/4656)** Improve diagnostics for invalid proto files
 
@@ -38,7 +40,7 @@ Labels: `Type/Improvement`, `good first issue`, `Area/Tooling`, `module/protoc-t
 
 Labels: `Type/Improvement`, `Team/PCM`, `Area/Tooling`, `module/protoc-tool`
 
-### Task
+### 📋 Task
 
 **[#5748](https://github.com/ballerina-platform/ballerina-library/issues/5748)** Support code generation to Ballerina PreBuildRunner task within the Protoc tool
 

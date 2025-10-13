@@ -1,25 +1,27 @@
 # Area/Library - module/graphql
 
-Total Issues: 77
+**Total Issues:** 77
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 9
-- **Improvement:** 42
-- **NewFeature:** 12
-- **Task:** 14
+- 🐛 **Bug:** 9
+- ✨ **Improvement:** 42
+- 🚀 **NewFeature:** 12
+- 📋 **Task:** 14
 
-## Priority: Low
+---
 
-### Task
+## 🔵 Priority: Low
+
+### 📋 Task
 
 **[#1862](https://github.com/ballerina-platform/ballerina-library/issues/1862)** Check for GraphQL Spec Conformance Tests
 
 Labels: `Priority/Low`, `Type/Task`, `module/graphql`, `IceBox`, `Area/Library`
 
-## Priority: None
+## ⚪ Priority: None
 
-### Bug
+### 🐛 Bug
 
 **[#8272](https://github.com/ballerina-platform/ballerina-library/issues/8272)** GraphQL schema generation fails when using type alias for array input
 
@@ -57,7 +59,7 @@ Labels: `Type/Bug`, `module/graphql`, `Area/Library`
 
 Labels: `Type/Bug`, `good first issue`, `module/graphql`, `Hacktoberfest`, `Credits/45`, `Area/Library`
 
-### Improvement
+### ✨ Improvement
 
 **[#7953](https://github.com/ballerina-platform/ballerina-library/issues/7953)** Inconsistent Error Messages Returns for Invalid Inputs Values
 
@@ -227,7 +229,7 @@ Labels: `Type/Improvement`, `module/graphql`, `Area/Library`
 
 Labels: `Type/Improvement`, `module/graphql`, `Status/Blocked`, `IceBox`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#7961](https://github.com/ballerina-platform/ballerina-library/issues/7961)** Create a Tutorial Video Series for Ballerina GraphQL
 
@@ -281,7 +283,7 @@ Labels: `Type/Task`, `module/io`, `module/cache`, `module/auth`, `module/http`, 
 
 Labels: `Type/Task`, `module/graphql`, `Area/Library`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#7613](https://github.com/ballerina-platform/ballerina-library/issues/7613)** GraphQL Persisted Query Support
 

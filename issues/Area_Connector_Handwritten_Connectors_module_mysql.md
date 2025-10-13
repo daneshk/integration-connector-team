@@ -1,24 +1,26 @@
 # Area/Connector/Handwritten Connectors - module/mysql
 
-Total Issues: 11
+**Total Issues:** 11
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 4
-- **Improvement:** 3
-- **Task:** 4
+- 🐛 **Bug:** 4
+- ✨ **Improvement:** 3
+- 📋 **Task:** 4
 
-## Priority: Highest
+---
 
-### Bug
+## 🔴 Priority: Highest
+
+### 🐛 Bug
 
 **[#3511](https://github.com/ballerina-platform/ballerina-library/issues/3511)** Database parameter is not validated in MySQL connector
 
 Labels: `Priority/Highest`, `Type/Bug`, `module/mysql`, `Area/Connector`
 
-## Priority: High
+## 🟠 Priority: High
 
-### Bug
+### 🐛 Bug
 
 **[#7359](https://github.com/ballerina-platform/ballerina-library/issues/7359)** Invalid stream value created by the MySQL client
 
@@ -32,7 +34,7 @@ Labels: `Priority/High`, `Type/Bug`, `module/mysql`, `Area/Connector`
 
 Labels: `Priority/High`, `Type/Bug`, `module/mysql`, `Area/Connector`
 
-### Improvement
+### ✨ Improvement
 
 **[#4703](https://github.com/ballerina-platform/ballerina-library/issues/4703)** Support inserting JSON types in MySQL connector using a ParameterizedQuery
 
@@ -42,23 +44,23 @@ Labels: `Priority/High`, `Type/Improvement`, `module/mysql`, `Area/Connector`
 
 Labels: `Priority/High`, `Type/Improvement`, `Type/Proposal`, `module/mysql`, `module/mssql`, `module/oracledb`, `module/postgresql`, `Status/Active`, `Area/Connector`
 
-### Task
+### 📋 Task
 
 **[#3518](https://github.com/ballerina-platform/ballerina-library/issues/3518)** Test disabled MySQL tests with native-image
 
 Labels: `Priority/High`, `Type/Task`, `module/mysql`, `Area/Connector`
 
-## Priority: Normal
+## 🟡 Priority: Normal
 
-### Improvement
+### ✨ Improvement
 
 **[#3512](https://github.com/ballerina-platform/ballerina-library/issues/3512)** Improve ssl configuration in MySQL connector
 
 Labels: `Type/Improvement`, `module/mysql`, `Area/Connector`, `Priority/Normal`
 
-## Priority: Low
+## 🔵 Priority: Low
 
-### Task
+### 📋 Task
 
 **[#4604](https://github.com/ballerina-platform/ballerina-library/issues/4604)** Add test cases for enum retrieval support in SQL connectors
 

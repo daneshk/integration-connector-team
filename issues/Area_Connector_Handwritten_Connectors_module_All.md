@@ -1,16 +1,18 @@
 # Area/Connector/Handwritten Connectors - module/All
 
-Total Issues: 13
+**Total Issues:** 13
 
-## Issue Types
+## 📊 Issue Types
 
-- **Bug:** 2
-- **Improvement:** 2
-- **Task:** 9
+- 🐛 **Bug:** 2
+- ✨ **Improvement:** 2
+- 📋 **Task:** 9
 
-## Priority: Highest
+---
 
-### Task
+## 🔴 Priority: Highest
+
+### 📋 Task
 
 **[#8312](https://github.com/ballerina-platform/ballerina-library/issues/8312)** Prioritize Library and Connector current issues
 
@@ -20,15 +22,15 @@ Labels: `Priority/Highest`, `Type/Task`, `module/All`, `Area/Connector`, `Area/L
 
 Labels: `Priority/Highest`, `Type/Task`, `module/All`, `Area/Connector`
 
-## Priority: High
+## 🟠 Priority: High
 
-### Bug
+### 🐛 Bug
 
 **[#6676](https://github.com/ballerina-platform/ballerina-library/issues/6676)** Connector build is not working on windows
 
 Labels: `Priority/High`, `Type/Bug`, `module/All`, `Area/Connector`
 
-### Task
+### 📋 Task
 
 **[#8275](https://github.com/ballerina-platform/ballerina-library/issues/8275)** [High Priority] Review Library/Connector API docs in BI editor
 
@@ -38,15 +40,15 @@ Labels: `Priority/High`, `Type/Task`, `module/All`, `Area/Connector`, `Area/Libr
 
 Labels: `Priority/High`, `Type/Task`, `module/All`, `Area/Connector`
 
-## Priority: Normal
+## 🟡 Priority: Normal
 
-### Bug
+### 🐛 Bug
 
 **[#4967](https://github.com/ballerina-platform/ballerina-library/issues/4967)** [Bug]: Incorrect examples are shown for older versions of the modules
 
 Labels: `Type/Bug`, `module/All`, `Area/Connector`, `Priority/Normal`
 
-### Improvement
+### ✨ Improvement
 
 **[#6794](https://github.com/ballerina-platform/ballerina-library/issues/6794)** Add Link to Ballerina Central from Repositories in ballerina & ballerinax packages
 
@@ -56,9 +58,9 @@ Labels: `Type/Improvement`, `module/All`, `Area/Connector`, `Priority/Normal`, `
 
 Labels: `Type/Improvement`, `Area/Build`, `module/All`, `Area/Connector`, `Priority/Normal`
 
-## Priority: Low
+## 🔵 Priority: Low
 
-### Task
+### 📋 Task
 
 **[#8277](https://github.com/ballerina-platform/ballerina-library/issues/8277)** [Low Priority] Review Library/Connector API docs in BI editor
 

@@ -1,24 +1,26 @@
 # Area/Library - module/crypto
 
-Total Issues: 10
+**Total Issues:** 10
 
-## Issue Types
+## 📊 Issue Types
 
-- **Improvement:** 4
-- **NewFeature:** 3
-- **Task:** 3
+- ✨ **Improvement:** 4
+- 🚀 **NewFeature:** 3
+- 📋 **Task:** 3
 
-## Priority: High
+---
 
-### Task
+## 🟠 Priority: High
+
+### 📋 Task
 
 **[#4212](https://github.com/ballerina-platform/ballerina-library/issues/4212)** Make Crypto module FIPS compliant
 
 Labels: `Points/5`, `Priority/High`, `Type/Task`, `module/crypto`, `Area/Library`
 
-## Priority: None
+## ⚪ Priority: None
 
-### Improvement
+### ✨ Improvement
 
 **[#8292](https://github.com/ballerina-platform/ballerina-library/issues/8292)** Add support for RSASSA-PSS (PS256) algorithm
 
@@ -36,7 +38,7 @@ Labels: `Type/Improvement`, `good first issue`, `module/crypto`, `Area/Library`
 
 Labels: `Type/Improvement`, `module/crypto`, `Area/Library`
 
-### Task
+### 📋 Task
 
 **[#6774](https://github.com/ballerina-platform/ballerina-library/issues/6774)** Password in Crypto module are configurable as `string` values
 
@@ -46,7 +48,7 @@ Labels: `Type/Task`, `module/crypto`, `Area/Library`
 
 Labels: `Type/Task`, `module/crypto`, `Area/Library`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#8182](https://github.com/ballerina-platform/ballerina-library/issues/8182)** Support NIST-Approved Post-Quantum Algorithms
 

@@ -1,14 +1,16 @@
 # Area/Library - module/xslt
 
-Total Issues: 1
+**Total Issues:** 1
 
-## Issue Types
+## 📊 Issue Types
 
-- **Task:** 1
+- 📋 **Task:** 1
 
-## Priority: None
+---
 
-### Task
+## ⚪ Priority: None
+
+### 📋 Task
 
 **[#192](https://github.com/ballerina-platform/ballerina-library/issues/192)** Enable testReadFromSource test
 

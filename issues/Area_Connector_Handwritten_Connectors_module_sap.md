@@ -1,16 +1,18 @@
 # Area/Connector/Handwritten Connectors - module/sap
 
-Total Issues: 7
+**Total Issues:** 7
 
-## Issue Types
+## 📊 Issue Types
 
-- **NewFeature:** 3
-- **Proposal:** 1
-- **Task:** 3
+- 🚀 **NewFeature:** 3
+- 💡 **Proposal:** 1
+- 📋 **Task:** 3
 
-## Priority: High
+---
 
-### Task
+## 🟠 Priority: High
+
+### 📋 Task
 
 **[#6885](https://github.com/ballerina-platform/ballerina-library/issues/6885)** SAP KT video series
 
@@ -24,7 +26,7 @@ Labels: `Priority/High`, `Type/Task`, `Area/Connector`, `module/sap`
 
 Labels: `Priority/High`, `Type/Task`, `Area/Connector`, `module/sap`, `module/s4hana`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#6733](https://github.com/ballerina-platform/ballerina-library/issues/6733)** Implement S/4HANA PP connectors
 
@@ -38,9 +40,9 @@ Labels: `Priority/High`, `Type/NewFeature`, `Area/Connector`, `module/sap`, `mod
 
 Labels: `Priority/High`, `Type/NewFeature`, `Area/Connector`, `module/sap`, `module/s4hana`
 
-## Priority: Low
+## 🔵 Priority: Low
 
-### Proposal
+### 💡 Proposal
 
 **[#7528](https://github.com/ballerina-platform/ballerina-library/issues/7528)** Proposal for Enhancements to the Ballerina SAP ECC Connector
 

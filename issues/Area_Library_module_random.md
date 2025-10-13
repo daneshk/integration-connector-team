@@ -1,22 +1,24 @@
 # Area/Library - module/random
 
-Total Issues: 3
+**Total Issues:** 3
 
-## Issue Types
+## 📊 Issue Types
 
-- **Improvement:** 3
+- ✨ **Improvement:** 3
 
-## Priority: High
+---
 
-### Improvement
+## 🟠 Priority: High
+
+### ✨ Improvement
 
 **[#7929](https://github.com/ballerina-platform/ballerina-library/issues/7929)** Add Support for Cryptographically Secure Random Number Generation (CSPRNG)
 
 Labels: `Priority/High`, `Type/Improvement`, `module/random`, `Area/Library`, `Area/StaticCode`
 
-## Priority: Low
+## 🔵 Priority: Low
 
-### Improvement
+### ✨ Improvement
 
 **[#4746](https://github.com/ballerina-platform/ballerina-library/issues/4746)** Improve `random` standard library
 

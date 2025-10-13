@@ -1,21 +1,23 @@
 # Area/Connector/Handwritten Connectors - No Module
 
-Total Issues: 9
+**Total Issues:** 9
 
-## Issue Types
+## 📊 Issue Types
 
-- **NewFeature:** 8
-- **Task:** 1
+- 🚀 **NewFeature:** 8
+- 📋 **Task:** 1
 
-## Priority: Normal
+---
 
-### Task
+## 🟡 Priority: Normal
+
+### 📋 Task
 
 **[#8276](https://github.com/ballerina-platform/ballerina-library/issues/8276)** [Medium Priority] Review Library/Connector API docs in BI editor
 
 Labels: `Type/Task`, `Area/Connector`, `Priority/Normal`, `Area/Library`
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#7059](https://github.com/ballerina-platform/ballerina-library/issues/7059)** Introduce a Ballerina connector for Google Forms REST API
 
@@ -45,9 +47,9 @@ Labels: `Type/NewFeature`, `Area/Connector`, `Priority/Normal`
 
 Labels: `Type/NewFeature`, `Area/Connector`, `Priority/Normal`
 
-## Priority: Low
+## 🔵 Priority: Low
 
-### NewFeature
+### 🚀 NewFeature
 
 **[#4996](https://github.com/ballerina-platform/ballerina-library/issues/4996)** [Feature]: Create a connector for Azure Data Lake Gen 2 - Table container
 
