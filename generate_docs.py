@@ -80,20 +80,20 @@ def get_priority_score(issues):
     return score
 
 def format_priority_cell(count, priority_type):
-    """Format a priority cell with color coding if count > 0"""
+    """Format a priority cell with emoji indicators if count > 0"""
     if count == 0:
         return "0"
 
-    colors = {
-        'Highest': '#ff0000',  # Red
-        'High': '#ff6600',     # Orange
-        'Normal': '#ffcc00',   # Yellow
-        'Low': '#99ccff',      # Light Blue
-        'None': '#cccccc'      # Gray
+    indicators = {
+        'Highest': '🔴',  # Red circle
+        'High': '🟠',     # Orange circle
+        'Normal': '🟡',   # Yellow circle
+        'Low': '🔵',      # Blue circle
+        'None': '⚪'      # White circle
     }
 
-    color = colors.get(priority_type, '#ffffff')
-    return f'<span style="background-color: {color}; padding: 2px 6px; border-radius: 3px; font-weight: bold;">{count}</span>'
+    indicator = indicators.get(priority_type, '')
+    return f'{indicator} **{count}**'
 
 def generate_readme(organized, module_files):
     """Generate README with summary and links"""
