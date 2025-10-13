@@ -1,22 +1,14 @@
 # Area/Library - module/websocket
 
-**Total Issues:** 4
+**Total Issues:** 3
 
 ## 📊 Issue Types
 
-- ✨ **Improvement:** 2
+- ✨ **Improvement:** 1
 - 🚀 **NewFeature:** 1
 - 📋 **Task:** 1
 
 ---
-
-## 🟠 Priority: High
-
-### ✨ Improvement
-
-**[#1646](https://github.com/ballerina-platform/ballerina-library/issues/1646)** Remove deprecated runtime APIs `getParamNames()` & `getParamDefaultability()` for resource methods
-
-Labels: `Priority/High`, `Type/Improvement`, `module/http`, `module/websocket`, `Area/Library`
 
 ## ⚪ Priority: None
 

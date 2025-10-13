@@ -1,14 +1,14 @@
 # Area/Library - module/http
 
-**Total Issues:** 200
+**Total Issues:** 196
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 28
 - 📚 **Docs:** 2
-- ✨ **Improvement:** 111
+- ✨ **Improvement:** 108
 - 🚀 **NewFeature:** 13
-- 📋 **Task:** 46
+- 📋 **Task:** 45
 
 ---
 
@@ -28,17 +28,67 @@ Labels: `Priority/Highest`, `Type/Bug`, `module/http`, `Area/http2`, `Area/Libra
 
 Labels: `Priority/Highest`, `Points/5`, `Type/Bug`, `module/http`, `Area/Library`
 
-### 📋 Task
-
-**[#3886](https://github.com/ballerina-platform/ballerina-library/issues/3886)** Enable windows test in pull request workflow which hang after 4.1.86 Netty update
-
-Labels: `Priority/Highest`, `Type/Task`, `module/http`, `Area/Library`
-
 ## 🟠 Priority: High
 
 ### 🐛 Bug
 
+**[#7893](https://github.com/ballerina-platform/ballerina-library/issues/7893)** HTTP compile error when referring a listener in different file in a service
+
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/CompilerPlugin`, `Reason/EngineeringMistake`, `Area/Library`
+
+**[#7727](https://github.com/ballerina-platform/ballerina-library/issues/7727)** Getting a compilation error when using `http:ServiceContract`
+
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/CompilerPlugin`, `Area/Library`
+
+**[#7512](https://github.com/ballerina-platform/ballerina-library/issues/7512)** Http POST resource functions can define more than one payload parameters
+
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
+
+**[#7298](https://github.com/ballerina-platform/ballerina-library/issues/7298)** Error when use getJsonPayload method and Client.forward() over https
+
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
+
+**[#7292](https://github.com/ballerina-platform/ballerina-library/issues/7292)** Error in data binding with the URL encoded content-type with charset directive
+
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
+
+**[#7291](https://github.com/ballerina-platform/ballerina-library/issues/7291)** Error in databinding with the header application/x-www-form-urlencoded
+
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
+
+**[#5962](https://github.com/ballerina-platform/ballerina-library/issues/5962)** HTTP compiler failed when we have a default value for payload parameter
+
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/CompilerPlugin`, `Area/Library`
+
+**[#5894](https://github.com/ballerina-platform/ballerina-library/issues/5894)** Defaultable header parameters in the HTTP resource is not considered as optional
+
+Labels: `Points/1.5`, `Priority/High`, `Type/Bug`, `good first issue`, `module/http`, `Team/PCM`, `Area/Library`
+
+**[#5085](https://github.com/ballerina-platform/ballerina-library/issues/5085)** HTTP compiler validations are not working for isolated service
+
+Labels: `Points/0.5`, `Priority/High`, `Type/Bug`, `good first issue`, `module/http`, `Area/CompilerPlugin`, `Area/Library`
+
+**[#4915](https://github.com/ballerina-platform/ballerina-library/issues/4915)** Intermittent test failure: `testRequestInterceptorCtxNext`
+
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
+
+**[#4461](https://github.com/ballerina-platform/ballerina-library/issues/4461)** `http` std-lib build hang intermittently during `:http-ballerina-tests:ballerinaTest` task
+
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `Reason/Complex`, `Area/http2`, `Area/Library`
+
 **[#4671](https://github.com/ballerina-platform/ballerina-library/issues/4671)** [Bug] Reading a byte stream from a backend hangs in the passthrough
+
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
+
+**[#3318](https://github.com/ballerina-platform/ballerina-library/issues/3318)** [Windows] Test failure : testAuthnError
+
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
+
+**[#3250](https://github.com/ballerina-platform/ballerina-library/issues/3250)** [Windows] Test failure `testSslClientFallbackFromH2ToH1`
+
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `Reason/EngineeringMistake`, `Area/Library`
+
+**[#501](https://github.com/ballerina-platform/ballerina-library/issues/501)** [HTTP][CORS] Exact value origin match fails
 
 Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
 
@@ -60,37 +110,13 @@ Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Library`
 
 Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Library`
 
-**[#3302](https://github.com/ballerina-platform/ballerina-library/issues/3302)** Improve spec on HTTP error structure
-
-Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Library`
-
-**[#3301](https://github.com/ballerina-platform/ballerina-library/issues/3301)** Add section for HTTP dispatching and describe the accessor behavour as well
-
-Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Library`
-
-**[#2760](https://github.com/ballerina-platform/ballerina-library/issues/2760)** Need code action to generate HTTP status codes
-
-Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Library`
-
-**[#2756](https://github.com/ballerina-platform/ballerina-library/issues/2756)** Improve port binding error message
-
-Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Library`
-
 **[#1687](https://github.com/ballerina-platform/ballerina-library/issues/1687)** Validate StatusCodeRecords at compile time for extra fields
 
 Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Library`
 
 **[#1646](https://github.com/ballerina-platform/ballerina-library/issues/1646)** Remove deprecated runtime APIs `getParamNames()` & `getParamDefaultability()` for resource methods
 
-Labels: `Priority/High`, `Type/Improvement`, `module/http`, `module/websocket`, `Area/Library`
-
-**[#1076](https://github.com/ballerina-platform/ballerina-library/issues/1076)** Environment is different during async call
-
-Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Library`
-
-**[#3094](https://github.com/ballerina-platform/ballerina-library/issues/3094)** Remote calls are documented with a dot. Eg: Client.post() 
-
-Labels: `Priority/High`, `Type/Improvement`, `Type/Task`, `module/http`, `Area/Library`
+Labels: `Priority/High`, `Type/Improvement`, `good first issue`, `module/http`, `Area/Library`
 
 ### 📋 Task
 
@@ -98,25 +124,105 @@ Labels: `Priority/High`, `Type/Improvement`, `Type/Task`, `module/http`, `Area/L
 
 Labels: `Points/5`, `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
 
-**[#3871](https://github.com/ballerina-platform/ballerina-library/issues/3871)** Check the feasibility of using `netty-all` jar
-
-Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
-
 ### 🚀 NewFeature
 
 **[#897](https://github.com/ballerina-platform/ballerina-library/issues/897)** Add 417,406 validation to @http:Payload annotation
 
 Labels: `Priority/High`, `Type/NewFeature`, `module/http`, `Area/Library`
 
+## 🟡 Priority: Normal
+
+### 🐛 Bug
+
+**[#6915](https://github.com/ballerina-platform/ballerina-library/issues/6915)** HTTP trace logs are not enabled in Windows via the command line argument
+
+Labels: `Type/Bug`, `module/http`, `Priority/Normal`, `Area/Library`
+
+**[#6634](https://github.com/ballerina-platform/ballerina-library/issues/6634)** Truststore not packed correctly with the graalvm native image in Choreo
+
+Labels: `Type/Bug`, `module/http`, `Area/GraalVM`, `Priority/Normal`, `Area/Library`
+
+**[#5714](https://github.com/ballerina-platform/ballerina-library/issues/5714)** Http response getting hold when trying to return response received from another http client
+
+Labels: `Type/Bug`, `module/http`, `Priority/Normal`, `Area/Library`
+
 ## 🔵 Priority: Low
 
 ### 🐛 Bug
+
+**[#7723](https://github.com/ballerina-platform/ballerina-library/issues/7723)** Internal data-binding errors are returned as it is which exposes the internal details
+
+Labels: `Priority/Low`, `Type/Bug`, `module/http`, `Area/Library`
+
+**[#7395](https://github.com/ballerina-platform/ballerina-library/issues/7395)** Internal Auth Errors should not be Logged as Unhandled Error
+
+Labels: `Priority/Low`, `Type/Bug`, `module/http`, `Area/Library`
 
 **[#6623](https://github.com/ballerina-platform/ballerina-library/issues/6623)** PathParamTypes are compiled regardless of the way it is denoted
 
 Labels: `Priority/Low`, `Type/Bug`, `module/http`, `Area/Library`
 
+**[#6308](https://github.com/ballerina-platform/ballerina-library/issues/6308)** [HTTP] Malformed query parameter leads to NPE
+
+Labels: `Priority/Low`, `Type/Bug`, `good first issue`, `module/http`, `Reason/EngineeringMistake`, `Area/Library`
+
+**[#5817](https://github.com/ballerina-platform/ballerina-library/issues/5817)** HTTP service fails with netty exception when calling concurrently
+
+Labels: `Priority/Low`, `Type/Bug`, `module/http`, `Area/Library`
+
+**[#5112](https://github.com/ballerina-platform/ballerina-library/issues/5112)** Idle timeout triggered before initiating inbound response
+
+Labels: `Priority/Low`, `Type/Bug`, `module/http`, `Area/Library`
+
+**[#4525](https://github.com/ballerina-platform/ballerina-library/issues/4525)** [Bug]: Private Return Types are used in public methods
+
+Labels: `Priority/Low`, `Type/Bug`, `Type/Docs`, `module/http`, `Area/Library`
+
 ### ✨ Improvement
+
+**[#7919](https://github.com/ballerina-platform/ballerina-library/issues/7919)** HTTP response binding does not support union types with `stream<http:SseEvent, error?>` and anydata
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
+
+**[#6617](https://github.com/ballerina-platform/ballerina-library/issues/6617)** HTTP client can not data-bind CSV response into a Ballerina record
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
+
+**[#6376](https://github.com/ballerina-platform/ballerina-library/issues/6376)** Validate expected type of http client invocation action using a compiler plugin
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
+
+**[#6372](https://github.com/ballerina-platform/ballerina-library/issues/6372)** Configuring how multiple values for the same query parameter are combined
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
+
+**[#6315](https://github.com/ballerina-platform/ballerina-library/issues/6315)** Can we be more specific about which certificates/keys needs to be used in the mutual SSL example?
+
+Labels: `Priority/Low`, `Type/Improvement`, `good first issue`, `module/http`, `Area/BBEs`, `Hacktoberfest`, `Area/Library`
+
+**[#6110](https://github.com/ballerina-platform/ballerina-library/issues/6110)** [WIP] Review the `nil` return from interceptors via `RequestContext:next()`
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
+
+**[#6032](https://github.com/ballerina-platform/ballerina-library/issues/6032)** Requesting CSRF token from server for http requests
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
+
+**[#5890](https://github.com/ballerina-platform/ballerina-library/issues/5890)** Requesting a log improvement.
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
+
+**[#3301](https://github.com/ballerina-platform/ballerina-library/issues/3301)** Add section for HTTP dispatching and describe the accessor behavour as well
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
+
+**[#2760](https://github.com/ballerina-platform/ballerina-library/issues/2760)** Need code action to generate HTTP status codes
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
+
+**[#2756](https://github.com/ballerina-platform/ballerina-library/issues/2756)** Improve port binding error message
+
+Labels: `Priority/Low`, `Type/Improvement`, `good first issue`, `module/http`, `Area/Library`
 
 **[#1535](https://github.com/ballerina-platform/ballerina-library/issues/1535)** Make Listener Representation-Oriented
 
@@ -124,139 +230,17 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
 ### 📋 Task
 
+**[#3871](https://github.com/ballerina-platform/ballerina-library/issues/3871)** Check the feasibility of using `netty-all` jar
+
+Labels: `Priority/Low`, `Type/Task`, `module/http`, `Area/Library`
+
 **[#485](https://github.com/ballerina-platform/ballerina-library/issues/485)** HTTP/2 performs poorly for 50 bytes payloads compared to HTTP/1.1
 
 Labels: `Priority/Low`, `Type/Task`, `module/http`, `Area/http2`, `Area/Library`
 
 ## ⚪ Priority: None
 
-### 🐛 Bug
-
-**[#7893](https://github.com/ballerina-platform/ballerina-library/issues/7893)** HTTP compile error when referring a listener in different file in a service
-
-Labels: `Type/Bug`, `module/http`, `Area/CompilerPlugin`, `Reason/EngineeringMistake`, `Area/Library`
-
-**[#7727](https://github.com/ballerina-platform/ballerina-library/issues/7727)** Getting a compilation error when using `http:ServiceContract`
-
-Labels: `Type/Bug`, `module/http`, `Area/CompilerPlugin`, `Area/Library`
-
-**[#7723](https://github.com/ballerina-platform/ballerina-library/issues/7723)** Internal data-binding errors are returned as it is which exposes the internal details
-
-Labels: `Type/Bug`, `module/http`, `Area/Library`
-
-**[#7512](https://github.com/ballerina-platform/ballerina-library/issues/7512)** Http POST resource functions can define more than one payload parameters
-
-Labels: `Type/Bug`, `module/http`, `Area/Library`
-
-**[#7395](https://github.com/ballerina-platform/ballerina-library/issues/7395)** Internal Auth Errors should not be Logged as Unhandled Error
-
-Labels: `Type/Bug`, `module/http`, `Area/Library`
-
-**[#7298](https://github.com/ballerina-platform/ballerina-library/issues/7298)** Error when use getJsonPayload method and Client.forward() over https
-
-Labels: `Type/Bug`, `module/http`, `Area/Library`
-
-**[#7292](https://github.com/ballerina-platform/ballerina-library/issues/7292)** Error in data binding with the URL encoded content-type with charset directive
-
-Labels: `Type/Bug`, `module/http`, `Area/Library`
-
-**[#7291](https://github.com/ballerina-platform/ballerina-library/issues/7291)** Error in databinding with the header application/x-www-form-urlencoded
-
-Labels: `Type/Bug`, `module/http`, `Area/Library`
-
-**[#6915](https://github.com/ballerina-platform/ballerina-library/issues/6915)** HTTP trace logs are not enabled in Windows via the command line argument
-
-Labels: `Type/Bug`, `module/http`, `Area/Library`
-
-**[#6634](https://github.com/ballerina-platform/ballerina-library/issues/6634)** Truststore not packed correctly with the graalvm native image in Choreo
-
-Labels: `Type/Bug`, `module/http`, `Area/GraalVM`, `Area/Library`
-
-**[#6308](https://github.com/ballerina-platform/ballerina-library/issues/6308)** [HTTP] Malformed query parameter leads to NPE
-
-Labels: `Type/Bug`, `module/http`, `Reason/EngineeringMistake`, `Area/Library`
-
-**[#5962](https://github.com/ballerina-platform/ballerina-library/issues/5962)** HTTP compiler failed when we have a default value for payload parameter
-
-Labels: `Type/Bug`, `module/http`, `Area/CompilerPlugin`, `Area/Library`
-
-**[#5894](https://github.com/ballerina-platform/ballerina-library/issues/5894)** Defaultable header parameters in the HTTP resource is not considered as optional
-
-Labels: `Points/1.5`, `Type/Bug`, `good first issue`, `module/http`, `Team/PCM`, `Area/Library`
-
-**[#5817](https://github.com/ballerina-platform/ballerina-library/issues/5817)** HTTP service fails with netty exception when calling concurrently
-
-Labels: `Type/Bug`, `module/http`, `Area/Library`
-
-**[#5714](https://github.com/ballerina-platform/ballerina-library/issues/5714)** Http response getting hold when trying to return response received from another http client
-
-Labels: `Type/Bug`, `module/http`, `Area/Library`
-
-**[#5085](https://github.com/ballerina-platform/ballerina-library/issues/5085)** HTTP compiler validations are not working for isolated service
-
-Labels: `Points/0.5`, `Type/Bug`, `good first issue`, `module/http`, `Area/CompilerPlugin`, `Area/Library`
-
-**[#5112](https://github.com/ballerina-platform/ballerina-library/issues/5112)** Idle timeout triggered before initiating inbound response
-
-Labels: `Type/Bug`, `module/http`, `Area/Library`
-
-**[#4915](https://github.com/ballerina-platform/ballerina-library/issues/4915)** Intermittent test failure: `testRequestInterceptorCtxNext`
-
-Labels: `Type/Bug`, `module/http`, `Area/Library`
-
-**[#4525](https://github.com/ballerina-platform/ballerina-library/issues/4525)** [Bug]: Private Return Types are used in public methods
-
-Labels: `Type/Bug`, `Type/Docs`, `module/http`, `Area/Library`
-
-**[#4461](https://github.com/ballerina-platform/ballerina-library/issues/4461)** `http` std-lib build hang intermittently during `:http-ballerina-tests:ballerinaTest` task
-
-Labels: `Type/Bug`, `module/http`, `Reason/Complex`, `Area/http2`, `Area/Library`
-
-**[#3318](https://github.com/ballerina-platform/ballerina-library/issues/3318)** [Windows] Test failure : testAuthnError
-
-Labels: `Type/Bug`, `module/http`, `Area/Library`
-
-**[#3250](https://github.com/ballerina-platform/ballerina-library/issues/3250)** [Windows] Test failure `testSslClientFallbackFromH2ToH1`
-
-Labels: `Type/Bug`, `module/http`, `Reason/EngineeringMistake`, `Area/Library`
-
-**[#501](https://github.com/ballerina-platform/ballerina-library/issues/501)** [HTTP][CORS] Exact value origin match fails
-
-Labels: `Type/Bug`, `module/http`, `Area/Library`
-
 ### ✨ Improvement
-
-**[#7919](https://github.com/ballerina-platform/ballerina-library/issues/7919)** HTTP response binding does not support union types with `stream<http:SseEvent, error?>` and anydata
-
-Labels: `Type/Improvement`, `module/http`, `Area/Library`
-
-**[#6617](https://github.com/ballerina-platform/ballerina-library/issues/6617)** HTTP client can not data-bind CSV response into a Ballerina record
-
-Labels: `Type/Improvement`, `module/http`, `Area/Library`
-
-**[#6376](https://github.com/ballerina-platform/ballerina-library/issues/6376)** Validate expected type of http client invocation action using a compiler plugin
-
-Labels: `Type/Improvement`, `module/http`, `Area/Library`
-
-**[#6372](https://github.com/ballerina-platform/ballerina-library/issues/6372)** Configuring how multiple values for the same query parameter are combined
-
-Labels: `Type/Improvement`, `module/http`, `Area/Library`
-
-**[#6315](https://github.com/ballerina-platform/ballerina-library/issues/6315)** Can we be more specific about which certificates/keys needs to be used in the mutual SSL example?
-
-Labels: `Type/Improvement`, `good first issue`, `module/http`, `Area/BBEs`, `Hacktoberfest`, `Area/Library`
-
-**[#6110](https://github.com/ballerina-platform/ballerina-library/issues/6110)** [WIP] Review the `nil` return from interceptors via `RequestContext:next()`
-
-Labels: `Type/Improvement`, `module/http`, `Area/Library`
-
-**[#6032](https://github.com/ballerina-platform/ballerina-library/issues/6032)** Requesting CSRF token from server for http requests
-
-Labels: `Type/Improvement`, `module/http`, `Area/Library`
-
-**[#5890](https://github.com/ballerina-platform/ballerina-library/issues/5890)** Requesting a log improvement.
-
-Labels: `Type/Improvement`, `module/http`, `Area/Library`
 
 **[#5885](https://github.com/ballerina-platform/ballerina-library/issues/5885)** Http Client error does not contain the full stacktrace.
 
