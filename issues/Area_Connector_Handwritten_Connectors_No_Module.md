@@ -1,10 +1,10 @@
 # Area/Connector/Handwritten Connectors - No Module
 
-Total Issues: 8
+Total Issues: 9
 
 ## Issue Types
 
-- **NewFeature:** 7
+- **NewFeature:** 8
 - **Task:** 1
 
 ## Priority: Normal
@@ -44,4 +44,12 @@ Labels: `Type/NewFeature`, `Area/Connector`, `Priority/Normal`
 **[#5032](https://github.com/ballerina-platform/ballerina-library/issues/5032)** [Feature]: Create OpenAPI specification and generate LinkedIn connector
 
 Labels: `Type/NewFeature`, `Area/Connector`, `Priority/Normal`
+
+## Priority: Low
+
+### NewFeature
+
+**[#4996](https://github.com/ballerina-platform/ballerina-library/issues/4996)** [Feature]: Create a connector for Azure Data Lake Gen 2 - Table container
+
+Labels: `Priority/Low`, `Type/NewFeature`, `Area/Connector`
 

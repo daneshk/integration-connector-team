@@ -6,11 +6,11 @@ Total Issues: 1
 
 - **Task:** 1
 
-## Priority: None
+## Priority: High
 
 ### Task
 
 **[#4955](https://github.com/ballerina-platform/ballerina-library/issues/4955)** [Task]:  Implement a test suite for cdata connector 
 
-Labels: `Type/Task`, `good first issue`, `Hacktoberfest`, `Area/Connector`, `module/cdata`
+Labels: `Priority/High`, `Type/Task`, `good first issue`, `Hacktoberfest`, `Area/Connector`, `module/cdata`
 

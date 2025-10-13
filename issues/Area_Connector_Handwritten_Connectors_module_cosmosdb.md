@@ -1,35 +1,25 @@
 # Area/Connector/Handwritten Connectors - module/cosmosdb
 
-Total Issues: 4
+Total Issues: 2
 
 ## Issue Types
 
 - **Docs:** 1
-- **Improvement:** 3
+- **Improvement:** 1
 
 ## Priority: High
 
 ### Improvement
 
-**[#5030](https://github.com/ballerina-platform/ballerina-library/issues/5030)** [Improvement]: The iconPaths in some clients in connectors with multiple clients/modules are not updated
-
-Labels: `Priority/High`, `Type/Improvement`, `Area/Connector`, `module/salesforce`, `module/azure-storageservice`, `module/cosmosdb`
-
-## Priority: None
-
-### Improvement
-
 **[#4989](https://github.com/ballerina-platform/ballerina-library/issues/4989)** [Improvement]: Patch document feature for cosmosDB
 
-Labels: `Type/Improvement`, `Area/Connector`, `module/cosmosdb`
+Labels: `Priority/High`, `Type/Improvement`, `Area/Connector`, `module/cosmosdb`
 
-**[#5046](https://github.com/ballerina-platform/ballerina-library/issues/5046)** [Improvement]: Improving Azure CosmosDB connector to support Managed Identities
-
-Labels: `Type/Improvement`, `Area/Connector`, `module/cosmosdb`
+## Priority: Low
 
 ### Docs
 
 **[#5047](https://github.com/ballerina-platform/ballerina-library/issues/5047)** [Docs]: Support DB APIs other than the SQL API in Azure Cosmos DB Connector
 
-Labels: `Type/Docs`, `Type/Improvement`, `Area/Connector`, `module/cosmosdb`
+Labels: `Priority/Low`, `Type/Docs`, `Type/Improvement`, `Area/Connector`, `module/cosmosdb`
 

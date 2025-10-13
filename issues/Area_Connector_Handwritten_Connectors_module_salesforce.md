@@ -1,22 +1,14 @@
 # Area/Connector/Handwritten Connectors - module/salesforce
 
-Total Issues: 13
+Total Issues: 12
 
 ## Issue Types
 
 - **Bug:** 2
 - **Docs:** 2
-- **Improvement:** 7
+- **Improvement:** 6
 - **NewFeature:** 1
 - **Task:** 1
-
-## Priority: High
-
-### Improvement
-
-**[#5030](https://github.com/ballerina-platform/ballerina-library/issues/5030)** [Improvement]: The iconPaths in some clients in connectors with multiple clients/modules are not updated
-
-Labels: `Priority/High`, `Type/Improvement`, `Area/Connector`, `module/salesforce`, `module/azure-storageservice`, `module/cosmosdb`
 
 ## Priority: None
 

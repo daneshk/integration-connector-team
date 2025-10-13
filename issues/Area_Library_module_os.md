@@ -1,21 +1,13 @@
 # Area/Library - module/os
 
-Total Issues: 9
+Total Issues: 8
 
 ## Issue Types
 
-- **Bug:** 2
+- **Bug:** 1
 - **Improvement:** 4
 - **NewFeature:** 1
 - **Task:** 2
-
-## Priority: High
-
-### Bug
-
-**[#6344](https://github.com/ballerina-platform/ballerina-library/issues/6344)** Incorrect documentation for `os:exec` functioanlity
-
-Labels: `Priority/High`, `Type/Bug`, `good first issue`, `module/os`, `Hacktoberfest`, `Credits/20`, `Area/Library`
 
 ## Priority: None
 

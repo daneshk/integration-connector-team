@@ -1,10 +1,10 @@
 # Area/Library - No Module
 
-Total Issues: 24
+Total Issues: 25
 
 ## Issue Types
 
-- **Bug:** 1
+- **Bug:** 2
 - **Docs:** 1
 - **Improvement:** 4
 - **NewFeature:** 11
@@ -30,6 +30,10 @@ Labels: `Priority/Low`, `Type/Improvement`, `Area/GradlePlugin`, `Area/Library`
 ## Priority: None
 
 ### Bug
+
+**[#8347](https://github.com/ballerina-platform/ballerina-library/issues/8347)** Return modified modules list in build_standard_library.py (Fixed)
+
+Labels: `Type/Bug`, `Area/Library`
 
 **[#4335](https://github.com/ballerina-platform/ballerina-library/issues/4335)** Encoded `+` does not get decoded at the backend
 

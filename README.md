@@ -2,34 +2,31 @@
 
 This repository contains an organized breakdown of open issues from the [ballerina-library](https://github.com/ballerina-platform/ballerina-library) repository.
 
-**Last Updated:** 2025-10-12 23:13:34
+**Last Updated:** 2025-10-13 10:28:53
 
 ## Overall Summary
 
-**Total Issues Across All Areas:** 874
+**Total Issues Across All Areas:** 870
 
 ## Area/Connector
 
-**Total Issues:** 187
+**Total Issues:** 183
 
-### Handwritten Connectors (160 issues)
+### Handwritten Connectors (153 issues)
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
-| [No Module](issues/Area_Connector_Handwritten_Connectors_No_Module.md) | 8 | 0 | 0 | 8 | 0 | 0 |
+| [No Module](issues/Area_Connector_Handwritten_Connectors_No_Module.md) | 9 | 0 | 0 | 8 | 1 | 0 |
 | [module/All](issues/Area_Connector_Handwritten_Connectors_module_All.md) | 13 | 2 | 3 | 3 | 5 | 0 |
 | [module/aws-s3](issues/Area_Connector_Handwritten_Connectors_module_aws-s3.md) | 5 | 0 | 2 | 3 | 0 | 0 |
 | [module/aws.marketplace.mpm](issues/Area_Connector_Handwritten_Connectors_module_aws.marketplace.mpm.md) | 1 | 0 | 0 | 0 | 1 | 0 |
 | [module/aws.secretmanager](issues/Area_Connector_Handwritten_Connectors_module_aws.secretmanager.md) | 1 | 0 | 0 | 1 | 0 | 0 |
-| [module/azure-servicebus](issues/Area_Connector_Handwritten_Connectors_module_azure-servicebus.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/azure-storageservice](issues/Area_Connector_Handwritten_Connectors_module_azure-storageservice.md) | 3 | 0 | 1 | 0 | 0 | 2 |
-| [module/business-central](issues/Area_Connector_Handwritten_Connectors_module_business-central.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/candid](issues/Area_Connector_Handwritten_Connectors_module_candid.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/cdata](issues/Area_Connector_Handwritten_Connectors_module_cdata.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/cosmosdb](issues/Area_Connector_Handwritten_Connectors_module_cosmosdb.md) | 4 | 0 | 1 | 0 | 0 | 3 |
-| [module/discord](issues/Area_Connector_Handwritten_Connectors_module_discord.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [module/github](issues/Area_Connector_Handwritten_Connectors_module_github.md) | 3 | 0 | 0 | 0 | 0 | 3 |
-| [module/googleapis.drive](issues/Area_Connector_Handwritten_Connectors_module_googleapis.drive.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [module/azure-storageservice](issues/Area_Connector_Handwritten_Connectors_module_azure-storageservice.md) | 1 | 0 | 1 | 0 | 0 | 0 |
+| [module/business-central](issues/Area_Connector_Handwritten_Connectors_module_business-central.md) | 1 | 0 | 0 | 0 | 1 | 0 |
+| [module/cdata](issues/Area_Connector_Handwritten_Connectors_module_cdata.md) | 1 | 0 | 1 | 0 | 0 | 0 |
+| [module/cosmosdb](issues/Area_Connector_Handwritten_Connectors_module_cosmosdb.md) | 2 | 0 | 1 | 0 | 1 | 0 |
+| [module/github](issues/Area_Connector_Handwritten_Connectors_module_github.md) | 3 | 0 | 2 | 0 | 0 | 1 |
+| [module/googleapis.drive](issues/Area_Connector_Handwritten_Connectors_module_googleapis.drive.md) | 2 | 0 | 2 | 0 | 0 | 0 |
 | [module/googleapis.gmail](issues/Area_Connector_Handwritten_Connectors_module_googleapis.gmail.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [module/googleapis.sheets](issues/Area_Connector_Handwritten_Connectors_module_googleapis.sheets.md) | 6 | 0 | 0 | 0 | 0 | 6 |
 | [module/java.jdbc](issues/Area_Connector_Handwritten_Connectors_module_java.jdbc.md) | 6 | 0 | 0 | 0 | 0 | 6 |
@@ -48,7 +45,7 @@ This repository contains an organized breakdown of open issues from the [balleri
 | [module/postgresql](issues/Area_Connector_Handwritten_Connectors_module_postgresql.md) | 9 | 0 | 0 | 0 | 0 | 9 |
 | [module/redis](issues/Area_Connector_Handwritten_Connectors_module_redis.md) | 7 | 0 | 0 | 0 | 0 | 7 |
 | [module/s4hana](issues/Area_Connector_Handwritten_Connectors_module_s4hana.md) | 5 | 0 | 0 | 0 | 0 | 5 |
-| [module/salesforce](issues/Area_Connector_Handwritten_Connectors_module_salesforce.md) | 13 | 0 | 1 | 0 | 0 | 12 |
+| [module/salesforce](issues/Area_Connector_Handwritten_Connectors_module_salesforce.md) | 12 | 0 | 0 | 0 | 0 | 12 |
 | [module/sap](issues/Area_Connector_Handwritten_Connectors_module_sap.md) | 12 | 0 | 0 | 0 | 0 | 12 |
 | [module/sap.concur](issues/Area_Connector_Handwritten_Connectors_module_sap.concur.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [module/sap.jco](issues/Area_Connector_Handwritten_Connectors_module_sap.jco.md) | 1 | 0 | 0 | 0 | 0 | 1 |
@@ -59,11 +56,14 @@ This repository contains an organized breakdown of open issues from the [balleri
 | [module/twitter](issues/Area_Connector_Handwritten_Connectors_module_twitter.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [module/zoom.meetings](issues/Area_Connector_Handwritten_Connectors_module_zoom.meetings.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 
-### Generated Connectors (27 issues)
+### Generated Connectors (30 issues)
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
 | [No Module](issues/Area_Connector_Generated_Connectors_No_Module.md) | 21 | 0 | 1 | 12 | 0 | 8 |
+| [module/candid](issues/Area_Connector_Generated_Connectors_module_candid.md) | 1 | 0 | 1 | 0 | 0 | 0 |
+| [module/cosmosdb](issues/Area_Connector_Generated_Connectors_module_cosmosdb.md) | 1 | 0 | 0 | 0 | 0 | 1 |
+| [module/discord](issues/Area_Connector_Generated_Connectors_module_discord.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [module/dropbox](issues/Area_Connector_Generated_Connectors_module_dropbox.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [module/microsoft-excel](issues/Area_Connector_Generated_Connectors_module_microsoft-excel.md) | 1 | 0 | 1 | 0 | 0 | 0 |
 | [module/servicenow](issues/Area_Connector_Generated_Connectors_module_servicenow.md) | 1 | 0 | 0 | 0 | 0 | 1 |
@@ -76,7 +76,7 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
-| [No Module](issues/Area_Library_No_Module.md) | 24 | 0 | 0 | 1 | 1 | 22 |
+| [No Module](issues/Area_Library_No_Module.md) | 25 | 0 | 0 | 1 | 1 | 23 |
 | [module/All](issues/Area_Library_module_All.md) | 12 | 1 | 2 | 1 | 3 | 5 |
 | [module/auth](issues/Area_Library_module_auth.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [module/cache](issues/Area_Library_module_cache.md) | 3 | 0 | 0 | 0 | 0 | 3 |
@@ -92,7 +92,7 @@ This repository contains an organized breakdown of open issues from the [balleri
 | [module/log](issues/Area_Library_module_log.md) | 13 | 0 | 0 | 0 | 0 | 13 |
 | [module/mime](issues/Area_Library_module_mime.md) | 5 | 0 | 0 | 0 | 0 | 5 |
 | [module/oauth2](issues/Area_Library_module_oauth2.md) | 15 | 0 | 0 | 0 | 0 | 15 |
-| [module/os](issues/Area_Library_module_os.md) | 9 | 0 | 1 | 0 | 0 | 8 |
+| [module/os](issues/Area_Library_module_os.md) | 8 | 0 | 0 | 0 | 0 | 8 |
 | [module/persist](issues/Area_Library_module_persist.md) | 22 | 0 | 0 | 0 | 0 | 22 |
 | [module/protobuf](issues/Area_Library_module_protobuf.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [module/protoc-tool](issues/Area_Library_module_protoc-tool.md) | 2 | 0 | 0 | 0 | 0 | 2 |
@@ -128,18 +128,18 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ### Area/Connector
 - **Highest Priority:** 2
-- **High Priority:** 10
+- **High Priority:** 15
 - **Normal Priority:** 28
-- **Low Priority:** 6
-- **No Priority:** 141
-- **Total:** 187
+- **Low Priority:** 9
+- **No Priority:** 129
+- **Total:** 183
 
 ### Area/Library
 - **Highest Priority:** 6
-- **High Priority:** 30
+- **High Priority:** 29
 - **Normal Priority:** 2
 - **Low Priority:** 11
-- **No Priority:** 508
+- **No Priority:** 509
 - **Total:** 557
 
 ### Area/Tooling
@@ -154,11 +154,11 @@ This repository contains an organized breakdown of open issues from the [balleri
 ### Area/Connector
 - **Bug:** 28
 - **Docs:** 7
-- **Improvement:** 55
+- **Improvement:** 51
 - **NewFeature:** 42
 - **Proposal:** 1
 - **Task:** 54
-- **Total:** 187
+- **Total:** 183
 
 ### Area/Library
 - **Bug:** 73
