@@ -2,15 +2,15 @@
 
 This repository contains an organized breakdown of open issues from the [ballerina-library](https://github.com/ballerina-platform/ballerina-library) repository.
 
-**Last Updated:** 2025-10-13 19:55:12
+**Last Updated:** 2025-10-13 20:24:39
 
 ## Overall Summary
 
-**Total Issues Across All Areas:** 853
+**Total Issues Across All Areas:** 850
 
 ## Area/Connector
 
-**Total Issues:** 163
+**Total Issues:** 160
 
 ### Handwritten Connectors (107 issues)
 
@@ -39,15 +39,16 @@ This repository contains an organized breakdown of open issues from the [balleri
 | [module/aws.marketplace.mpm](issues/Area_Connector_Handwritten_Connectors_module_aws.marketplace.mpm.md) | 1 | 0 | 0 | 0 | 🔵 **1** | 0 |
 | [module/business-central](issues/Area_Connector_Handwritten_Connectors_module_business-central.md) | 1 | 0 | 0 | 0 | 🔵 **1** | 0 |
 
-### Generated Connectors (56 issues)
+### Generated Connectors (53 issues)
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
+| [No Module](issues/Area_Connector_Generated_Connectors_No_Module.md) | 17 | 0 | 🟠 **2** | 🟡 **15** | 0 | 0 |
 | [module/sap](issues/Area_Connector_Generated_Connectors_module_sap.md) | 3 | 0 | 🟠 **3** | 0 | 0 | 0 |
 | [module/github](issues/Area_Connector_Generated_Connectors_module_github.md) | 3 | 0 | 🟠 **3** | 0 | 0 | 0 |
-| [No Module](issues/Area_Connector_Generated_Connectors_No_Module.md) | 21 | 0 | 🟠 **1** | 🟡 **12** | 0 | ⚪ **8** |
 | [module/googleapis.drive](issues/Area_Connector_Generated_Connectors_module_googleapis.drive.md) | 2 | 0 | 🟠 **2** | 0 | 0 | 0 |
 | [module/zuora](issues/Area_Connector_Generated_Connectors_module_zuora.md) | 2 | 0 | 🟠 **2** | 0 | 0 | 0 |
+| [module/All](issues/Area_Connector_Generated_Connectors_module_All.md) | 2 | 0 | 🟠 **1** | 🟡 **1** | 0 | 0 |
 | [module/twilio](issues/Area_Connector_Generated_Connectors_module_twilio.md) | 2 | 0 | 🟠 **1** | 🟡 **1** | 0 | 0 |
 | [module/microsoft-excel](issues/Area_Connector_Generated_Connectors_module_microsoft-excel.md) | 3 | 0 | 🟠 **1** | 0 | 🔵 **2** | 0 |
 | [module/sap.concur](issues/Area_Connector_Generated_Connectors_module_sap.concur.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
@@ -55,7 +56,6 @@ This repository contains an organized breakdown of open issues from the [balleri
 | [module/zoom.meetings](issues/Area_Connector_Generated_Connectors_module_zoom.meetings.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
 | [module/slack](issues/Area_Connector_Generated_Connectors_module_slack.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
 | [module/dropbox](issues/Area_Connector_Generated_Connectors_module_dropbox.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
-| [module/All](issues/Area_Connector_Generated_Connectors_module_All.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
 | [module/twitter](issues/Area_Connector_Generated_Connectors_module_twitter.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
 | [module/candid](issues/Area_Connector_Generated_Connectors_module_candid.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
 | [module/cosmosdb](issues/Area_Connector_Generated_Connectors_module_cosmosdb.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
@@ -125,11 +125,10 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ### Area/Connector
 - **Highest Priority:** 4
-- **High Priority:** 64
-- **Normal Priority:** 43
+- **High Priority:** 65
+- **Normal Priority:** 47
 - **Low Priority:** 44
-- **No Priority:** 8
-- **Total:** 163
+- **Total:** 160
 
 ### Area/Library
 - **Highest Priority:** 6
@@ -150,12 +149,12 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ### Area/Connector
 - **Bug:** 26
-- **Docs:** 6
-- **Improvement:** 41
-- **NewFeature:** 39
+- **Docs:** 4
+- **Improvement:** 38
+- **NewFeature:** 40
 - **Proposal:** 2
-- **Task:** 49
-- **Total:** 163
+- **Task:** 50
+- **Total:** 160
 
 ### Area/Library
 - **Bug:** 74
