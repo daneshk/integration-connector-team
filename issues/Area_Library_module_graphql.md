@@ -11,9 +11,21 @@
 
 ---
 
+## 🟠 Priority: High
+
+### 📋 Task
+
+**[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
+
+Labels: `Priority/High`, `Type/Task`, `module/io`, `module/cache`, `module/auth`, `module/http`, `module/jwt`, `module/oauth2`, `module/graphql`, `Area/Library`
+
 ## 🔵 Priority: Low
 
 ### 📋 Task
+
+**[#4777](https://github.com/ballerina-platform/ballerina-library/issues/4777)** Create Ballerina version of PetClinic
+
+Labels: `Priority/Low`, `Type/Task`, `good first issue`, `module/http`, `module/graphql`, `module/persist`, `Hacktoberfest`, `Credits/45`, `Area/Library`
 
 **[#1862](https://github.com/ballerina-platform/ballerina-library/issues/1862)** Check for GraphQL Spec Conformance Tests
 
@@ -259,10 +271,6 @@ Labels: `Type/Task`, `module/graphql`, `Area/Library`
 
 Labels: `Type/Task`, `module/graphql`, `Area/Library`
 
-**[#4777](https://github.com/ballerina-platform/ballerina-library/issues/4777)** Create Ballerina version of PetClinic
-
-Labels: `Type/Task`, `good first issue`, `module/http`, `module/graphql`, `module/persist`, `Hacktoberfest`, `Credits/45`, `Area/Library`
-
 **[#4697](https://github.com/ballerina-platform/ballerina-library/issues/4697)** Write Article Series on GraphQL Design, Implementation, and Deployment
 
 Labels: `Type/Task`, `module/graphql`, `Area/Library`
@@ -274,10 +282,6 @@ Labels: `Type/Task`, `module/graphql`, `Team/PCM`, `Area/Library`
 **[#4444](https://github.com/ballerina-platform/ballerina-library/issues/4444)** Fix graphql subscription load test performance drop
 
 Labels: `Type/Task`, `module/graphql`, `Area/Library`
-
-**[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
-
-Labels: `Type/Task`, `module/io`, `module/cache`, `module/auth`, `module/http`, `module/jwt`, `module/oauth2`, `module/graphql`, `Area/Library`
 
 **[#4328](https://github.com/ballerina-platform/ballerina-library/issues/4328)** Implement Custom Directives in GraphQL
 

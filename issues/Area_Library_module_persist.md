@@ -11,6 +11,22 @@
 
 ---
 
+## 🟠 Priority: High
+
+### 🐛 Bug
+
+**[#4081](https://github.com/ballerina-platform/ballerina-library/issues/4081)** [Persist] `time:Utc` type values mismatch on retrieval
+
+Labels: `Priority/High`, `Type/Bug`, `module/sql`, `module/persist`, `Area/Library`
+
+## 🔵 Priority: Low
+
+### 📋 Task
+
+**[#4777](https://github.com/ballerina-platform/ballerina-library/issues/4777)** Create Ballerina version of PetClinic
+
+Labels: `Priority/Low`, `Type/Task`, `good first issue`, `module/http`, `module/graphql`, `module/persist`, `Hacktoberfest`, `Credits/45`, `Area/Library`
+
 ## ⚪ Priority: None
 
 ### 🐛 Bug
@@ -34,10 +50,6 @@ Labels: `Type/Bug`, `module/persist`, `Area/Library`
 **[#4551](https://github.com/ballerina-platform/ballerina-library/issues/4551)** Code action for creating 1:n relations in entities fails intermittently
 
 Labels: `Type/Bug`, `module/persist`, `Area/Library`
-
-**[#4081](https://github.com/ballerina-platform/ballerina-library/issues/4081)** [Persist] `time:Utc` type values mismatch on retrieval
-
-Labels: `Type/Bug`, `module/sql`, `module/persist`, `Area/Library`
 
 ### ✨ Improvement
 
@@ -66,10 +78,6 @@ Labels: `Type/Improvement`, `Type/Question`, `module/persist`, `Area/Library`
 Labels: `Type/Improvement`, `module/persist`, `Area/Library`
 
 ### 📋 Task
-
-**[#4777](https://github.com/ballerina-platform/ballerina-library/issues/4777)** Create Ballerina version of PetClinic
-
-Labels: `Type/Task`, `good first issue`, `module/http`, `module/graphql`, `module/persist`, `Hacktoberfest`, `Credits/45`, `Area/Library`
 
 **[#4359](https://github.com/ballerina-platform/ballerina-library/issues/4359)** [Persist] Define behaviour when attempting to retrieve association which does not exist
 

@@ -19,6 +19,12 @@
 
 Labels: `Priority/High`, `Type/Improvement`, `module/io`, `IceBox`, `Area/Library`
 
+### 📋 Task
+
+**[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
+
+Labels: `Priority/High`, `Type/Task`, `module/io`, `module/cache`, `module/auth`, `module/http`, `module/jwt`, `module/oauth2`, `module/graphql`, `Area/Library`
+
 ## ⚪ Priority: None
 
 ### 🐛 Bug
@@ -64,12 +70,6 @@ Labels: `Type/Improvement`, `module/io`, `IceBox`, `Area/Library`
 **[#417](https://github.com/ballerina-platform/ballerina-library/issues/417)** Add convenient methods to read int/float/boolean from standard inputs directly
 
 Labels: `Type/Improvement`, `module/io`, `IceBox`, `Area/Library`
-
-### 📋 Task
-
-**[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
-
-Labels: `Type/Task`, `module/io`, `module/cache`, `module/auth`, `module/http`, `module/jwt`, `module/oauth2`, `module/graphql`, `Area/Library`
 
 ### 🚀 NewFeature
 

@@ -23,51 +23,59 @@ Labels: `Priority/Highest`, `Type/Improvement`, `module/sql`, `Area/Library`
 
 ### 🐛 Bug
 
+**[#7800](https://github.com/ballerina-platform/ballerina-library/issues/7800)** java.jdbc hangs in native image after a few requests
+
+Labels: `Priority/High`, `Type/Bug`, `module/sql`, `Area/GraalVM`, `Area/Library`
+
+**[#5097](https://github.com/ballerina-platform/ballerina-library/issues/5097)** [Bug]: Unable use map<anydata> instead of record {} 
+
+Labels: `Priority/High`, `Type/Bug`, `module/sql`, `Area/Library`
+
 **[#4427](https://github.com/ballerina-platform/ballerina-library/issues/4427)** Remove `io.ballerina.runtime.internal` imports in standard libraries
 
 Labels: `Priority/High`, `Type/Bug`, `module/sql`, `Area/Library`
+
+**[#4283](https://github.com/ballerina-platform/ballerina-library/issues/4283)** Intersection Types Cannot Be Used to Database Operations
+
+Labels: `Priority/High`, `Type/Bug`, `module/sql`, `Area/Library`
+
+**[#4273](https://github.com/ballerina-platform/ballerina-library/issues/4273)** Program crashes with NPE
+
+Labels: `Priority/High`, `Type/Bug`, `module/sql`, `Area/Library`
+
+**[#4081](https://github.com/ballerina-platform/ballerina-library/issues/4081)** [Persist] `time:Utc` type values mismatch on retrieval
+
+Labels: `Priority/High`, `Type/Bug`, `module/sql`, `module/persist`, `Area/Library`
 
 **[#2056](https://github.com/ballerina-platform/ballerina-library/issues/2056)** Spec Deviation in sql:ParameterizedQuery and sql:ParameterizedCallQuery
 
 Labels: `Points/1.5`, `Priority/High`, `Type/Bug`, `module/sql`, `Verson/SwanLakeDump`, `Area/Library`
 
-## ⚪ Priority: None
-
-### 🐛 Bug
-
-**[#7800](https://github.com/ballerina-platform/ballerina-library/issues/7800)** java.jdbc hangs in native image after a few requests
-
-Labels: `Type/Bug`, `module/sql`, `Area/GraalVM`, `Area/Library`
-
-**[#5097](https://github.com/ballerina-platform/ballerina-library/issues/5097)** [Bug]: Unable use map<anydata> instead of record {} 
-
-Labels: `Type/Bug`, `module/sql`, `Area/Library`
-
-**[#4283](https://github.com/ballerina-platform/ballerina-library/issues/4283)** Intersection Types Cannot Be Used to Database Operations
-
-Labels: `Type/Bug`, `module/sql`, `Area/Library`
-
-**[#4273](https://github.com/ballerina-platform/ballerina-library/issues/4273)** Program crashes with NPE
-
-Labels: `Type/Bug`, `module/sql`, `Area/Library`
-
-**[#4081](https://github.com/ballerina-platform/ballerina-library/issues/4081)** [Persist] `time:Utc` type values mismatch on retrieval
-
-Labels: `Type/Bug`, `module/sql`, `module/persist`, `Area/Library`
-
 ### ✨ Improvement
 
 **[#7763](https://github.com/ballerina-platform/ballerina-library/issues/7763)** Expose SQL connection pool metrics for observability and tuning
 
-Labels: `Type/Improvement`, `module/sql`, `Area/Library`
+Labels: `Priority/High`, `Type/Improvement`, `module/sql`, `Area/Library`
 
-**[#4189](https://github.com/ballerina-platform/ballerina-library/issues/4189)** Support sql:column annotation for anonymous records
+## 🟡 Priority: Normal
 
-Labels: `Type/Improvement`, `module/sql`, `Area/Library`
+### ✨ Improvement
 
 **[#4140](https://github.com/ballerina-platform/ballerina-library/issues/4140)** Look into if we can support single column mapping in query
 
-Labels: `Type/Improvement`, `module/sql`, `Area/Library`
+Labels: `Type/Improvement`, `module/sql`, `Priority/Normal`, `Area/Library`
+
+## 🔵 Priority: Low
+
+### ✨ Improvement
+
+**[#4189](https://github.com/ballerina-platform/ballerina-library/issues/4189)** Support sql:column annotation for anonymous records
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/sql`, `Area/Library`
+
+## ⚪ Priority: None
+
+### ✨ Improvement
 
 **[#3423](https://github.com/ballerina-platform/ballerina-library/issues/3423)** SQL query sets non-nilable optional fields to nil
 

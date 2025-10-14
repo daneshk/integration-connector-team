@@ -11,6 +11,14 @@
 
 ---
 
+## 🟠 Priority: High
+
+### 📋 Task
+
+**[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
+
+Labels: `Priority/High`, `Type/Task`, `module/io`, `module/cache`, `module/auth`, `module/http`, `module/jwt`, `module/oauth2`, `module/graphql`, `Area/Library`
+
 ## 🔵 Priority: Low
 
 ### ✨ Improvement
@@ -62,10 +70,6 @@ Labels: `Type/Task`, `module/oauth2`, `Area/Library`
 **[#4497](https://github.com/ballerina-platform/ballerina-library/issues/4497)** Add an example with WSO2 IS/Asgardeo
 
 Labels: `Type/Task`, `good first issue`, `module/oauth2`, `Credits/45`, `Area/Library`
-
-**[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
-
-Labels: `Type/Task`, `module/io`, `module/cache`, `module/auth`, `module/http`, `module/jwt`, `module/oauth2`, `module/graphql`, `Area/Library`
 
 **[#2206](https://github.com/ballerina-platform/ballerina-library/issues/2206)** Add example no. 3
 

@@ -1,14 +1,14 @@
 # Area/Library - module/http
 
-**Total Issues:** 174
+**Total Issues:** 167
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 28
-- 📚 **Docs:** 3
+- 📚 **Docs:** 2
 - ✨ **Improvement:** 84
-- 🚀 **NewFeature:** 13
-- 📋 **Task:** 46
+- 🚀 **NewFeature:** 11
+- 📋 **Task:** 42
 
 ---
 
@@ -150,15 +150,97 @@ Labels: `Priority/High`, `Type/Improvement`, `good first issue`, `module/http`, 
 
 Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
 
+**[#7330](https://github.com/ballerina-platform/ballerina-library/issues/7330)** Disabled tests due to the Jsondata module fixes
+
+Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
+
+**[#6987](https://github.com/ballerina-platform/ballerina-library/issues/6987)** Update the HTTP spec with the data binding annotations details 
+
+Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Docs`, `Area/Library`
+
+**[#5992](https://github.com/ballerina-platform/ballerina-library/issues/5992)** Need to implement `maxHeaderSize` validation in http2 client
+
+Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/http2`, `Area/Library`
+
+**[#5988](https://github.com/ballerina-platform/ballerina-library/issues/5988)** [HTTP] The HTTP status code error feature is missing in the spec
+
+Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
+
+**[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
+
+Labels: `Priority/High`, `Type/Task`, `module/io`, `module/cache`, `module/auth`, `module/http`, `module/jwt`, `module/oauth2`, `module/graphql`, `Area/Library`
+
+**[#4267](https://github.com/ballerina-platform/ballerina-library/issues/4267)** [HTTP] Update module spec with the new error structure
+
+Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
+
+**[#4222](https://github.com/ballerina-platform/ballerina-library/issues/4222)** ssl_wellknown_cert_test.bal fails intermittently
+
+Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
+
 **[#4213](https://github.com/ballerina-platform/ballerina-library/issues/4213)** Make HTTP module FIPS compliant
 
 Labels: `Points/5`, `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
 
+**[#4008](https://github.com/ballerina-platform/ballerina-library/issues/4008)** Add keystore, cert details to API docs
+
+Labels: `Points/0.5`, `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
+
+**[#3747](https://github.com/ballerina-platform/ballerina-library/issues/3747)** Refactor the listener gracefulstop and immediate stop test cases
+
+Labels: `Points/1`, `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
+
+**[#2886](https://github.com/ballerina-platform/ballerina-library/issues/2886)** Issue when sending a curl request to the WebSocket service
+
+Labels: `Priority/High`, `Type/Task`, `module/http`, `module/websocket`, `Area/Library`
+
+**[#2715](https://github.com/ballerina-platform/ballerina-library/issues/2715)** Accessing compile-time generated service metadata at listener init phase
+
+Labels: `Priority/High`, `Type/Task`, `module/http`, `module/grpc`, `Area/Library`
+
+**[#2420](https://github.com/ballerina-platform/ballerina-library/issues/2420)** Maintain the consistent of generated OpenAPI specification with  Ballerina to OAS CLI command and OpenAPI built-in plugin
+
+Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/CompilerPlugin`, `Area/Library`
+
+**[#2027](https://github.com/ballerina-platform/ballerina-library/issues/2027)** [HTTP2] Fix intermittent test failure
+
+Labels: `Points/2`, `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
+
+**[#1877](https://github.com/ballerina-platform/ballerina-library/issues/1877)** Replace io.ballerina.stdlib.http.api.BallerinaConnectorException with BError
+
+Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
+
+**[#1681](https://github.com/ballerina-platform/ballerina-library/issues/1681)** Add the scenario in #989 to long running test suite
+
+Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
+
+**[#980](https://github.com/ballerina-platform/ballerina-library/issues/980)** Add test cases for traclog,accesslog support
+
+Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
+
 ### 🚀 NewFeature
+
+**[#7460](https://github.com/ballerina-platform/ballerina-library/issues/7460)** Allow configuring TCP Keep-Alive related properties in the Ballerina HTTP Client
+
+Labels: `Priority/High`, `Type/NewFeature`, `module/http`, `Area/Library`
+
+**[#6547](https://github.com/ballerina-platform/ballerina-library/issues/6547)** Add HTTP compression support for `brotli` format
+
+Labels: `Points/3`, `Priority/High`, `Type/NewFeature`, `module/http`, `Area/Library`
 
 **[#897](https://github.com/ballerina-platform/ballerina-library/issues/897)** Add 417,406 validation to @http:Payload annotation
 
 Labels: `Priority/High`, `Type/NewFeature`, `module/http`, `Area/Library`
+
+### 📚 Docs
+
+**[#2710](https://github.com/ballerina-platform/ballerina-library/issues/2710)** [http] Documentation for the `http:Payload` annotation is inadequate
+
+Labels: `Priority/High`, `Type/Docs`, `Type/Improvement`, `module/http`, `Area/Library`
+
+**[#2521](https://github.com/ballerina-platform/ballerina-library/issues/2521)** Lack of Documentation for enabling/configuring `Trace logs` and `Access logs` in the API Docs
+
+Labels: `Priority/High`, `Type/Docs`, `Type/Improvement`, `module/http`, `Area/Library`
 
 ## 🟡 Priority: Normal
 
@@ -195,6 +277,22 @@ Labels: `Type/Task`, `module/http`, `Priority/Normal`, `Area/Library`, `Area/Sta
 **[#8254](https://github.com/ballerina-platform/ballerina-library/issues/8254)** Implement static analysis rule "HTTP request redirections should not be open to forging attacks" in HTTP module
 
 Labels: `Type/Task`, `module/http`, `Priority/Normal`, `Area/Library`, `Area/StaticCode`
+
+**[#5836](https://github.com/ballerina-platform/ballerina-library/issues/5836)** Add or improve a test which tests a Ballerina package which has listeners and services in external imported modules
+
+Labels: `Type/Task`, `module/http`, `Priority/Normal`, `Area/Library`
+
+**[#4266](https://github.com/ballerina-platform/ballerina-library/issues/4266)** [HTTP] Move authn/authz implementation to an interceptor
+
+Labels: `Type/Task`, `module/http`, `Priority/Normal`, `Area/Library`
+
+**[#3063](https://github.com/ballerina-platform/ballerina-library/issues/3063)** Add tests for the HTTP examples
+
+Labels: `Type/Task`, `module/http`, `Priority/Normal`, `Area/Library`
+
+**[#2866](https://github.com/ballerina-platform/ballerina-library/issues/2866)** Transport Level Error Handling
+
+Labels: `Type/Task`, `module/http`, `Priority/Normal`, `Area/Library`
 
 ## 🔵 Priority: Low
 
@@ -362,6 +460,10 @@ Labels: `Priority/Low`, `Type/Improvement`, `good first issue`, `module/http`, `
 
 Labels: `Points/5`, `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
+**[#2681](https://github.com/ballerina-platform/ballerina-library/issues/2681)** Need a way to programmatically set interceptors  
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
+
 **[#2680](https://github.com/ballerina-platform/ballerina-library/issues/2680)** HTTP header propagation
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
@@ -512,13 +614,87 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
 ### 📋 Task
 
+**[#4791](https://github.com/ballerina-platform/ballerina-library/issues/4791)** Check the possibility of removing the Netty dependency on writing to `tmp` directory
+
+Labels: `Priority/Low`, `Type/Task`, `module/http`, `Area/Library`
+
+**[#4777](https://github.com/ballerina-platform/ballerina-library/issues/4777)** Create Ballerina version of PetClinic
+
+Labels: `Priority/Low`, `Type/Task`, `good first issue`, `module/http`, `module/graphql`, `module/persist`, `Hacktoberfest`, `Credits/45`, `Area/Library`
+
+**[#4245](https://github.com/ballerina-platform/ballerina-library/issues/4245)** [HTTP] Remove `NetworkAuthorizationRequired` record
+
+Labels: `Priority/Low`, `Type/Task`, `module/http`, `Area/Library`
+
 **[#3871](https://github.com/ballerina-platform/ballerina-library/issues/3871)** Check the feasibility of using `netty-all` jar
 
 Labels: `Priority/Low`, `Type/Task`, `module/http`, `Area/Library`
 
+**[#3602](https://github.com/ballerina-platform/ballerina-library/issues/3602)** Improve query param mapping
+
+Labels: `Points/3`, `Priority/Low`, `Type/Task`, `module/http`, `Area/Library`
+
+**[#3529](https://github.com/ballerina-platform/ballerina-library/issues/3529)** Add default values for `http:ClientSocketConfig` in the transport level
+
+Labels: `Priority/Low`, `Type/Task`, `module/http`, `Area/Library`
+
+**[#3133](https://github.com/ballerina-platform/ballerina-library/issues/3133)** Create HATEOAS sub module inside HTTP
+
+Labels: `Priority/Low`, `Type/Task`, `module/http`, `Area/Library`
+
+**[#2075](https://github.com/ballerina-platform/ballerina-library/issues/2075)** Add HTTP3 support
+
+Labels: `Priority/Low`, `Type/Task`, `module/http`, `Area/Library`
+
+**[#1935](https://github.com/ballerina-platform/ballerina-library/issues/1935)** Add a test case for service created using class along with param annotations
+
+Labels: `Priority/Low`, `Type/Task`, `module/http`, `Area/Library`
+
+**[#1683](https://github.com/ballerina-platform/ballerina-library/issues/1683)** Check defaultable support for query, header
+
+Labels: `Priority/Low`, `Type/Task`, `module/http`, `Area/Library`
+
+**[#450](https://github.com/ballerina-platform/ballerina-library/issues/450)** Refactor the SSL related configurations in ListenerConfiguration and SenderConfiguration
+
+Labels: `Priority/Low`, `Type/Task`, `module/http`, `Area/Security`, `Area/Library`
+
 **[#485](https://github.com/ballerina-platform/ballerina-library/issues/485)** HTTP/2 performs poorly for 50 bytes payloads compared to HTTP/1.1
 
 Labels: `Priority/Low`, `Type/Task`, `module/http`, `Area/http2`, `Area/Library`
+
+**[#366](https://github.com/ballerina-platform/ballerina-library/issues/366)** [HTTP] Test transport in different environments 
+
+Labels: `Priority/Low`, `Type/Task`, `module/http`, `Area/Library`
+
+### 🚀 NewFeature
+
+**[#3987](https://github.com/ballerina-platform/ballerina-library/issues/3987)** Rate limiting feature for the `http:Client`?
+
+Labels: `Priority/Low`, `Type/NewFeature`, `Type/Question`, `module/http`, `Area/Library`
+
+**[#2509](https://github.com/ballerina-platform/ballerina-library/issues/2509)** Proposal: VSCode command to download OpenAPI specification
+
+Labels: `Priority/Low`, `Type/NewFeature`, `Type/Proposal`, `module/http`, `Team/PCM`, `Status/Draft`, `Area/Library`
+
+**[#1720](https://github.com/ballerina-platform/ballerina-library/issues/1720)** Vary header support
+
+Labels: `Priority/Low`, `Type/NewFeature`, `module/http`, `Area/Library`
+
+**[#691](https://github.com/ballerina-platform/ballerina-library/issues/691)** Introduce HTTP session
+
+Labels: `Priority/Low`, `Type/NewFeature`, `module/http`, `Area/Library`
+
+**[#313](https://github.com/ballerina-platform/ballerina-library/issues/313)** Need a setQueryParams function in http request
+
+Labels: `Points/1`, `Priority/Low`, `Type/NewFeature`, `good first issue`, `module/http`, `Hacktoberfest`, `Credits/45`, `Area/Library`
+
+**[#452](https://github.com/ballerina-platform/ballerina-library/issues/452)** Add support for LetsEncrypt to HTTPS listener
+
+Labels: `Priority/Low`, `Type/NewFeature`, `module/http`, `Area/Security`, `Area/Library`
+
+**[#509](https://github.com/ballerina-platform/ballerina-library/issues/509)** Create an API to manage third party cookies 
+
+Labels: `Priority/Low`, `Type/NewFeature`, `module/http`, `Area/Library`
 
 ## ⚪ Priority: None
 
@@ -528,23 +704,11 @@ Labels: `Priority/Low`, `Type/Task`, `module/http`, `Area/http2`, `Area/Library`
 
 Labels: `Points/4`, `Type/Improvement`, `module/http`, `Area/Library`
 
-**[#2681](https://github.com/ballerina-platform/ballerina-library/issues/2681)** Need a way to programmatically set interceptors  
-
-Labels: `Type/Improvement`, `module/http`, `Area/Library`
-
 **[#340](https://github.com/ballerina-platform/ballerina-library/issues/340)** Validate Circuit Breaker Configuration when initializing
 
 Labels: `Type/Improvement`, `module/http`, `Area/Library`
 
 ### 📋 Task
-
-**[#7330](https://github.com/ballerina-platform/ballerina-library/issues/7330)** Disabled tests due to the Jsondata module fixes
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#6987](https://github.com/ballerina-platform/ballerina-library/issues/6987)** Update the HTTP spec with the data binding annotations details 
-
-Labels: `Type/Task`, `module/http`, `Area/Docs`, `Area/Library`
 
 **[#6791](https://github.com/ballerina-platform/ballerina-library/issues/6791)** Add Server-Sent Events example in http module
 
@@ -554,199 +718,9 @@ Labels: `Points/0.5`, `Type/Task`, `good first issue`, `module/http`, `Hacktober
 
 Labels: `Type/Task`, `module/http`, `Area/Library`
 
-**[#5992](https://github.com/ballerina-platform/ballerina-library/issues/5992)** Need to implement `maxHeaderSize` validation in http2 client
-
-Labels: `Type/Task`, `module/http`, `Area/http2`, `Area/Library`
-
-**[#5988](https://github.com/ballerina-platform/ballerina-library/issues/5988)** [HTTP] The HTTP status code error feature is missing in the spec
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#5836](https://github.com/ballerina-platform/ballerina-library/issues/5836)** Add or improve a test which tests a Ballerina package which has listeners and services in external imported modules
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#4791](https://github.com/ballerina-platform/ballerina-library/issues/4791)** Check the possibility of removing the Netty dependency on writing to `tmp` directory
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#4777](https://github.com/ballerina-platform/ballerina-library/issues/4777)** Create Ballerina version of PetClinic
-
-Labels: `Type/Task`, `good first issue`, `module/http`, `module/graphql`, `module/persist`, `Hacktoberfest`, `Credits/45`, `Area/Library`
-
-**[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
-
-Labels: `Type/Task`, `module/io`, `module/cache`, `module/auth`, `module/http`, `module/jwt`, `module/oauth2`, `module/graphql`, `Area/Library`
-
-**[#4267](https://github.com/ballerina-platform/ballerina-library/issues/4267)** [HTTP] Update module spec with the new error structure
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#4266](https://github.com/ballerina-platform/ballerina-library/issues/4266)** [HTTP] Move authn/authz implementation to an interceptor
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#4245](https://github.com/ballerina-platform/ballerina-library/issues/4245)** [HTTP] Remove `NetworkAuthorizationRequired` record
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#4222](https://github.com/ballerina-platform/ballerina-library/issues/4222)** ssl_wellknown_cert_test.bal fails intermittently
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#4008](https://github.com/ballerina-platform/ballerina-library/issues/4008)** Add keystore, cert details to API docs
-
-Labels: `Points/0.5`, `Type/Task`, `module/http`, `Area/Library`
-
-**[#3747](https://github.com/ballerina-platform/ballerina-library/issues/3747)** Refactor the listener gracefulstop and immediate stop test cases
-
-Labels: `Points/1`, `Type/Task`, `module/http`, `Area/Library`
-
-**[#3602](https://github.com/ballerina-platform/ballerina-library/issues/3602)** Improve query param mapping
-
-Labels: `Points/3`, `Type/Task`, `module/http`, `Area/Library`
-
-**[#3529](https://github.com/ballerina-platform/ballerina-library/issues/3529)** Add default values for `http:ClientSocketConfig` in the transport level
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#3133](https://github.com/ballerina-platform/ballerina-library/issues/3133)** Create HATEOAS sub module inside HTTP
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#3063](https://github.com/ballerina-platform/ballerina-library/issues/3063)** Add tests for the HTTP examples
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#2886](https://github.com/ballerina-platform/ballerina-library/issues/2886)** Issue when sending a curl request to the WebSocket service
-
-Labels: `Type/Task`, `module/http`, `module/websocket`, `Area/Library`
-
-**[#2866](https://github.com/ballerina-platform/ballerina-library/issues/2866)** Transport Level Error Handling
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#2715](https://github.com/ballerina-platform/ballerina-library/issues/2715)** Accessing compile-time generated service metadata at listener init phase
-
-Labels: `Type/Task`, `module/http`, `module/grpc`, `Area/Library`
-
-**[#2420](https://github.com/ballerina-platform/ballerina-library/issues/2420)** Maintain the consistent of generated OpenAPI specification with  Ballerina to OAS CLI command and OpenAPI built-in plugin
-
-Labels: `Type/Task`, `module/http`, `Area/CompilerPlugin`, `Area/Library`
-
-**[#2075](https://github.com/ballerina-platform/ballerina-library/issues/2075)** Add HTTP3 support
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#2069](https://github.com/ballerina-platform/ballerina-library/issues/2069)** Add example number 5
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#2068](https://github.com/ballerina-platform/ballerina-library/issues/2068)** Add example number 4
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#2067](https://github.com/ballerina-platform/ballerina-library/issues/2067)** Add example number 3
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#2027](https://github.com/ballerina-platform/ballerina-library/issues/2027)** [HTTP2] Fix intermittent test failure
-
-Labels: `Points/2`, `Type/Task`, `module/http`, `Area/Library`
-
-**[#1935](https://github.com/ballerina-platform/ballerina-library/issues/1935)** Add a test case for service created using class along with param annotations
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#1877](https://github.com/ballerina-platform/ballerina-library/issues/1877)** Replace io.ballerina.stdlib.http.api.BallerinaConnectorException with BError
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#1683](https://github.com/ballerina-platform/ballerina-library/issues/1683)** Check defaultable support for query, header
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#1681](https://github.com/ballerina-platform/ballerina-library/issues/1681)** Add the scenario in #989 to long running test suite
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#980](https://github.com/ballerina-platform/ballerina-library/issues/980)** Add test cases for traclog,accesslog support
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#450](https://github.com/ballerina-platform/ballerina-library/issues/450)** Refactor the SSL related configurations in ListenerConfiguration and SenderConfiguration
-
-Labels: `Type/Task`, `module/http`, `Area/Security`, `Area/Library`
-
-**[#502](https://github.com/ballerina-platform/ballerina-library/issues/502)** [HTTP] ResponseCacheControlObj returns null strand
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-**[#366](https://github.com/ballerina-platform/ballerina-library/issues/366)** [HTTP] Test transport in different environments 
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
 ### 🚀 NewFeature
-
-**[#7460](https://github.com/ballerina-platform/ballerina-library/issues/7460)** Allow configuring TCP Keep-Alive related properties in the Ballerina HTTP Client
-
-Labels: `Type/NewFeature`, `module/http`, `Area/Library`
-
-**[#6547](https://github.com/ballerina-platform/ballerina-library/issues/6547)** Add HTTP compression support for `brotli` format
-
-Labels: `Points/3`, `Type/NewFeature`, `module/http`, `Area/Library`
-
-**[#3987](https://github.com/ballerina-platform/ballerina-library/issues/3987)** Rate limiting feature for the `http:Client`?
-
-Labels: `Type/NewFeature`, `Type/Question`, `module/http`, `Area/Library`
-
-**[#2509](https://github.com/ballerina-platform/ballerina-library/issues/2509)** Proposal: VSCode command to download OpenAPI specification
-
-Labels: `Type/NewFeature`, `Type/Proposal`, `module/http`, `Team/PCM`, `Status/Draft`, `Area/Library`
-
-**[#2508](https://github.com/ballerina-platform/ballerina-library/issues/2508)** Proposal: Ballerina VSCode try-out plugin for REST APIs
-
-Labels: `Type/NewFeature`, `Type/Proposal`, `module/http`, `Status/Draft`, `Area/Library`
-
-**[#1963](https://github.com/ballerina-platform/ballerina-library/issues/1963)** Support brotli option as Netty has introduced 
-
-Labels: `Type/NewFeature`, `module/http`, `Area/Library`
-
-**[#1720](https://github.com/ballerina-platform/ballerina-library/issues/1720)** Vary header support
-
-Labels: `Type/NewFeature`, `module/http`, `Area/Library`
-
-**[#691](https://github.com/ballerina-platform/ballerina-library/issues/691)** Introduce HTTP session
-
-Labels: `Type/NewFeature`, `module/http`, `Verson/SwanLakeDump`, `Area/Library`
-
-**[#313](https://github.com/ballerina-platform/ballerina-library/issues/313)** Need a setQueryParams function in http request
-
-Labels: `Points/1`, `Type/NewFeature`, `good first issue`, `module/http`, `Hacktoberfest`, `Credits/45`, `Area/Library`
-
-**[#452](https://github.com/ballerina-platform/ballerina-library/issues/452)** Add support for LetsEncrypt to HTTPS listener
-
-Labels: `Type/NewFeature`, `module/http`, `Area/Security`, `Area/Library`
-
-**[#509](https://github.com/ballerina-platform/ballerina-library/issues/509)** Create an API to manage third party cookies 
-
-Labels: `Type/NewFeature`, `module/http`, `Area/Library`
 
 **[#496](https://github.com/ballerina-platform/ballerina-library/issues/496)** [HTTP/2] Introduce a config for both the HTTP/2 client and server to define SETTINGS_MAX_CONCURRENT_STREAMS
 
 Labels: `Type/NewFeature`, `module/http`, `Area/Library`
-
-### 📚 Docs
-
-**[#2710](https://github.com/ballerina-platform/ballerina-library/issues/2710)** [http] Documentation for the `http:Payload` annotation is inadequate
-
-Labels: `Type/Docs`, `Type/Improvement`, `module/http`, `Area/Library`
-
-**[#2521](https://github.com/ballerina-platform/ballerina-library/issues/2521)** Lack of Documentation for enabling/configuring `Trace logs` and `Access logs` in the API Docs
-
-Labels: `Type/Docs`, `Type/Improvement`, `module/http`, `Area/Library`
-
-**[#1411](https://github.com/ballerina-platform/ballerina-library/issues/1411)** [HTTP] Docs are seemingly incomplete when viewed through the VS Code plugin
-
-Labels: `Type/Docs`, `Type/Improvement`, `module/http`, `Area/Library`
 

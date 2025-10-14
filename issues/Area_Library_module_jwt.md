@@ -9,6 +9,14 @@
 
 ---
 
+## 🟠 Priority: High
+
+### 📋 Task
+
+**[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
+
+Labels: `Priority/High`, `Type/Task`, `module/io`, `module/cache`, `module/auth`, `module/http`, `module/jwt`, `module/oauth2`, `module/graphql`, `Area/Library`
+
 ## ⚪ Priority: None
 
 ### ✨ Improvement
@@ -30,10 +38,6 @@ Labels: `Type/Improvement`, `good first issue`, `module/jwt`, `module/oauth2`, `
 Labels: `Type/Improvement`, `good first issue`, `module/jwt`, `Area/Security`, `Credits/45`, `Area/Library`
 
 ### 📋 Task
-
-**[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
-
-Labels: `Type/Task`, `module/io`, `module/cache`, `module/auth`, `module/http`, `module/jwt`, `module/oauth2`, `module/graphql`, `Area/Library`
 
 **[#2205](https://github.com/ballerina-platform/ballerina-library/issues/2205)** Add example no. 3
 

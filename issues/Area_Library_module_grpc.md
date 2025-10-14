@@ -21,6 +21,10 @@ Labels: `Priority/High`, `Type/Improvement`, `module/grpc`, `Area/Library`
 
 ### 📋 Task
 
+**[#2715](https://github.com/ballerina-platform/ballerina-library/issues/2715)** Accessing compile-time generated service metadata at listener init phase
+
+Labels: `Priority/High`, `Type/Task`, `module/http`, `module/grpc`, `Area/Library`
+
 **[#1109](https://github.com/ballerina-platform/ballerina-library/issues/1109)** Support for xDS protocol
 
 Labels: `Priority/High`, `Type/Task`, `module/grpc`, `Area/Library`
@@ -146,10 +150,6 @@ Labels: `Points/1`, `Type/Task`, `module/grpc`, `Area/Library`
 **[#3036](https://github.com/ballerina-platform/ballerina-library/issues/3036)** `testAnonymousServiceMultipleTimes` fails if the test order is changed
 
 Labels: `Type/Task`, `module/grpc`, `Area/Library`
-
-**[#2715](https://github.com/ballerina-platform/ballerina-library/issues/2715)** Accessing compile-time generated service metadata at listener init phase
-
-Labels: `Type/Task`, `module/http`, `module/grpc`, `Area/Library`
 
 **[#2690](https://github.com/ballerina-platform/ballerina-library/issues/2690)** Research on the usage of interceptors for Ballerina gRPC library
 
