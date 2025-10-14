@@ -27,6 +27,12 @@ Labels: `Priority/High`, `Type/Task`, `module/grpc`, `Area/Library`
 
 ## 🔵 Priority: Low
 
+### ✨ Improvement
+
+**[#2404](https://github.com/ballerina-platform/ballerina-library/issues/2404)** Introduce API key authentication support for clients
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `module/grpc`, `module/websocket`, `Team/PCM`, `Area/Security`, `Area/Library`
+
 ### 📋 Task
 
 **[#2677](https://github.com/ballerina-platform/ballerina-library/issues/2677)** Need to find the optimum concurrent connections count bidi streaming
@@ -70,10 +76,6 @@ Labels: `Type/Improvement`, `module/grpc`, `Area/Library`
 **[#2667](https://github.com/ballerina-platform/ballerina-library/issues/2667)** Try to incorporate benchmark gRPC performance tests to the load test
 
 Labels: `Type/Improvement`, `module/grpc`, `Area/Library`
-
-**[#2404](https://github.com/ballerina-platform/ballerina-library/issues/2404)** Introduce API key authentication support for clients
-
-Labels: `Type/Improvement`, `module/http`, `module/grpc`, `module/websocket`, `Team/PCM`, `Area/Security`, `Area/Library`
 
 **[#2372](https://github.com/ballerina-platform/ballerina-library/issues/2372)** Need to implement the listener detach function in gRPC
 

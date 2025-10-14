@@ -11,6 +11,14 @@
 
 ---
 
+## 🔵 Priority: Low
+
+### ✨ Improvement
+
+**[#4814](https://github.com/ballerina-platform/ballerina-library/issues/4814)** [Improvement]: JWKS urls are not supported as a path for secure sockets in client configurations in OAuth2 
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/oauth2`, `Area/Library`
+
 ## ⚪ Priority: None
 
 ### 🐛 Bug
@@ -32,10 +40,6 @@ Labels: `Type/Improvement`, `good first issue`, `module/oauth2`, `Hacktoberfest`
 **[#6192](https://github.com/ballerina-platform/ballerina-library/issues/6192)** Improve error message for failed token endpoint call
 
 Labels: `Type/Improvement`, `good first issue`, `module/oauth2`, `Credits/30`, `Area/Library`
-
-**[#4814](https://github.com/ballerina-platform/ballerina-library/issues/4814)** [Improvement]: JWKS urls are not supported as a path for secure sockets in client configurations in OAuth2 
-
-Labels: `Type/Improvement`, `module/http`, `module/oauth2`, `Area/Library`
 
 **[#3494](https://github.com/ballerina-platform/ballerina-library/issues/3494)** Return error from ClientOAuth2Provider's init method instead of calling panic
 

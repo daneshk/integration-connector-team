@@ -1,11 +1,11 @@
 # Area/Library - module/mime
 
-**Total Issues:** 5
+**Total Issues:** 4
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 1
-- ✨ **Improvement:** 3
+- ✨ **Improvement:** 2
 - 📋 **Task:** 1
 
 ---
@@ -23,10 +23,6 @@ Labels: `Type/Bug`, `module/mime`, `Area/Library`
 **[#7440](https://github.com/ballerina-platform/ballerina-library/issues/7440)** Remove EventStreamWriter implementation from mime
 
 Labels: `Type/Improvement`, `module/mime`, `Area/Library`
-
-**[#713](https://github.com/ballerina-platform/ballerina-library/issues/713)** Make getJsonPayload() configurable to accept the mode which needs to be used during the parsing
-
-Labels: `Points/1`, `Type/Improvement`, `good first issue`, `module/mime`, `module/http`, `Area/Library`
 
 **[#376](https://github.com/ballerina-platform/ballerina-library/issues/376)** [MIME] Add support for quoted-printable encoding and decoding facility
 

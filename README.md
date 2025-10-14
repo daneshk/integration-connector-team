@@ -2,11 +2,11 @@
 
 This repository contains an organized breakdown of open issues from the [ballerina-library](https://github.com/ballerina-platform/ballerina-library) repository.
 
-**Last Updated:** 2025-10-14 11:46:25
+**Last Updated:** 2025-10-14 20:49:45
 
 ## Overall Summary
 
-**Total Issues Across All Areas:** 847
+**Total Issues Across All Areas:** 822
 
 ## Area/Connector
 
@@ -68,14 +68,14 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ## Area/Library
 
-**Total Issues:** 556
+**Total Issues:** 532
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
-| [module/http](issues/Area_Library_module_http.md) | 197 | 🔴 **3** | 🟠 **24** | 🟡 **3** | 🔵 **21** | ⚪ **146** |
+| [module/http](issues/Area_Library_module_http.md) | 174 | 🔴 **5** | 🟠 **28** | 🟡 **7** | 🔵 **79** | ⚪ **55** |
 | [module/All](issues/Area_Library_module_All.md) | 12 | 🔴 **1** | 🟠 **2** | 🟡 **1** | 🔵 **3** | ⚪ **5** |
 | [module/sql](issues/Area_Library_module_sql.md) | 24 | 🔴 **1** | 🟠 **2** | 0 | 0 | ⚪ **21** |
-| [module/grpc](issues/Area_Library_module_grpc.md) | 44 | 0 | 🟠 **2** | 0 | 🔵 **1** | ⚪ **41** |
+| [module/grpc](issues/Area_Library_module_grpc.md) | 44 | 0 | 🟠 **2** | 0 | 🔵 **2** | ⚪ **40** |
 | [module/random](issues/Area_Library_module_random.md) | 3 | 0 | 🟠 **1** | 0 | 🔵 **2** | 0 |
 | [module/crypto](issues/Area_Library_module_crypto.md) | 11 | 0 | 🟠 **1** | 0 | 0 | ⚪ **10** |
 | [module/time](issues/Area_Library_module_time.md) | 9 | 0 | 🟠 **1** | 0 | 0 | ⚪ **8** |
@@ -85,20 +85,20 @@ This repository contains an organized breakdown of open issues from the [balleri
 | [No Module](issues/Area_Library_No_Module.md) | 25 | 0 | 0 | 🟡 **1** | 🔵 **1** | ⚪ **23** |
 | [module/ldap](issues/Area_Library_module_ldap.md) | 1 | 0 | 0 | 🟡 **1** | 0 | 0 |
 | [module/graphql](issues/Area_Library_module_graphql.md) | 77 | 0 | 0 | 0 | 🔵 **1** | ⚪ **76** |
-| [module/oauth2](issues/Area_Library_module_oauth2.md) | 15 | 0 | 0 | 0 | 0 | ⚪ **15** |
+| [module/oauth2](issues/Area_Library_module_oauth2.md) | 15 | 0 | 0 | 0 | 🔵 **1** | ⚪ **14** |
+| [module/websocket](issues/Area_Library_module_websocket.md) | 3 | 0 | 0 | 0 | 🔵 **1** | ⚪ **2** |
 | [module/log](issues/Area_Library_module_log.md) | 14 | 0 | 0 | 0 | 0 | ⚪ **14** |
 | [module/jwt](issues/Area_Library_module_jwt.md) | 7 | 0 | 0 | 0 | 0 | ⚪ **7** |
 | [module/task](issues/Area_Library_module_task.md) | 8 | 0 | 0 | 0 | 0 | ⚪ **8** |
 | [module/persist](issues/Area_Library_module_persist.md) | 22 | 0 | 0 | 0 | 0 | ⚪ **22** |
 | [module/constraint](issues/Area_Library_module_constraint.md) | 5 | 0 | 0 | 0 | 0 | ⚪ **5** |
 | [module/os](issues/Area_Library_module_os.md) | 8 | 0 | 0 | 0 | 0 | ⚪ **8** |
-| [module/mime](issues/Area_Library_module_mime.md) | 5 | 0 | 0 | 0 | 0 | ⚪ **5** |
+| [module/mime](issues/Area_Library_module_mime.md) | 4 | 0 | 0 | 0 | 0 | ⚪ **4** |
 | [module/auth](issues/Area_Library_module_auth.md) | 3 | 0 | 0 | 0 | 0 | ⚪ **3** |
 | [module/cache](issues/Area_Library_module_cache.md) | 3 | 0 | 0 | 0 | 0 | ⚪ **3** |
 | [module/cosmosdb](issues/Area_Library_module_cosmosdb.md) | 1 | 0 | 0 | 0 | 0 | ⚪ **1** |
 | [module/protoc-tool](issues/Area_Library_module_protoc-tool.md) | 2 | 0 | 0 | 0 | 0 | ⚪ **2** |
 | [module/url](issues/Area_Library_module_url.md) | 1 | 0 | 0 | 0 | 0 | ⚪ **1** |
-| [module/websocket](issues/Area_Library_module_websocket.md) | 3 | 0 | 0 | 0 | 0 | ⚪ **3** |
 | [module/websubhub](issues/Area_Library_module_websubhub.md) | 1 | 0 | 0 | 0 | 0 | ⚪ **1** |
 | [module/udp](issues/Area_Library_module_udp.md) | 9 | 0 | 0 | 0 | 0 | ⚪ **9** |
 | [module/xslt](issues/Area_Library_module_xslt.md) | 1 | 0 | 0 | 0 | 0 | ⚪ **1** |
@@ -106,7 +106,7 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ## Area/Tooling
 
-**Total Issues:** 131
+**Total Issues:** 130
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
@@ -117,7 +117,7 @@ This repository contains an organized breakdown of open issues from the [balleri
 | [module/persist-tools](issues/Area_Tooling_module_persist-tools.md) | 9 | 0 | 0 | 0 | 0 | ⚪ **9** |
 | [module/wsdl-tools](issues/Area_Tooling_module_wsdl-tools.md) | 1 | 0 | 0 | 0 | 0 | ⚪ **1** |
 | [module/xsd-tool](issues/Area_Tooling_module_xsd-tool.md) | 2 | 0 | 0 | 0 | 0 | ⚪ **2** |
-| [module/http](issues/Area_Tooling_module_http.md) | 2 | 0 | 0 | 0 | 0 | ⚪ **2** |
+| [module/http](issues/Area_Tooling_module_http.md) | 1 | 0 | 0 | 0 | 0 | ⚪ **1** |
 | [module/copybook](issues/Area_Tooling_module_copybook.md) | 4 | 0 | 0 | 0 | 0 | ⚪ **4** |
 | [module/grpc](issues/Area_Tooling_module_grpc.md) | 1 | 0 | 0 | 0 | 0 | ⚪ **1** |
 
@@ -131,19 +131,19 @@ This repository contains an organized breakdown of open issues from the [balleri
 - **Total:** 160
 
 ### Area/Library
-- **Highest Priority:** 5
-- **High Priority:** 36
-- **Normal Priority:** 6
-- **Low Priority:** 29
-- **No Priority:** 480
-- **Total:** 556
+- **Highest Priority:** 7
+- **High Priority:** 40
+- **Normal Priority:** 10
+- **Low Priority:** 90
+- **No Priority:** 385
+- **Total:** 532
 
 ### Area/Tooling
 - **High Priority:** 6
 - **Normal Priority:** 8
 - **Low Priority:** 4
-- **No Priority:** 113
-- **Total:** 131
+- **No Priority:** 112
+- **Total:** 130
 
 ## Issue Distribution by Type
 
@@ -158,18 +158,18 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ### Area/Library
 - **Bug:** 74
-- **Docs:** 4
-- **Improvement:** 255
+- **Docs:** 5
+- **Improvement:** 230
 - **NewFeature:** 69
 - **Task:** 153
 - **Unknown:** 1
-- **Total:** 556
+- **Total:** 532
 
 ### Area/Tooling
 - **Bug:** 26
 - **Docs:** 1
-- **Improvement:** 60
+- **Improvement:** 59
 - **NewFeature:** 7
 - **Task:** 37
-- **Total:** 131
+- **Total:** 130
 

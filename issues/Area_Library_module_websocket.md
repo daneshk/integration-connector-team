@@ -10,13 +10,15 @@
 
 ---
 
-## ⚪ Priority: None
+## 🔵 Priority: Low
 
 ### ✨ Improvement
 
 **[#2404](https://github.com/ballerina-platform/ballerina-library/issues/2404)** Introduce API key authentication support for clients
 
-Labels: `Type/Improvement`, `module/http`, `module/grpc`, `module/websocket`, `Team/PCM`, `Area/Security`, `Area/Library`
+Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `module/grpc`, `module/websocket`, `Team/PCM`, `Area/Security`, `Area/Library`
+
+## ⚪ Priority: None
 
 ### 📋 Task
 
