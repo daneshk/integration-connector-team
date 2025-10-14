@@ -2,11 +2,11 @@
 
 This repository contains an organized breakdown of open issues from the [ballerina-library](https://github.com/ballerina-platform/ballerina-library) repository.
 
-**Last Updated:** 2025-10-13 23:27:46
+**Last Updated:** 2025-10-14 11:46:25
 
 ## Overall Summary
 
-**Total Issues Across All Areas:** 845
+**Total Issues Across All Areas:** 847
 
 ## Area/Connector
 
@@ -68,16 +68,16 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ## Area/Library
 
-**Total Issues:** 554
+**Total Issues:** 556
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
-| [module/http](issues/Area_Library_module_http.md) | 196 | 🔴 **3** | 🟠 **23** | 🟡 **3** | 🔵 **21** | ⚪ **146** |
+| [module/http](issues/Area_Library_module_http.md) | 197 | 🔴 **3** | 🟠 **24** | 🟡 **3** | 🔵 **21** | ⚪ **146** |
 | [module/All](issues/Area_Library_module_All.md) | 12 | 🔴 **1** | 🟠 **2** | 🟡 **1** | 🔵 **3** | ⚪ **5** |
 | [module/sql](issues/Area_Library_module_sql.md) | 24 | 🔴 **1** | 🟠 **2** | 0 | 0 | ⚪ **21** |
 | [module/grpc](issues/Area_Library_module_grpc.md) | 44 | 0 | 🟠 **2** | 0 | 🔵 **1** | ⚪ **41** |
 | [module/random](issues/Area_Library_module_random.md) | 3 | 0 | 🟠 **1** | 0 | 🔵 **2** | 0 |
-| [module/crypto](issues/Area_Library_module_crypto.md) | 10 | 0 | 🟠 **1** | 0 | 0 | ⚪ **9** |
+| [module/crypto](issues/Area_Library_module_crypto.md) | 11 | 0 | 🟠 **1** | 0 | 0 | ⚪ **10** |
 | [module/time](issues/Area_Library_module_time.md) | 9 | 0 | 🟠 **1** | 0 | 0 | ⚪ **8** |
 | [module/io](issues/Area_Library_module_io.md) | 13 | 0 | 🟠 **1** | 0 | 0 | ⚪ **12** |
 | [module/email](issues/Area_Library_module_email.md) | 19 | 0 | 🟠 **1** | 0 | 0 | ⚪ **18** |
@@ -132,11 +132,11 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ### Area/Library
 - **Highest Priority:** 5
-- **High Priority:** 35
+- **High Priority:** 36
 - **Normal Priority:** 6
 - **Low Priority:** 29
-- **No Priority:** 479
-- **Total:** 554
+- **No Priority:** 480
+- **Total:** 556
 
 ### Area/Tooling
 - **High Priority:** 6
@@ -161,9 +161,9 @@ This repository contains an organized breakdown of open issues from the [balleri
 - **Docs:** 4
 - **Improvement:** 255
 - **NewFeature:** 69
-- **Task:** 151
+- **Task:** 153
 - **Unknown:** 1
-- **Total:** 554
+- **Total:** 556
 
 ### Area/Tooling
 - **Bug:** 26

@@ -1,12 +1,12 @@
 # Area/Library - module/crypto
 
-**Total Issues:** 10
+**Total Issues:** 11
 
 ## 📊 Issue Types
 
 - ✨ **Improvement:** 4
 - 🚀 **NewFeature:** 3
-- 📋 **Task:** 3
+- 📋 **Task:** 4
 
 ---
 
@@ -39,6 +39,10 @@ Labels: `Type/Improvement`, `good first issue`, `module/crypto`, `Area/Library`
 Labels: `Type/Improvement`, `module/crypto`, `Area/Library`
 
 ### 📋 Task
+
+**[#8354](https://github.com/ballerina-platform/ballerina-library/issues/8354)** Review crypto static rules
+
+Labels: `Type/Task`, `module/crypto`, `Area/Library`, `Area/StaticCode`
 
 **[#6774](https://github.com/ballerina-platform/ballerina-library/issues/6774)** Password in Crypto module are configurable as `string` values
 

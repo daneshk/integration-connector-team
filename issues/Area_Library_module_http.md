@@ -1,6 +1,6 @@
 # Area/Library - module/http
 
-**Total Issues:** 196
+**Total Issues:** 197
 
 ## 📊 Issue Types
 
@@ -8,7 +8,7 @@
 - 📚 **Docs:** 2
 - ✨ **Improvement:** 108
 - 🚀 **NewFeature:** 13
-- 📋 **Task:** 45
+- 📋 **Task:** 46
 
 ---
 
@@ -93,6 +93,10 @@ Labels: `Priority/High`, `Type/Bug`, `module/http`, `Reason/EngineeringMistake`,
 Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
 
 ### ✨ Improvement
+
+**[#5885](https://github.com/ballerina-platform/ballerina-library/issues/5885)** Http Client error does not contain the full stacktrace.
+
+Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Library`
 
 **[#4160](https://github.com/ballerina-platform/ballerina-library/issues/4160)** [HTTP] Incorrect Error handling in the native code
 
@@ -241,10 +245,6 @@ Labels: `Priority/Low`, `Type/Task`, `module/http`, `Area/http2`, `Area/Library`
 ## ⚪ Priority: None
 
 ### ✨ Improvement
-
-**[#5885](https://github.com/ballerina-platform/ballerina-library/issues/5885)** Http Client error does not contain the full stacktrace.
-
-Labels: `Type/Improvement`, `module/http`, `Area/Library`
 
 **[#5884](https://github.com/ballerina-platform/ballerina-library/issues/5884)** http Client error with response type containing union of nil value 
 
@@ -603,6 +603,10 @@ Labels: `Type/Improvement`, `module/http`, `Area/Library`
 Labels: `Type/Improvement`, `module/http`, `Area/Library`
 
 ### 📋 Task
+
+**[#8353](https://github.com/ballerina-platform/ballerina-library/issues/8353)** Review HTTP static code rules
+
+Labels: `Type/Task`, `module/http`, `Area/Library`, `Area/StaticCode`
 
 **[#8342](https://github.com/ballerina-platform/ballerina-library/issues/8342)** Review static code rule implementations
 
