@@ -47,6 +47,12 @@ Labels: `Type/NewFeature`, `module/oauth2`, `Area/Security`, `Priority/Normal`, 
 
 ## 🔵 Priority: Low
 
+### 🐛 Bug
+
+**[#7231](https://github.com/ballerina-platform/ballerina-library/issues/7231)** Refactor `prepareIntrospectionResponse` to use ensureType to avoid panic behaviour
+
+Labels: `Priority/Low`, `Type/Bug`, `module/oauth2`, `Area/Library`
+
 ### ✨ Improvement
 
 **[#7237](https://github.com/ballerina-platform/ballerina-library/issues/7237)** Refactor the OAuth2 module codebase
@@ -74,12 +80,4 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/oauth2`, `Area/Security`, `A
 **[#4497](https://github.com/ballerina-platform/ballerina-library/issues/4497)** Add an example with WSO2 IS/Asgardeo
 
 Labels: `Priority/Low`, `Type/Task`, `good first issue`, `module/oauth2`, `Credits/45`, `Area/Library`
-
-## ⚪ Priority: None
-
-### 🐛 Bug
-
-**[#7231](https://github.com/ballerina-platform/ballerina-library/issues/7231)** Refactor `prepareIntrospectionResponse` to use ensureType to avoid panic behaviour
-
-Labels: `Type/Bug`, `module/oauth2`, `Area/Library`
 

@@ -15,6 +15,10 @@
 
 ### 🐛 Bug
 
+**[#8232](https://github.com/ballerina-platform/ballerina-library/issues/8232)** When logging, the message gets lost if there is another message in KeyValue
+
+Labels: `Priority/High`, `Type/Bug`, `good first issue`, `module/log`, `Hacktoberfest`, `Area/Library`
+
 **[#7728](https://github.com/ballerina-platform/ballerina-library/issues/7728)** [Log] when pass `time` as a key for KeyValue pair, it replaces the logged time with context value.
 
 Labels: `Priority/High`, `Type/Bug`, `good first issue`, `module/log`, `Hacktoberfest`, `Area/Library`
@@ -51,17 +55,7 @@ Labels: `Priority/Low`, `Type/Task`, `module/log`, `Area/Library`
 
 Labels: `Priority/Low`, `Type/NewFeature`, `module/log`, `Area/Library`
 
-## ⚪ Priority: None
-
-### 🐛 Bug
-
-**[#8232](https://github.com/ballerina-platform/ballerina-library/issues/8232)** When logging, the message gets lost if there is another message in KeyValue
-
-Labels: `Type/Bug`, `good first issue`, `module/log`, `Hacktoberfest`, `Area/Library`
-
-### 🚀 NewFeature
-
 **[#4633](https://github.com/ballerina-platform/ballerina-library/issues/4633)** Add support to change the log level programmatically at runtime
 
-Labels: `Type/NewFeature`, `good first issue`, `module/log`, `Hacktoberfest`, `Credits/20`, `Area/Library`
+Labels: `Priority/Low`, `Type/NewFeature`, `good first issue`, `module/log`, `Hacktoberfest`, `Credits/20`, `Area/Library`
 

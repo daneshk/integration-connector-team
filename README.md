@@ -2,11 +2,11 @@
 
 This repository contains an organized breakdown of open issues from the [ballerina-library](https://github.com/ballerina-platform/ballerina-library) repository.
 
-**Last Updated:** 2025-10-15 18:31:20
+**Last Updated:** 2025-10-15 20:35:34
 
 ## Overall Summary
 
-**Total Issues Across All Areas:** 736
+**Total Issues Across All Areas:** 732
 
 ## Area/Connector
 
@@ -80,10 +80,10 @@ This repository contains an organized breakdown of open issues from the [balleri
 | [module/crypto](issues/Area_Library_module_crypto.md) | 11 | 🔴 **1** | 🟠 **4** | 0 | 🔵 **6** | 0 |
 | [module/jwt](issues/Area_Library_module_jwt.md) | 5 | 🔴 **1** | 🟠 **2** | 0 | 🔵 **2** | 0 |
 | [module/email](issues/Area_Library_module_email.md) | 8 | 0 | 🟠 **5** | 0 | 🔵 **3** | 0 |
-| [module/oauth2](issues/Area_Library_module_oauth2.md) | 12 | 0 | 🟠 **4** | 🟡 **1** | 🔵 **6** | ⚪ **1** |
+| [module/oauth2](issues/Area_Library_module_oauth2.md) | 12 | 0 | 🟠 **4** | 🟡 **1** | 🔵 **7** | 0 |
 | [module/io](issues/Area_Library_module_io.md) | 8 | 0 | 🟠 **3** | 0 | 🔵 **5** | 0 |
+| [module/log](issues/Area_Library_module_log.md) | 8 | 0 | 🟠 **2** | 🟡 **1** | 🔵 **5** | 0 |
 | [module/time](issues/Area_Library_module_time.md) | 2 | 0 | 🟠 **2** | 0 | 0 | 0 |
-| [module/log](issues/Area_Library_module_log.md) | 8 | 0 | 🟠 **1** | 🟡 **1** | 🔵 **4** | ⚪ **2** |
 | [module/random](issues/Area_Library_module_random.md) | 3 | 0 | 🟠 **1** | 0 | 🔵 **2** | 0 |
 | [module/websocket](issues/Area_Library_module_websocket.md) | 3 | 0 | 🟠 **1** | 0 | 🔵 **2** | 0 |
 | [module/auth](issues/Area_Library_module_auth.md) | 2 | 0 | 🟠 **1** | 0 | 🔵 **1** | 0 |
@@ -106,11 +106,11 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ## Area/Tooling
 
-**Total Issues:** 109
+**Total Issues:** 105
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
-| [module/openapi-tools](issues/Area_Tooling_module_openapi-tools.md) | 54 | 0 | 🟠 **13** | 🟡 **15** | 🔵 **12** | ⚪ **14** |
+| [module/openapi-tools](issues/Area_Tooling_module_openapi-tools.md) | 50 | 0 | 🟠 **13** | 🟡 **15** | 🔵 **22** | 0 |
 | [module/graphql-tool](issues/Area_Tooling_module_graphql-tool.md) | 28 | 0 | 🟠 **2** | 🟡 **3** | 🔵 **1** | ⚪ **22** |
 | [module/http](issues/Area_Tooling_module_http.md) | 1 | 0 | 0 | 🟡 **1** | 0 | 0 |
 | [No Module](issues/Area_Tooling_No_Module.md) | 2 | 0 | 0 | 🟡 **1** | 0 | ⚪ **1** |
@@ -132,18 +132,18 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ### Area/Library
 - **Highest Priority:** 12
-- **High Priority:** 108
+- **High Priority:** 109
 - **Normal Priority:** 21
-- **Low Priority:** 175
-- **No Priority:** 151
+- **Low Priority:** 177
+- **No Priority:** 148
 - **Total:** 467
 
 ### Area/Tooling
 - **High Priority:** 15
 - **Normal Priority:** 20
-- **Low Priority:** 14
-- **No Priority:** 60
-- **Total:** 109
+- **Low Priority:** 24
+- **No Priority:** 46
+- **Total:** 105
 
 ## Issue Distribution by Type
 
@@ -169,7 +169,7 @@ This repository contains an organized breakdown of open issues from the [balleri
 - **Bug:** 19
 - **Docs:** 1
 - **Improvement:** 51
-- **NewFeature:** 7
-- **Task:** 31
-- **Total:** 109
+- **NewFeature:** 6
+- **Task:** 28
+- **Total:** 105
 

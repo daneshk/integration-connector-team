@@ -1,13 +1,13 @@
 # Area/Tooling - module/openapi-tools
 
-**Total Issues:** 54
+**Total Issues:** 50
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 8
 - ✨ **Improvement:** 28
-- 🚀 **NewFeature:** 2
-- 📋 **Task:** 16
+- 🚀 **NewFeature:** 1
+- 📋 **Task:** 13
 
 ---
 
@@ -161,6 +161,30 @@ Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/BallerinaToOpe
 
 Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
 
+**[#5888](https://github.com/ballerina-platform/ballerina-library/issues/5888)** Provide trailing slash support for client generation
+
+Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/Client`, `module/openapi-tools`
+
+**[#5713](https://github.com/ballerina-platform/ballerina-library/issues/5713)** Provide path parameter serialization to ballerina client generations  
+
+Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
+
+**[#5077](https://github.com/ballerina-platform/ballerina-library/issues/5077)** Getting an error when  `get` operation has request body
+
+Labels: `Priority/Low`, `Type/Improvement`, `Team/PCM`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
+
+**[#5056](https://github.com/ballerina-platform/ballerina-library/issues/5056)** Improve client generation to support initialisation parameters
+
+Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
+
+**[#5049](https://github.com/ballerina-platform/ballerina-library/issues/5049)** [Ballerina to OpenAPI] Support `@constraint:Date` Annotation Mapping to OpenAPI Specification
+
+Labels: `Priority/Low`, `Type/Improvement`, `good first issue`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
+
+**[#5048](https://github.com/ballerina-platform/ballerina-library/issues/5048)** [Ballerina to OpenAPI] Support REGEX Patterns which Include `$` Literal Character in String Constraints
+
+Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
+
 **[#5146](https://github.com/ballerina-platform/ballerina-library/issues/5146)** Support `type: string, format: base64` sccenario in File Upload
 
 Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
@@ -168,6 +192,18 @@ Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBalle
 **[#5150](https://github.com/ballerina-platform/ballerina-library/issues/5150)** `time:Date` is not properly captured in OpenAPI schema
 
 Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
+
+**[#5154](https://github.com/ballerina-platform/ballerina-library/issues/5154)** Supporting ballerina service `scopes` in the ballerina to openapi spec generation
+
+Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Reason/Other`, `Area/BallerinaToOpenapi`, `module/openapi-tools`, `IceBox`
+
+**[#5163](https://github.com/ballerina-platform/ballerina-library/issues/5163)** Possibility of generating OpenAPI spec for `http:Request`, `http:Response` and `default` accessor
+
+Labels: `Points/2`, `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Reason/Complex`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
+
+**[#4873](https://github.com/ballerina-platform/ballerina-library/issues/4873)** Select most suitable MIME type response when there multiple MIME types
+
+Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
 
 **[#4871](https://github.com/ballerina-platform/ballerina-library/issues/4871)** Unable to generate code for path reference
 
@@ -195,67 +231,9 @@ Labels: `Priority/Low`, `Type/Task`, `good first issue`, `Area/Tooling`, `module
 
 Labels: `Priority/Low`, `Type/Task`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
 
-## ⚪ Priority: None
-
-### ✨ Improvement
-
-**[#5888](https://github.com/ballerina-platform/ballerina-library/issues/5888)** Provide trailing slash support for client generation
-
-Labels: `Type/Improvement`, `Area/Tooling`, `Area/Client`, `module/openapi-tools`
-
-**[#5713](https://github.com/ballerina-platform/ballerina-library/issues/5713)** Provide path parameter serialization to ballerina client generations  
-
-Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
-
-**[#5077](https://github.com/ballerina-platform/ballerina-library/issues/5077)** Getting an error when  `get` operation has request body
-
-Labels: `Type/Improvement`, `Team/PCM`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
-
-**[#5056](https://github.com/ballerina-platform/ballerina-library/issues/5056)** Improve client generation to support initialisation parameters
-
-Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
-
-**[#5049](https://github.com/ballerina-platform/ballerina-library/issues/5049)** [Ballerina to OpenAPI] Support `@constraint:Date` Annotation Mapping to OpenAPI Specification
-
-Labels: `Type/Improvement`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
-
-**[#5048](https://github.com/ballerina-platform/ballerina-library/issues/5048)** [Ballerina to OpenAPI] Support REGEX Patterns which Include `$` Literal Character in String Constraints
-
-Labels: `Type/Improvement`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
-
-**[#5154](https://github.com/ballerina-platform/ballerina-library/issues/5154)** Supporting ballerina service `scopes` in the ballerina to openapi spec generation
-
-Labels: `Type/Improvement`, `Area/Tooling`, `Reason/Other`, `Area/BallerinaToOpenapi`, `module/openapi-tools`, `IceBox`
-
-**[#5163](https://github.com/ballerina-platform/ballerina-library/issues/5163)** Possibility of generating OpenAPI spec for `http:Request`, `http:Response` and `default` accessor
-
-Labels: `Points/2`, `Type/Improvement`, `Area/Tooling`, `Reason/Complex`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
-
-**[#4873](https://github.com/ballerina-platform/ballerina-library/issues/4873)** Select most suitable MIME type response when there multiple MIME types
-
-Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
-
-### 📋 Task
-
-**[#5114](https://github.com/ballerina-platform/ballerina-library/issues/5114)** Refactor OpenAPI Repository Folder Structure
-
-Labels: `Type/Task`, `Area/Tooling`, `module/openapi-tools`
-
-**[#5122](https://github.com/ballerina-platform/ballerina-library/issues/5122)** Handle 3.1 OpenAPI schema with multiple types
-
-Labels: `Type/Task`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`, `Area/Service`
-
-**[#5125](https://github.com/ballerina-platform/ballerina-library/issues/5125)** Write spec for OpenAPI schema to Ballerina types generation
-
-Labels: `Type/Task`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
-
 ### 🚀 NewFeature
 
 **[#5117](https://github.com/ballerina-platform/ballerina-library/issues/5117)** Add support to selectively generate openAPI contract for a subset of resources in the service implementation
 
-Labels: `Type/NewFeature`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
-
-**[#5175](https://github.com/ballerina-platform/ballerina-library/issues/5175)** Take the project context into account when generating code
-
-Labels: `Type/NewFeature`, `Version/SLAlpha3`, `Area/Tooling`, `module/openapi-tools`
+Labels: `Priority/Low`, `Type/NewFeature`, `good first issue`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
 
