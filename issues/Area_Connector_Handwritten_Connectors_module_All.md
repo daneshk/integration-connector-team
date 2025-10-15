@@ -1,12 +1,12 @@
 # Area/Connector/Handwritten Connectors - module/All
 
-**Total Issues:** 13
+**Total Issues:** 14
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 2
 - ✨ **Improvement:** 2
-- 📋 **Task:** 9
+- 📋 **Task:** 10
 
 ---
 
@@ -57,6 +57,12 @@ Labels: `Type/Improvement`, `module/All`, `Area/Connector`, `Priority/Normal`, `
 **[#6135](https://github.com/ballerina-platform/ballerina-library/issues/6135)** Add support to run connector examples on the same Ballerina version used by the Ballerina gradle plugin 
 
 Labels: `Type/Improvement`, `Area/Build`, `module/All`, `Area/Connector`, `Priority/Normal`
+
+### 📋 Task
+
+**[#8276](https://github.com/ballerina-platform/ballerina-library/issues/8276)** [Medium Priority] Review Library/Connector API docs in BI editor
+
+Labels: `Type/Task`, `module/All`, `Area/Connector`, `Priority/Normal`, `Area/Library`
 
 ## 🔵 Priority: Low
 

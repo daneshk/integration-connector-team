@@ -1,21 +1,14 @@
 # Area/Connector/Handwritten Connectors - No Module
 
-**Total Issues:** 9
+**Total Issues:** 8
 
 ## 📊 Issue Types
 
 - 🚀 **NewFeature:** 8
-- 📋 **Task:** 1
 
 ---
 
 ## 🟡 Priority: Normal
-
-### 📋 Task
-
-**[#8276](https://github.com/ballerina-platform/ballerina-library/issues/8276)** [Medium Priority] Review Library/Connector API docs in BI editor
-
-Labels: `Type/Task`, `Area/Connector`, `Priority/Normal`, `Area/Library`
 
 ### 🚀 NewFeature
 

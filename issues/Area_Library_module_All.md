@@ -1,12 +1,13 @@
 # Area/Library - module/All
 
-**Total Issues:** 12
+**Total Issues:** 17
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 1
 - ✨ **Improvement:** 2
-- 📋 **Task:** 9
+- 🚀 **NewFeature:** 1
+- 📋 **Task:** 13
 
 ---
 
@@ -42,6 +43,12 @@ Labels: `Priority/High`, `Type/Task`, `module/All`, `Area/Connector`, `Area/Libr
 
 Labels: `Priority/High`, `Type/Task`, `module/All`, `Area/Library`
 
+### 🚀 NewFeature
+
+**[#7866](https://github.com/ballerina-platform/ballerina-library/issues/7866)** Expose Native Logs via Configurable Options for Easier Debugging
+
+Labels: `Priority/High`, `Type/NewFeature`, `module/All`, `Area/Library`
+
 ## 🟡 Priority: Normal
 
 ### ✨ Improvement
@@ -49,6 +56,12 @@ Labels: `Priority/High`, `Type/Task`, `module/All`, `Area/Library`
 **[#6794](https://github.com/ballerina-platform/ballerina-library/issues/6794)** Add Link to Ballerina Central from Repositories in ballerina & ballerinax packages
 
 Labels: `Type/Improvement`, `module/All`, `Area/Connector`, `Priority/Normal`, `Area/Library`
+
+### 📋 Task
+
+**[#8276](https://github.com/ballerina-platform/ballerina-library/issues/8276)** [Medium Priority] Review Library/Connector API docs in BI editor
+
+Labels: `Type/Task`, `module/All`, `Area/Connector`, `Priority/Normal`, `Area/Library`
 
 ## 🔵 Priority: Low
 
@@ -62,6 +75,10 @@ Labels: `Priority/Low`, `Type/Task`, `module/All`, `Area/Connector`, `Area/Libra
 
 Labels: `Priority/Low`, `Type/Task`, `module/All`, `Area/Connector`, `Area/Library`
 
+**[#7647](https://github.com/ballerina-platform/ballerina-library/issues/7647)** Update the setup-ballerina version in workflows
+
+Labels: `Priority/Low`, `Type/Task`, `module/All`, `Area/Library`
+
 **[#7339](https://github.com/ballerina-platform/ballerina-library/issues/7339)** [Phase 1][Ballerina standard libraries] Dead code elimination report for Ballerina library modules
 
 Labels: `Priority/Low`, `Type/Task`, `module/All`, `Area/Connector`, `Area/Library`
@@ -70,11 +87,19 @@ Labels: `Priority/Low`, `Type/Task`, `module/All`, `Area/Connector`, `Area/Libra
 
 Labels: `Priority/Low`, `Type/Task`, `Area/Build`, `module/All`, `Area/Library`
 
+**[#6838](https://github.com/ballerina-platform/ballerina-library/issues/6838)** Update centralized workflows to support latest Ballerina gradle plugin imrpovements
+
+Labels: `Priority/Low`, `Type/Task`, `module/All`, `Area/Library`
+
 **[#4553](https://github.com/ballerina-platform/ballerina-library/issues/4553)** Enable GraalVM check for patch branches
 
 Labels: `Priority/Low`, `Type/Task`, `module/All`, `Area/Library`
 
 **[#2213](https://github.com/ballerina-platform/ballerina-library/issues/2213)** Update readme with build instructions for windows
+
+Labels: `Priority/Low`, `Type/Task`, `module/All`, `Area/Library`
+
+**[#530](https://github.com/ballerina-platform/ballerina-library/issues/530)** Revisit all the resiliency features of each protocol connector 
 
 Labels: `Priority/Low`, `Type/Task`, `module/All`, `Area/Library`
 

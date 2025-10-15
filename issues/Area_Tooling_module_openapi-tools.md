@@ -1,11 +1,11 @@
 # Area/Tooling - module/openapi-tools
 
-**Total Issues:** 50
+**Total Issues:** 52
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 8
-- ✨ **Improvement:** 28
+- ✨ **Improvement:** 30
 - 🚀 **NewFeature:** 1
 - 📋 **Task:** 13
 
@@ -103,7 +103,7 @@ Labels: `Type/Improvement`, `Area/Tooling`, `module/openapi-tools`, `Area/Servic
 
 **[#7336](https://github.com/ballerina-platform/ballerina-library/issues/7336)** OpenAPI related annotations should not be allowed in the services which are implemented via the service contract type
 
-Labels: `Type/Improvement`, `module/http`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`, `Priority/Normal`
+Labels: `Type/Improvement`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`, `Priority/Normal`
 
 **[#6980](https://github.com/ballerina-platform/ballerina-library/issues/6980)** OpenAPI generated does not have all types
 
@@ -112,6 +112,10 @@ Labels: `Type/Improvement`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `Area/Ope
 **[#6076](https://github.com/ballerina-platform/ballerina-library/issues/6076)** Openapi tool should have a way for the user to provide custom http:Clients
 
 Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`, `Priority/Normal`
+
+**[#5141](https://github.com/ballerina-platform/ballerina-library/issues/5141)** Missing period characters in generated ballerina documentation descriptions
+
+Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`, `Priority/Normal`
 
 **[#5166](https://github.com/ballerina-platform/ballerina-library/issues/5166)** Check `required` flag in request body generation 
 
@@ -236,4 +240,12 @@ Labels: `Priority/Low`, `Type/Task`, `Area/Tooling`, `Area/BallerinaToOpenapi`, 
 **[#5117](https://github.com/ballerina-platform/ballerina-library/issues/5117)** Add support to selectively generate openAPI contract for a subset of resources in the service implementation
 
 Labels: `Priority/Low`, `Type/NewFeature`, `good first issue`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`
+
+## ⚪ Priority: None
+
+### ✨ Improvement
+
+**[#5742](https://github.com/ballerina-platform/ballerina-library/issues/5742)** Data mapping ballerna openapi extension
+
+Labels: `Type/Improvement`, `Type/Proposal`, `Area/Tooling`, `Status/Draft`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 

@@ -8,11 +8,11 @@
 
 ---
 
-## ⚪ Priority: None
+## 🟡 Priority: Normal
 
 ### 📋 Task
 
 **[#192](https://github.com/ballerina-platform/ballerina-library/issues/192)** Enable testReadFromSource test
 
-Labels: `Type/Task`, `module/xslt`, `Area/Library`
+Labels: `Type/Task`, `module/xslt`, `Priority/Normal`, `Area/Library`
 

@@ -8,11 +8,11 @@
 
 ---
 
-## ⚪ Priority: None
+## 🟡 Priority: Normal
 
 ### 🚀 NewFeature
 
 **[#8136](https://github.com/ballerina-platform/ballerina-library/issues/8136)** Make it possible to consume wsdl tool as library
 
-Labels: `Type/NewFeature`, `Area/Tooling`, `module/wsdl-tools`
+Labels: `Type/NewFeature`, `Area/Tooling`, `Priority/Normal`, `module/wsdl-tools`
 

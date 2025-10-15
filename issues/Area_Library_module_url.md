@@ -8,11 +8,11 @@
 
 ---
 
-## ⚪ Priority: None
+## 🟡 Priority: Normal
 
 ### ✨ Improvement
 
 **[#4808](https://github.com/ballerina-platform/ballerina-library/issues/4808)** Provide a convent API for form-urlencoded
 
-Labels: `Type/Improvement`, `module/url`, `Area/Library`
+Labels: `Type/Improvement`, `module/url`, `Priority/Normal`, `Area/Library`
 
