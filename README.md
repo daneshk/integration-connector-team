@@ -2,11 +2,11 @@
 
 This repository contains an organized breakdown of open issues from the [ballerina-library](https://github.com/ballerina-platform/ballerina-library) repository.
 
-**Last Updated:** 2025-10-14 23:05:47
+**Last Updated:** 2025-10-15 11:15:16
 
 ## Overall Summary
 
-**Total Issues Across All Areas:** 815
+**Total Issues Across All Areas:** 814
 
 ## Area/Connector
 
@@ -68,12 +68,12 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ## Area/Library
 
-**Total Issues:** 525
+**Total Issues:** 524
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
 | [module/http](issues/Area_Library_module_http.md) | 167 | 🔴 **5** | 🟠 **48** | 🟡 **11** | 🔵 **98** | ⚪ **5** |
-| [module/sql](issues/Area_Library_module_sql.md) | 24 | 🔴 **1** | 🟠 **8** | 🟡 **1** | 🔵 **1** | ⚪ **13** |
+| [module/sql](issues/Area_Library_module_sql.md) | 23 | 🔴 **1** | 🟠 **13** | 🟡 **1** | 🔵 **7** | ⚪ **1** |
 | [module/All](issues/Area_Library_module_All.md) | 12 | 🔴 **1** | 🟠 **4** | 🟡 **1** | 🔵 **5** | ⚪ **1** |
 | [module/grpc](issues/Area_Library_module_grpc.md) | 44 | 0 | 🟠 **3** | 0 | 🔵 **2** | ⚪ **39** |
 | [module/io](issues/Area_Library_module_io.md) | 13 | 0 | 🟠 **2** | 0 | 0 | ⚪ **11** |
@@ -132,11 +132,11 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ### Area/Library
 - **Highest Priority:** 7
-- **High Priority:** 77
+- **High Priority:** 82
 - **Normal Priority:** 15
-- **Low Priority:** 114
-- **No Priority:** 312
-- **Total:** 525
+- **Low Priority:** 120
+- **No Priority:** 300
+- **Total:** 524
 
 ### Area/Tooling
 - **High Priority:** 6
@@ -161,9 +161,9 @@ This repository contains an organized breakdown of open issues from the [balleri
 - **Docs:** 4
 - **Improvement:** 230
 - **NewFeature:** 67
-- **Task:** 149
+- **Task:** 148
 - **Unknown:** 1
-- **Total:** 525
+- **Total:** 524
 
 ### Area/Tooling
 - **Bug:** 26

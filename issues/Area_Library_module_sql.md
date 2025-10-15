@@ -1,13 +1,13 @@
 # Area/Library - module/sql
 
-**Total Issues:** 24
+**Total Issues:** 23
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 7
 - 📚 **Docs:** 1
 - ✨ **Improvement:** 13
-- 📋 **Task:** 3
+- 📋 **Task:** 2
 
 ---
 
@@ -57,6 +57,30 @@ Labels: `Points/1.5`, `Priority/High`, `Type/Bug`, `module/sql`, `Verson/SwanLak
 
 Labels: `Priority/High`, `Type/Improvement`, `module/sql`, `Area/Library`
 
+**[#727](https://github.com/ballerina-platform/ballerina-library/issues/727)** Supporting retryable transaction with SQL transactions
+
+Labels: `Priority/High`, `Type/Improvement`, `module/sql`, `Area/Library`
+
+**[#611](https://github.com/ballerina-platform/ballerina-library/issues/611)** Streaming out large data set is not supported in Swan lake data clients
+
+Labels: `Priority/High`, `Type/Improvement`, `module/sql`, `IceBox`, `Area/Library`
+
+### 📋 Task
+
+**[#6139](https://github.com/ballerina-platform/ballerina-library/issues/6139)** Add example to demonstrate how to use `arrayFlattenQuery` to construct IN clause
+
+Labels: `Priority/High`, `Type/Task`, `module/sql`, `Area/Docs`, `Area/Library`
+
+**[#2851](https://github.com/ballerina-platform/ballerina-library/issues/2851)** Write a guide for distributed transaction in Ballerina
+
+Labels: `Priority/High`, `Type/Task`, `module/sql`, `Area/Library`
+
+### 📚 Docs
+
+**[#3807](https://github.com/ballerina-platform/ballerina-library/issues/3807)** Improve docs regarding client and stream lifecycle
+
+Labels: `Priority/High`, `Type/Docs`, `Type/Improvement`, `module/sql`, `Area/Library`
+
 ## 🟡 Priority: Normal
 
 ### ✨ Improvement
@@ -73,6 +97,30 @@ Labels: `Type/Improvement`, `module/sql`, `Priority/Normal`, `Area/Library`
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/sql`, `Area/Library`
 
+**[#3287](https://github.com/ballerina-platform/ballerina-library/issues/3287)** Support paramterized query to insert const
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/sql`, `Area/Library`
+
+**[#2422](https://github.com/ballerina-platform/ballerina-library/issues/2422)** Standardising timeout options in SQL connectors
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/sql`, `Area/Library`
+
+**[#1529](https://github.com/ballerina-platform/ballerina-library/issues/1529)** Need SQL API to execute multiple different queries in a batch
+
+Labels: `Points/1`, `Priority/Low`, `Type/Improvement`, `module/sql`, `Area/Library`
+
+**[#164](https://github.com/ballerina-platform/ballerina-library/issues/164)** Calling stored procedures with UDT types
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/sql`, `IceBox`, `Area/Library`
+
+**[#159](https://github.com/ballerina-platform/ballerina-library/issues/159)** Unable to retreive User-Defined Types (UDT) through data clients
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/sql`, `IceBox`, `Area/Library`
+
+**[#110](https://github.com/ballerina-platform/ballerina-library/issues/110)** [SQLConnector] Unable to handle unsigned big int data
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/sql`, `IceBox`, `Area/Library`
+
 ## ⚪ Priority: None
 
 ### ✨ Improvement
@@ -80,56 +128,4 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/sql`, `Area/Library`
 **[#3423](https://github.com/ballerina-platform/ballerina-library/issues/3423)** SQL query sets non-nilable optional fields to nil
 
 Labels: `Type/Improvement`, `module/sql`, `Area/Library`
-
-**[#3287](https://github.com/ballerina-platform/ballerina-library/issues/3287)** Support paramterized query to insert const
-
-Labels: `Type/Improvement`, `module/sql`, `Area/Library`
-
-**[#2422](https://github.com/ballerina-platform/ballerina-library/issues/2422)** Standardising timeout options in SQL connectors
-
-Labels: `Type/Improvement`, `module/sql`, `Area/Library`
-
-**[#1529](https://github.com/ballerina-platform/ballerina-library/issues/1529)** Need SQL API to execute multiple different queries in a batch
-
-Labels: `Points/1`, `Type/Improvement`, `module/sql`, `Area/Library`
-
-**[#727](https://github.com/ballerina-platform/ballerina-library/issues/727)** Supporting retryable transaction with SQL transactions
-
-Labels: `Type/Improvement`, `module/sql`, `IceBox`, `Area/Library`
-
-**[#611](https://github.com/ballerina-platform/ballerina-library/issues/611)** Streaming out large data set is not supported in Swan lake data clients
-
-Labels: `Type/Improvement`, `module/sql`, `IceBox`, `Area/Library`
-
-**[#164](https://github.com/ballerina-platform/ballerina-library/issues/164)** Calling stored procedures with UDT types
-
-Labels: `Type/Improvement`, `module/sql`, `IceBox`, `Area/Library`
-
-**[#159](https://github.com/ballerina-platform/ballerina-library/issues/159)** Unable to retreive User-Defined Types (UDT) through data clients
-
-Labels: `Type/Improvement`, `module/sql`, `IceBox`, `Area/Library`
-
-**[#110](https://github.com/ballerina-platform/ballerina-library/issues/110)** [SQLConnector] Unable to handle unsigned big int data
-
-Labels: `Type/Improvement`, `module/sql`, `IceBox`, `Area/Library`
-
-### 📋 Task
-
-**[#6139](https://github.com/ballerina-platform/ballerina-library/issues/6139)** Add example to demonstrate how to use `arrayFlattenQuery` to construct IN clause
-
-Labels: `Type/Task`, `module/sql`, `Area/Docs`, `Area/Library`
-
-**[#2851](https://github.com/ballerina-platform/ballerina-library/issues/2851)** Write a guide for distributed transaction in Ballerina
-
-Labels: `Type/Task`, `module/sql`, `Area/Library`
-
-**[#2495](https://github.com/ballerina-platform/ballerina-library/issues/2495)** Compiler extension to check connection is closed
-
-Labels: `Type/Task`, `module/sql`, `Area/Library`
-
-### 📚 Docs
-
-**[#3807](https://github.com/ballerina-platform/ballerina-library/issues/3807)** Improve docs regarding client and stream lifecycle
-
-Labels: `Type/Docs`, `Type/Improvement`, `module/sql`, `Area/Library`
 
