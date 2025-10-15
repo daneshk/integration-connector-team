@@ -168,7 +168,7 @@ Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
 
 **[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
 
-Labels: `Priority/High`, `Type/Task`, `module/io`, `module/cache`, `module/auth`, `module/http`, `module/jwt`, `module/oauth2`, `module/graphql`, `Area/Library`
+Labels: `Priority/High`, `Type/Task`, `module/io`, `module/cache`, `module/http`, `module/jwt`, `Area/Library`
 
 **[#4267](https://github.com/ballerina-platform/ballerina-library/issues/4267)** [HTTP] Update module spec with the new error structure
 
@@ -196,7 +196,7 @@ Labels: `Priority/High`, `Type/Task`, `module/http`, `module/websocket`, `Area/L
 
 **[#2715](https://github.com/ballerina-platform/ballerina-library/issues/2715)** Accessing compile-time generated service metadata at listener init phase
 
-Labels: `Priority/High`, `Type/Task`, `module/http`, `module/grpc`, `Area/Library`
+Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
 
 **[#2420](https://github.com/ballerina-platform/ballerina-library/issues/2420)** Maintain the consistent of generated OpenAPI specification with  Ballerina to OAS CLI command and OpenAPI built-in plugin
 

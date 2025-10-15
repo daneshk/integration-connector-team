@@ -1,23 +1,15 @@
 # Area/Library - module/graphql
 
-**Total Issues:** 77
+**Total Issues:** 76
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 9
 - ✨ **Improvement:** 42
 - 🚀 **NewFeature:** 12
-- 📋 **Task:** 14
+- 📋 **Task:** 13
 
 ---
-
-## 🟠 Priority: High
-
-### 📋 Task
-
-**[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
-
-Labels: `Priority/High`, `Type/Task`, `module/io`, `module/cache`, `module/auth`, `module/http`, `module/jwt`, `module/oauth2`, `module/graphql`, `Area/Library`
 
 ## 🔵 Priority: Low
 
@@ -30,6 +22,12 @@ Labels: `Priority/Low`, `Type/Task`, `good first issue`, `module/http`, `module/
 **[#1862](https://github.com/ballerina-platform/ballerina-library/issues/1862)** Check for GraphQL Spec Conformance Tests
 
 Labels: `Priority/Low`, `Type/Task`, `module/graphql`, `IceBox`, `Area/Library`
+
+### 🚀 NewFeature
+
+**[#4587](https://github.com/ballerina-platform/ballerina-library/issues/4587)** Implement completion providers in compiler plugins
+
+Labels: `Priority/Low`, `Type/NewFeature`, `module/grpc`, `module/graphql`, `module/websocket`, `module/websubhub`, `Area/Library`
 
 ## ⚪ Priority: None
 
@@ -300,10 +298,6 @@ Labels: `Type/NewFeature`, `module/graphql`, `Area/Library`
 **[#4620](https://github.com/ballerina-platform/ballerina-library/issues/4620)** [Proposal] Decoupling GraphQL API development from API design
 
 Labels: `Type/NewFeature`, `Type/Proposal`, `module/graphql`, `Status/Active`, `Area/Library`
-
-**[#4587](https://github.com/ballerina-platform/ballerina-library/issues/4587)** Implement completion providers in compiler plugins
-
-Labels: `Type/NewFeature`, `module/grpc`, `module/graphql`, `module/websocket`, `module/websubhub`, `Area/Library`
 
 **[#4585](https://github.com/ballerina-platform/ballerina-library/issues/4585)** Show Constraint Validations in the GraphQL Schema
 

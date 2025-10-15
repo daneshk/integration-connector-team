@@ -26,11 +26,9 @@ Labels: `Priority/High`, `Type/Task`, `module/http`, `module/websocket`, `Area/L
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `module/grpc`, `module/websocket`, `Team/PCM`, `Area/Security`, `Area/Library`
 
-## ⚪ Priority: None
-
 ### 🚀 NewFeature
 
 **[#4587](https://github.com/ballerina-platform/ballerina-library/issues/4587)** Implement completion providers in compiler plugins
 
-Labels: `Type/NewFeature`, `module/grpc`, `module/graphql`, `module/websocket`, `module/websubhub`, `Area/Library`
+Labels: `Priority/Low`, `Type/NewFeature`, `module/grpc`, `module/graphql`, `module/websocket`, `module/websubhub`, `Area/Library`
 

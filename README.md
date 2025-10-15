@@ -2,11 +2,11 @@
 
 This repository contains an organized breakdown of open issues from the [ballerina-library](https://github.com/ballerina-platform/ballerina-library) repository.
 
-**Last Updated:** 2025-10-15 11:15:16
+**Last Updated:** 2025-10-15 18:31:20
 
 ## Overall Summary
 
-**Total Issues Across All Areas:** 814
+**Total Issues Across All Areas:** 736
 
 ## Area/Connector
 
@@ -68,56 +68,56 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ## Area/Library
 
-**Total Issues:** 524
+**Total Issues:** 467
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
 | [module/http](issues/Area_Library_module_http.md) | 167 | 🔴 **5** | 🟠 **48** | 🟡 **11** | 🔵 **98** | ⚪ **5** |
+| [module/persist](issues/Area_Library_module_persist.md) | 17 | 🔴 **2** | 🟠 **6** | 0 | 🔵 **9** | 0 |
 | [module/sql](issues/Area_Library_module_sql.md) | 23 | 🔴 **1** | 🟠 **13** | 🟡 **1** | 🔵 **7** | ⚪ **1** |
-| [module/All](issues/Area_Library_module_All.md) | 12 | 🔴 **1** | 🟠 **4** | 🟡 **1** | 🔵 **5** | ⚪ **1** |
-| [module/grpc](issues/Area_Library_module_grpc.md) | 44 | 0 | 🟠 **3** | 0 | 🔵 **2** | ⚪ **39** |
-| [module/io](issues/Area_Library_module_io.md) | 13 | 0 | 🟠 **2** | 0 | 0 | ⚪ **11** |
-| [module/graphql](issues/Area_Library_module_graphql.md) | 77 | 0 | 🟠 **1** | 0 | 🔵 **2** | ⚪ **74** |
+| [module/grpc](issues/Area_Library_module_grpc.md) | 30 | 🔴 **1** | 🟠 **11** | 🟡 **2** | 🔵 **16** | 0 |
+| [module/All](issues/Area_Library_module_All.md) | 12 | 🔴 **1** | 🟠 **4** | 🟡 **1** | 🔵 **6** | 0 |
+| [module/crypto](issues/Area_Library_module_crypto.md) | 11 | 🔴 **1** | 🟠 **4** | 0 | 🔵 **6** | 0 |
+| [module/jwt](issues/Area_Library_module_jwt.md) | 5 | 🔴 **1** | 🟠 **2** | 0 | 🔵 **2** | 0 |
+| [module/email](issues/Area_Library_module_email.md) | 8 | 0 | 🟠 **5** | 0 | 🔵 **3** | 0 |
+| [module/oauth2](issues/Area_Library_module_oauth2.md) | 12 | 0 | 🟠 **4** | 🟡 **1** | 🔵 **6** | ⚪ **1** |
+| [module/io](issues/Area_Library_module_io.md) | 8 | 0 | 🟠 **3** | 0 | 🔵 **5** | 0 |
+| [module/time](issues/Area_Library_module_time.md) | 2 | 0 | 🟠 **2** | 0 | 0 | 0 |
+| [module/log](issues/Area_Library_module_log.md) | 8 | 0 | 🟠 **1** | 🟡 **1** | 🔵 **4** | ⚪ **2** |
 | [module/random](issues/Area_Library_module_random.md) | 3 | 0 | 🟠 **1** | 0 | 🔵 **2** | 0 |
-| [module/oauth2](issues/Area_Library_module_oauth2.md) | 15 | 0 | 🟠 **1** | 0 | 🔵 **1** | ⚪ **13** |
-| [module/persist](issues/Area_Library_module_persist.md) | 22 | 0 | 🟠 **1** | 0 | 🔵 **1** | ⚪ **20** |
-| [module/websocket](issues/Area_Library_module_websocket.md) | 3 | 0 | 🟠 **1** | 0 | 🔵 **1** | ⚪ **1** |
-| [module/crypto](issues/Area_Library_module_crypto.md) | 11 | 0 | 🟠 **1** | 0 | 0 | ⚪ **10** |
-| [module/jwt](issues/Area_Library_module_jwt.md) | 7 | 0 | 🟠 **1** | 0 | 0 | ⚪ **6** |
-| [module/time](issues/Area_Library_module_time.md) | 9 | 0 | 🟠 **1** | 0 | 0 | ⚪ **8** |
-| [module/auth](issues/Area_Library_module_auth.md) | 3 | 0 | 🟠 **1** | 0 | 0 | ⚪ **2** |
-| [module/email](issues/Area_Library_module_email.md) | 19 | 0 | 🟠 **1** | 0 | 0 | ⚪ **18** |
+| [module/websocket](issues/Area_Library_module_websocket.md) | 3 | 0 | 🟠 **1** | 0 | 🔵 **2** | 0 |
+| [module/auth](issues/Area_Library_module_auth.md) | 2 | 0 | 🟠 **1** | 0 | 🔵 **1** | 0 |
 | [module/tcp](issues/Area_Library_module_tcp.md) | 12 | 0 | 🟠 **1** | 0 | 0 | ⚪ **11** |
 | [module/cache](issues/Area_Library_module_cache.md) | 3 | 0 | 🟠 **1** | 0 | 0 | ⚪ **2** |
+| [module/constraint](issues/Area_Library_module_constraint.md) | 4 | 0 | 0 | 🟡 **2** | 🔵 **2** | 0 |
 | [No Module](issues/Area_Library_No_Module.md) | 25 | 0 | 0 | 🟡 **1** | 🔵 **1** | ⚪ **23** |
 | [module/ldap](issues/Area_Library_module_ldap.md) | 1 | 0 | 0 | 🟡 **1** | 0 | 0 |
-| [module/log](issues/Area_Library_module_log.md) | 14 | 0 | 0 | 0 | 0 | ⚪ **14** |
+| [module/graphql](issues/Area_Library_module_graphql.md) | 76 | 0 | 0 | 0 | 🔵 **3** | ⚪ **73** |
+| [module/websubhub](issues/Area_Library_module_websubhub.md) | 1 | 0 | 0 | 0 | 🔵 **1** | 0 |
+| [module/protobuf](issues/Area_Library_module_protobuf.md) | 1 | 0 | 0 | 0 | 🔵 **1** | 0 |
 | [module/task](issues/Area_Library_module_task.md) | 8 | 0 | 0 | 0 | 0 | ⚪ **8** |
-| [module/constraint](issues/Area_Library_module_constraint.md) | 5 | 0 | 0 | 0 | 0 | ⚪ **5** |
 | [module/os](issues/Area_Library_module_os.md) | 8 | 0 | 0 | 0 | 0 | ⚪ **8** |
 | [module/mime](issues/Area_Library_module_mime.md) | 4 | 0 | 0 | 0 | 0 | ⚪ **4** |
 | [module/cosmosdb](issues/Area_Library_module_cosmosdb.md) | 1 | 0 | 0 | 0 | 0 | ⚪ **1** |
-| [module/protoc-tool](issues/Area_Library_module_protoc-tool.md) | 2 | 0 | 0 | 0 | 0 | ⚪ **2** |
+| [module/protoc-tool](issues/Area_Library_module_protoc-tool.md) | 1 | 0 | 0 | 0 | 0 | ⚪ **1** |
 | [module/url](issues/Area_Library_module_url.md) | 1 | 0 | 0 | 0 | 0 | ⚪ **1** |
-| [module/websubhub](issues/Area_Library_module_websubhub.md) | 1 | 0 | 0 | 0 | 0 | ⚪ **1** |
 | [module/udp](issues/Area_Library_module_udp.md) | 9 | 0 | 0 | 0 | 0 | ⚪ **9** |
 | [module/xslt](issues/Area_Library_module_xslt.md) | 1 | 0 | 0 | 0 | 0 | ⚪ **1** |
-| [module/protobuf](issues/Area_Library_module_protobuf.md) | 1 | 0 | 0 | 0 | 0 | ⚪ **1** |
 
 ## Area/Tooling
 
-**Total Issues:** 130
+**Total Issues:** 109
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
-| [module/openapi-tools](issues/Area_Tooling_module_openapi-tools.md) | 75 | 0 | 🟠 **4** | 🟡 **4** | 🔵 **2** | ⚪ **65** |
+| [module/openapi-tools](issues/Area_Tooling_module_openapi-tools.md) | 54 | 0 | 🟠 **13** | 🟡 **15** | 🔵 **12** | ⚪ **14** |
 | [module/graphql-tool](issues/Area_Tooling_module_graphql-tool.md) | 28 | 0 | 🟠 **2** | 🟡 **3** | 🔵 **1** | ⚪ **22** |
+| [module/http](issues/Area_Tooling_module_http.md) | 1 | 0 | 0 | 🟡 **1** | 0 | 0 |
 | [No Module](issues/Area_Tooling_No_Module.md) | 2 | 0 | 0 | 🟡 **1** | 0 | ⚪ **1** |
 | [module/protoc-tool](issues/Area_Tooling_module_protoc-tool.md) | 7 | 0 | 0 | 0 | 🔵 **1** | ⚪ **6** |
 | [module/persist-tools](issues/Area_Tooling_module_persist-tools.md) | 9 | 0 | 0 | 0 | 0 | ⚪ **9** |
 | [module/wsdl-tools](issues/Area_Tooling_module_wsdl-tools.md) | 1 | 0 | 0 | 0 | 0 | ⚪ **1** |
 | [module/xsd-tool](issues/Area_Tooling_module_xsd-tool.md) | 2 | 0 | 0 | 0 | 0 | ⚪ **2** |
-| [module/http](issues/Area_Tooling_module_http.md) | 1 | 0 | 0 | 0 | 0 | ⚪ **1** |
 | [module/copybook](issues/Area_Tooling_module_copybook.md) | 4 | 0 | 0 | 0 | 0 | ⚪ **4** |
 | [module/grpc](issues/Area_Tooling_module_grpc.md) | 1 | 0 | 0 | 0 | 0 | ⚪ **1** |
 
@@ -131,19 +131,19 @@ This repository contains an organized breakdown of open issues from the [balleri
 - **Total:** 160
 
 ### Area/Library
-- **Highest Priority:** 7
-- **High Priority:** 82
-- **Normal Priority:** 15
-- **Low Priority:** 120
-- **No Priority:** 300
-- **Total:** 524
+- **Highest Priority:** 12
+- **High Priority:** 108
+- **Normal Priority:** 21
+- **Low Priority:** 175
+- **No Priority:** 151
+- **Total:** 467
 
 ### Area/Tooling
-- **High Priority:** 6
-- **Normal Priority:** 8
-- **Low Priority:** 4
-- **No Priority:** 112
-- **Total:** 130
+- **High Priority:** 15
+- **Normal Priority:** 20
+- **Low Priority:** 14
+- **No Priority:** 60
+- **Total:** 109
 
 ## Issue Distribution by Type
 
@@ -157,19 +157,19 @@ This repository contains an organized breakdown of open issues from the [balleri
 - **Total:** 160
 
 ### Area/Library
-- **Bug:** 74
+- **Bug:** 69
 - **Docs:** 4
-- **Improvement:** 230
-- **NewFeature:** 67
-- **Task:** 148
+- **Improvement:** 214
+- **NewFeature:** 61
+- **Task:** 118
 - **Unknown:** 1
-- **Total:** 524
+- **Total:** 467
 
 ### Area/Tooling
-- **Bug:** 26
+- **Bug:** 19
 - **Docs:** 1
-- **Improvement:** 59
+- **Improvement:** 51
 - **NewFeature:** 7
-- **Task:** 37
-- **Total:** 130
+- **Task:** 31
+- **Total:** 109
 

@@ -15,7 +15,7 @@
 
 **[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
 
-Labels: `Priority/High`, `Type/Task`, `module/io`, `module/cache`, `module/auth`, `module/http`, `module/jwt`, `module/oauth2`, `module/graphql`, `Area/Library`
+Labels: `Priority/High`, `Type/Task`, `module/io`, `module/cache`, `module/http`, `module/jwt`, `Area/Library`
 
 ## ⚪ Priority: None
 

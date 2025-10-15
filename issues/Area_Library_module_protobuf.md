@@ -8,11 +8,11 @@
 
 ---
 
-## ⚪ Priority: None
+## 🔵 Priority: Low
 
 ### ✨ Improvement
 
-**[#395](https://github.com/ballerina-platform/ballerina-library/issues/395)** Improve protobuf channel 
+**[#400](https://github.com/ballerina-platform/ballerina-library/issues/400)** [gRPC] Write protobuf message parsing logic using Ballerina I/O
 
-Labels: `Type/Improvement`, `module/grpc`, `module/protobuf`, `IceBox`, `Area/Library`
+Labels: `Priority/Low`, `Type/Improvement`, `module/protobuf`, `Area/Library`
 
