@@ -139,7 +139,12 @@ def generate_readme(organized, module_files):
     readme += f"## Overall Summary\n\n"
     readme += f"**Total Issues Across All Areas:** {total_issues}\n\n"
 
-    for area in sorted(organized.keys()):
+    # Define area order
+    area_order = ['Area/Library', 'Area/Connector', 'Area/Tooling']
+
+    for area in area_order:
+        if area not in organized:
+            continue
         readme += f"## {area}\n\n"
 
         if area == 'Area/Connector':
@@ -215,7 +220,9 @@ def generate_readme(organized, module_files):
             readme += "\n"
 
     readme += "## Issue Distribution by Priority\n\n"
-    for area in sorted(organized.keys()):
+    for area in area_order:
+        if area not in organized:
+            continue
         # Get all issues for this area
         if area == 'Area/Connector':
             all_issues = []
@@ -245,7 +252,9 @@ def generate_readme(organized, module_files):
         readme += f"- **Total:** {len(all_issues)}\n\n"
 
     readme += "## Issue Distribution by Type\n\n"
-    for area in sorted(organized.keys()):
+    for area in area_order:
+        if area not in organized:
+            continue
         # Get all issues for this area
         if area == 'Area/Connector':
             all_issues = []

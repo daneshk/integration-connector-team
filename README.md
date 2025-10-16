@@ -2,11 +2,47 @@
 
 This repository contains an organized breakdown of open issues from the [ballerina-library](https://github.com/ballerina-platform/ballerina-library) repository.
 
-**Last Updated:** 2025-10-15 23:31:58
+**Last Updated:** 2025-10-16 15:23:08
 
 ## Overall Summary
 
 **Total Issues Across All Areas:** 708
+
+## Area/Library
+
+**Total Issues:** 443
+
+| Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
+|--------|--------|------------------|---------------|-----------------|--------------|-------------|
+| [module/http](issues/Area_Library_module_http.md) | 167 | 🔴 **5** | 🟠 **48** | 🟡 **11** | 🔵 **98** | ⚪ **5** |
+| [module/persist](issues/Area_Library_module_persist.md) | 17 | 🔴 **2** | 🟠 **6** | 0 | 🔵 **9** | 0 |
+| [module/sql](issues/Area_Library_module_sql.md) | 23 | 🔴 **1** | 🟠 **13** | 🟡 **1** | 🔵 **7** | ⚪ **1** |
+| [module/grpc](issues/Area_Library_module_grpc.md) | 30 | 🔴 **1** | 🟠 **11** | 🟡 **2** | 🔵 **16** | 0 |
+| [module/All](issues/Area_Library_module_All.md) | 17 | 🔴 **1** | 🟠 **5** | 🟡 **2** | 🔵 **9** | 0 |
+| [module/crypto](issues/Area_Library_module_crypto.md) | 11 | 🔴 **1** | 🟠 **4** | 0 | 🔵 **6** | 0 |
+| [module/jwt](issues/Area_Library_module_jwt.md) | 5 | 🔴 **1** | 🟠 **2** | 0 | 🔵 **2** | 0 |
+| [module/email](issues/Area_Library_module_email.md) | 8 | 0 | 🟠 **5** | 0 | 🔵 **3** | 0 |
+| [module/oauth2](issues/Area_Library_module_oauth2.md) | 12 | 0 | 🟠 **4** | 🟡 **1** | 🔵 **7** | 0 |
+| [module/task](issues/Area_Library_module_task.md) | 6 | 0 | 🟠 **4** | 🟡 **1** | 🔵 **1** | 0 |
+| [module/io](issues/Area_Library_module_io.md) | 8 | 0 | 🟠 **3** | 0 | 🔵 **5** | 0 |
+| [module/os](issues/Area_Library_module_os.md) | 6 | 0 | 🟠 **2** | 🟡 **2** | 🔵 **2** | 0 |
+| [module/log](issues/Area_Library_module_log.md) | 8 | 0 | 🟠 **2** | 🟡 **1** | 🔵 **5** | 0 |
+| [module/cache](issues/Area_Library_module_cache.md) | 3 | 0 | 🟠 **2** | 0 | 🔵 **1** | 0 |
+| [module/time](issues/Area_Library_module_time.md) | 2 | 0 | 🟠 **2** | 0 | 0 | 0 |
+| [No Module](issues/Area_Library_No_Module.md) | 14 | 0 | 🟠 **1** | 🟡 **3** | 🔵 **9** | ⚪ **1** |
+| [module/tcp](issues/Area_Library_module_tcp.md) | 7 | 0 | 🟠 **1** | 🟡 **3** | 🔵 **3** | 0 |
+| [module/udp](issues/Area_Library_module_udp.md) | 4 | 0 | 🟠 **1** | 0 | 🔵 **3** | 0 |
+| [module/random](issues/Area_Library_module_random.md) | 3 | 0 | 🟠 **1** | 0 | 🔵 **2** | 0 |
+| [module/websocket](issues/Area_Library_module_websocket.md) | 3 | 0 | 🟠 **1** | 0 | 🔵 **2** | 0 |
+| [module/mime](issues/Area_Library_module_mime.md) | 2 | 0 | 🟠 **1** | 0 | 🔵 **1** | 0 |
+| [module/auth](issues/Area_Library_module_auth.md) | 2 | 0 | 🟠 **1** | 0 | 🔵 **1** | 0 |
+| [module/constraint](issues/Area_Library_module_constraint.md) | 4 | 0 | 0 | 🟡 **2** | 🔵 **2** | 0 |
+| [module/ldap](issues/Area_Library_module_ldap.md) | 1 | 0 | 0 | 🟡 **1** | 0 | 0 |
+| [module/url](issues/Area_Library_module_url.md) | 1 | 0 | 0 | 🟡 **1** | 0 | 0 |
+| [module/xslt](issues/Area_Library_module_xslt.md) | 1 | 0 | 0 | 🟡 **1** | 0 | 0 |
+| [module/graphql](issues/Area_Library_module_graphql.md) | 76 | 0 | 0 | 0 | 🔵 **3** | ⚪ **73** |
+| [module/websubhub](issues/Area_Library_module_websubhub.md) | 1 | 0 | 0 | 0 | 🔵 **1** | 0 |
+| [module/protobuf](issues/Area_Library_module_protobuf.md) | 1 | 0 | 0 | 0 | 🔵 **1** | 0 |
 
 ## Area/Connector
 
@@ -66,42 +102,6 @@ This repository contains an organized breakdown of open issues from the [balleri
 | [module/microsoft.dynamics365](issues/Area_Connector_Generated_Connectors_module_microsoft.dynamics365.md) | 1 | 0 | 0 | 0 | 🔵 **1** | 0 |
 | [module/microsoft-onedrive](issues/Area_Connector_Generated_Connectors_module_microsoft-onedrive.md) | 1 | 0 | 0 | 0 | 🔵 **1** | 0 |
 
-## Area/Library
-
-**Total Issues:** 443
-
-| Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
-|--------|--------|------------------|---------------|-----------------|--------------|-------------|
-| [module/http](issues/Area_Library_module_http.md) | 167 | 🔴 **5** | 🟠 **48** | 🟡 **11** | 🔵 **98** | ⚪ **5** |
-| [module/persist](issues/Area_Library_module_persist.md) | 17 | 🔴 **2** | 🟠 **6** | 0 | 🔵 **9** | 0 |
-| [module/sql](issues/Area_Library_module_sql.md) | 23 | 🔴 **1** | 🟠 **13** | 🟡 **1** | 🔵 **7** | ⚪ **1** |
-| [module/grpc](issues/Area_Library_module_grpc.md) | 30 | 🔴 **1** | 🟠 **11** | 🟡 **2** | 🔵 **16** | 0 |
-| [module/All](issues/Area_Library_module_All.md) | 17 | 🔴 **1** | 🟠 **5** | 🟡 **2** | 🔵 **9** | 0 |
-| [module/crypto](issues/Area_Library_module_crypto.md) | 11 | 🔴 **1** | 🟠 **4** | 0 | 🔵 **6** | 0 |
-| [module/jwt](issues/Area_Library_module_jwt.md) | 5 | 🔴 **1** | 🟠 **2** | 0 | 🔵 **2** | 0 |
-| [module/email](issues/Area_Library_module_email.md) | 8 | 0 | 🟠 **5** | 0 | 🔵 **3** | 0 |
-| [module/oauth2](issues/Area_Library_module_oauth2.md) | 12 | 0 | 🟠 **4** | 🟡 **1** | 🔵 **7** | 0 |
-| [module/task](issues/Area_Library_module_task.md) | 6 | 0 | 🟠 **4** | 🟡 **1** | 🔵 **1** | 0 |
-| [module/io](issues/Area_Library_module_io.md) | 8 | 0 | 🟠 **3** | 0 | 🔵 **5** | 0 |
-| [module/os](issues/Area_Library_module_os.md) | 6 | 0 | 🟠 **2** | 🟡 **2** | 🔵 **2** | 0 |
-| [module/log](issues/Area_Library_module_log.md) | 8 | 0 | 🟠 **2** | 🟡 **1** | 🔵 **5** | 0 |
-| [module/cache](issues/Area_Library_module_cache.md) | 3 | 0 | 🟠 **2** | 0 | 🔵 **1** | 0 |
-| [module/time](issues/Area_Library_module_time.md) | 2 | 0 | 🟠 **2** | 0 | 0 | 0 |
-| [No Module](issues/Area_Library_No_Module.md) | 14 | 0 | 🟠 **1** | 🟡 **3** | 🔵 **9** | ⚪ **1** |
-| [module/tcp](issues/Area_Library_module_tcp.md) | 7 | 0 | 🟠 **1** | 🟡 **3** | 🔵 **3** | 0 |
-| [module/udp](issues/Area_Library_module_udp.md) | 4 | 0 | 🟠 **1** | 0 | 🔵 **3** | 0 |
-| [module/random](issues/Area_Library_module_random.md) | 3 | 0 | 🟠 **1** | 0 | 🔵 **2** | 0 |
-| [module/websocket](issues/Area_Library_module_websocket.md) | 3 | 0 | 🟠 **1** | 0 | 🔵 **2** | 0 |
-| [module/mime](issues/Area_Library_module_mime.md) | 2 | 0 | 🟠 **1** | 0 | 🔵 **1** | 0 |
-| [module/auth](issues/Area_Library_module_auth.md) | 2 | 0 | 🟠 **1** | 0 | 🔵 **1** | 0 |
-| [module/constraint](issues/Area_Library_module_constraint.md) | 4 | 0 | 0 | 🟡 **2** | 🔵 **2** | 0 |
-| [module/ldap](issues/Area_Library_module_ldap.md) | 1 | 0 | 0 | 🟡 **1** | 0 | 0 |
-| [module/url](issues/Area_Library_module_url.md) | 1 | 0 | 0 | 🟡 **1** | 0 | 0 |
-| [module/xslt](issues/Area_Library_module_xslt.md) | 1 | 0 | 0 | 🟡 **1** | 0 | 0 |
-| [module/graphql](issues/Area_Library_module_graphql.md) | 76 | 0 | 0 | 0 | 🔵 **3** | ⚪ **73** |
-| [module/websubhub](issues/Area_Library_module_websubhub.md) | 1 | 0 | 0 | 0 | 🔵 **1** | 0 |
-| [module/protobuf](issues/Area_Library_module_protobuf.md) | 1 | 0 | 0 | 0 | 🔵 **1** | 0 |
-
 ## Area/Tooling
 
 **Total Issues:** 104
@@ -119,14 +119,6 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ## Issue Distribution by Priority
 
-### Area/Connector
-- **Highest Priority:** 4
-- **High Priority:** 65
-- **Normal Priority:** 47
-- **Low Priority:** 44
-- **No Priority:** 1
-- **Total:** 161
-
 ### Area/Library
 - **Highest Priority:** 12
 - **High Priority:** 120
@@ -134,6 +126,14 @@ This repository contains an organized breakdown of open issues from the [balleri
 - **Low Priority:** 199
 - **No Priority:** 80
 - **Total:** 443
+
+### Area/Connector
+- **Highest Priority:** 4
+- **High Priority:** 65
+- **Normal Priority:** 47
+- **Low Priority:** 44
+- **No Priority:** 1
+- **Total:** 161
 
 ### Area/Tooling
 - **High Priority:** 27
@@ -144,15 +144,6 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ## Issue Distribution by Type
 
-### Area/Connector
-- **Bug:** 26
-- **Docs:** 4
-- **Improvement:** 38
-- **NewFeature:** 40
-- **Proposal:** 2
-- **Task:** 51
-- **Total:** 161
-
 ### Area/Library
 - **Bug:** 68
 - **Docs:** 4
@@ -161,6 +152,15 @@ This repository contains an organized breakdown of open issues from the [balleri
 - **Task:** 105
 - **Unknown:** 1
 - **Total:** 443
+
+### Area/Connector
+- **Bug:** 26
+- **Docs:** 4
+- **Improvement:** 38
+- **NewFeature:** 40
+- **Proposal:** 2
+- **Task:** 51
+- **Total:** 161
 
 ### Area/Tooling
 - **Bug:** 19
