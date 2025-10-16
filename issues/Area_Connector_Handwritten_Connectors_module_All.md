@@ -1,12 +1,12 @@
 # Area/Connector/Handwritten Connectors - module/All
 
-**Total Issues:** 14
+**Total Issues:** 13
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 2
 - ✨ **Improvement:** 2
-- 📋 **Task:** 10
+- 📋 **Task:** 9
 
 ---
 
@@ -35,10 +35,6 @@ Labels: `Priority/High`, `Type/Bug`, `module/All`, `Area/Connector`
 **[#8275](https://github.com/ballerina-platform/ballerina-library/issues/8275)** [High Priority] Review Library/Connector API docs in BI editor
 
 Labels: `Priority/High`, `Type/Task`, `module/All`, `Area/Connector`, `Area/Library`
-
-**[#7340](https://github.com/ballerina-platform/ballerina-library/issues/7340)** Introduce required keywords for connector classification and types in Ballerina connectors
-
-Labels: `Priority/High`, `Type/Task`, `module/All`, `Area/Connector`
 
 ## 🟡 Priority: Normal
 

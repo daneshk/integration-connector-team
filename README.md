@@ -2,11 +2,11 @@
 
 This repository contains an organized breakdown of open issues from the [ballerina-library](https://github.com/ballerina-platform/ballerina-library) repository.
 
-**Last Updated:** 2025-10-16 15:23:08
+**Last Updated:** 2025-10-16 15:28:09
 
 ## Overall Summary
 
-**Total Issues Across All Areas:** 708
+**Total Issues Across All Areas:** 706
 
 ## Area/Library
 
@@ -14,12 +14,12 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
-| [module/http](issues/Area_Library_module_http.md) | 167 | 🔴 **5** | 🟠 **48** | 🟡 **11** | 🔵 **98** | ⚪ **5** |
+| [module/http](issues/Area_Library_module_http.md) | 166 | 🔴 **2** | 🟠 **51** | 🟡 **12** | 🔵 **101** | 0 |
 | [module/persist](issues/Area_Library_module_persist.md) | 17 | 🔴 **2** | 🟠 **6** | 0 | 🔵 **9** | 0 |
+| [module/crypto](issues/Area_Library_module_crypto.md) | 12 | 🔴 **2** | 🟠 **4** | 0 | 🔵 **6** | 0 |
 | [module/sql](issues/Area_Library_module_sql.md) | 23 | 🔴 **1** | 🟠 **13** | 🟡 **1** | 🔵 **7** | ⚪ **1** |
 | [module/grpc](issues/Area_Library_module_grpc.md) | 30 | 🔴 **1** | 🟠 **11** | 🟡 **2** | 🔵 **16** | 0 |
 | [module/All](issues/Area_Library_module_All.md) | 17 | 🔴 **1** | 🟠 **5** | 🟡 **2** | 🔵 **9** | 0 |
-| [module/crypto](issues/Area_Library_module_crypto.md) | 11 | 🔴 **1** | 🟠 **4** | 0 | 🔵 **6** | 0 |
 | [module/jwt](issues/Area_Library_module_jwt.md) | 5 | 🔴 **1** | 🟠 **2** | 0 | 🔵 **2** | 0 |
 | [module/email](issues/Area_Library_module_email.md) | 8 | 0 | 🟠 **5** | 0 | 🔵 **3** | 0 |
 | [module/oauth2](issues/Area_Library_module_oauth2.md) | 12 | 0 | 🟠 **4** | 🟡 **1** | 🔵 **7** | 0 |
@@ -46,13 +46,13 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 ## Area/Connector
 
-**Total Issues:** 161
+**Total Issues:** 159
 
-### Handwritten Connectors (108 issues)
+### Handwritten Connectors (105 issues)
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
-| [module/All](issues/Area_Connector_Handwritten_Connectors_module_All.md) | 14 | 🔴 **2** | 🟠 **3** | 🟡 **4** | 🔵 **5** | 0 |
+| [module/All](issues/Area_Connector_Handwritten_Connectors_module_All.md) | 13 | 🔴 **2** | 🟠 **2** | 🟡 **4** | 🔵 **5** | 0 |
 | [module/salesforce](issues/Area_Connector_Handwritten_Connectors_module_salesforce.md) | 12 | 🔴 **1** | 🟠 **6** | 🟡 **3** | 🔵 **2** | 0 |
 | [module/mysql](issues/Area_Connector_Handwritten_Connectors_module_mysql.md) | 11 | 🔴 **1** | 🟠 **6** | 🟡 **1** | 🔵 **3** | 0 |
 | [module/sap](issues/Area_Connector_Handwritten_Connectors_module_sap.md) | 7 | 0 | 🟠 **6** | 0 | 🔵 **1** | 0 |
@@ -65,7 +65,7 @@ This repository contains an organized breakdown of open issues from the [balleri
 | [module/persist.redis](issues/Area_Connector_Handwritten_Connectors_module_persist.redis.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
 | [module/azure-storageservice](issues/Area_Connector_Handwritten_Connectors_module_azure-storageservice.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
 | [module/cdata](issues/Area_Connector_Handwritten_Connectors_module_cdata.md) | 1 | 0 | 🟠 **1** | 0 | 0 | 0 |
-| [No Module](issues/Area_Connector_Handwritten_Connectors_No_Module.md) | 8 | 0 | 0 | 🟡 **7** | 🔵 **1** | 0 |
+| [No Module](issues/Area_Connector_Handwritten_Connectors_No_Module.md) | 6 | 0 | 0 | 🟡 **5** | 🔵 **1** | 0 |
 | [module/redis](issues/Area_Connector_Handwritten_Connectors_module_redis.md) | 6 | 0 | 0 | 🟡 **3** | 🔵 **3** | 0 |
 | [module/cosmosdb](issues/Area_Connector_Handwritten_Connectors_module_cosmosdb.md) | 3 | 0 | 0 | 🟡 **1** | 🔵 **1** | ⚪ **1** |
 | [module/aws.secretmanager](issues/Area_Connector_Handwritten_Connectors_module_aws.secretmanager.md) | 1 | 0 | 0 | 🟡 **1** | 0 | 0 |
@@ -75,11 +75,11 @@ This repository contains an organized breakdown of open issues from the [balleri
 | [module/aws.marketplace.mpm](issues/Area_Connector_Handwritten_Connectors_module_aws.marketplace.mpm.md) | 1 | 0 | 0 | 0 | 🔵 **1** | 0 |
 | [module/business-central](issues/Area_Connector_Handwritten_Connectors_module_business-central.md) | 1 | 0 | 0 | 0 | 🔵 **1** | 0 |
 
-### Generated Connectors (53 issues)
+### Generated Connectors (54 issues)
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
-| [No Module](issues/Area_Connector_Generated_Connectors_No_Module.md) | 17 | 0 | 🟠 **2** | 🟡 **15** | 0 | 0 |
+| [No Module](issues/Area_Connector_Generated_Connectors_No_Module.md) | 18 | 0 | 🟠 **2** | 🟡 **16** | 0 | 0 |
 | [module/sap](issues/Area_Connector_Generated_Connectors_module_sap.md) | 3 | 0 | 🟠 **3** | 0 | 0 | 0 |
 | [module/github](issues/Area_Connector_Generated_Connectors_module_github.md) | 3 | 0 | 🟠 **3** | 0 | 0 | 0 |
 | [module/googleapis.drive](issues/Area_Connector_Generated_Connectors_module_googleapis.drive.md) | 2 | 0 | 🟠 **2** | 0 | 0 | 0 |
@@ -108,7 +108,7 @@ This repository contains an organized breakdown of open issues from the [balleri
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
-| [module/openapi-tools](issues/Area_Tooling_module_openapi-tools.md) | 52 | 0 | 🟠 **13** | 🟡 **16** | 🔵 **22** | ⚪ **1** |
+| [module/openapi-tools](issues/Area_Tooling_module_openapi-tools.md) | 52 | 0 | 🟠 **12** | 🟡 **17** | 🔵 **22** | ⚪ **1** |
 | [module/persist-tools](issues/Area_Tooling_module_persist-tools.md) | 9 | 0 | 🟠 **6** | 🟡 **2** | 🔵 **1** | 0 |
 | [module/protoc-tool](issues/Area_Tooling_module_protoc-tool.md) | 7 | 0 | 🟠 **3** | 🟡 **1** | 🔵 **2** | ⚪ **1** |
 | [module/graphql-tool](issues/Area_Tooling_module_graphql-tool.md) | 28 | 0 | 🟠 **2** | 🟡 **3** | 🔵 **1** | ⚪ **22** |
@@ -120,24 +120,24 @@ This repository contains an organized breakdown of open issues from the [balleri
 ## Issue Distribution by Priority
 
 ### Area/Library
-- **Highest Priority:** 12
-- **High Priority:** 120
-- **Normal Priority:** 32
-- **Low Priority:** 199
-- **No Priority:** 80
+- **Highest Priority:** 10
+- **High Priority:** 123
+- **Normal Priority:** 33
+- **Low Priority:** 202
+- **No Priority:** 75
 - **Total:** 443
 
 ### Area/Connector
 - **Highest Priority:** 4
-- **High Priority:** 65
-- **Normal Priority:** 47
+- **High Priority:** 64
+- **Normal Priority:** 46
 - **Low Priority:** 44
 - **No Priority:** 1
-- **Total:** 161
+- **Total:** 159
 
 ### Area/Tooling
-- **High Priority:** 27
-- **Normal Priority:** 23
+- **High Priority:** 26
+- **Normal Priority:** 24
 - **Low Priority:** 26
 - **No Priority:** 28
 - **Total:** 104
@@ -147,9 +147,9 @@ This repository contains an organized breakdown of open issues from the [balleri
 ### Area/Library
 - **Bug:** 68
 - **Docs:** 4
-- **Improvement:** 211
+- **Improvement:** 210
 - **NewFeature:** 54
-- **Task:** 105
+- **Task:** 106
 - **Unknown:** 1
 - **Total:** 443
 
@@ -157,10 +157,10 @@ This repository contains an organized breakdown of open issues from the [balleri
 - **Bug:** 26
 - **Docs:** 4
 - **Improvement:** 38
-- **NewFeature:** 40
+- **NewFeature:** 39
 - **Proposal:** 2
-- **Task:** 51
-- **Total:** 161
+- **Task:** 50
+- **Total:** 159
 
 ### Area/Tooling
 - **Bug:** 19

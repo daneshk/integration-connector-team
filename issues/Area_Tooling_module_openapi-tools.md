@@ -33,10 +33,6 @@ Labels: `Priority/High`, `Type/Bug`, `Area/Tooling`, `module/openapi-tools`
 
 Labels: `Priority/High`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
-**[#7314](https://github.com/ballerina-platform/ballerina-library/issues/7314)** Getting NPE when generating a client from an OpenAPI spec with the JSON path reference
-
-Labels: `Priority/High`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
-
 **[#6709](https://github.com/ballerina-platform/ballerina-library/issues/6709)** Add full support for OpenAPI specification version - `3.1.0`
 
 Labels: `Priority/High`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
@@ -104,6 +100,10 @@ Labels: `Type/Improvement`, `Area/Tooling`, `module/openapi-tools`, `Area/Servic
 **[#7336](https://github.com/ballerina-platform/ballerina-library/issues/7336)** OpenAPI related annotations should not be allowed in the services which are implemented via the service contract type
 
 Labels: `Type/Improvement`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `module/openapi-tools`, `Priority/Normal`
+
+**[#7314](https://github.com/ballerina-platform/ballerina-library/issues/7314)** Getting NPE when generating a client from an OpenAPI spec with the JSON path reference
+
+Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`, `Priority/Normal`
 
 **[#6980](https://github.com/ballerina-platform/ballerina-library/issues/6980)** OpenAPI generated does not have all types
 

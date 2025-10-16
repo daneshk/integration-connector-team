@@ -1,32 +1,18 @@
 # Area/Library - module/http
 
-**Total Issues:** 167
+**Total Issues:** 166
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 28
 - 📚 **Docs:** 2
-- ✨ **Improvement:** 84
+- ✨ **Improvement:** 83
 - 🚀 **NewFeature:** 11
 - 📋 **Task:** 42
 
 ---
 
 ## 🔴 Priority: Highest
-
-### 🐛 Bug
-
-**[#6663](https://github.com/ballerina-platform/ballerina-library/issues/6663)** h2-h2 load test with h1 client hanging after sometime
-
-Labels: `Priority/Highest`, `Type/Bug`, `module/http`, `Area/http2`, `Area/Library`
-
-**[#3138](https://github.com/ballerina-platform/ballerina-library/issues/3138)** H2ConnectionPoolWithPriorKnowledge intermittent test failure
-
-Labels: `Priority/Highest`, `Type/Bug`, `module/http`, `Area/http2`, `Area/Library`
-
-**[#317](https://github.com/ballerina-platform/ballerina-library/issues/317)** [Windows] Intermittent transport test failures
-
-Labels: `Priority/Highest`, `Points/5`, `Type/Bug`, `module/http`, `Area/Library`
 
 ### 📋 Task
 
@@ -36,7 +22,7 @@ Labels: `Priority/Highest`, `Type/Task`, `module/http`, `Area/Library`, `Area/St
 
 **[#8342](https://github.com/ballerina-platform/ballerina-library/issues/8342)** Review static code rule implementations
 
-Labels: `Priority/Highest`, `Type/Task`, `module/http`, `Area/Library`, `Area/StaticCode`
+Labels: `Priority/Highest`, `Type/Task`, `module/crypto`, `module/http`, `Area/Library`, `Area/StaticCode`
 
 ## 🟠 Priority: High
 
@@ -65,6 +51,10 @@ Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
 **[#7291](https://github.com/ballerina-platform/ballerina-library/issues/7291)** Error in databinding with the header application/x-www-form-urlencoded
 
 Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
+
+**[#6663](https://github.com/ballerina-platform/ballerina-library/issues/6663)** h2-h2 load test with h1 client hanging after sometime
+
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/http2`, `Area/Library`
 
 **[#5962](https://github.com/ballerina-platform/ballerina-library/issues/5962)** HTTP compiler failed when we have a default value for payload parameter
 
@@ -97,6 +87,14 @@ Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
 **[#3250](https://github.com/ballerina-platform/ballerina-library/issues/3250)** [Windows] Test failure `testSslClientFallbackFromH2ToH1`
 
 Labels: `Priority/High`, `Type/Bug`, `module/http`, `Reason/EngineeringMistake`, `Area/Library`
+
+**[#3138](https://github.com/ballerina-platform/ballerina-library/issues/3138)** H2ConnectionPoolWithPriorKnowledge intermittent test failure
+
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/http2`, `Area/Library`
+
+**[#317](https://github.com/ballerina-platform/ballerina-library/issues/317)** [Windows] Intermittent transport test failures
+
+Labels: `Points/5`, `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
 
 **[#501](https://github.com/ballerina-platform/ballerina-library/issues/501)** [HTTP][CORS] Exact value origin match fails
 
@@ -277,6 +275,10 @@ Labels: `Type/Task`, `module/http`, `Priority/Normal`, `Area/Library`, `Area/Sta
 **[#8254](https://github.com/ballerina-platform/ballerina-library/issues/8254)** Implement static analysis rule "HTTP request redirections should not be open to forging attacks" in HTTP module
 
 Labels: `Type/Task`, `module/http`, `Priority/Normal`, `Area/Library`, `Area/StaticCode`
+
+**[#6791](https://github.com/ballerina-platform/ballerina-library/issues/6791)** Add Server-Sent Events example in http module
+
+Labels: `Points/0.5`, `Type/Task`, `good first issue`, `module/http`, `Hacktoberfest`, `Priority/Normal`, `Credits/20`, `Area/Library`
 
 **[#5836](https://github.com/ballerina-platform/ballerina-library/issues/5836)** Add or improve a test which tests a Ballerina package which has listeners and services in external imported modules
 
@@ -552,6 +554,10 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
+**[#340](https://github.com/ballerina-platform/ballerina-library/issues/340)** Validate Circuit Breaker Configuration when initializing
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
+
 **[#341](https://github.com/ballerina-platform/ballerina-library/issues/341)** [HTTP] Populate default values when annotation is not initialized
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
@@ -613,6 +619,10 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
 ### 📋 Task
+
+**[#6174](https://github.com/ballerina-platform/ballerina-library/issues/6174)** Update information regarding the host header issue
+
+Labels: `Priority/Low`, `Type/Task`, `good first issue`, `module/http`, `Area/Library`
 
 **[#4791](https://github.com/ballerina-platform/ballerina-library/issues/4791)** Check the possibility of removing the Netty dependency on writing to `tmp` directory
 
@@ -696,31 +706,7 @@ Labels: `Priority/Low`, `Type/NewFeature`, `module/http`, `Area/Security`, `Area
 
 Labels: `Priority/Low`, `Type/NewFeature`, `module/http`, `Area/Library`
 
-## ⚪ Priority: None
-
-### ✨ Improvement
-
-**[#4101](https://github.com/ballerina-platform/ballerina-library/issues/4101)** Rethink/Reorganise HTTP error structure 
-
-Labels: `Points/4`, `Type/Improvement`, `module/http`, `Area/Library`
-
-**[#340](https://github.com/ballerina-platform/ballerina-library/issues/340)** Validate Circuit Breaker Configuration when initializing
-
-Labels: `Type/Improvement`, `module/http`, `Area/Library`
-
-### 📋 Task
-
-**[#6791](https://github.com/ballerina-platform/ballerina-library/issues/6791)** Add Server-Sent Events example in http module
-
-Labels: `Points/0.5`, `Type/Task`, `good first issue`, `module/http`, `Hacktoberfest`, `Credits/20`, `Area/Library`
-
-**[#6174](https://github.com/ballerina-platform/ballerina-library/issues/6174)** Update information regarding the host header issue
-
-Labels: `Type/Task`, `module/http`, `Area/Library`
-
-### 🚀 NewFeature
-
 **[#496](https://github.com/ballerina-platform/ballerina-library/issues/496)** [HTTP/2] Introduce a config for both the HTTP/2 client and server to define SETTINGS_MAX_CONCURRENT_STREAMS
 
-Labels: `Type/NewFeature`, `module/http`, `Area/Library`
+Labels: `Priority/Low`, `Type/NewFeature`, `module/http`, `Area/Library`
 
