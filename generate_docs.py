@@ -118,6 +118,51 @@ def format_priority_cell(count, priority_type):
     indicator = indicators.get(priority_type, '')
     return f'{indicator} **{count}**'
 
+def format_priority_cell_with_breakdown(issues, priority_type):
+    """Format a priority cell with type breakdown"""
+    priority_issues = [i for i in issues if i['priority'] == priority_type]
+
+    if len(priority_issues) == 0:
+        return "0"
+
+    # Count by type
+    type_counts = {}
+    type_emojis = {
+        'Bug': '🐛',
+        'Improvement': '✨',
+        'Task': '📋',
+        'NewFeature': '🚀',
+        'Docs': '📚',
+        'Proposal': '💡',
+        'Unknown': '❓'
+    }
+
+    for issue in priority_issues:
+        issue_type = issue.get('type', 'Unknown')
+        type_counts[issue_type] = type_counts.get(issue_type, 0) + 1
+
+    # Priority indicator
+    priority_indicators = {
+        'Highest': '🔴',
+        'High': '🟠',
+        'Normal': '🟡',
+        'Low': '🔵',
+        'None': '⚪'
+    }
+
+    indicator = priority_indicators.get(priority_type, '')
+
+    # Build breakdown string
+    breakdown_parts = []
+    for issue_type in sorted(type_counts.keys()):
+        emoji = type_emojis.get(issue_type, '▪️')
+        breakdown_parts.append(f"{emoji}{type_counts[issue_type]}")
+
+    breakdown = " ".join(breakdown_parts)
+    total = len(priority_issues)
+
+    return f'{indicator} **{total}**<br/><sub>{breakdown}</sub>'
+
 def generate_readme(organized, module_files):
     """Generate README with summary and links"""
     from datetime import datetime
@@ -174,19 +219,14 @@ def generate_readme(organized, module_files):
 
                 for module in sorted_modules:
                     issues = modules[module]
-                    highest = len([i for i in issues if i['priority'] == 'Highest'])
-                    high = len([i for i in issues if i['priority'] == 'High'])
-                    normal = len([i for i in issues if i['priority'] == 'Normal'])
-                    low = len([i for i in issues if i['priority'] == 'Low'])
-                    none = len([i for i in issues if i['priority'] == 'None'])
 
                     module_file = module_files[area][category][module]
                     readme += f"| [{module}]({module_file}) | {len(issues)} | "
-                    readme += f"{format_priority_cell(highest, 'Highest')} | "
-                    readme += f"{format_priority_cell(high, 'High')} | "
-                    readme += f"{format_priority_cell(normal, 'Normal')} | "
-                    readme += f"{format_priority_cell(low, 'Low')} | "
-                    readme += f"{format_priority_cell(none, 'None')} |\n"
+                    readme += f"{format_priority_cell_with_breakdown(issues, 'Highest')} | "
+                    readme += f"{format_priority_cell_with_breakdown(issues, 'High')} | "
+                    readme += f"{format_priority_cell_with_breakdown(issues, 'Normal')} | "
+                    readme += f"{format_priority_cell_with_breakdown(issues, 'Low')} | "
+                    readme += f"{format_priority_cell_with_breakdown(issues, 'None')} |\n"
 
                 readme += "\n"
         else:
@@ -203,19 +243,14 @@ def generate_readme(organized, module_files):
 
             for module in sorted_modules:
                 issues = modules[module]
-                highest = len([i for i in issues if i['priority'] == 'Highest'])
-                high = len([i for i in issues if i['priority'] == 'High'])
-                normal = len([i for i in issues if i['priority'] == 'Normal'])
-                low = len([i for i in issues if i['priority'] == 'Low'])
-                none = len([i for i in issues if i['priority'] == 'None'])
 
                 module_file = module_files[area][module]
                 readme += f"| [{module}]({module_file}) | {len(issues)} | "
-                readme += f"{format_priority_cell(highest, 'Highest')} | "
-                readme += f"{format_priority_cell(high, 'High')} | "
-                readme += f"{format_priority_cell(normal, 'Normal')} | "
-                readme += f"{format_priority_cell(low, 'Low')} | "
-                readme += f"{format_priority_cell(none, 'None')} |\n"
+                readme += f"{format_priority_cell_with_breakdown(issues, 'Highest')} | "
+                readme += f"{format_priority_cell_with_breakdown(issues, 'High')} | "
+                readme += f"{format_priority_cell_with_breakdown(issues, 'Normal')} | "
+                readme += f"{format_priority_cell_with_breakdown(issues, 'Low')} | "
+                readme += f"{format_priority_cell_with_breakdown(issues, 'None')} |\n"
 
             readme += "\n"
 
