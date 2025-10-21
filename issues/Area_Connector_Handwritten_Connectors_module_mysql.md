@@ -1,12 +1,12 @@
 # Area/Connector/Handwritten Connectors - module/mysql
 
-**Total Issues:** 11
+**Total Issues:** 8
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 4
 - ✨ **Improvement:** 3
-- 📋 **Task:** 4
+- 📋 **Task:** 1
 
 ---
 
@@ -57,20 +57,4 @@ Labels: `Priority/High`, `Type/Task`, `module/mysql`, `Area/Connector`
 **[#3512](https://github.com/ballerina-platform/ballerina-library/issues/3512)** Improve ssl configuration in MySQL connector
 
 Labels: `Type/Improvement`, `module/mysql`, `Area/Connector`, `Priority/Normal`
-
-## 🔵 Priority: Low
-
-### 📋 Task
-
-**[#4604](https://github.com/ballerina-platform/ballerina-library/issues/4604)** Add test cases for enum retrieval support in SQL connectors
-
-Labels: `Priority/Low`, `Type/Task`, `module/java.jdbc`, `module/mysql`, `module/mssql`, `module/oracledb`, `module/postgresql`, `Area/Connector`
-
-**[#3919](https://github.com/ballerina-platform/ballerina-library/issues/3919)** To Support Metadata Client for MySQL
-
-Labels: `Priority/Low`, `Type/Task`, `module/mysql`, `Area/Connector`
-
-**[#3194](https://github.com/ballerina-platform/ballerina-library/issues/3194)** Incorporate `constraint` package to SQL Modules
-
-Labels: `Priority/Low`, `Type/Task`, `module/mysql`, `module/mssql`, `module/oracledb`, `module/postgresql`, `Area/Connector`
 

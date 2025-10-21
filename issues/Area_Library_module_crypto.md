@@ -1,12 +1,12 @@
 # Area/Library - module/crypto
 
-**Total Issues:** 12
+**Total Issues:** 10
 
 ## 📊 Issue Types
 
 - ✨ **Improvement:** 4
-- 🚀 **NewFeature:** 3
-- 📋 **Task:** 5
+- 🚀 **NewFeature:** 2
+- 📋 **Task:** 4
 
 ---
 
@@ -34,12 +34,6 @@ Labels: `Priority/High`, `Type/Improvement`, `module/crypto`, `Area/Library`
 
 Labels: `Priority/High`, `Type/Improvement`, `module/crypto`, `Area/Library`, `Area/StaticCode`
 
-### 📋 Task
-
-**[#8354](https://github.com/ballerina-platform/ballerina-library/issues/8354)** Review crypto static rules
-
-Labels: `Priority/High`, `Type/Task`, `module/crypto`, `Area/Library`, `Area/StaticCode`
-
 ### 🚀 NewFeature
 
 **[#8182](https://github.com/ballerina-platform/ballerina-library/issues/8182)** Support NIST-Approved Post-Quantum Algorithms
@@ -60,9 +54,9 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/crypto`, `Area/Library`
 
 ### 📋 Task
 
-**[#6774](https://github.com/ballerina-platform/ballerina-library/issues/6774)** Password in Crypto module are configurable as `string` values
+**[#8258](https://github.com/ballerina-platform/ballerina-library/issues/8258)** Implement static analysis rule "Secure random number generators should not output predictable values" in Crypto module
 
-Labels: `Priority/Low`, `Type/Task`, `module/crypto`, `Area/Library`
+Labels: `Priority/Low`, `Type/Task`, `module/crypto`, `module/random`, `Area/Library`
 
 **[#6581](https://github.com/ballerina-platform/ballerina-library/issues/6581)** Expand the support for reading private/public keys from the content to EC private keys
 
@@ -73,8 +67,4 @@ Labels: `Priority/Low`, `Type/Task`, `module/crypto`, `Area/Library`
 **[#1905](https://github.com/ballerina-platform/ballerina-library/issues/1905)** Support Libsodium encryption in Ballerina
 
 Labels: `Priority/Low`, `Type/NewFeature`, `module/crypto`, `Area/Security`, `Area/Library`
-
-**[#872](https://github.com/ballerina-platform/ballerina-library/issues/872)** Add Crypto Functions for Key Pair Generation
-
-Labels: `Priority/Low`, `Type/NewFeature`, `good first issue`, `module/crypto`, `Area/Security`, `Credits/45`, `Area/Library`
 

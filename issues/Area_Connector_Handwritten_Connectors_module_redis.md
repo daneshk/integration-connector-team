@@ -1,11 +1,11 @@
 # Area/Connector/Handwritten Connectors - module/redis
 
-**Total Issues:** 6
+**Total Issues:** 4
 
 ## 📊 Issue Types
 
 - ✨ **Improvement:** 1
-- 🚀 **NewFeature:** 5
+- 🚀 **NewFeature:** 3
 
 ---
 
@@ -32,14 +32,6 @@ Labels: `Type/NewFeature`, `Area/Connector`, `module/redis`, `Priority/Normal`
 ### 🚀 NewFeature
 
 **[#5037](https://github.com/ballerina-platform/ballerina-library/issues/5037)** [Feature]: Implement Redis Sentinel support 
-
-Labels: `Priority/Low`, `Type/NewFeature`, `Area/Connector`, `module/redis`
-
-**[#5038](https://github.com/ballerina-platform/ballerina-library/issues/5038)** [Feature]: Provide support for dynamic codecs for Redis connector
-
-Labels: `Priority/Low`, `Type/NewFeature`, `Area/Connector`, `module/redis`
-
-**[#5042](https://github.com/ballerina-platform/ballerina-library/issues/5042)** [Feature]: Design and implement pub-sub feature for Redis
 
 Labels: `Priority/Low`, `Type/NewFeature`, `Area/Connector`, `module/redis`
 

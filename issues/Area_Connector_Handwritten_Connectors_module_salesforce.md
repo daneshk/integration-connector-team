@@ -1,6 +1,6 @@
 # Area/Connector/Handwritten Connectors - module/salesforce
 
-**Total Issues:** 12
+**Total Issues:** 11
 
 ## 📊 Issue Types
 
@@ -8,7 +8,6 @@
 - 📚 **Docs:** 2
 - ✨ **Improvement:** 6
 - 🚀 **NewFeature:** 1
-- 📋 **Task:** 1
 
 ---
 
@@ -63,12 +62,6 @@ Labels: `Type/Improvement`, `Area/Connector`, `module/salesforce`, `Priority/Nor
 **[#4995](https://github.com/ballerina-platform/ballerina-library/issues/4995)** [Improvement]: Make closeJob and abortJob functions isolated
 
 Labels: `Type/Improvement`, `Area/Connector`, `module/salesforce`, `Priority/Normal`
-
-### 📋 Task
-
-**[#6908](https://github.com/ballerina-platform/ballerina-library/issues/6908)** Increase ballerinax/salesforce package code coverage to 80%
-
-Labels: `Points/2.5`, `Type/Task`, `Area/Connector`, `module/salesforce`, `Priority/Normal`
 
 ## 🔵 Priority: Low
 

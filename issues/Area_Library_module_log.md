@@ -1,12 +1,12 @@
 # Area/Library - module/log
 
-**Total Issues:** 8
+**Total Issues:** 6
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 3
-- ✨ **Improvement:** 2
-- 🚀 **NewFeature:** 2
+- ✨ **Improvement:** 1
+- 🚀 **NewFeature:** 1
 - 📋 **Task:** 1
 
 ---
@@ -39,10 +39,6 @@ Labels: `Type/Bug`, `good first issue`, `module/log`, `Priority/Normal`, `Credit
 
 Labels: `Priority/Low`, `Type/Improvement`, `Type/Proposal`, `module/log`, `Area/Library`
 
-**[#2858](https://github.com/ballerina-platform/ballerina-library/issues/2858)** Improve log module performance through compiler plugin (Print the module name using compiler plugin)
-
-Labels: `Priority/Low`, `Type/Improvement`, `module/log`, `Area/Library`
-
 ### 📋 Task
 
 **[#7640](https://github.com/ballerina-platform/ballerina-library/issues/7640)** Extend log module rule to capture log function been used as expressions
@@ -50,10 +46,6 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/log`, `Area/Library`
 Labels: `Priority/Low`, `Type/Task`, `module/log`, `Area/Library`
 
 ### 🚀 NewFeature
-
-**[#5057](https://github.com/ballerina-platform/ballerina-library/issues/5057)** Adding log file rotation support to the log module
-
-Labels: `Priority/Low`, `Type/NewFeature`, `module/log`, `Area/Library`
 
 **[#4633](https://github.com/ballerina-platform/ballerina-library/issues/4633)** Add support to change the log level programmatically at runtime
 

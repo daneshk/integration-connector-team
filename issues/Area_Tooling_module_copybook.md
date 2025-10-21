@@ -1,12 +1,12 @@
 # Area/Tooling - module/copybook
 
-**Total Issues:** 4
+**Total Issues:** 3
 
 ## 📊 Issue Types
 
 - ✨ **Improvement:** 1
 - 🚀 **NewFeature:** 1
-- 📋 **Task:** 2
+- 📋 **Task:** 1
 
 ---
 
@@ -23,10 +23,6 @@ Labels: `Type/Improvement`, `Area/Tooling`, `module/copybook`
 **[#7325](https://github.com/ballerina-platform/ballerina-library/issues/7325)** Add README.md for copybook module
 
 Labels: `Type/Task`, `Area/Docs`, `Area/Tooling`, `module/copybook`
-
-**[#5802](https://github.com/ballerina-platform/ballerina-library/issues/5802)** Add Copybook Conversion Tests with Data Bindings
-
-Labels: `Type/Task`, `Area/Tooling`, `module/copybook`
 
 ### 🚀 NewFeature
 

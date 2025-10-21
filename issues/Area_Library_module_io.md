@@ -1,12 +1,11 @@
 # Area/Library - module/io
 
-**Total Issues:** 8
+**Total Issues:** 6
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 2
-- ✨ **Improvement:** 4
-- 🚀 **NewFeature:** 1
+- ✨ **Improvement:** 3
 - 📋 **Task:** 1
 
 ---
@@ -33,25 +32,15 @@ Labels: `Priority/High`, `Type/Task`, `module/io`, `module/cache`, `module/http`
 
 ### ✨ Improvement
 
-**[#6761](https://github.com/ballerina-platform/ballerina-library/issues/6761)** Add locale support for ballerina `io` module
+**[#8364](https://github.com/ballerina-platform/ballerina-library/issues/8364)** Ballerina fileWriteCsv does not accept the delimiter
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/io`, `Area/Library`
 
-**[#1878](https://github.com/ballerina-platform/ballerina-library/issues/1878)** Enabling Channel APIs
+**[#6761](https://github.com/ballerina-platform/ballerina-library/issues/6761)** Add locale support for ballerina `io` module
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/io`, `Area/Library`
 
 **[#1676](https://github.com/ballerina-platform/ballerina-library/issues/1676)** Provide a function to read standard input other than line-by-line
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/io`, `Area/Library`
-
-**[#1396](https://github.com/ballerina-platform/ballerina-library/issues/1396)** Introduce a normalization parameter to file read APIs
-
-Labels: `Priority/Low`, `Type/Improvement`, `module/io`, `IceBox`, `Area/Library`
-
-### 🚀 NewFeature
-
-**[#1744](https://github.com/ballerina-platform/ballerina-library/issues/1744)** Support console read/write operations
-
-Labels: `Priority/Low`, `Type/NewFeature`, `module/io`, `Area/Library`
 

@@ -1,6 +1,6 @@
 # Area/Tooling - module/graphql-tool
 
-**Total Issues:** 28
+**Total Issues:** 24
 
 ## 📊 Issue Types
 
@@ -8,7 +8,7 @@
 - 📚 **Docs:** 1
 - ✨ **Improvement:** 15
 - 🚀 **NewFeature:** 2
-- 📋 **Task:** 7
+- 📋 **Task:** 3
 
 ---
 
@@ -17,10 +17,6 @@
 ### 📋 Task
 
 **[#6434](https://github.com/ballerina-platform/ballerina-library/issues/6434)** Update `FunctionBodyGenerator` for `NodeFactory.createOnFailClauseNode` change
-
-Labels: `Priority/High`, `Type/Task`, `Area/Tooling`, `module/graphql-tool`
-
-**[#6438](https://github.com/ballerina-platform/ballerina-library/issues/6438)** Migrate help text display logic into GraphQL repo form Ballerina Lang
 
 Labels: `Priority/High`, `Type/Task`, `Area/Tooling`, `module/graphql-tool`
 
@@ -35,12 +31,6 @@ Labels: `Type/Improvement`, `Area/Tooling`, `Priority/Normal`, `module/graphql-t
 **[#6451](https://github.com/ballerina-platform/ballerina-library/issues/6451)** [Improvement] User experience of the GraphQL client generation tool
 
 Labels: `Type/Improvement`, `Area/Tooling`, `Priority/Normal`, `module/graphql-tool`
-
-### 📋 Task
-
-**[#6442](https://github.com/ballerina-platform/ballerina-library/issues/6442)** Integrate code quality gateway to the codebase
-
-Labels: `Type/Task`, `Area/Tooling`, `Priority/Normal`, `module/graphql-tool`
 
 ## 🔵 Priority: Low
 
@@ -123,14 +113,6 @@ Labels: `Type/Improvement`, `Area/Tooling`, `module/graphql-tool`
 Labels: `Type/Task`, `Area/Tooling`, `module/graphql-tool`
 
 **[#5813](https://github.com/ballerina-platform/ballerina-library/issues/5813)** Remove Warnings Returned when GraphQL Client Generation
-
-Labels: `Type/Task`, `Area/Tooling`, `module/graphql-tool`
-
-**[#6443](https://github.com/ballerina-platform/ballerina-library/issues/6443)** Update IDL client generation tests to check the logs
-
-Labels: `Points/0.5`, `Type/Task`, `Area/Tooling`, `module/graphql-tool`
-
-**[#6448](https://github.com/ballerina-platform/ballerina-library/issues/6448)** [Task] Research on GraphQL Subscriptions
 
 Labels: `Type/Task`, `Area/Tooling`, `module/graphql-tool`
 

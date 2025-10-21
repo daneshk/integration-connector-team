@@ -1,13 +1,13 @@
 # Area/Library - module/oauth2
 
-**Total Issues:** 12
+**Total Issues:** 10
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 2
-- ✨ **Improvement:** 6
+- ✨ **Improvement:** 5
 - 🚀 **NewFeature:** 2
-- 📋 **Task:** 2
+- 📋 **Task:** 1
 
 ---
 
@@ -70,14 +70,4 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/oauth2`, `Area/Library`
 **[#1430](https://github.com/ballerina-platform/ballerina-library/issues/1430)** Add connection pool configurations for JDK11 HTTP client 
 
 Labels: `Priority/Low`, `Type/Improvement`, `good first issue`, `module/jwt`, `module/oauth2`, `Area/Security`, `Credits/45`, `Area/Library`
-
-**[#676](https://github.com/ballerina-platform/ballerina-library/issues/676)** Decouple and update OAuth2 APIs according to Grant Types
-
-Labels: `Priority/Low`, `Type/Improvement`, `module/oauth2`, `Area/Security`, `Area/Library`
-
-### 📋 Task
-
-**[#4497](https://github.com/ballerina-platform/ballerina-library/issues/4497)** Add an example with WSO2 IS/Asgardeo
-
-Labels: `Priority/Low`, `Type/Task`, `good first issue`, `module/oauth2`, `Credits/45`, `Area/Library`
 

@@ -1,10 +1,10 @@
 # Area/Library - module/jwt
 
-**Total Issues:** 5
+**Total Issues:** 4
 
 ## 📊 Issue Types
 
-- ✨ **Improvement:** 4
+- ✨ **Improvement:** 3
 - 📋 **Task:** 1
 
 ---
@@ -38,8 +38,4 @@ Labels: `Priority/High`, `Type/Task`, `module/io`, `module/cache`, `module/http`
 **[#1430](https://github.com/ballerina-platform/ballerina-library/issues/1430)** Add connection pool configurations for JDK11 HTTP client 
 
 Labels: `Priority/Low`, `Type/Improvement`, `good first issue`, `module/jwt`, `module/oauth2`, `Area/Security`, `Credits/45`, `Area/Library`
-
-**[#15](https://github.com/ballerina-platform/ballerina-library/issues/15)** Cache implementation for JWT outbound authentication
-
-Labels: `Priority/Low`, `Type/Improvement`, `good first issue`, `module/jwt`, `Area/Security`, `Credits/45`, `Area/Library`
 

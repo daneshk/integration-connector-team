@@ -1,12 +1,12 @@
 # Area/Connector/Generated Connectors - No Module
 
-**Total Issues:** 18
+**Total Issues:** 16
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 2
 - ✨ **Improvement:** 1
-- 🚀 **NewFeature:** 15
+- 🚀 **NewFeature:** 13
 
 ---
 
@@ -80,15 +80,7 @@ Labels: `Type/NewFeature`, `Area/Connector`, `connectors/openapi`, `Priority/Nor
 
 Labels: `Type/NewFeature`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`
 
-**[#5027](https://github.com/ballerina-platform/ballerina-library/issues/5027)** [Feature]: Connector for Walmart Marketplace API 
-
-Labels: `Type/NewFeature`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`
-
 **[#5032](https://github.com/ballerina-platform/ballerina-library/issues/5032)** [Feature]: Create OpenAPI specification and generate LinkedIn connector
-
-Labels: `Type/NewFeature`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`
-
-**[#5033](https://github.com/ballerina-platform/ballerina-library/issues/5033)** [Feature]: Connector for Trading Economics API
 
 Labels: `Type/NewFeature`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`
 

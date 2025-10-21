@@ -1,12 +1,11 @@
 # Area/Library - module/tcp
 
-**Total Issues:** 7
+**Total Issues:** 4
 
 ## 📊 Issue Types
 
-- ✨ **Improvement:** 4
-- 🚀 **NewFeature:** 2
-- 📋 **Task:** 1
+- ✨ **Improvement:** 3
+- 🚀 **NewFeature:** 1
 
 ---
 
@@ -30,12 +29,6 @@ Labels: `Type/Improvement`, `module/tcp`, `Priority/Normal`, `Area/Library`
 
 Labels: `Type/Improvement`, `module/tcp`, `Priority/Normal`, `Area/Library`
 
-### 🚀 NewFeature
-
-**[#699](https://github.com/ballerina-platform/ballerina-library/issues/699)** Introduce `readBlocksAsStream` and `writeBlocksFromStream` to Socket Client
-
-Labels: `Type/NewFeature`, `module/tcp`, `Priority/Normal`, `Area/Library`
-
 ## 🔵 Priority: Low
 
 ### ✨ Improvement
@@ -43,14 +36,4 @@ Labels: `Type/NewFeature`, `module/tcp`, `Priority/Normal`, `Area/Library`
 **[#1172](https://github.com/ballerina-platform/ballerina-library/issues/1172)** Compiler-plugin functionality to support return type and parameter type with parentheses
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/tcp`, `module/udp`, `Area/CompilerPlugin`, `Area/Library`
-
-**[#703](https://github.com/ballerina-platform/ballerina-library/issues/703)** Introduce Meaningful Error Types to the Socket Module
-
-Labels: `Priority/Low`, `Type/Improvement`, `module/tcp`, `Area/Library`
-
-### 📋 Task
-
-**[#1284](https://github.com/ballerina-platform/ballerina-library/issues/1284)** Returning tcp service validation when it is not directly returned from the initial service
-
-Labels: `Priority/Low`, `Type/Task`, `good first issue`, `module/tcp`, `Area/CompilerPlugin`, `Credits/45`, `Area/Library`
 

@@ -1,13 +1,13 @@
 # Area/Library - module/sql
 
-**Total Issues:** 23
+**Total Issues:** 18
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 7
 - 📚 **Docs:** 1
-- ✨ **Improvement:** 13
-- 📋 **Task:** 2
+- ✨ **Improvement:** 9
+- 📋 **Task:** 1
 
 ---
 
@@ -71,10 +71,6 @@ Labels: `Priority/High`, `Type/Improvement`, `module/sql`, `IceBox`, `Area/Libra
 
 Labels: `Priority/High`, `Type/Task`, `module/sql`, `Area/Docs`, `Area/Library`
 
-**[#2851](https://github.com/ballerina-platform/ballerina-library/issues/2851)** Write a guide for distributed transaction in Ballerina
-
-Labels: `Priority/High`, `Type/Task`, `module/sql`, `Area/Library`
-
 ### 📚 Docs
 
 **[#3807](https://github.com/ballerina-platform/ballerina-library/issues/3807)** Improve docs regarding client and stream lifecycle
@@ -97,35 +93,15 @@ Labels: `Type/Improvement`, `module/sql`, `Priority/Normal`, `Area/Library`
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/sql`, `Area/Library`
 
-**[#3287](https://github.com/ballerina-platform/ballerina-library/issues/3287)** Support paramterized query to insert const
+**[#3423](https://github.com/ballerina-platform/ballerina-library/issues/3423)** SQL query sets non-nilable optional fields to nil
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/sql`, `Area/Library`
 
-**[#2422](https://github.com/ballerina-platform/ballerina-library/issues/2422)** Standardising timeout options in SQL connectors
+**[#3287](https://github.com/ballerina-platform/ballerina-library/issues/3287)** Support paramterized query to insert const
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/sql`, `Area/Library`
 
 **[#1529](https://github.com/ballerina-platform/ballerina-library/issues/1529)** Need SQL API to execute multiple different queries in a batch
 
 Labels: `Points/1`, `Priority/Low`, `Type/Improvement`, `module/sql`, `Area/Library`
-
-**[#164](https://github.com/ballerina-platform/ballerina-library/issues/164)** Calling stored procedures with UDT types
-
-Labels: `Priority/Low`, `Type/Improvement`, `module/sql`, `IceBox`, `Area/Library`
-
-**[#159](https://github.com/ballerina-platform/ballerina-library/issues/159)** Unable to retreive User-Defined Types (UDT) through data clients
-
-Labels: `Priority/Low`, `Type/Improvement`, `module/sql`, `IceBox`, `Area/Library`
-
-**[#110](https://github.com/ballerina-platform/ballerina-library/issues/110)** [SQLConnector] Unable to handle unsigned big int data
-
-Labels: `Priority/Low`, `Type/Improvement`, `module/sql`, `IceBox`, `Area/Library`
-
-## ⚪ Priority: None
-
-### ✨ Improvement
-
-**[#3423](https://github.com/ballerina-platform/ballerina-library/issues/3423)** SQL query sets non-nilable optional fields to nil
-
-Labels: `Type/Improvement`, `module/sql`, `Area/Library`
 

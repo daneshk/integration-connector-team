@@ -1,12 +1,12 @@
 # Area/Connector/Handwritten Connectors - module/All
 
-**Total Issues:** 13
+**Total Issues:** 10
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 2
 - ✨ **Improvement:** 2
-- 📋 **Task:** 9
+- 📋 **Task:** 6
 
 ---
 
@@ -71,16 +71,4 @@ Labels: `Priority/Low`, `Type/Task`, `module/All`, `Area/Connector`, `Area/Libra
 **[#7736](https://github.com/ballerina-platform/ballerina-library/issues/7736)** Review Library/Connector API docs in BI editor
 
 Labels: `Priority/Low`, `Type/Task`, `module/All`, `Area/Connector`, `Area/Library`
-
-**[#7339](https://github.com/ballerina-platform/ballerina-library/issues/7339)** [Phase 1][Ballerina standard libraries] Dead code elimination report for Ballerina library modules
-
-Labels: `Priority/Low`, `Type/Task`, `module/All`, `Area/Connector`, `Area/Library`
-
-**[#6957](https://github.com/ballerina-platform/ballerina-library/issues/6957)** Introduce support to manually run the daily-build workflow for connectors with a custom Ballerina distribution pack
-
-Labels: `Priority/Low`, `Type/Task`, `module/All`, `Area/Connector`
-
-**[#4966](https://github.com/ballerina-platform/ballerina-library/issues/4966)** [Task]: Remove Ballerina dev google group mentions in package overview.
-
-Labels: `Priority/Low`, `Type/Task`, `module/All`, `Area/Connector`
 

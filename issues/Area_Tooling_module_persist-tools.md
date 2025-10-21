@@ -1,13 +1,13 @@
 # Area/Tooling - module/persist-tools
 
-**Total Issues:** 9
+**Total Issues:** 8
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 3
 - ✨ **Improvement:** 1
 - 🚀 **NewFeature:** 1
-- 📋 **Task:** 4
+- 📋 **Task:** 3
 
 ---
 
@@ -48,12 +48,6 @@ Labels: `Priority/High`, `Type/Task`, `good first issue`, `Area/Tooling`, `modul
 **[#4834](https://github.com/ballerina-platform/ballerina-library/issues/4834)** Command completion for `bal persist`
 
 Labels: `Type/Improvement`, `Area/Tooling`, `Priority/Normal`, `module/persist-tools`
-
-### 📋 Task
-
-**[#6391](https://github.com/ballerina-platform/ballerina-library/issues/6391)** Refactor the client API generation logic to change how errors are returned
-
-Labels: `Type/Task`, `Area/Tooling`, `Priority/Normal`, `module/persist-tools`
 
 ## 🔵 Priority: Low
 

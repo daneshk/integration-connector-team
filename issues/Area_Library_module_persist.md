@@ -1,13 +1,12 @@
 # Area/Library - module/persist
 
-**Total Issues:** 17
+**Total Issues:** 11
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 5
 - ✨ **Improvement:** 5
-- 🚀 **NewFeature:** 3
-- 📋 **Task:** 4
+- 📋 **Task:** 1
 
 ---
 
@@ -72,30 +71,4 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/persist`, `Area/Library`
 **[#4777](https://github.com/ballerina-platform/ballerina-library/issues/4777)** Create Ballerina version of PetClinic
 
 Labels: `Priority/Low`, `Type/Task`, `good first issue`, `module/http`, `module/graphql`, `module/persist`, `Hacktoberfest`, `Credits/45`, `Area/Library`
-
-**[#4359](https://github.com/ballerina-platform/ballerina-library/issues/4359)** [Persist] Define behaviour when attempting to retrieve association which does not exist
-
-Labels: `Priority/Low`, `Type/Task`, `module/persist`, `Area/Library`
-
-**[#4086](https://github.com/ballerina-platform/ballerina-library/issues/4086)** Persist tool spec should be more elaborate on how the schema are generated
-
-Labels: `Priority/Low`, `Type/Task`, `module/persist`, `Area/Library`
-
-**[#4023](https://github.com/ballerina-platform/ballerina-library/issues/4023)** EMD validation is inconsistent in type check
-
-Labels: `Priority/Low`, `Type/Task`, `module/persist`, `Area/Library`
-
-### 🚀 NewFeature
-
-**[#4188](https://github.com/ballerina-platform/ballerina-library/issues/4188)** VSCode plugin commands for persist
-
-Labels: `Priority/Low`, `Type/NewFeature`, `module/persist`, `Area/Library`
-
-**[#3576](https://github.com/ballerina-platform/ballerina-library/issues/3576)** Add advanced filter query for entities with associations
-
-Labels: `Points/1`, `Priority/Low`, `Type/NewFeature`, `module/persist`, `Area/Library`
-
-**[#3360](https://github.com/ballerina-platform/ballerina-library/issues/3360)** Add the constraint validate in the client create/update functions
-
-Labels: `Priority/Low`, `Type/NewFeature`, `module/persist`, `Area/Library`
 

@@ -1,13 +1,12 @@
 # Area/Library - No Module
 
-**Total Issues:** 14
+**Total Issues:** 11
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 1
-- 📚 **Docs:** 1
 - ✨ **Improvement:** 4
-- 🚀 **NewFeature:** 7
+- 🚀 **NewFeature:** 5
 - ❓ **Unknown:** 1
 
 ---
@@ -31,6 +30,10 @@ Labels: `Type/Improvement`, `Area/Build`, `Priority/Normal`, `Area/Library`
 ### 🚀 NewFeature
 
 **[#7752](https://github.com/ballerina-platform/ballerina-library/issues/7752)** Add testcontainers support in Ballerina platform
+
+Labels: `Type/NewFeature`, `Priority/Normal`, `Area/Library`
+
+**[#2707](https://github.com/ballerina-platform/ballerina-library/issues/2707)** Html Template support for ballerina 
 
 Labels: `Type/NewFeature`, `Priority/Normal`, `Area/Library`
 
@@ -71,26 +74,4 @@ Labels: `Priority/Low`, `Type/NewFeature`, `Area/Library`
 **[#4069](https://github.com/ballerina-platform/ballerina-library/issues/4069)** Ballerina should have the functionality for data compression
 
 Labels: `Priority/Low`, `Type/NewFeature`, `Area/Library`
-
-**[#2665](https://github.com/ballerina-platform/ballerina-library/issues/2665)** Support ZIP file operations in Ballerina
-
-Labels: `Priority/Low`, `Type/NewFeature`, `Area/Library`
-
-**[#65](https://github.com/ballerina-platform/ballerina-library/issues/65)** Kerberos inbound authentication support
-
-Labels: `Priority/Low`, `Type/NewFeature`, `Team/PCM`, `Area/Security`, `Area/Library`
-
-### 📚 Docs
-
-**[#4754](https://github.com/ballerina-platform/ballerina-library/issues/4754)** GraalVM articles for July/August
-
-Labels: `Priority/Low`, `Type/Docs`, `Type/Task`, `Area/GraalVM`, `Area/Library`
-
-## ⚪ Priority: None
-
-### 🚀 NewFeature
-
-**[#2707](https://github.com/ballerina-platform/ballerina-library/issues/2707)** Html Template support for ballerina 
-
-Labels: `Type/NewFeature`, `Area/Library`
 

@@ -1,13 +1,13 @@
 # Area/Tooling - module/openapi-tools
 
-**Total Issues:** 52
+**Total Issues:** 50
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 8
-- ✨ **Improvement:** 30
+- ✨ **Improvement:** 29
 - 🚀 **NewFeature:** 1
-- 📋 **Task:** 13
+- 📋 **Task:** 12
 
 ---
 
@@ -43,13 +43,13 @@ Labels: `Priority/High`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBall
 
 ### 📋 Task
 
-**[#8196](https://github.com/ballerina-platform/ballerina-library/issues/8196)** AI-Powered Automation for Ballerina Connector Generation
+**[#8362](https://github.com/ballerina-platform/ballerina-library/issues/8362)** Check and re-enable windows tests which are failing in the workflow
 
 Labels: `Priority/High`, `Type/Task`, `Area/Tooling`, `module/openapi-tools`
 
-**[#7485](https://github.com/ballerina-platform/ballerina-library/issues/7485)** Create a Video Series on Ballerina OpenAPI Tool
+**[#8196](https://github.com/ballerina-platform/ballerina-library/issues/8196)** AI-Powered Automation for Ballerina Connector Generation
 
-Labels: `Priority/High`, `Type/Task`, `Area/Docs`, `Area/Tooling`, `module/openapi-tools`
+Labels: `Priority/High`, `Type/Task`, `Area/Tooling`, `module/openapi-tools`
 
 **[#6785](https://github.com/ballerina-platform/ballerina-library/issues/6785)** Support server sent events in the openapi
 
@@ -121,10 +121,6 @@ Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Cli
 
 Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`, `Priority/Normal`
 
-**[#5168](https://github.com/ballerina-platform/ballerina-library/issues/5168)** Improve the error logs
-
-Labels: `Type/Improvement`, `Area/Tooling`, `module/openapi-tools`, `Priority/Normal`
-
 **[#5172](https://github.com/ballerina-platform/ballerina-library/issues/5172)** The properties in schemas marked as readOnly are not generated in the client
 
 Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`, `Priority/Normal`
@@ -138,10 +134,6 @@ Labels: `Type/Task`, `Area/Tooling`, `module/openapi-tools`, `Priority/Normal`
 **[#6345](https://github.com/ballerina-platform/ballerina-library/issues/6345)** Revisit the OpenAPI command line options
 
 Labels: `Type/Task`, `Area/Tooling`, `module/openapi-tools`, `Priority/Normal`
-
-**[#5133](https://github.com/ballerina-platform/ballerina-library/issues/5133)** Evaluate and revamp the error messages in the tool 
-
-Labels: `Type/Task`, `Area/Tooling`, `Area/BallerinaToOpenapi`, `Area/OpenapiToBallerina`, `module/openapi-tools`, `Priority/Normal`
 
 ## 🔵 Priority: Low
 

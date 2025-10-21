@@ -1,13 +1,13 @@
 # Area/Library - module/graphql
 
-**Total Issues:** 76
+**Total Issues:** 72
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 9
-- ✨ **Improvement:** 42
+- ✨ **Improvement:** 41
 - 🚀 **NewFeature:** 12
-- 📋 **Task:** 13
+- 📋 **Task:** 10
 
 ---
 
@@ -18,10 +18,6 @@
 **[#4777](https://github.com/ballerina-platform/ballerina-library/issues/4777)** Create Ballerina version of PetClinic
 
 Labels: `Priority/Low`, `Type/Task`, `good first issue`, `module/http`, `module/graphql`, `module/persist`, `Hacktoberfest`, `Credits/45`, `Area/Library`
-
-**[#1862](https://github.com/ballerina-platform/ballerina-library/issues/1862)** Check for GraphQL Spec Conformance Tests
-
-Labels: `Priority/Low`, `Type/Task`, `module/graphql`, `IceBox`, `Area/Library`
 
 ### 🚀 NewFeature
 
@@ -215,10 +211,6 @@ Labels: `Type/Improvement`, `module/graphql`, `Area/Library`
 
 Labels: `Type/Improvement`, `module/graphql`, `Area/Library`
 
-**[#3578](https://github.com/ballerina-platform/ballerina-library/issues/3578)** Add Unit Tests for `SdlSchemaStringGenerator` APIs
-
-Labels: `Type/Improvement`, `module/graphql`, `Area/Library`
-
 **[#3348](https://github.com/ballerina-platform/ballerina-library/issues/3348)** Move all GraphQL introspection-related validations into `IntrospectionValidatorVisitor`
 
 Labels: `Type/Improvement`, `module/graphql`, `Area/Library`
@@ -241,10 +233,6 @@ Labels: `Type/Improvement`, `module/graphql`, `Status/Blocked`, `IceBox`, `Area/
 
 ### 📋 Task
 
-**[#7961](https://github.com/ballerina-platform/ballerina-library/issues/7961)** Create a Tutorial Video Series for Ballerina GraphQL
-
-Labels: `Type/Task`, `module/graphql`, `Area/Docs`, `Area/Library`
-
 **[#7631](https://github.com/ballerina-platform/ballerina-library/issues/7631)** High Error Rate in GraphQL Subscription Load Test
 
 Labels: `Type/Task`, `module/graphql`, `Area/Library`
@@ -266,10 +254,6 @@ Labels: `Type/Task`, `module/graphql`, `Area/Library`
 Labels: `Type/Task`, `module/graphql`, `Area/Library`
 
 **[#4793](https://github.com/ballerina-platform/ballerina-library/issues/4793)** Add schema generation tests for subgraphs
-
-Labels: `Type/Task`, `module/graphql`, `Area/Library`
-
-**[#4697](https://github.com/ballerina-platform/ballerina-library/issues/4697)** Write Article Series on GraphQL Design, Implementation, and Deployment
 
 Labels: `Type/Task`, `module/graphql`, `Area/Library`
 
