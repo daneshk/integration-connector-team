@@ -184,6 +184,86 @@ def generate_readme(organized, module_files):
     readme += f"## Overall Summary\n\n"
     readme += f"**Total Issues Across All Areas:** {total_issues}\n\n"
 
+    # Collect all Highest and High priority issues
+    high_priority_issues = []
+    highest_priority_issues = []
+
+    for area in organized:
+        if area == 'Area/Connector':
+            for category in organized[area]:
+                for module in organized[area][category]:
+                    for issue in organized[area][category][module]:
+                        if issue['priority'] == 'Highest':
+                            issue['area'] = area
+                            issue['category'] = category
+                            issue['module'] = module
+                            highest_priority_issues.append(issue)
+                        elif issue['priority'] == 'High':
+                            issue['area'] = area
+                            issue['category'] = category
+                            issue['module'] = module
+                            high_priority_issues.append(issue)
+        else:
+            for module in organized[area]:
+                for issue in organized[area][module]:
+                    if issue['priority'] == 'Highest':
+                        issue['area'] = area
+                        issue['category'] = None
+                        issue['module'] = module
+                        highest_priority_issues.append(issue)
+                    elif issue['priority'] == 'High':
+                        issue['area'] = area
+                        issue['category'] = None
+                        issue['module'] = module
+                        high_priority_issues.append(issue)
+
+    # Type emojis for the priority sections
+    type_emojis = {
+        'Bug': '🐛',
+        'Improvement': '✨',
+        'Task': '📋',
+        'NewFeature': '🚀',
+        'Docs': '📚',
+        'Proposal': '💡',
+        'Unknown': '❓'
+    }
+
+    # Add Highest Priority Issues section
+    if highest_priority_issues:
+        readme += f"## 🔴 Highest Priority Issues ({len(highest_priority_issues)})\n\n"
+        readme += "Critical issues that require immediate attention.\n\n"
+
+        for issue in highest_priority_issues:
+            issue_type = issue.get('type', 'Unknown')
+            type_emoji = type_emojis.get(issue_type, '❓')
+
+            if issue['category']:
+                module_path = f"{issue['area']}/{issue['category']}"
+            else:
+                module_path = issue['area']
+
+            readme += f"- {type_emoji} **[#{issue['number']}]({issue['url']})** {issue['title']}\n"
+            readme += f"  - 📍 Module: `{issue['module']}` ({module_path})\n\n"
+
+    # Add High Priority Issues section
+    if high_priority_issues:
+        readme += f"## 🟠 High Priority Issues ({len(high_priority_issues)})\n\n"
+        readme += "Important issues that should be addressed soon.\n\n"
+
+        for issue in high_priority_issues:
+            issue_type = issue.get('type', 'Unknown')
+            type_emoji = type_emojis.get(issue_type, '❓')
+
+            if issue['category']:
+                module_path = f"{issue['area']}/{issue['category']}"
+            else:
+                module_path = issue['area']
+
+            readme += f"- {type_emoji} **[#{issue['number']}]({issue['url']})** {issue['title']}\n"
+            readme += f"  - 📍 Module: `{issue['module']}` ({module_path})\n\n"
+
+    readme += "---\n\n"
+
     # Define area order
     area_order = ['Area/Library', 'Area/Connector', 'Area/Tooling']
 
