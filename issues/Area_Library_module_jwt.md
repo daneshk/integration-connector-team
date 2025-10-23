@@ -1,10 +1,10 @@
 # Area/Library - module/jwt
 
-**Total Issues:** 4
+**Total Issues:** 3
 
 ## 📊 Issue Types
 
-- ✨ **Improvement:** 3
+- ✨ **Improvement:** 2
 - 📋 **Task:** 1
 
 ---
@@ -17,25 +17,15 @@
 
 Labels: `Priority/Highest`, `Type/Improvement`, `module/jwt`, `Area/Library`
 
-## 🟠 Priority: High
-
-### ✨ Improvement
-
 **[#7510](https://github.com/ballerina-platform/ballerina-library/issues/7510)** JWT Validation - Support for RFC 8725
 
-Labels: `Priority/High`, `Type/Improvement`, `module/jwt`, `Area/Library`
+Labels: `Priority/Highest`, `Type/Improvement`, `module/jwt`, `Area/Library`
+
+## 🟠 Priority: High
 
 ### 📋 Task
 
 **[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
 
 Labels: `Priority/High`, `Type/Task`, `module/io`, `module/cache`, `module/http`, `module/jwt`, `Area/Library`
-
-## 🔵 Priority: Low
-
-### ✨ Improvement
-
-**[#1430](https://github.com/ballerina-platform/ballerina-library/issues/1430)** Add connection pool configurations for JDK11 HTTP client 
-
-Labels: `Priority/Low`, `Type/Improvement`, `good first issue`, `module/jwt`, `module/oauth2`, `Area/Security`, `Credits/45`, `Area/Library`
 

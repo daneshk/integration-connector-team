@@ -11,6 +11,18 @@
 
 ---
 
+## 🔴 Priority: Highest
+
+### 🐛 Bug
+
+**[#4762](https://github.com/ballerina-platform/ballerina-library/issues/4762)** [Bug]: gRPC runtime error with `readonly` parameter in isolated function
+
+Labels: `Priority/Highest`, `Type/Bug`, `module/grpc`, `Area/Library`
+
+**[#3274](https://github.com/ballerina-platform/ballerina-library/issues/3274)** Client error is not received in server when `grpc:Caller` is used to send values inside the client stream
+
+Labels: `Priority/Highest`, `Points/3`, `Type/Bug`, `module/grpc`, `Area/Library`
+
 ## 🟠 Priority: High
 
 ### 🐛 Bug
@@ -19,17 +31,9 @@
 
 Labels: `Priority/High`, `Type/Bug`, `module/grpc`, `Area/Library`
 
-**[#4762](https://github.com/ballerina-platform/ballerina-library/issues/4762)** [Bug]: gRPC runtime error with `readonly` parameter in isolated function
-
-Labels: `Priority/High`, `Type/Bug`, `module/grpc`, `Area/Library`
-
 **[#4316](https://github.com/ballerina-platform/ballerina-library/issues/4316)** gRPC `testClientStreamingSendError` is failing intermittently
 
 Labels: `Priority/High`, `Type/Bug`, `Type/Task`, `module/grpc`, `Area/Library`
-
-**[#3274](https://github.com/ballerina-platform/ballerina-library/issues/3274)** Client error is not received in server when `grpc:Caller` is used to send values inside the client stream
-
-Labels: `Points/3`, `Priority/High`, `Type/Bug`, `module/grpc`, `Area/Library`
 
 ### ✨ Improvement
 

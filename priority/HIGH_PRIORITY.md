@@ -1,6 +1,6 @@
 # 🟠 High Priority Issues
 
-**Total Issues:** 168
+**Total Issues:** 163
 
 ## Area/Library
 
@@ -80,14 +80,12 @@
 
 - **[#6139](https://github.com/ballerina-platform/ballerina-library/issues/6139)** Add example to demonstrate how to use `arrayFlattenQuery` to construct IN clause
 
-### 📦 module/grpc (7 issues)
+### 📦 module/grpc (5 issues)
 
 #### 🐛 Bug
 
 - **[#7436](https://github.com/ballerina-platform/ballerina-library/issues/7436)** The `testInvokeUnavailableService` is failing intermittently
-- **[#4762](https://github.com/ballerina-platform/ballerina-library/issues/4762)** [Bug]: gRPC runtime error with `readonly` parameter in isolated function
 - **[#4316](https://github.com/ballerina-platform/ballerina-library/issues/4316)** gRPC `testClientStreamingSendError` is failing intermittently
-- **[#3274](https://github.com/ballerina-platform/ballerina-library/issues/3274)** Client error is not received in server when `grpc:Caller` is used to send values inside the client stream
 
 #### ✨ Improvement
 
@@ -187,16 +185,6 @@
 
 - **[#4943](https://github.com/ballerina-platform/ballerina-library/issues/4943)** Improve persist query optimisation to include non global variable
 
-### 📦 module/jwt (2 issues)
-
-#### ✨ Improvement
-
-- **[#7510](https://github.com/ballerina-platform/ballerina-library/issues/7510)** JWT Validation - Support for RFC 8725
-
-#### 📋 Task
-
-- **[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
-
 ### 📦 module/cache (2 issues)
 
 #### ✨ Improvement
@@ -206,13 +194,6 @@
 #### 📋 Task
 
 - **[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
-
-### 📦 module/time (2 issues)
-
-#### ✨ Improvement
-
-- **[#1841](https://github.com/ballerina-platform/ballerina-library/issues/1841)** Ballerina should be able to parse strings in custom time formats
-- **[#1582](https://github.com/ballerina-platform/ballerina-library/issues/1582)** Add functionality to compare two dates 
 
 ### 📦 No Module (1 issues)
 
@@ -225,6 +206,12 @@
 #### ✨ Improvement
 
 - **[#7929](https://github.com/ballerina-platform/ballerina-library/issues/7929)** Add Support for Cryptographically Secure Random Number Generation (CSPRNG)
+
+### 📦 module/jwt (1 issues)
+
+#### 📋 Task
+
+- **[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
 
 ### 📦 module/os (1 issues)
 
@@ -255,6 +242,12 @@
 #### 🐛 Bug
 
 - **[#2886](https://github.com/ballerina-platform/ballerina-library/issues/2886)** Issue when sending a curl request to the WebSocket service
+
+### 📦 module/time (1 issues)
+
+#### ✨ Improvement
+
+- **[#1582](https://github.com/ballerina-platform/ballerina-library/issues/1582)** Add functionality to compare two dates 
 
 ## Area/Connector/Handwritten Connectors
 
@@ -484,11 +477,10 @@
 
 ## Area/Tooling
 
-### 📦 module/openapi-tools (13 issues)
+### 📦 module/openapi-tools (12 issues)
 
 #### 🐛 Bug
 
-- **[#8387](https://github.com/ballerina-platform/ballerina-library/issues/8387)** Duplicate Parameter Name Generation in Types
 - **[#8217](https://github.com/ballerina-platform/ballerina-library/issues/8217)** Unaligned type name with spaces
 - **[#8205](https://github.com/ballerina-platform/ballerina-library/issues/8205)** OpenAPI generation incorrectly resolves additional properties, object when included in oneOf type
 - **[#7508](https://github.com/ballerina-platform/ballerina-library/issues/7508)** Invalid Ballerina.toml generation `openapi add` in Windows

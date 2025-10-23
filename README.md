@@ -2,19 +2,19 @@
 
 This repository contains an organized breakdown of open issues from the [ballerina-library](https://github.com/ballerina-platform/ballerina-library) repository.
 
-**Last Updated:** 2025-10-23 15:56:05
+**Last Updated:** 2025-10-23 17:20:29
 
 ## Overall Summary
 
-**Total Issues Across All Areas:** 543
+**Total Issues Across All Areas:** 538
 
-## 🔴 Highest Priority Issues (22)
+## 🔴 Highest Priority Issues (26)
 
 Critical issues that require immediate attention.
 
 [View all Highest Priority Issues →](priority/HIGHEST_PRIORITY.md)
 
-## 🟠 High Priority Issues (168)
+## 🟠 High Priority Issues (163)
 
 Important issues that should be addressed soon.
 
@@ -24,23 +24,23 @@ Important issues that should be addressed soon.
 
 ## Area/Library
 
-**Total Issues:** 336
+**Total Issues:** 334
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
 | [module/http](issues/Area_Library_module_http.md) | 127 | 🔴 **7**<br/><sub>✨3 🚀2 📋2</sub> | 🟠 **36**<br/><sub>🐛19 📚2 ✨7 🚀2 📋6</sub> | 🟡 **9**<br/><sub>🐛3 ✨2 📋4</sub> | 🔵 **74**<br/><sub>🐛7 📚1 ✨58 🚀4 📋4</sub> | ⚪ **1**<br/><sub>📋1</sub> |
 | [module/persist](issues/Area_Library_module_persist.md) | 12 | 🔴 **5**<br/><sub>🐛3 ✨2</sub> | 🟠 **2**<br/><sub>🐛1 ✨1</sub> | 0 | 🔵 **4**<br/><sub>✨2 📋2</sub> | ⚪ **1**<br/><sub>📋1</sub> |
 | [module/sql](issues/Area_Library_module_sql.md) | 17 | 🔴 **3**<br/><sub>🐛2 ✨1</sub> | 🟠 **9**<br/><sub>🐛4 📚1 ✨3 📋1</sub> | 🟡 **1**<br/><sub>✨1</sub> | 🔵 **4**<br/><sub>✨4</sub> | 0 |
+| [module/grpc](issues/Area_Library_module_grpc.md) | 13 | 🔴 **2**<br/><sub>🐛2</sub> | 🟠 **5**<br/><sub>🐛2 ✨3</sub> | 🟡 **2**<br/><sub>🚀2</sub> | 🔵 **4**<br/><sub>✨2 🚀1 📋1</sub> | 0 |
+| [module/jwt](issues/Area_Library_module_jwt.md) | 3 | 🔴 **2**<br/><sub>✨2</sub> | 🟠 **1**<br/><sub>📋1</sub> | 0 | 0 | 0 |
 | [module/All](issues/Area_Library_module_All.md) | 12 | 🔴 **1**<br/><sub>📋1</sub> | 🟠 **4**<br/><sub>🐛1 ✨1 🚀1 📋1</sub> | 🟡 **2**<br/><sub>✨1 📋1</sub> | 🔵 **5**<br/><sub>📋5</sub> | 0 |
 | [module/crypto](issues/Area_Library_module_crypto.md) | 9 | 🔴 **1**<br/><sub>📋1</sub> | 🟠 **3**<br/><sub>✨2 🚀1</sub> | 0 | 🔵 **5**<br/><sub>✨2 🚀1 📋2</sub> | 0 |
-| [module/jwt](issues/Area_Library_module_jwt.md) | 4 | 🔴 **1**<br/><sub>✨1</sub> | 🟠 **2**<br/><sub>✨1 📋1</sub> | 0 | 🔵 **1**<br/><sub>✨1</sub> | 0 |
-| [module/grpc](issues/Area_Library_module_grpc.md) | 13 | 0 | 🟠 **7**<br/><sub>🐛4 ✨3</sub> | 🟡 **2**<br/><sub>🚀2</sub> | 🔵 **4**<br/><sub>✨2 🚀1 📋1</sub> | 0 |
-| [module/oauth2](issues/Area_Library_module_oauth2.md) | 10 | 0 | 🟠 **4**<br/><sub>🐛1 ✨1 🚀1 📋1</sub> | 🟡 **1**<br/><sub>🚀1</sub> | 🔵 **5**<br/><sub>🐛1 ✨4</sub> | 0 |
+| [module/time](issues/Area_Library_module_time.md) | 2 | 🔴 **1**<br/><sub>✨1</sub> | 🟠 **1**<br/><sub>✨1</sub> | 0 | 0 | 0 |
+| [module/oauth2](issues/Area_Library_module_oauth2.md) | 9 | 0 | 🟠 **4**<br/><sub>🐛1 ✨1 🚀1 📋1</sub> | 🟡 **1**<br/><sub>🚀1</sub> | 🔵 **4**<br/><sub>🐛1 ✨3</sub> | 0 |
 | [module/task](issues/Area_Library_module_task.md) | 6 | 0 | 🟠 **4**<br/><sub>✨2 📋2</sub> | 🟡 **1**<br/><sub>🐛1</sub> | 🔵 **1**<br/><sub>✨1</sub> | 0 |
 | [module/io](issues/Area_Library_module_io.md) | 7 | 0 | 🟠 **4**<br/><sub>🐛3 📋1</sub> | 0 | 🔵 **3**<br/><sub>✨3</sub> | 0 |
 | [module/email](issues/Area_Library_module_email.md) | 3 | 0 | 🟠 **3**<br/><sub>🐛1 ✨2</sub> | 0 | 0 | 0 |
 | [module/cache](issues/Area_Library_module_cache.md) | 3 | 0 | 🟠 **2**<br/><sub>✨1 📋1</sub> | 0 | 🔵 **1**<br/><sub>✨1</sub> | 0 |
-| [module/time](issues/Area_Library_module_time.md) | 2 | 0 | 🟠 **2**<br/><sub>✨2</sub> | 0 | 0 | 0 |
 | [No Module](issues/Area_Library_No_Module.md) | 11 | 0 | 🟠 **1**<br/><sub>🚀1</sub> | 🟡 **4**<br/><sub>✨1 🚀2 ❓1</sub> | 🔵 **6**<br/><sub>🐛1 ✨3 🚀2</sub> | 0 |
 | [module/tcp](issues/Area_Library_module_tcp.md) | 4 | 0 | 🟠 **1**<br/><sub>🚀1</sub> | 🟡 **2**<br/><sub>✨2</sub> | 🔵 **1**<br/><sub>✨1</sub> | 0 |
 | [module/os](issues/Area_Library_module_os.md) | 3 | 0 | 🟠 **1**<br/><sub>🐛1</sub> | 🟡 **2**<br/><sub>✨1 🚀1</sub> | 0 | 0 |
@@ -111,29 +111,28 @@ Important issues that should be addressed soon.
 
 ## Area/Tooling
 
-**Total Issues:** 96
+**Total Issues:** 93
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
-| [module/openapi-tools](issues/Area_Tooling_module_openapi-tools.md) | 51 | 0 | 🟠 **13**<br/><sub>🐛4 ✨3 📋6</sub> | 🟡 **15**<br/><sub>🐛4 ✨9 📋2</sub> | 🔵 **22**<br/><sub>🐛1 ✨16 🚀1 📋4</sub> | ⚪ **1**<br/><sub>✨1</sub> |
+| [module/openapi-tools](issues/Area_Tooling_module_openapi-tools.md) | 50 | 0 | 🟠 **12**<br/><sub>🐛3 ✨3 📋6</sub> | 🟡 **15**<br/><sub>🐛4 ✨9 📋2</sub> | 🔵 **22**<br/><sub>🐛1 ✨16 🚀1 📋4</sub> | ⚪ **1**<br/><sub>✨1</sub> |
 | [module/persist-tools](issues/Area_Tooling_module_persist-tools.md) | 8 | 0 | 🟠 **6**<br/><sub>🐛3 📋3</sub> | 🟡 **1**<br/><sub>✨1</sub> | 🔵 **1**<br/><sub>🚀1</sub> | 0 |
 | [module/protoc-tool](issues/Area_Tooling_module_protoc-tool.md) | 4 | 0 | 🟠 **2**<br/><sub>🐛1 📋1</sub> | 🟡 **1**<br/><sub>🐛1</sub> | 🔵 **1**<br/><sub>✨1</sub> | 0 |
 | [module/xsd-tool](issues/Area_Tooling_module_xsd-tool.md) | 2 | 0 | 🟠 **2**<br/><sub>🐛2</sub> | 0 | 0 | 0 |
 | [module/graphql-tool](issues/Area_Tooling_module_graphql-tool.md) | 24 | 0 | 🟠 **1**<br/><sub>📋1</sub> | 🟡 **2**<br/><sub>✨2</sub> | 🔵 **1**<br/><sub>✨1</sub> | ⚪ **20**<br/><sub>🐛3 📚1 ✨12 🚀2 📋2</sub> |
 | [module/grpc](issues/Area_Tooling_module_grpc.md) | 1 | 0 | 🟠 **1**<br/><sub>🐛1</sub> | 0 | 0 | 0 |
 | [module/wsdl-tools](issues/Area_Tooling_module_wsdl-tools.md) | 1 | 0 | 0 | 🟡 **1**<br/><sub>🚀1</sub> | 0 | 0 |
-| [module/asyncapi-tools](issues/Area_Tooling_module_asyncapi-tools.md) | 2 | 0 | 0 | 0 | 0 | ⚪ **2**<br/><sub>🐛1 📋1</sub> |
 | [module/copybook](issues/Area_Tooling_module_copybook.md) | 3 | 0 | 0 | 0 | 0 | ⚪ **3**<br/><sub>✨1 🚀1 📋1</sub> |
 
 ## Issue Distribution by Priority
 
 ### Area/Library
-- **Highest Priority:** 18
-- **High Priority:** 89
+- **Highest Priority:** 22
+- **High Priority:** 85
 - **Normal Priority:** 29
-- **Low Priority:** 127
+- **Low Priority:** 125
 - **No Priority:** 73
-- **Total:** 336
+- **Total:** 334
 
 ### Area/Connector
 - **Highest Priority:** 4
@@ -143,22 +142,22 @@ Important issues that should be addressed soon.
 - **Total:** 111
 
 ### Area/Tooling
-- **High Priority:** 25
+- **High Priority:** 24
 - **Normal Priority:** 20
 - **Low Priority:** 25
-- **No Priority:** 26
-- **Total:** 96
+- **No Priority:** 24
+- **Total:** 93
 
 ## Issue Distribution by Type
 
 ### Area/Library
 - **Bug:** 67
 - **Docs:** 4
-- **Improvement:** 173
+- **Improvement:** 171
 - **NewFeature:** 38
 - **Task:** 53
 - **Unknown:** 1
-- **Total:** 336
+- **Total:** 334
 
 ### Area/Connector
 - **Bug:** 26
@@ -170,10 +169,10 @@ Important issues that should be addressed soon.
 - **Total:** 111
 
 ### Area/Tooling
-- **Bug:** 21
+- **Bug:** 19
 - **Docs:** 1
 - **Improvement:** 47
 - **NewFeature:** 6
-- **Task:** 21
-- **Total:** 96
+- **Task:** 20
+- **Total:** 93
 

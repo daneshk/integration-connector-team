@@ -1,6 +1,6 @@
 # 🔴 Highest Priority Issues
 
-**Total Issues:** 22
+**Total Issues:** 26
 
 ## Area/Library
 
@@ -46,6 +46,20 @@
 
 - **[#3842](https://github.com/ballerina-platform/ballerina-library/issues/3842)** Add support to enable logs to detect connection leaks in DB connectors
 
+### 📦 module/jwt (2 issues)
+
+#### ✨ Improvement
+
+- **[#8185](https://github.com/ballerina-platform/ballerina-library/issues/8185)** Ballerina JWT library does not support PS 256 and ES 256 algorithms
+- **[#7510](https://github.com/ballerina-platform/ballerina-library/issues/7510)** JWT Validation - Support for RFC 8725
+
+### 📦 module/grpc (2 issues)
+
+#### 🐛 Bug
+
+- **[#4762](https://github.com/ballerina-platform/ballerina-library/issues/4762)** [Bug]: gRPC runtime error with `readonly` parameter in isolated function
+- **[#3274](https://github.com/ballerina-platform/ballerina-library/issues/3274)** Client error is not received in server when `grpc:Caller` is used to send values inside the client stream
+
 ### 📦 module/All (1 issues)
 
 #### 📋 Task
@@ -58,11 +72,11 @@
 
 - **[#4212](https://github.com/ballerina-platform/ballerina-library/issues/4212)** Make Crypto module FIPS compliant
 
-### 📦 module/jwt (1 issues)
+### 📦 module/time (1 issues)
 
 #### ✨ Improvement
 
-- **[#8185](https://github.com/ballerina-platform/ballerina-library/issues/8185)** Ballerina JWT library does not support PS 256 and ES 256 algorithms
+- **[#1841](https://github.com/ballerina-platform/ballerina-library/issues/1841)** Ballerina should be able to parse strings in custom time formats
 
 ## Area/Connector/Handwritten Connectors
 

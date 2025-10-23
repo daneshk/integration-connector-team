@@ -1,11 +1,11 @@
 # Area/Library - module/oauth2
 
-**Total Issues:** 10
+**Total Issues:** 9
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 2
-- ✨ **Improvement:** 5
+- ✨ **Improvement:** 4
 - 🚀 **NewFeature:** 2
 - 📋 **Task:** 1
 
@@ -66,8 +66,4 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/oauth2`, `Area/Library`
 **[#3494](https://github.com/ballerina-platform/ballerina-library/issues/3494)** Return error from ClientOAuth2Provider's init method instead of calling panic
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/oauth2`, `Area/Library`
-
-**[#1430](https://github.com/ballerina-platform/ballerina-library/issues/1430)** Add connection pool configurations for JDK11 HTTP client 
-
-Labels: `Priority/Low`, `Type/Improvement`, `good first issue`, `module/jwt`, `module/oauth2`, `Area/Security`, `Credits/45`, `Area/Library`
 
