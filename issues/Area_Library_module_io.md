@@ -1,10 +1,10 @@
 # Area/Library - module/io
 
-**Total Issues:** 6
+**Total Issues:** 7
 
 ## 📊 Issue Types
 
-- 🐛 **Bug:** 2
+- 🐛 **Bug:** 3
 - ✨ **Improvement:** 3
 - 📋 **Task:** 1
 
@@ -17,6 +17,10 @@
 **[#7241](https://github.com/ballerina-platform/ballerina-library/issues/7241)** IO file write as stream does not support streams with generic error as a completion type
 
 Labels: `Priority/High`, `Type/Bug`, `module/io`, `Area/Library`
+
+**[#4273](https://github.com/ballerina-platform/ballerina-library/issues/4273)** Program crashes with NPE
+
+Labels: `Priority/High`, `Type/Bug`, `good first issue`, `module/io`, `Area/Library`
 
 **[#3353](https://github.com/ballerina-platform/ballerina-library/issues/3353)** io:fileReadBytes function consumes significant memory.
 

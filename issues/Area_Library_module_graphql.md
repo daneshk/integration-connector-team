@@ -1,13 +1,13 @@
 # Area/Library - module/graphql
 
-**Total Issues:** 72
+**Total Issues:** 73
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 9
 - ✨ **Improvement:** 41
 - 🚀 **NewFeature:** 12
-- 📋 **Task:** 10
+- 📋 **Task:** 11
 
 ---
 
@@ -15,9 +15,9 @@
 
 ### 📋 Task
 
-**[#4777](https://github.com/ballerina-platform/ballerina-library/issues/4777)** Create Ballerina version of PetClinic
+**[#8385](https://github.com/ballerina-platform/ballerina-library/issues/8385)** Create GraphQL PetClinic Ballerina Application
 
-Labels: `Priority/Low`, `Type/Task`, `good first issue`, `module/http`, `module/graphql`, `module/persist`, `Hacktoberfest`, `Credits/45`, `Area/Library`
+Labels: `Priority/Low`, `Type/Task`, `good first issue`, `module/graphql`, `module/persist`, `Area/Library`
 
 ### 🚀 NewFeature
 
@@ -232,6 +232,10 @@ Labels: `Type/Improvement`, `module/graphql`, `Area/Library`
 Labels: `Type/Improvement`, `module/graphql`, `Status/Blocked`, `IceBox`, `Area/Library`
 
 ### 📋 Task
+
+**[#8383](https://github.com/ballerina-platform/ballerina-library/issues/8383)** Create Ballerina version of PetClinic applications
+
+Labels: `Type/Task`, `module/http`, `module/graphql`, `module/persist`, `Area/Library`
 
 **[#7631](https://github.com/ballerina-platform/ballerina-library/issues/7631)** High Error Rate in GraphQL Subscription Load Test
 

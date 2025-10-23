@@ -19,7 +19,7 @@ Labels: `Type/Bug`, `good first issue`, `Area/CompilerPlugin`, `module/constrain
 
 ### ✨ Improvement
 
-**[#3209](https://github.com/ballerina-platform/ballerina-library/issues/3209)** Add `constraint` support for union types
+**[#7520](https://github.com/ballerina-platform/ballerina-library/issues/7520)** Constraint Validation Does Not Raise Errors for Union Types in Ballerina
 
 Labels: `Type/Improvement`, `module/constraint`, `Priority/Normal`, `Area/Library`
 

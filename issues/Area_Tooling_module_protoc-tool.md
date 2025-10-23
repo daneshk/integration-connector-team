@@ -1,11 +1,11 @@
 # Area/Tooling - module/protoc-tool
 
-**Total Issues:** 5
+**Total Issues:** 4
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 2
-- ✨ **Improvement:** 2
+- ✨ **Improvement:** 1
 - 📋 **Task:** 1
 
 ---
@@ -17,12 +17,6 @@
 **[#6837](https://github.com/ballerina-platform/ballerina-library/issues/6837)** GRPC client sample code generation is failing when protobuf schema contains cyclic dependent messages
 
 Labels: `Priority/High`, `Type/Bug`, `module/grpc`, `Area/Tooling`, `module/protoc-tool`
-
-### ✨ Improvement
-
-**[#4656](https://github.com/ballerina-platform/ballerina-library/issues/4656)** Improve diagnostics for invalid proto files
-
-Labels: `Priority/High`, `Type/Improvement`, `good first issue`, `Area/Tooling`, `module/protoc-tool`, `Hacktoberfest`, `Credits/30`
 
 ### 📋 Task
 

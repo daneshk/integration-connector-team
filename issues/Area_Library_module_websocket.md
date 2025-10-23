@@ -4,19 +4,19 @@
 
 ## 📊 Issue Types
 
+- 🐛 **Bug:** 1
 - ✨ **Improvement:** 1
 - 🚀 **NewFeature:** 1
-- 📋 **Task:** 1
 
 ---
 
 ## 🟠 Priority: High
 
-### 📋 Task
+### 🐛 Bug
 
 **[#2886](https://github.com/ballerina-platform/ballerina-library/issues/2886)** Issue when sending a curl request to the WebSocket service
 
-Labels: `Priority/High`, `Type/Task`, `module/http`, `module/websocket`, `Area/Library`
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `module/websocket`, `Area/Library`
 
 ## 🔵 Priority: Low
 

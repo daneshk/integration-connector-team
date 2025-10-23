@@ -1,32 +1,60 @@
 # Area/Library - module/http
 
-**Total Issues:** 133
+**Total Issues:** 127
 
 ## 📊 Issue Types
 
-- 🐛 **Bug:** 28
-- 📚 **Docs:** 2
-- ✨ **Improvement:** 74
-- 🚀 **NewFeature:** 7
-- 📋 **Task:** 22
+- 🐛 **Bug:** 29
+- 📚 **Docs:** 3
+- ✨ **Improvement:** 70
+- 🚀 **NewFeature:** 8
+- 📋 **Task:** 17
 
 ---
 
 ## 🔴 Priority: Highest
 
+### ✨ Improvement
+
+**[#5799](https://github.com/ballerina-platform/ballerina-library/issues/5799)** [HTTP Client] Support for resolving round-robin DNS
+
+Labels: `Priority/Highest`, `Type/Improvement`, `module/http`, `Area/Client`, `Area/Library`
+
+**[#4329](https://github.com/ballerina-platform/ballerina-library/issues/4329)** Interceptor support for client side
+
+Labels: `Priority/Highest`, `Type/Improvement`, `module/http`, `Area/Library`
+
+**[#3630](https://github.com/ballerina-platform/ballerina-library/issues/3630)** Improve `Connection between remote client and host is closed` error message
+
+Labels: `Priority/Highest`, `Type/Improvement`, `module/http`, `Area/Library`
+
 ### 📋 Task
 
-**[#8342](https://github.com/ballerina-platform/ballerina-library/issues/8342)** Review static code rule implementations
+**[#7330](https://github.com/ballerina-platform/ballerina-library/issues/7330)** Disabled tests due to the Jsondata module fixes
 
-Labels: `Priority/Highest`, `Type/Task`, `module/crypto`, `module/http`, `Area/Library`, `Area/StaticCode`
+Labels: `Priority/Highest`, `Type/Task`, `module/http`, `Area/Library`
 
 **[#4213](https://github.com/ballerina-platform/ballerina-library/issues/4213)** Make HTTP module FIPS compliant
 
 Labels: `Priority/Highest`, `Points/5`, `Type/Task`, `module/http`, `Area/Library`
 
+### 🚀 NewFeature
+
+**[#7460](https://github.com/ballerina-platform/ballerina-library/issues/7460)** Allow configuring TCP Keep-Alive related properties in the Ballerina HTTP Client
+
+Labels: `Priority/Highest`, `Type/NewFeature`, `module/http`, `Area/Library`
+
+**[#6547](https://github.com/ballerina-platform/ballerina-library/issues/6547)** Add HTTP compression support for `brotli` format
+
+Labels: `Priority/Highest`, `Points/3`, `Type/NewFeature`, `module/http`, `Area/Library`
+
 ## 🟠 Priority: High
 
 ### 🐛 Bug
+
+**[#8339](https://github.com/ballerina-platform/ballerina-library/issues/8339)** Investigate possible thread blocked issues in SSE services
+
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
 
 **[#7893](https://github.com/ballerina-platform/ballerina-library/issues/7893)** HTTP compile error when referring a listener in different file in a service
 
@@ -45,10 +73,6 @@ Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
 Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
 
 **[#7292](https://github.com/ballerina-platform/ballerina-library/issues/7292)** Error in data binding with the URL encoded content-type with charset directive
-
-Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
-
-**[#7291](https://github.com/ballerina-platform/ballerina-library/issues/7291)** Error in databinding with the header application/x-www-form-urlencoded
 
 Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
 
@@ -72,7 +96,7 @@ Labels: `Points/0.5`, `Priority/High`, `Type/Bug`, `good first issue`, `module/h
 
 Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
 
-**[#4461](https://github.com/ballerina-platform/ballerina-library/issues/4461)** `http` std-lib build hang intermittently during `:http-ballerina-tests:ballerinaTest` task
+**[#4461](https://github.com/ballerina-platform/ballerina-library/issues/4461)** Enable testHttp2InvalidHeaderLength testcase.
 
 Labels: `Priority/High`, `Type/Bug`, `module/http`, `Reason/Complex`, `Area/http2`, `Area/Library`
 
@@ -92,6 +116,10 @@ Labels: `Priority/High`, `Type/Bug`, `module/http`, `Reason/EngineeringMistake`,
 
 Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/http2`, `Area/Library`
 
+**[#2886](https://github.com/ballerina-platform/ballerina-library/issues/2886)** Issue when sending a curl request to the WebSocket service
+
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `module/websocket`, `Area/Library`
+
 **[#317](https://github.com/ballerina-platform/ballerina-library/issues/317)** [Windows] Intermittent transport test failures
 
 Labels: `Points/5`, `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
@@ -102,23 +130,11 @@ Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
 
 ### ✨ Improvement
 
+**[#6110](https://github.com/ballerina-platform/ballerina-library/issues/6110)** [WIP] Review the `nil` return from interceptors via `RequestContext:next()`
+
+Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Library`
+
 **[#5885](https://github.com/ballerina-platform/ballerina-library/issues/5885)** Http Client error does not contain the full stacktrace.
-
-Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Library`
-
-**[#5799](https://github.com/ballerina-platform/ballerina-library/issues/5799)** [HTTP Client] Support for resolving round-robin DNS
-
-Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Client`, `Priority/Normal`, `Area/Library`
-
-**[#4329](https://github.com/ballerina-platform/ballerina-library/issues/4329)** Interceptor support for client side
-
-Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Library`
-
-**[#4160](https://github.com/ballerina-platform/ballerina-library/issues/4160)** [HTTP] Incorrect Error handling in the native code
-
-Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Library`
-
-**[#4102](https://github.com/ballerina-platform/ballerina-library/issues/4102)** Service sends 408 at the request timeout but does not stop the internal request execution
 
 Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Library`
 
@@ -130,9 +146,9 @@ Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Library`
 
 Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Library`
 
-**[#3630](https://github.com/ballerina-platform/ballerina-library/issues/3630)** Improve `Connection between remote client and host is closed` error message
+**[#2420](https://github.com/ballerina-platform/ballerina-library/issues/2420)** Maintain the consistent of generated OpenAPI specification with  Ballerina to OAS CLI command and OpenAPI built-in plugin
 
-Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/Library`
+Labels: `Priority/High`, `Type/Improvement`, `module/http`, `Area/CompilerPlugin`, `Area/Library`
 
 **[#1687](https://github.com/ballerina-platform/ballerina-library/issues/1687)** Validate StatusCodeRecords at compile time for extra fields
 
@@ -144,21 +160,9 @@ Labels: `Priority/High`, `Type/Improvement`, `good first issue`, `module/http`, 
 
 ### 📋 Task
 
-**[#8339](https://github.com/ballerina-platform/ballerina-library/issues/8339)** Investigate possible thread blocked issues in SSE services
-
-Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
-
-**[#7330](https://github.com/ballerina-platform/ballerina-library/issues/7330)** Disabled tests due to the Jsondata module fixes
-
-Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
-
 **[#6987](https://github.com/ballerina-platform/ballerina-library/issues/6987)** Update the HTTP spec with the data binding annotations details 
 
 Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Docs`, `Area/Library`
-
-**[#5992](https://github.com/ballerina-platform/ballerina-library/issues/5992)** Need to implement `maxHeaderSize` validation in http2 client
-
-Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/http2`, `Area/Library`
 
 **[#5988](https://github.com/ballerina-platform/ballerina-library/issues/5988)** [HTTP] The HTTP status code error feature is missing in the spec
 
@@ -170,7 +174,7 @@ Labels: `Priority/High`, `Type/Task`, `module/io`, `module/cache`, `module/http`
 
 **[#4267](https://github.com/ballerina-platform/ballerina-library/issues/4267)** [HTTP] Update module spec with the new error structure
 
-Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
+Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Docs`, `Area/Library`
 
 **[#4222](https://github.com/ballerina-platform/ballerina-library/issues/4222)** ssl_wellknown_cert_test.bal fails intermittently
 
@@ -180,27 +184,11 @@ Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
 
 Labels: `Points/1`, `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
 
-**[#2886](https://github.com/ballerina-platform/ballerina-library/issues/2886)** Issue when sending a curl request to the WebSocket service
-
-Labels: `Priority/High`, `Type/Task`, `module/http`, `module/websocket`, `Area/Library`
-
-**[#2715](https://github.com/ballerina-platform/ballerina-library/issues/2715)** Accessing compile-time generated service metadata at listener init phase
-
-Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
-
-**[#2420](https://github.com/ballerina-platform/ballerina-library/issues/2420)** Maintain the consistent of generated OpenAPI specification with  Ballerina to OAS CLI command and OpenAPI built-in plugin
-
-Labels: `Priority/High`, `Type/Task`, `module/http`, `Area/CompilerPlugin`, `Area/Library`
-
 ### 🚀 NewFeature
 
-**[#7460](https://github.com/ballerina-platform/ballerina-library/issues/7460)** Allow configuring TCP Keep-Alive related properties in the Ballerina HTTP Client
+**[#5992](https://github.com/ballerina-platform/ballerina-library/issues/5992)** Need to implement `maxHeaderSize` validation in http2 client
 
-Labels: `Priority/High`, `Type/NewFeature`, `module/http`, `Area/Library`
-
-**[#6547](https://github.com/ballerina-platform/ballerina-library/issues/6547)** Add HTTP compression support for `brotli` format
-
-Labels: `Points/3`, `Priority/High`, `Type/NewFeature`, `module/http`, `Area/Library`
+Labels: `Priority/High`, `Type/NewFeature`, `module/http`, `Area/http2`, `Area/Library`
 
 **[#897](https://github.com/ballerina-platform/ballerina-library/issues/897)** Add 417,406 validation to @http:Payload annotation
 
@@ -235,6 +223,10 @@ Labels: `Type/Bug`, `module/http`, `Priority/Normal`, `Area/Library`
 ### ✨ Improvement
 
 **[#5795](https://github.com/ballerina-platform/ballerina-library/issues/5795)** Make ballerina access logs customiziable
+
+Labels: `Type/Improvement`, `module/http`, `Priority/Normal`, `Area/Library`
+
+**[#4160](https://github.com/ballerina-platform/ballerina-library/issues/4160)** [HTTP] Incorrect Error handling in the native code
 
 Labels: `Type/Improvement`, `module/http`, `Priority/Normal`, `Area/Library`
 
@@ -310,10 +302,6 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
 Labels: `Priority/Low`, `Type/Improvement`, `good first issue`, `module/http`, `Area/BBEs`, `Hacktoberfest`, `Area/Library`
 
-**[#6110](https://github.com/ballerina-platform/ballerina-library/issues/6110)** [WIP] Review the `nil` return from interceptors via `RequestContext:next()`
-
-Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
-
 **[#6032](https://github.com/ballerina-platform/ballerina-library/issues/6032)** Requesting CSRF token from server for http requests
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
@@ -360,7 +348,7 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
 **[#3801](https://github.com/ballerina-platform/ballerina-library/issues/3801)** No status code constants for redirects 
 
-Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
+Labels: `Priority/Low`, `Type/Improvement`, `good first issue`, `module/http`, `Area/Library`
 
 **[#3782](https://github.com/ballerina-platform/ballerina-library/issues/3782)** Improve file upload support
 
@@ -368,13 +356,9 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
 **[#3741](https://github.com/ballerina-platform/ballerina-library/issues/3741)** Provide a convenient way to hide the internal error details from http resource end users
 
-Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
+Labels: `Priority/Low`, `Type/Improvement`, `good first issue`, `module/http`, `Area/Library`
 
 **[#3321](https://github.com/ballerina-platform/ballerina-library/issues/3321)** Let HEAD requests to dispatch to the GET resources
-
-Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
-
-**[#3301](https://github.com/ballerina-platform/ballerina-library/issues/3301)** Add section for HTTP dispatching and describe the accessor behavour as well
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
@@ -398,13 +382,13 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
-**[#2760](https://github.com/ballerina-platform/ballerina-library/issues/2760)** Need code action to generate HTTP status codes
-
-Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
-
 **[#2753](https://github.com/ballerina-platform/ballerina-library/issues/2753)** Programmatically adding (HATEOAS) links to responses
 
 Labels: `Points/5`, `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
+
+**[#2715](https://github.com/ballerina-platform/ballerina-library/issues/2715)** Accessing compile-time generated service metadata at listener init phase
+
+Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
 **[#2681](https://github.com/ballerina-platform/ballerina-library/issues/2681)** Need a way to programmatically set interceptors  
 
@@ -438,13 +422,9 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
 Labels: `Points/2`, `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
-**[#1791](https://github.com/ballerina-platform/ballerina-library/issues/1791)** Improve client pool configuration
-
-Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
-
 **[#1754](https://github.com/ballerina-platform/ballerina-library/issues/1754)** Provide compile error in the absence of `/` as leading char in the basePath string literal
 
-Labels: `Points/2`, `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
+Labels: `Points/2`, `Priority/Low`, `Type/Improvement`, `good first issue`, `module/http`, `Area/Library`
 
 **[#1721](https://github.com/ballerina-platform/ballerina-library/issues/1721)** Conditional request support
 
@@ -494,10 +474,6 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
-**[#341](https://github.com/ballerina-platform/ballerina-library/issues/341)** [HTTP] Populate default values when annotation is not initialized
-
-Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
-
 **[#508](https://github.com/ballerina-platform/ballerina-library/issues/508)** can HTTP request path binding support an optional type?
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
@@ -526,10 +502,6 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
-**[#353](https://github.com/ballerina-platform/ballerina-library/issues/353)** [HTTP] Improve Piplelining implementation with proper abstraction  
-
-Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
-
 **[#356](https://github.com/ballerina-platform/ballerina-library/issues/356)** [HTTP][Caching] Add heuristic freshness calculation mechanism
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
@@ -552,9 +524,9 @@ Labels: `Priority/Low`, `Type/Task`, `good first issue`, `module/http`, `Area/Li
 
 Labels: `Priority/Low`, `Type/Task`, `module/http`, `Area/Library`
 
-**[#4777](https://github.com/ballerina-platform/ballerina-library/issues/4777)** Create Ballerina version of PetClinic
+**[#4777](https://github.com/ballerina-platform/ballerina-library/issues/4777)** Create HTTP PetClinic Ballerina Application
 
-Labels: `Priority/Low`, `Type/Task`, `good first issue`, `module/http`, `module/graphql`, `module/persist`, `Hacktoberfest`, `Credits/45`, `Area/Library`
+Labels: `Priority/Low`, `Type/Task`, `good first issue`, `module/http`, `module/persist`, `Hacktoberfest`, `Credits/45`, `Area/Library`
 
 **[#4245](https://github.com/ballerina-platform/ballerina-library/issues/4245)** [HTTP] Remove `NetworkAuthorizationRequired` record
 
@@ -577,4 +549,18 @@ Labels: `Priority/Low`, `Type/NewFeature`, `module/http`, `Area/Security`, `Area
 **[#496](https://github.com/ballerina-platform/ballerina-library/issues/496)** [HTTP/2] Introduce a config for both the HTTP/2 client and server to define SETTINGS_MAX_CONCURRENT_STREAMS
 
 Labels: `Priority/Low`, `Type/NewFeature`, `module/http`, `Area/Library`
+
+### 📚 Docs
+
+**[#3301](https://github.com/ballerina-platform/ballerina-library/issues/3301)** Add section for HTTP dispatching and describe the accessor behavour as well
+
+Labels: `Priority/Low`, `Type/Docs`, `module/http`, `Area/Library`
+
+## ⚪ Priority: None
+
+### 📋 Task
+
+**[#8383](https://github.com/ballerina-platform/ballerina-library/issues/8383)** Create Ballerina version of PetClinic applications
+
+Labels: `Type/Task`, `module/http`, `module/graphql`, `module/persist`, `Area/Library`
 

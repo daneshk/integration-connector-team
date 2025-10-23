@@ -1,22 +1,18 @@
 # Area/Library - module/crypto
 
-**Total Issues:** 10
+**Total Issues:** 9
 
 ## 📊 Issue Types
 
 - ✨ **Improvement:** 4
 - 🚀 **NewFeature:** 2
-- 📋 **Task:** 4
+- 📋 **Task:** 3
 
 ---
 
 ## 🔴 Priority: Highest
 
 ### 📋 Task
-
-**[#8342](https://github.com/ballerina-platform/ballerina-library/issues/8342)** Review static code rule implementations
-
-Labels: `Priority/Highest`, `Type/Task`, `module/crypto`, `module/http`, `Area/Library`, `Area/StaticCode`
 
 **[#4212](https://github.com/ballerina-platform/ballerina-library/issues/4212)** Make Crypto module FIPS compliant
 

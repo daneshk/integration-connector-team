@@ -1,27 +1,15 @@
 # Area/Library - module/log
 
-**Total Issues:** 6
+**Total Issues:** 4
 
 ## 📊 Issue Types
 
-- 🐛 **Bug:** 3
+- 🐛 **Bug:** 1
 - ✨ **Improvement:** 1
 - 🚀 **NewFeature:** 1
 - 📋 **Task:** 1
 
 ---
-
-## 🟠 Priority: High
-
-### 🐛 Bug
-
-**[#8232](https://github.com/ballerina-platform/ballerina-library/issues/8232)** When logging, the message gets lost if there is another message in KeyValue
-
-Labels: `Priority/High`, `Type/Bug`, `good first issue`, `module/log`, `Hacktoberfest`, `Area/Library`
-
-**[#7728](https://github.com/ballerina-platform/ballerina-library/issues/7728)** [Log] when pass `time` as a key for KeyValue pair, it replaces the logged time with context value.
-
-Labels: `Priority/High`, `Type/Bug`, `good first issue`, `module/log`, `Hacktoberfest`, `Area/Library`
 
 ## 🟡 Priority: Normal
 

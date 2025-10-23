@@ -39,7 +39,7 @@ Labels: `Priority/High`, `Type/Task`, `Area/Tooling`, `module/persist-tools`, `j
 
 **[#6337](https://github.com/ballerina-platform/ballerina-library/issues/6337)** Improve the logic in cache of the persist code generation 
 
-Labels: `Priority/High`, `Type/Task`, `good first issue`, `Area/Tooling`, `module/persist-tools`
+Labels: `Priority/High`, `Type/Task`, `good first issue`, `Area/Tooling`, `Hacktoberfest`, `module/persist-tools`
 
 ## 🟡 Priority: Normal
 

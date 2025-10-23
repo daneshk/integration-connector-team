@@ -1,10 +1,10 @@
 # Area/Tooling - module/openapi-tools
 
-**Total Issues:** 50
+**Total Issues:** 51
 
 ## 📊 Issue Types
 
-- 🐛 **Bug:** 8
+- 🐛 **Bug:** 9
 - ✨ **Improvement:** 29
 - 🚀 **NewFeature:** 1
 - 📋 **Task:** 12
@@ -14,6 +14,10 @@
 ## 🟠 Priority: High
 
 ### 🐛 Bug
+
+**[#8387](https://github.com/ballerina-platform/ballerina-library/issues/8387)** Duplicate Parameter Name Generation in Types
+
+Labels: `Priority/High`, `Type/Bug`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
 **[#8217](https://github.com/ballerina-platform/ballerina-library/issues/8217)** Unaligned type name with spaces
 

@@ -5,7 +5,7 @@
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 1
-- 📋 **Task:** 1
+- ✨ **Improvement:** 1
 
 ---
 
@@ -19,9 +19,9 @@ Labels: `Priority/High`, `Type/Bug`, `module/All`, `Area/Connector`, `connectors
 
 ## 🟡 Priority: Normal
 
-### 📋 Task
+### ✨ Improvement
 
 **[#5017](https://github.com/ballerina-platform/ballerina-library/issues/5017)** [Improvement]: Regenerate connectors containing arrays with `maxItems` count
 
-Labels: `Type/Task`, `module/All`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`
+Labels: `Type/Improvement`, `module/All`, `Area/Connector`, `connectors/openapi`, `Priority/Normal`
 

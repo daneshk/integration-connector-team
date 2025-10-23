@@ -1,10 +1,10 @@
 # Area/Library - module/sql
 
-**Total Issues:** 18
+**Total Issues:** 17
 
 ## 📊 Issue Types
 
-- 🐛 **Bug:** 7
+- 🐛 **Bug:** 6
 - 📚 **Docs:** 1
 - ✨ **Improvement:** 9
 - 📋 **Task:** 1
@@ -12,6 +12,16 @@
 ---
 
 ## 🔴 Priority: Highest
+
+### 🐛 Bug
+
+**[#5097](https://github.com/ballerina-platform/ballerina-library/issues/5097)** [Bug]: Unable use map<anydata> instead of record {} 
+
+Labels: `Priority/Highest`, `Type/Bug`, `module/sql`, `Area/Library`
+
+**[#4081](https://github.com/ballerina-platform/ballerina-library/issues/4081)** [Persist] `time:Utc` type values mismatch on retrieval
+
+Labels: `Priority/Highest`, `Type/Bug`, `module/sql`, `module/persist`, `Area/Library`
 
 ### ✨ Improvement
 
@@ -27,10 +37,6 @@ Labels: `Priority/Highest`, `Type/Improvement`, `module/sql`, `Area/Library`
 
 Labels: `Priority/High`, `Type/Bug`, `module/sql`, `Area/GraalVM`, `Area/Library`
 
-**[#5097](https://github.com/ballerina-platform/ballerina-library/issues/5097)** [Bug]: Unable use map<anydata> instead of record {} 
-
-Labels: `Priority/High`, `Type/Bug`, `module/sql`, `Area/Library`
-
 **[#4427](https://github.com/ballerina-platform/ballerina-library/issues/4427)** Remove `io.ballerina.runtime.internal` imports in standard libraries
 
 Labels: `Priority/High`, `Type/Bug`, `module/sql`, `Area/Library`
@@ -38,14 +44,6 @@ Labels: `Priority/High`, `Type/Bug`, `module/sql`, `Area/Library`
 **[#4283](https://github.com/ballerina-platform/ballerina-library/issues/4283)** Intersection Types Cannot Be Used to Database Operations
 
 Labels: `Priority/High`, `Type/Bug`, `module/sql`, `Area/Library`
-
-**[#4273](https://github.com/ballerina-platform/ballerina-library/issues/4273)** Program crashes with NPE
-
-Labels: `Priority/High`, `Type/Bug`, `module/sql`, `Area/Library`
-
-**[#4081](https://github.com/ballerina-platform/ballerina-library/issues/4081)** [Persist] `time:Utc` type values mismatch on retrieval
-
-Labels: `Priority/High`, `Type/Bug`, `module/sql`, `module/persist`, `Area/Library`
 
 **[#2056](https://github.com/ballerina-platform/ballerina-library/issues/2056)** Spec Deviation in sql:ParameterizedQuery and sql:ParameterizedCallQuery
 
