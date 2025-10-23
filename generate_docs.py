@@ -163,6 +163,76 @@ def format_priority_cell_with_breakdown(issues, priority_type):
 
     return f'{indicator} **{total}**<br/><sub>{breakdown}</sub>'
 
+def generate_priority_page(issues, priority_name, priority_dir):
+    """Generate a page for priority issues grouped by module"""
+    from collections import defaultdict
+
+    # Group issues by area and module
+    grouped = defaultdict(lambda: defaultdict(list))
+
+    for issue in issues:
+        area_key = issue['area']
+        if issue['category']:
+            area_key = f"{issue['area']}/{issue['category']}"
+        module_key = issue['module']
+        grouped[area_key][module_key].append(issue)
+
+    # Type emojis
+    type_emojis = {
+        'Bug': '🐛',
+        'Improvement': '✨',
+        'Task': '📋',
+        'NewFeature': '🚀',
+        'Docs': '📚',
+        'Proposal': '💡',
+        'Unknown': '❓'
+    }
+
+    # Priority emojis
+    priority_emojis = {
+        'Highest': '🔴',
+        'High': '🟠'
+    }
+
+    content = f"# {priority_emojis.get(priority_name, '')} {priority_name} Priority Issues\n\n"
+    content += f"**Total Issues:** {len(issues)}\n\n"
+
+    # Define area order
+    area_order = ['Area/Library', 'Area/Connector/Handwritten Connectors', 'Area/Connector/Generated Connectors', 'Area/Tooling']
+
+    for area in area_order:
+        if area not in grouped:
+            continue
+
+        content += f"## {area}\n\n"
+
+        # Sort modules by number of issues (descending)
+        sorted_modules = sorted(grouped[area].keys(), key=lambda m: len(grouped[area][m]), reverse=True)
+
+        for module in sorted_modules:
+            module_issues = grouped[area][module]
+            content += f"### 📦 {module} ({len(module_issues)} issues)\n\n"
+
+            # Group by type
+            by_type = defaultdict(list)
+            for issue in module_issues:
+                issue_type = issue.get('type', 'Unknown')
+                by_type[issue_type].append(issue)
+
+            # Output issues grouped by type
+            for issue_type in sorted(by_type.keys()):
+                type_emoji = type_emojis.get(issue_type, '❓')
+                content += f"#### {type_emoji} {issue_type}\n\n"
+
+                for issue in by_type[issue_type]:
+                    content += f"- **[#{issue['number']}]({issue['url']})** {issue['title']}\n"
+
+                content += "\n"
+
+    filepath = priority_dir / f"{priority_name.upper().replace(' ', '_')}_PRIORITY.md"
+    with open(filepath, 'w') as f:
+        f.write(content)
+
 def generate_readme(organized, module_files):
     """Generate README with summary and links"""
     from datetime import datetime
@@ -184,9 +254,9 @@ def generate_readme(organized, module_files):
     readme += f"## Overall Summary\n\n"
     readme += f"**Total Issues Across All Areas:** {total_issues}\n\n"
 
-    # Collect all Highest and High priority issues
-    high_priority_issues = []
-    highest_priority_issues = []
+    # Count priority issues
+    highest_count = 0
+    high_count = 0
 
     for area in organized:
         if area == 'Area/Connector':
@@ -194,73 +264,27 @@ def generate_readme(organized, module_files):
                 for module in organized[area][category]:
                     for issue in organized[area][category][module]:
                         if issue['priority'] == 'Highest':
-                            issue['area'] = area
-                            issue['category'] = category
-                            issue['module'] = module
-                            highest_priority_issues.append(issue)
+                            highest_count += 1
                         elif issue['priority'] == 'High':
-                            issue['area'] = area
-                            issue['category'] = category
-                            issue['module'] = module
-                            high_priority_issues.append(issue)
+                            high_count += 1
         else:
             for module in organized[area]:
                 for issue in organized[area][module]:
                     if issue['priority'] == 'Highest':
-                        issue['area'] = area
-                        issue['category'] = None
-                        issue['module'] = module
-                        highest_priority_issues.append(issue)
+                        highest_count += 1
                     elif issue['priority'] == 'High':
-                        issue['area'] = area
-                        issue['category'] = None
-                        issue['module'] = module
-                        high_priority_issues.append(issue)
+                        high_count += 1
 
-    # Type emojis for the priority sections
-    type_emojis = {
-        'Bug': '🐛',
-        'Improvement': '✨',
-        'Task': '📋',
-        'NewFeature': '🚀',
-        'Docs': '📚',
-        'Proposal': '💡',
-        'Unknown': '❓'
-    }
-
-    # Add Highest Priority Issues section
-    if highest_priority_issues:
-        readme += f"## 🔴 Highest Priority Issues ({len(highest_priority_issues)})\n\n"
+    # Generate priority issues pages links
+    if highest_count > 0:
+        readme += f"## 🔴 Highest Priority Issues ({highest_count})\n\n"
         readme += "Critical issues that require immediate attention.\n\n"
+        readme += f"[View all Highest Priority Issues →](priority/HIGHEST_PRIORITY.md)\n\n"
 
-        for issue in highest_priority_issues:
-            issue_type = issue.get('type', 'Unknown')
-            type_emoji = type_emojis.get(issue_type, '❓')
-
-            if issue['category']:
-                module_path = f"{issue['area']}/{issue['category']}"
-            else:
-                module_path = issue['area']
-
-            readme += f"- {type_emoji} **[#{issue['number']}]({issue['url']})** {issue['title']}\n"
-            readme += f"  - 📍 Module: `{issue['module']}` ({module_path})\n\n"
-
-    # Add High Priority Issues section
-    if high_priority_issues:
-        readme += f"## 🟠 High Priority Issues ({len(high_priority_issues)})\n\n"
+    if high_count > 0:
+        readme += f"## 🟠 High Priority Issues ({high_count})\n\n"
         readme += "Important issues that should be addressed soon.\n\n"
-
-        for issue in high_priority_issues:
-            issue_type = issue.get('type', 'Unknown')
-            type_emoji = type_emojis.get(issue_type, '❓')
-
-            if issue['category']:
-                module_path = f"{issue['area']}/{issue['category']}"
-            else:
-                module_path = issue['area']
-
-            readme += f"- {type_emoji} **[#{issue['number']}]({issue['url']})** {issue['title']}\n"
-            readme += f"  - 📍 Module: `{issue['module']}` ({module_path})\n\n"
+        readme += f"[View all High Priority Issues →](priority/HIGH_PRIORITY.md)\n\n"
 
     readme += "---\n\n"
 
@@ -396,13 +420,59 @@ def main():
     with open('organized_issues.json', 'r') as f:
         organized = json.load(f)
 
-    # Create issues directory
+    # Create issues and priority directories
     issues_dir = Path('issues')
     issues_dir.mkdir(exist_ok=True)
 
+    priority_dir = Path('priority')
+    priority_dir.mkdir(exist_ok=True)
+
+    # Collect all Highest and High priority issues
+    high_priority_issues = []
+    highest_priority_issues = []
+
+    for area in organized:
+        if area == 'Area/Connector':
+            for category in organized[area]:
+                for module in organized[area][category]:
+                    for issue in organized[area][category][module]:
+                        if issue['priority'] == 'Highest':
+                            issue['area'] = area
+                            issue['category'] = category
+                            issue['module'] = module
+                            highest_priority_issues.append(issue)
+                        elif issue['priority'] == 'High':
+                            issue['area'] = area
+                            issue['category'] = category
+                            issue['module'] = module
+                            high_priority_issues.append(issue)
+        else:
+            for module in organized[area]:
+                for issue in organized[area][module]:
+                    if issue['priority'] == 'Highest':
+                        issue['area'] = area
+                        issue['category'] = None
+                        issue['module'] = module
+                        highest_priority_issues.append(issue)
+                    elif issue['priority'] == 'High':
+                        issue['area'] = area
+                        issue['category'] = None
+                        issue['module'] = module
+                        high_priority_issues.append(issue)
+
+    # Generate priority pages
+    print("Generating priority pages...")
+    if highest_priority_issues:
+        generate_priority_page(highest_priority_issues, "Highest", priority_dir)
+        print(f"  Created HIGHEST_PRIORITY.md ({len(highest_priority_issues)} issues)")
+
+    if high_priority_issues:
+        generate_priority_page(high_priority_issues, "High", priority_dir)
+        print(f"  Created HIGH_PRIORITY.md ({len(high_priority_issues)} issues)")
+
     # Generate module pages
     module_files = {}
-    print("Generating module pages...")
+    print("\nGenerating module pages...")
     for area in organized:
         if area == 'Area/Connector':
             module_files[area] = {}
@@ -429,7 +499,9 @@ def main():
         f.write(readme_content)
 
     print("README.md updated successfully")
-    print(f"\nTotal files created: {len([f for files in module_files.values() for f in files.values()])} module pages + 1 README")
+    priority_count = len([f for f in priority_dir.iterdir() if f.is_file()])
+    module_count = len([f for files in module_files.values() for f in (files.values() if isinstance(files, dict) and all(isinstance(v, str) for v in files.values()) else [])])
+    print(f"\nTotal files created: {priority_count} priority pages + {module_count} module pages + 1 README")
 
 if __name__ == '__main__':
     main()
