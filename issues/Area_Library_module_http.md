@@ -1,12 +1,12 @@
 # Area/Library - module/http
 
-**Total Issues:** 127
+**Total Issues:** 126
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 29
 - 📚 **Docs:** 3
-- ✨ **Improvement:** 70
+- ✨ **Improvement:** 69
 - 🚀 **NewFeature:** 8
 - 📋 **Task:** 17
 
@@ -18,7 +18,7 @@
 
 **[#5799](https://github.com/ballerina-platform/ballerina-library/issues/5799)** [HTTP Client] Support for resolving round-robin DNS
 
-Labels: `Priority/Highest`, `Type/Improvement`, `module/http`, `Area/Client`, `Area/Library`
+Labels: `Priority/Highest`, `Type/Improvement`, `module/http`, `Area/Library`
 
 **[#4329](https://github.com/ballerina-platform/ballerina-library/issues/4329)** Interceptor support for client side
 
@@ -78,7 +78,7 @@ Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
 
 **[#6663](https://github.com/ballerina-platform/ballerina-library/issues/6663)** h2-h2 load test with h1 client hanging after sometime
 
-Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/http2`, `Area/Library`
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
 
 **[#5962](https://github.com/ballerina-platform/ballerina-library/issues/5962)** HTTP compiler failed when we have a default value for payload parameter
 
@@ -98,7 +98,7 @@ Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
 
 **[#4461](https://github.com/ballerina-platform/ballerina-library/issues/4461)** Enable testHttp2InvalidHeaderLength testcase.
 
-Labels: `Priority/High`, `Type/Bug`, `module/http`, `Reason/Complex`, `Area/http2`, `Area/Library`
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `Reason/Complex`, `Area/Library`
 
 **[#4671](https://github.com/ballerina-platform/ballerina-library/issues/4671)** [Bug] Reading a byte stream from a backend hangs in the passthrough
 
@@ -114,7 +114,7 @@ Labels: `Priority/High`, `Type/Bug`, `module/http`, `Reason/EngineeringMistake`,
 
 **[#3138](https://github.com/ballerina-platform/ballerina-library/issues/3138)** H2ConnectionPoolWithPriorKnowledge intermittent test failure
 
-Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/http2`, `Area/Library`
+Labels: `Priority/High`, `Type/Bug`, `module/http`, `Area/Library`
 
 **[#2886](https://github.com/ballerina-platform/ballerina-library/issues/2886)** Issue when sending a curl request to the WebSocket service
 
@@ -188,7 +188,7 @@ Labels: `Points/1`, `Priority/High`, `Type/Task`, `module/http`, `Area/Library`
 
 **[#5992](https://github.com/ballerina-platform/ballerina-library/issues/5992)** Need to implement `maxHeaderSize` validation in http2 client
 
-Labels: `Priority/High`, `Type/NewFeature`, `module/http`, `Area/http2`, `Area/Library`
+Labels: `Priority/High`, `Type/NewFeature`, `module/http`, `Area/Library`
 
 **[#897](https://github.com/ballerina-platform/ballerina-library/issues/897)** Add 417,406 validation to @http:Payload annotation
 
@@ -300,7 +300,7 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
 **[#6315](https://github.com/ballerina-platform/ballerina-library/issues/6315)** Can we be more specific about which certificates/keys needs to be used in the mutual SSL example?
 
-Labels: `Priority/Low`, `Type/Improvement`, `good first issue`, `module/http`, `Area/BBEs`, `Hacktoberfest`, `Area/Library`
+Labels: `Priority/Low`, `Type/Improvement`, `good first issue`, `module/http`, `Hacktoberfest`, `Area/Library`
 
 **[#6032](https://github.com/ballerina-platform/ballerina-library/issues/6032)** Requesting CSRF token from server for http requests
 
@@ -325,10 +325,6 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 **[#4678](https://github.com/ballerina-platform/ballerina-library/issues/4678)** `Something wrong with Connection` when using --static 
 
 Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/GraalVM`, `Area/Library`
-
-**[#4579](https://github.com/ballerina-platform/ballerina-library/issues/4579)** Need to Access Host and Port from the Listener
-
-Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
 **[#4276](https://github.com/ballerina-platform/ballerina-library/issues/4276)** Add support to retrieve URL pattern from Request Context
 
@@ -484,7 +480,7 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
 **[#487](https://github.com/ballerina-platform/ballerina-library/issues/487)** Implement http/2 header compresison
 
-Labels: `Points/3`, `Priority/Low`, `Type/Improvement`, `module/http`, `Area/http2`, `Area/Library`
+Labels: `Points/3`, `Priority/Low`, `Type/Improvement`, `module/http`, `Area/Library`
 
 **[#520](https://github.com/ballerina-platform/ballerina-library/issues/520)** Forward action in HTTP must ignore 100-Continue scenario 
 

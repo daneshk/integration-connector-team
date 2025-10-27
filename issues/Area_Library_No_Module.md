@@ -1,17 +1,24 @@
 # Area/Library - No Module
 
-**Total Issues:** 11
+**Total Issues:** 13
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 1
-- ✨ **Improvement:** 4
+- ✨ **Improvement:** 5
 - 🚀 **NewFeature:** 5
+- 📋 **Task:** 1
 - ❓ **Unknown:** 1
 
 ---
 
 ## 🟠 Priority: High
+
+### ✨ Improvement
+
+**[#8397](https://github.com/ballerina-platform/ballerina-library/issues/8397)** Auto-sync packages across Central environments
+
+Labels: `Priority/High`, `Type/Improvement`, `Area/Library`
 
 ### 🚀 NewFeature
 
@@ -74,4 +81,12 @@ Labels: `Priority/Low`, `Type/NewFeature`, `Area/Library`
 **[#4069](https://github.com/ballerina-platform/ballerina-library/issues/4069)** Ballerina should have the functionality for data compression
 
 Labels: `Priority/Low`, `Type/NewFeature`, `Area/Library`
+
+## ⚪ Priority: None
+
+### 📋 Task
+
+**[#8396](https://github.com/ballerina-platform/ballerina-library/issues/8396)** U13 Performance Tests
+
+Labels: `Type/Task`, `Area/Library`
 

@@ -1,22 +1,18 @@
 # Area/Connector/Handwritten Connectors - module/All
 
-**Total Issues:** 10
+**Total Issues:** 9
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 2
 - ✨ **Improvement:** 2
-- 📋 **Task:** 6
+- 📋 **Task:** 5
 
 ---
 
 ## 🔴 Priority: Highest
 
 ### 📋 Task
-
-**[#8312](https://github.com/ballerina-platform/ballerina-library/issues/8312)** Prioritize Library and Connector current issues
-
-Labels: `Priority/Highest`, `Type/Task`, `module/All`, `Area/Connector`, `Area/Library`
 
 **[#7816](https://github.com/ballerina-platform/ballerina-library/issues/7816)** Finalize the Ballerina Connectors release progress with breaking changes
 

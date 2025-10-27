@@ -1,6 +1,6 @@
 # 🔴 Highest Priority Issues
 
-**Total Issues:** 26
+**Total Issues:** 24
 
 ## Area/Library
 
@@ -60,12 +60,6 @@
 - **[#4762](https://github.com/ballerina-platform/ballerina-library/issues/4762)** [Bug]: gRPC runtime error with `readonly` parameter in isolated function
 - **[#3274](https://github.com/ballerina-platform/ballerina-library/issues/3274)** Client error is not received in server when `grpc:Caller` is used to send values inside the client stream
 
-### 📦 module/All (1 issues)
-
-#### 📋 Task
-
-- **[#8312](https://github.com/ballerina-platform/ballerina-library/issues/8312)** Prioritize Library and Connector current issues
-
 ### 📦 module/crypto (1 issues)
 
 #### 📋 Task
@@ -80,11 +74,10 @@
 
 ## Area/Connector/Handwritten Connectors
 
-### 📦 module/All (2 issues)
+### 📦 module/All (1 issues)
 
 #### 📋 Task
 
-- **[#8312](https://github.com/ballerina-platform/ballerina-library/issues/8312)** Prioritize Library and Connector current issues
 - **[#7816](https://github.com/ballerina-platform/ballerina-library/issues/7816)** Finalize the Ballerina Connectors release progress with breaking changes
 
 ### 📦 module/salesforce (1 issues)

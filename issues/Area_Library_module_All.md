@@ -1,23 +1,15 @@
 # Area/Library - module/All
 
-**Total Issues:** 12
+**Total Issues:** 11
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 1
 - ✨ **Improvement:** 2
 - 🚀 **NewFeature:** 1
-- 📋 **Task:** 8
+- 📋 **Task:** 7
 
 ---
-
-## 🔴 Priority: Highest
-
-### 📋 Task
-
-**[#8312](https://github.com/ballerina-platform/ballerina-library/issues/8312)** Prioritize Library and Connector current issues
-
-Labels: `Priority/Highest`, `Type/Task`, `module/All`, `Area/Connector`, `Area/Library`
 
 ## 🟠 Priority: High
 

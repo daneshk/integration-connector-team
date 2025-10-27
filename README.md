@@ -2,19 +2,19 @@
 
 This repository contains an organized breakdown of open issues from the [ballerina-library](https://github.com/ballerina-platform/ballerina-library) repository.
 
-**Last Updated:** 2025-10-23 17:20:29
+**Last Updated:** 2025-10-27 20:52:59
 
 ## Overall Summary
 
-**Total Issues Across All Areas:** 538
+**Total Issues Across All Areas:** 489
 
-## 🔴 Highest Priority Issues (26)
+## 🔴 Highest Priority Issues (24)
 
 Critical issues that require immediate attention.
 
 [View all Highest Priority Issues →](priority/HIGHEST_PRIORITY.md)
 
-## 🟠 High Priority Issues (163)
+## 🟠 High Priority Issues (164)
 
 Important issues that should be addressed soon.
 
@@ -24,49 +24,48 @@ Important issues that should be addressed soon.
 
 ## Area/Library
 
-**Total Issues:** 334
+**Total Issues:** 286
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
-| [module/http](issues/Area_Library_module_http.md) | 127 | 🔴 **7**<br/><sub>✨3 🚀2 📋2</sub> | 🟠 **36**<br/><sub>🐛19 📚2 ✨7 🚀2 📋6</sub> | 🟡 **9**<br/><sub>🐛3 ✨2 📋4</sub> | 🔵 **74**<br/><sub>🐛7 📚1 ✨58 🚀4 📋4</sub> | ⚪ **1**<br/><sub>📋1</sub> |
+| [module/http](issues/Area_Library_module_http.md) | 126 | 🔴 **7**<br/><sub>✨3 🚀2 📋2</sub> | 🟠 **36**<br/><sub>🐛19 📚2 ✨7 🚀2 📋6</sub> | 🟡 **9**<br/><sub>🐛3 ✨2 📋4</sub> | 🔵 **73**<br/><sub>🐛7 📚1 ✨57 🚀4 📋4</sub> | ⚪ **1**<br/><sub>📋1</sub> |
 | [module/persist](issues/Area_Library_module_persist.md) | 12 | 🔴 **5**<br/><sub>🐛3 ✨2</sub> | 🟠 **2**<br/><sub>🐛1 ✨1</sub> | 0 | 🔵 **4**<br/><sub>✨2 📋2</sub> | ⚪ **1**<br/><sub>📋1</sub> |
 | [module/sql](issues/Area_Library_module_sql.md) | 17 | 🔴 **3**<br/><sub>🐛2 ✨1</sub> | 🟠 **9**<br/><sub>🐛4 📚1 ✨3 📋1</sub> | 🟡 **1**<br/><sub>✨1</sub> | 🔵 **4**<br/><sub>✨4</sub> | 0 |
-| [module/grpc](issues/Area_Library_module_grpc.md) | 13 | 🔴 **2**<br/><sub>🐛2</sub> | 🟠 **5**<br/><sub>🐛2 ✨3</sub> | 🟡 **2**<br/><sub>🚀2</sub> | 🔵 **4**<br/><sub>✨2 🚀1 📋1</sub> | 0 |
+| [module/grpc](issues/Area_Library_module_grpc.md) | 12 | 🔴 **2**<br/><sub>🐛2</sub> | 🟠 **5**<br/><sub>🐛2 ✨3</sub> | 🟡 **2**<br/><sub>🚀2</sub> | 🔵 **3**<br/><sub>✨2 📋1</sub> | 0 |
 | [module/jwt](issues/Area_Library_module_jwt.md) | 3 | 🔴 **2**<br/><sub>✨2</sub> | 🟠 **1**<br/><sub>📋1</sub> | 0 | 0 | 0 |
-| [module/All](issues/Area_Library_module_All.md) | 12 | 🔴 **1**<br/><sub>📋1</sub> | 🟠 **4**<br/><sub>🐛1 ✨1 🚀1 📋1</sub> | 🟡 **2**<br/><sub>✨1 📋1</sub> | 🔵 **5**<br/><sub>📋5</sub> | 0 |
 | [module/crypto](issues/Area_Library_module_crypto.md) | 9 | 🔴 **1**<br/><sub>📋1</sub> | 🟠 **3**<br/><sub>✨2 🚀1</sub> | 0 | 🔵 **5**<br/><sub>✨2 🚀1 📋2</sub> | 0 |
 | [module/time](issues/Area_Library_module_time.md) | 2 | 🔴 **1**<br/><sub>✨1</sub> | 🟠 **1**<br/><sub>✨1</sub> | 0 | 0 | 0 |
+| [module/All](issues/Area_Library_module_All.md) | 11 | 0 | 🟠 **4**<br/><sub>🐛1 ✨1 🚀1 📋1</sub> | 🟡 **2**<br/><sub>✨1 📋1</sub> | 🔵 **5**<br/><sub>📋5</sub> | 0 |
 | [module/oauth2](issues/Area_Library_module_oauth2.md) | 9 | 0 | 🟠 **4**<br/><sub>🐛1 ✨1 🚀1 📋1</sub> | 🟡 **1**<br/><sub>🚀1</sub> | 🔵 **4**<br/><sub>🐛1 ✨3</sub> | 0 |
 | [module/task](issues/Area_Library_module_task.md) | 6 | 0 | 🟠 **4**<br/><sub>✨2 📋2</sub> | 🟡 **1**<br/><sub>🐛1</sub> | 🔵 **1**<br/><sub>✨1</sub> | 0 |
 | [module/io](issues/Area_Library_module_io.md) | 7 | 0 | 🟠 **4**<br/><sub>🐛3 📋1</sub> | 0 | 🔵 **3**<br/><sub>✨3</sub> | 0 |
 | [module/email](issues/Area_Library_module_email.md) | 3 | 0 | 🟠 **3**<br/><sub>🐛1 ✨2</sub> | 0 | 0 | 0 |
+| [No Module](issues/Area_Library_No_Module.md) | 13 | 0 | 🟠 **2**<br/><sub>✨1 🚀1</sub> | 🟡 **4**<br/><sub>✨1 🚀2 ❓1</sub> | 🔵 **6**<br/><sub>🐛1 ✨3 🚀2</sub> | ⚪ **1**<br/><sub>📋1</sub> |
 | [module/cache](issues/Area_Library_module_cache.md) | 3 | 0 | 🟠 **2**<br/><sub>✨1 📋1</sub> | 0 | 🔵 **1**<br/><sub>✨1</sub> | 0 |
-| [No Module](issues/Area_Library_No_Module.md) | 11 | 0 | 🟠 **1**<br/><sub>🚀1</sub> | 🟡 **4**<br/><sub>✨1 🚀2 ❓1</sub> | 🔵 **6**<br/><sub>🐛1 ✨3 🚀2</sub> | 0 |
 | [module/tcp](issues/Area_Library_module_tcp.md) | 4 | 0 | 🟠 **1**<br/><sub>🚀1</sub> | 🟡 **2**<br/><sub>✨2</sub> | 🔵 **1**<br/><sub>✨1</sub> | 0 |
 | [module/os](issues/Area_Library_module_os.md) | 3 | 0 | 🟠 **1**<br/><sub>🐛1</sub> | 🟡 **2**<br/><sub>✨1 🚀1</sub> | 0 | 0 |
 | [module/random](issues/Area_Library_module_random.md) | 3 | 0 | 🟠 **1**<br/><sub>✨1</sub> | 0 | 🔵 **2**<br/><sub>✨1 📋1</sub> | 0 |
-| [module/websocket](issues/Area_Library_module_websocket.md) | 3 | 0 | 🟠 **1**<br/><sub>🐛1</sub> | 0 | 🔵 **2**<br/><sub>✨1 🚀1</sub> | 0 |
 | [module/mime](issues/Area_Library_module_mime.md) | 2 | 0 | 🟠 **1**<br/><sub>🐛1</sub> | 0 | 🔵 **1**<br/><sub>✨1</sub> | 0 |
+| [module/websocket](issues/Area_Library_module_websocket.md) | 2 | 0 | 🟠 **1**<br/><sub>🐛1</sub> | 0 | 🔵 **1**<br/><sub>✨1</sub> | 0 |
 | [module/auth](issues/Area_Library_module_auth.md) | 1 | 0 | 🟠 **1**<br/><sub>📋1</sub> | 0 | 0 | 0 |
 | [module/constraint](issues/Area_Library_module_constraint.md) | 2 | 0 | 0 | 🟡 **2**<br/><sub>🐛1 ✨1</sub> | 0 | 0 |
 | [module/log](issues/Area_Library_module_log.md) | 4 | 0 | 0 | 🟡 **1**<br/><sub>🐛1</sub> | 🔵 **3**<br/><sub>✨1 🚀1 📋1</sub> | 0 |
 | [module/ldap](issues/Area_Library_module_ldap.md) | 1 | 0 | 0 | 🟡 **1**<br/><sub>🐛1</sub> | 0 | 0 |
 | [module/url](issues/Area_Library_module_url.md) | 1 | 0 | 0 | 🟡 **1**<br/><sub>✨1</sub> | 0 | 0 |
-| [module/graphql](issues/Area_Library_module_graphql.md) | 73 | 0 | 0 | 0 | 🔵 **2**<br/><sub>🚀1 📋1</sub> | ⚪ **71**<br/><sub>🐛9 ✨41 🚀11 📋10</sub> |
 | [module/udp](issues/Area_Library_module_udp.md) | 2 | 0 | 0 | 0 | 🔵 **2**<br/><sub>✨2</sub> | 0 |
-| [module/websubhub](issues/Area_Library_module_websubhub.md) | 1 | 0 | 0 | 0 | 🔵 **1**<br/><sub>🚀1</sub> | 0 |
+| [module/graphql](issues/Area_Library_module_graphql.md) | 28 | 0 | 0 | 0 | 🔵 **1**<br/><sub>📋1</sub> | ⚪ **27**<br/><sub>🐛9 ✨9 🚀4 📋5</sub> |
 
 ## Area/Connector
 
-**Total Issues:** 111
+**Total Issues:** 110
 
-### Handwritten Connectors (67 issues)
+### Handwritten Connectors (66 issues)
 
 | Module | Issues | Priority Highest | Priority High | Priority Normal | Priority Low | No Priority |
 |--------|--------|------------------|---------------|-----------------|--------------|-------------|
-| [module/All](issues/Area_Connector_Handwritten_Connectors_module_All.md) | 10 | 🔴 **2**<br/><sub>📋2</sub> | 🟠 **2**<br/><sub>🐛1 📋1</sub> | 🟡 **4**<br/><sub>🐛1 ✨2 📋1</sub> | 🔵 **2**<br/><sub>📋2</sub> | 0 |
 | [module/salesforce](issues/Area_Connector_Handwritten_Connectors_module_salesforce.md) | 11 | 🔴 **1**<br/><sub>📚1</sub> | 🟠 **6**<br/><sub>🐛2 📚1 ✨3</sub> | 🟡 **2**<br/><sub>✨2</sub> | 🔵 **2**<br/><sub>✨1 🚀1</sub> | 0 |
 | [module/mysql](issues/Area_Connector_Handwritten_Connectors_module_mysql.md) | 8 | 🔴 **1**<br/><sub>🐛1</sub> | 🟠 **6**<br/><sub>🐛3 ✨2 📋1</sub> | 🟡 **1**<br/><sub>✨1</sub> | 0 | 0 |
+| [module/All](issues/Area_Connector_Handwritten_Connectors_module_All.md) | 9 | 🔴 **1**<br/><sub>📋1</sub> | 🟠 **2**<br/><sub>🐛1 📋1</sub> | 🟡 **4**<br/><sub>🐛1 ✨2 📋1</sub> | 🔵 **2**<br/><sub>📋2</sub> | 0 |
 | [module/mongodb](issues/Area_Connector_Handwritten_Connectors_module_mongodb.md) | 4 | 0 | 🟠 **4**<br/><sub>🐛1 📚1 ✨2</sub> | 0 | 0 | 0 |
 | [module/postgresql](issues/Area_Connector_Handwritten_Connectors_module_postgresql.md) | 4 | 0 | 🟠 **4**<br/><sub>🐛3 ✨1</sub> | 0 | 0 | 0 |
 | [module/mssql](issues/Area_Connector_Handwritten_Connectors_module_mssql.md) | 3 | 0 | 🟠 **3**<br/><sub>🐛2 ✨1</sub> | 0 | 0 | 0 |
@@ -127,19 +126,19 @@ Important issues that should be addressed soon.
 ## Issue Distribution by Priority
 
 ### Area/Library
-- **Highest Priority:** 22
-- **High Priority:** 85
+- **Highest Priority:** 21
+- **High Priority:** 86
 - **Normal Priority:** 29
-- **Low Priority:** 125
-- **No Priority:** 73
-- **Total:** 334
+- **Low Priority:** 120
+- **No Priority:** 30
+- **Total:** 286
 
 ### Area/Connector
-- **Highest Priority:** 4
+- **Highest Priority:** 3
 - **High Priority:** 54
 - **Normal Priority:** 37
 - **Low Priority:** 16
-- **Total:** 111
+- **Total:** 110
 
 ### Area/Tooling
 - **High Priority:** 24
@@ -153,11 +152,11 @@ Important issues that should be addressed soon.
 ### Area/Library
 - **Bug:** 67
 - **Docs:** 4
-- **Improvement:** 171
-- **NewFeature:** 38
-- **Task:** 53
+- **Improvement:** 139
+- **NewFeature:** 27
+- **Task:** 48
 - **Unknown:** 1
-- **Total:** 334
+- **Total:** 286
 
 ### Area/Connector
 - **Bug:** 26
@@ -165,8 +164,8 @@ Important issues that should be addressed soon.
 - **Improvement:** 37
 - **NewFeature:** 24
 - **Proposal:** 2
-- **Task:** 19
-- **Total:** 111
+- **Task:** 18
+- **Total:** 110
 
 ### Area/Tooling
 - **Bug:** 19

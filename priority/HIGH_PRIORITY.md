@@ -1,6 +1,6 @@
 # 🟠 High Priority Issues
 
-**Total Issues:** 163
+**Total Issues:** 164
 
 ## Area/Library
 
@@ -175,6 +175,16 @@
 - **[#6470](https://github.com/ballerina-platform/ballerina-library/issues/6470)** [Improvement]:  Non-descriptive error message when SMTP connection fails
 - **[#1137](https://github.com/ballerina-platform/ballerina-library/issues/1137)** Email listener start reading old emails 
 
+### 📦 No Module (2 issues)
+
+#### ✨ Improvement
+
+- **[#8397](https://github.com/ballerina-platform/ballerina-library/issues/8397)** Auto-sync packages across Central environments
+
+#### 🚀 NewFeature
+
+- **[#7917](https://github.com/ballerina-platform/ballerina-library/issues/7917)** Create a ballerina module for working with PDFs
+
 ### 📦 module/persist (2 issues)
 
 #### 🐛 Bug
@@ -194,12 +204,6 @@
 #### 📋 Task
 
 - **[#4414](https://github.com/ballerina-platform/ballerina-library/issues/4414)** Error percentage has increased in the load-tests 
-
-### 📦 No Module (1 issues)
-
-#### 🚀 NewFeature
-
-- **[#7917](https://github.com/ballerina-platform/ballerina-library/issues/7917)** Create a ballerina module for working with PDFs
 
 ### 📦 module/random (1 issues)
 

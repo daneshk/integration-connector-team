@@ -61,11 +61,11 @@ Labels: `Priority/High`, `Type/Task`, `Area/Tooling`, `module/openapi-tools`
 
 **[#5127](https://github.com/ballerina-platform/ballerina-library/issues/5127)** OpenAPI to Ballerina Service spec writing
 
-Labels: `Priority/High`, `Type/Task`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`, `Area/Service`
+Labels: `Priority/High`, `Type/Task`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
 **[#5128](https://github.com/ballerina-platform/ballerina-library/issues/5128)** OpenAPI to Ballerina Client spec writing
 
-Labels: `Priority/High`, `Type/Task`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
+Labels: `Priority/High`, `Type/Task`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
 ## 🟡 Priority: Normal
 
@@ -95,7 +95,7 @@ Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/o
 
 **[#7347](https://github.com/ballerina-platform/ballerina-library/issues/7347)** Generate API doc for service type , service contract type
 
-Labels: `Type/Improvement`, `Area/Tooling`, `module/openapi-tools`, `Area/Service`, `Priority/Normal`
+Labels: `Type/Improvement`, `Area/Tooling`, `module/openapi-tools`, `Priority/Normal`
 
 **[#7336](https://github.com/ballerina-platform/ballerina-library/issues/7336)** OpenAPI related annotations should not be allowed in the services which are implemented via the service contract type
 
@@ -115,15 +115,15 @@ Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/o
 
 **[#5141](https://github.com/ballerina-platform/ballerina-library/issues/5141)** Missing period characters in generated ballerina documentation descriptions
 
-Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`, `Priority/Normal`
+Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`, `Priority/Normal`
 
 **[#5166](https://github.com/ballerina-platform/ballerina-library/issues/5166)** Check `required` flag in request body generation 
 
-Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`, `Priority/Normal`
+Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`, `Priority/Normal`
 
 **[#5172](https://github.com/ballerina-platform/ballerina-library/issues/5172)** The properties in schemas marked as readOnly are not generated in the client
 
-Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`, `Priority/Normal`
+Labels: `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`, `Priority/Normal`
 
 ### 📋 Task
 
@@ -159,15 +159,15 @@ Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/BallerinaToOpe
 
 **[#5888](https://github.com/ballerina-platform/ballerina-library/issues/5888)** Provide trailing slash support for client generation
 
-Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/Client`, `module/openapi-tools`
+Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `module/openapi-tools`
 
 **[#5713](https://github.com/ballerina-platform/ballerina-library/issues/5713)** Provide path parameter serialization to ballerina client generations  
 
-Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
+Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
 **[#5077](https://github.com/ballerina-platform/ballerina-library/issues/5077)** Getting an error when  `get` operation has request body
 
-Labels: `Priority/Low`, `Type/Improvement`, `Team/PCM`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
+Labels: `Priority/Low`, `Type/Improvement`, `Team/PCM`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
 **[#5056](https://github.com/ballerina-platform/ballerina-library/issues/5056)** Improve client generation to support initialisation parameters
 
@@ -183,7 +183,7 @@ Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/BallerinaToOpe
 
 **[#5146](https://github.com/ballerina-platform/ballerina-library/issues/5146)** Support `type: string, format: base64` sccenario in File Upload
 
-Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
+Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
 **[#5150](https://github.com/ballerina-platform/ballerina-library/issues/5150)** `time:Date` is not properly captured in OpenAPI schema
 
@@ -199,15 +199,15 @@ Labels: `Points/2`, `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Reason/
 
 **[#4873](https://github.com/ballerina-platform/ballerina-library/issues/4873)** Select most suitable MIME type response when there multiple MIME types
 
-Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
+Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
 **[#4871](https://github.com/ballerina-platform/ballerina-library/issues/4871)** Unable to generate code for path reference
 
-Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `Area/Client`, `module/openapi-tools`
+Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
 **[#5173](https://github.com/ballerina-platform/ballerina-library/issues/5173)** Handle deprecate operation in service generation
 
-Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Reason/Other`, `Area/OpenapiToBallerina`, `module/openapi-tools`, `Area/Service`
+Labels: `Priority/Low`, `Type/Improvement`, `Area/Tooling`, `Reason/Other`, `Area/OpenapiToBallerina`, `module/openapi-tools`
 
 ### 📋 Task
 

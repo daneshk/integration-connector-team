@@ -1,12 +1,12 @@
 # Area/Library - module/grpc
 
-**Total Issues:** 13
+**Total Issues:** 12
 
 ## 📊 Issue Types
 
 - 🐛 **Bug:** 4
 - ✨ **Improvement:** 5
-- 🚀 **NewFeature:** 3
+- 🚀 **NewFeature:** 2
 - 📋 **Task:** 1
 
 ---
@@ -78,10 +78,4 @@ Labels: `Priority/Low`, `Type/Improvement`, `module/grpc`, `IceBox`, `Area/Libra
 **[#5832](https://github.com/ballerina-platform/ballerina-library/issues/5832)** Support multiple cert key pair in a keystore
 
 Labels: `Priority/Low`, `Type/Task`, `module/grpc`, `Area/Library`
-
-### 🚀 NewFeature
-
-**[#4587](https://github.com/ballerina-platform/ballerina-library/issues/4587)** Implement completion providers in compiler plugins
-
-Labels: `Priority/Low`, `Type/NewFeature`, `module/grpc`, `module/graphql`, `module/websocket`, `module/websubhub`, `Area/Library`
 
